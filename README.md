@@ -21,7 +21,7 @@ $ make
 Once the software is installed, you can validate solutions by providing the appropriate instance and soluton XML files.
 
 ```bash
-$ ./RobinX -i ../Repository/TravelOptimization/Instances/CON4.xml -s ../Repository/TravelOptimization/Solutions/CON4_Sol_Brandao.xml
+$ ./RobinX -i ./Repository/TravelOptimization/Instances/CON4.xml -s ./Repository/TravelOptimization/Solutions/CON4_Sol_Brandao.xml
 ```
 
 # Warning
