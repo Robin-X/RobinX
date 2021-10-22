@@ -1,0 +1,15 @@
+<Bound>
+	<MetaData>
+		<InstanceName>
+		./Repository/TravelOptimization/Instances/NL8_Mirrored.xml
+		</InstanceName>
+		<BoundName/>
+		<Contributor>Cheung</Contributor>
+		<Date day="1" month="5" year="2008"/>
+		<Remarks>Cheung, K. Solving mirrored traveling tournament problem benchmark instances with eight teams Discrete Optimization, 2008, 5, 138-143</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>41928</Objective>
+	</LowerBound>
+</Bound>

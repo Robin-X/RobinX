@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/NL8.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Irnich, Schrempp</Contributor>
+    <Date day="24" month="6" year="2008"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>39721</Objective>
+  </LowerBound>
+</Bound>

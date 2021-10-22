@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Solution>
+  <MetaData>
+    <SolutionName>INCR10_RTTP.xml</SolutionName>
+    <InstanceName>Repository/TravelOptimization/Instances/INCR10.xml</InstanceName>
+    <Contributor>David Van Bulck, Westphals approximation algorithm (LKH solver algorithm) implemented by Luigi Gianni</Contributor>
+    <Date day="14" month="10" year="2019"/>
+    <ObjectiveValue infeasibility="0" objective="1612"/>
+  </MetaData>
+  <Games>
+    <ScheduledMatch away="7.0" home="0" slot="3"/>
+    <ScheduledMatch away="4.0" home="0" slot="4"/>
+    <ScheduledMatch away="8.0" home="0" slot="5"/>
+    <ScheduledMatch away="3.0" home="0" slot="8"/>
+    <ScheduledMatch away="5.0" home="0" slot="9"/>
+    <ScheduledMatch away="1.0" home="0" slot="10"/>
+    <ScheduledMatch away="6.0" home="0" slot="12"/>
+    <ScheduledMatch away="9.0" home="0" slot="16"/>
+    <ScheduledMatch away="2.0" home="0" slot="17"/>
+    <ScheduledMatch away="0.0" home="1" slot="2"/>
+    <ScheduledMatch away="4.0" home="1" slot="3"/>
+    <ScheduledMatch away="8.0" home="1" slot="4"/>
+    <ScheduledMatch away="7.0" home="1" slot="8"/>
+    <ScheduledMatch away="9.0" home="1" slot="9"/>
+    <ScheduledMatch away="6.0" home="1" slot="11"/>
+    <ScheduledMatch away="5.0" home="1" slot="15"/>
+    <ScheduledMatch away="2.0" home="1" slot="16"/>
+    <ScheduledMatch away="3.0" home="1" slot="17"/>
+    <ScheduledMatch away="8.0" home="2" slot="3"/>
+    <ScheduledMatch away="7.0" home="2" slot="4"/>
+    <ScheduledMatch away="1.0" home="2" slot="5"/>
+    <ScheduledMatch away="3.0" home="2" slot="9"/>
+    <ScheduledMatch away="5.0" home="2" slot="10"/>
+    <ScheduledMatch away="0.0" home="2" slot="11"/>
+    <ScheduledMatch away="6.0" home="2" slot="13"/>
+    <ScheduledMatch away="4.0" home="2" slot="14"/>
+    <ScheduledMatch away="9.0" home="2" slot="15"/>
+    <ScheduledMatch away="1.0" home="3" slot="0"/>
+    <ScheduledMatch away="0.0" home="3" slot="1"/>
+    <ScheduledMatch away="4.0" home="3" slot="2"/>
+    <ScheduledMatch away="6.0" home="3" slot="6"/>
+    <ScheduledMatch away="7.0" home="3" slot="7"/>
+    <ScheduledMatch away="9.0" home="3" slot="10"/>
+    <ScheduledMatch away="5.0" home="3" slot="11"/>
+    <ScheduledMatch away="2.0" home="3" slot="12"/>
+    <ScheduledMatch away="8.0" home="3" slot="16"/>
+    <ScheduledMatch away="0.0" home="4" slot="0"/>
+    <ScheduledMatch away="1.0" home="4" slot="1"/>
+    <ScheduledMatch away="3.0" home="4" slot="5"/>
+    <ScheduledMatch away="2.0" home="4" slot="6"/>
+    <ScheduledMatch away="6.0" home="4" slot="7"/>
+    <ScheduledMatch away="9.0" home="4" slot="11"/>
+    <ScheduledMatch away="8.0" home="4" slot="15"/>
+    <ScheduledMatch away="5.0" home="4" slot="16"/>
+    <ScheduledMatch away="7.0" home="4" slot="17"/>
+    <ScheduledMatch away="3.0" home="5" slot="3"/>
+    <ScheduledMatch away="9.0" home="5" slot="4"/>
+    <ScheduledMatch away="7.0" home="5" slot="6"/>
+    <ScheduledMatch away="2.0" home="5" slot="7"/>
+    <ScheduledMatch away="4.0" home="5" slot="8"/>
+    <ScheduledMatch away="1.0" home="5" slot="12"/>
+    <ScheduledMatch away="0.0" home="5" slot="13"/>
+    <ScheduledMatch away="8.0" home="5" slot="14"/>
+    <ScheduledMatch away="6.0" home="5" slot="17"/>
+    <ScheduledMatch away="9.0" home="6" slot="3"/>
+    <ScheduledMatch away="3.0" home="6" slot="4"/>
+    <ScheduledMatch away="5.0" home="6" slot="5"/>
+    <ScheduledMatch away="2.0" home="6" slot="8"/>
+    <ScheduledMatch away="4.0" home="6" slot="9"/>
+    <ScheduledMatch away="8.0" home="6" slot="10"/>
+    <ScheduledMatch away="1.0" home="6" slot="14"/>
+    <ScheduledMatch away="0.0" home="6" slot="15"/>
+    <ScheduledMatch away="7.0" home="6" slot="16"/>
+    <ScheduledMatch away="5.0" home="7" slot="0"/>
+    <ScheduledMatch away="2.0" home="7" slot="1"/>
+    <ScheduledMatch away="6.0" home="7" slot="2"/>
+    <ScheduledMatch away="9.0" home="7" slot="5"/>
+    <ScheduledMatch away="8.0" home="7" slot="9"/>
+    <ScheduledMatch away="4.0" home="7" slot="10"/>
+    <ScheduledMatch away="1.0" home="7" slot="13"/>
+    <ScheduledMatch away="0.0" home="7" slot="14"/>
+    <ScheduledMatch away="3.0" home="7" slot="15"/>
+    <ScheduledMatch away="2.0" home="8" slot="0"/>
+    <ScheduledMatch away="6.0" home="8" slot="1"/>
+    <ScheduledMatch away="5.0" home="8" slot="2"/>
+    <ScheduledMatch away="1.0" home="8" slot="6"/>
+    <ScheduledMatch away="0.0" home="8" slot="7"/>
+    <ScheduledMatch away="7.0" home="8" slot="11"/>
+    <ScheduledMatch away="4.0" home="8" slot="12"/>
+    <ScheduledMatch away="3.0" home="8" slot="13"/>
+    <ScheduledMatch away="9.0" home="8" slot="17"/>
+    <ScheduledMatch away="6.0" home="9" slot="0"/>
+    <ScheduledMatch away="5.0" home="9" slot="1"/>
+    <ScheduledMatch away="2.0" home="9" slot="2"/>
+    <ScheduledMatch away="0.0" home="9" slot="6"/>
+    <ScheduledMatch away="1.0" home="9" slot="7"/>
+    <ScheduledMatch away="8.0" home="9" slot="8"/>
+    <ScheduledMatch away="7.0" home="9" slot="12"/>
+    <ScheduledMatch away="4.0" home="9" slot="13"/>
+    <ScheduledMatch away="3.0" home="9" slot="14"/>
+  </Games>
+</Solution>

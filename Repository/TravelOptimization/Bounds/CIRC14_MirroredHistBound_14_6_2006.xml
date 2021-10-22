@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/CIRC14_Mirrored.xml</InstanceName>
+        <Contributor>Urrutia and Ribeiro</Contributor>
+        <Date year="2006" month="6" day="14"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>590</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

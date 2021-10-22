@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>MinCost8</InstanceName>
+    <DataType>A</DataType>
+    <Contributor>Uthus</Contributor>
+    <Date day="0" month="0" year="2008"/>
+    <Remarks/>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>CR</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs>
+      <cost cost="0" slot="0" team1="0" team2="0"/>
+      <cost cost="0" slot="1" team1="0" team2="0"/>
+      <cost cost="0" slot="2" team1="0" team2="0"/>
+      <cost cost="0" slot="3" team1="0" team2="0"/>
+      <cost cost="0" slot="4" team1="0" team2="0"/>
+      <cost cost="0" slot="5" team1="0" team2="0"/>
+      <cost cost="0" slot="6" team1="0" team2="0"/>
+      <cost cost="53" slot="0" team1="0" team2="1"/>
+      <cost cost="63" slot="1" team1="0" team2="1"/>
+      <cost cost="4" slot="2" team1="0" team2="1"/>
+      <cost cost="53" slot="3" team1="0" team2="1"/>
+      <cost cost="28" slot="4" team1="0" team2="1"/>
+      <cost cost="4" slot="5" team1="0" team2="1"/>
+      <cost cost="63" slot="6" team1="0" team2="1"/>
+      <cost cost="25" slot="0" team1="0" team2="2"/>
+      <cost cost="13" slot="1" team1="0" team2="2"/>
+      <cost cost="1" slot="2" team1="0" team2="2"/>
+      <cost cost="21" slot="3" team1="0" team2="2"/>
+      <cost cost="14" slot="4" team1="0" team2="2"/>
+      <cost cost="60" slot="5" team1="0" team2="2"/>
+      <cost cost="3" slot="6" team1="0" team2="2"/>
+      <cost cost="50" slot="0" team1="0" team2="3"/>
+      <cost cost="32" slot="1" team1="0" team2="3"/>
+      <cost cost="29" slot="2" team1="0" team2="3"/>
+      <cost cost="14" slot="3" team1="0" team2="3"/>
+      <cost cost="12" slot="4" team1="0" team2="3"/>
+      <cost cost="3" slot="5" team1="0" team2="3"/>
+      <cost cost="55" slot="6" team1="0" team2="3"/>
+      <cost cost="51" slot="0" team1="0" team2="4"/>
+      <cost cost="53" slot="1" team1="0" team2="4"/>
+      <cost cost="4" slot="2" team1="0" team2="4"/>
+      <cost cost="57" slot="3" team1="0" team2="4"/>
+      <cost cost="17" slot="4" team1="0" team2="4"/>
+      <cost cost="33" slot="5" team1="0" team2="4"/>
+      <cost cost="4" slot="6" team1="0" team2="4"/>
+      <cost cost="58" slot="0" team1="0" team2="5"/>
+      <cost cost="39" slot="1" team1="0" team2="5"/>
+      <cost cost="15" slot="2" team1="0" team2="5"/>
+      <cost cost="22" slot="3" team1="0" team2="5"/>
+      <cost cost="35" slot="4" team1="0" team2="5"/>
+      <cost cost="11" slot="5" team1="0" team2="5"/>
+      <cost cost="0" slot="6" team1="0" team2="5"/>
+      <cost cost="12" slot="0" team1="0" team2="6"/>
+      <cost cost="18" slot="1" team1="0" team2="6"/>
+      <cost cost="62" slot="2" team1="0" team2="6"/>
+      <cost cost="43" slot="3" team1="0" team2="6"/>
+      <cost cost="26" slot="4" team1="0" team2="6"/>
+      <cost cost="15" slot="5" team1="0" team2="6"/>
+      <cost cost="59" slot="6" team1="0" team2="6"/>
+      <cost cost="21" slot="0" team1="0" team2="7"/>
+      <cost cost="40" slot="1" team1="0" team2="7"/>
+      <cost cost="57" slot="2" team1="0" team2="7"/>
+      <cost cost="61" slot="3" team1="0" team2="7"/>
+      <cost cost="10" slot="4" team1="0" team2="7"/>
+      <cost cost="51" slot="5" team1="0" team2="7"/>
+      <cost cost="38" slot="6" team1="0" team2="7"/>
+      <cost cost="53" slot="0" team1="1" team2="0"/>
+      <cost cost="63" slot="1" team1="1" team2="0"/>
+      <cost cost="4" slot="2" team1="1" team2="0"/>
+      <cost cost="53" slot="3" team1="1" team2="0"/>
+      <cost cost="28" slot="4" team1="1" team2="0"/>
+      <cost cost="4" slot="5" team1="1" team2="0"/>
+      <cost cost="63" slot="6" team1="1" team2="0"/>
+      <cost cost="0" slot="0" team1="1" team2="1"/>
+      <cost cost="0" slot="1" team1="1" team2="1"/>
+      <cost cost="0" slot="2" team1="1" team2="1"/>
+      <cost cost="0" slot="3" team1="1" team2="1"/>
+      <cost cost="0" slot="4" team1="1" team2="1"/>
+      <cost cost="0" slot="5" team1="1" team2="1"/>
+      <cost cost="0" slot="6" team1="1" team2="1"/>
+      <cost cost="49" slot="0" team1="1" team2="2"/>
+      <cost cost="33" slot="1" team1="1" team2="2"/>
+      <cost cost="54" slot="2" team1="1" team2="2"/>
+      <cost cost="37" slot="3" team1="1" team2="2"/>
+      <cost cost="58" slot="4" team1="1" team2="2"/>
+      <cost cost="46" slot="5" team1="1" team2="2"/>
+      <cost cost="11" slot="6" team1="1" team2="2"/>
+      <cost cost="17" slot="0" team1="1" team2="3"/>
+      <cost cost="31" slot="1" team1="1" team2="3"/>
+      <cost cost="17" slot="2" team1="1" team2="3"/>
+      <cost cost="42" slot="3" team1="1" team2="3"/>
+      <cost cost="6" slot="4" team1="1" team2="3"/>
+      <cost cost="42" slot="5" team1="1" team2="3"/>
+      <cost cost="10" slot="6" team1="1" team2="3"/>
+      <cost cost="35" slot="0" team1="1" team2="4"/>
+      <cost cost="62" slot="1" team1="1" team2="4"/>
+      <cost cost="34" slot="2" team1="1" team2="4"/>
+      <cost cost="54" slot="3" team1="1" team2="4"/>
+      <cost cost="8" slot="4" team1="1" team2="4"/>
+      <cost cost="61" slot="5" team1="1" team2="4"/>
+      <cost cost="25" slot="6" team1="1" team2="4"/>
+      <cost cost="30" slot="0" team1="1" team2="5"/>
+      <cost cost="18" slot="1" team1="1" team2="5"/>
+      <cost cost="24" slot="2" team1="1" team2="5"/>
+      <cost cost="28" slot="3" team1="1" team2="5"/>
+      <cost cost="31" slot="4" team1="1" team2="5"/>
+      <cost cost="40" slot="5" team1="1" team2="5"/>
+      <cost cost="58" slot="6" team1="1" team2="5"/>
+      <cost cost="40" slot="0" team1="1" team2="6"/>
+      <cost cost="49" slot="1" team1="1" team2="6"/>
+      <cost cost="48" slot="2" team1="1" team2="6"/>
+      <cost cost="59" slot="3" team1="1" team2="6"/>
+      <cost cost="48" slot="4" team1="1" team2="6"/>
+      <cost cost="48" slot="5" team1="1" team2="6"/>
+      <cost cost="52" slot="6" team1="1" team2="6"/>
+      <cost cost="23" slot="0" team1="1" team2="7"/>
+      <cost cost="33" slot="1" team1="1" team2="7"/>
+      <cost cost="32" slot="2" team1="1" team2="7"/>
+      <cost cost="25" slot="3" team1="1" team2="7"/>
+      <cost cost="63" slot="4" team1="1" team2="7"/>
+      <cost cost="5" slot="5" team1="1" team2="7"/>
+      <cost cost="22" slot="6" team1="1" team2="7"/>
+      <cost cost="25" slot="0" team1="2" team2="0"/>
+      <cost cost="13" slot="1" team1="2" team2="0"/>
+      <cost cost="1" slot="2" team1="2" team2="0"/>
+      <cost cost="21" slot="3" team1="2" team2="0"/>
+      <cost cost="14" slot="4" team1="2" team2="0"/>
+      <cost cost="60" slot="5" team1="2" team2="0"/>
+      <cost cost="3" slot="6" team1="2" team2="0"/>
+      <cost cost="49" slot="0" team1="2" team2="1"/>
+      <cost cost="33" slot="1" team1="2" team2="1"/>
+      <cost cost="54" slot="2" team1="2" team2="1"/>
+      <cost cost="37" slot="3" team1="2" team2="1"/>
+      <cost cost="58" slot="4" team1="2" team2="1"/>
+      <cost cost="46" slot="5" team1="2" team2="1"/>
+      <cost cost="11" slot="6" team1="2" team2="1"/>
+      <cost cost="0" slot="0" team1="2" team2="2"/>
+      <cost cost="0" slot="1" team1="2" team2="2"/>
+      <cost cost="0" slot="2" team1="2" team2="2"/>
+      <cost cost="0" slot="3" team1="2" team2="2"/>
+      <cost cost="0" slot="4" team1="2" team2="2"/>
+      <cost cost="0" slot="5" team1="2" team2="2"/>
+      <cost cost="0" slot="6" team1="2" team2="2"/>
+      <cost cost="32" slot="0" team1="2" team2="3"/>
+      <cost cost="49" slot="1" team1="2" team2="3"/>
+      <cost cost="42" slot="2" team1="2" team2="3"/>
+      <cost cost="52" slot="3" team1="2" team2="3"/>
+      <cost cost="59" slot="4" team1="2" team2="3"/>
+      <cost cost="8" slot="5" team1="2" team2="3"/>
+      <cost cost="35" slot="6" team1="2" team2="3"/>
+      <cost cost="60" slot="0" team1="2" team2="4"/>
+      <cost cost="25" slot="1" team1="2" team2="4"/>
+      <cost cost="34" slot="2" team1="2" team2="4"/>
+      <cost cost="43" slot="3" team1="2" team2="4"/>
+      <cost cost="43" slot="4" team1="2" team2="4"/>
+      <cost cost="33" slot="5" team1="2" team2="4"/>
+      <cost cost="37" slot="6" team1="2" team2="4"/>
+      <cost cost="58" slot="0" team1="2" team2="5"/>
+      <cost cost="57" slot="1" team1="2" team2="5"/>
+      <cost cost="2" slot="2" team1="2" team2="5"/>
+      <cost cost="58" slot="3" team1="2" team2="5"/>
+      <cost cost="24" slot="4" team1="2" team2="5"/>
+      <cost cost="5" slot="5" team1="2" team2="5"/>
+      <cost cost="28" slot="6" team1="2" team2="5"/>
+      <cost cost="40" slot="0" team1="2" team2="6"/>
+      <cost cost="18" slot="1" team1="2" team2="6"/>
+      <cost cost="28" slot="2" team1="2" team2="6"/>
+      <cost cost="30" slot="3" team1="2" team2="6"/>
+      <cost cost="47" slot="4" team1="2" team2="6"/>
+      <cost cost="4" slot="5" team1="2" team2="6"/>
+      <cost cost="43" slot="6" team1="2" team2="6"/>
+      <cost cost="45" slot="0" team1="2" team2="7"/>
+      <cost cost="22" slot="1" team1="2" team2="7"/>
+      <cost cost="59" slot="2" team1="2" team2="7"/>
+      <cost cost="13" slot="3" team1="2" team2="7"/>
+      <cost cost="23" slot="4" team1="2" team2="7"/>
+      <cost cost="13" slot="5" team1="2" team2="7"/>
+      <cost cost="6" slot="6" team1="2" team2="7"/>
+      <cost cost="50" slot="0" team1="3" team2="0"/>
+      <cost cost="32" slot="1" team1="3" team2="0"/>
+      <cost cost="29" slot="2" team1="3" team2="0"/>
+      <cost cost="14" slot="3" team1="3" team2="0"/>
+      <cost cost="12" slot="4" team1="3" team2="0"/>
+      <cost cost="3" slot="5" team1="3" team2="0"/>
+      <cost cost="55" slot="6" team1="3" team2="0"/>
+      <cost cost="17" slot="0" team1="3" team2="1"/>
+      <cost cost="31" slot="1" team1="3" team2="1"/>
+      <cost cost="17" slot="2" team1="3" team2="1"/>
+      <cost cost="42" slot="3" team1="3" team2="1"/>
+      <cost cost="6" slot="4" team1="3" team2="1"/>
+      <cost cost="42" slot="5" team1="3" team2="1"/>
+      <cost cost="10" slot="6" team1="3" team2="1"/>
+      <cost cost="32" slot="0" team1="3" team2="2"/>
+      <cost cost="49" slot="1" team1="3" team2="2"/>
+      <cost cost="42" slot="2" team1="3" team2="2"/>
+      <cost cost="52" slot="3" team1="3" team2="2"/>
+      <cost cost="59" slot="4" team1="3" team2="2"/>
+      <cost cost="8" slot="5" team1="3" team2="2"/>
+      <cost cost="35" slot="6" team1="3" team2="2"/>
+      <cost cost="0" slot="0" team1="3" team2="3"/>
+      <cost cost="0" slot="1" team1="3" team2="3"/>
+      <cost cost="0" slot="2" team1="3" team2="3"/>
+      <cost cost="0" slot="3" team1="3" team2="3"/>
+      <cost cost="0" slot="4" team1="3" team2="3"/>
+      <cost cost="0" slot="5" team1="3" team2="3"/>
+      <cost cost="0" slot="6" team1="3" team2="3"/>
+      <cost cost="9" slot="0" team1="3" team2="4"/>
+      <cost cost="51" slot="1" team1="3" team2="4"/>
+      <cost cost="59" slot="2" team1="3" team2="4"/>
+      <cost cost="60" slot="3" team1="3" team2="4"/>
+      <cost cost="18" slot="4" team1="3" team2="4"/>
+      <cost cost="29" slot="5" team1="3" team2="4"/>
+      <cost cost="33" slot="6" team1="3" team2="4"/>
+      <cost cost="38" slot="0" team1="3" team2="5"/>
+      <cost cost="58" slot="1" team1="3" team2="5"/>
+      <cost cost="46" slot="2" team1="3" team2="5"/>
+      <cost cost="58" slot="3" team1="3" team2="5"/>
+      <cost cost="14" slot="4" team1="3" team2="5"/>
+      <cost cost="52" slot="5" team1="3" team2="5"/>
+      <cost cost="48" slot="6" team1="3" team2="5"/>
+      <cost cost="1" slot="0" team1="3" team2="6"/>
+      <cost cost="4" slot="1" team1="3" team2="6"/>
+      <cost cost="18" slot="2" team1="3" team2="6"/>
+      <cost cost="9" slot="3" team1="3" team2="6"/>
+      <cost cost="37" slot="4" team1="3" team2="6"/>
+      <cost cost="36" slot="5" team1="3" team2="6"/>
+      <cost cost="19" slot="6" team1="3" team2="6"/>
+      <cost cost="15" slot="0" team1="3" team2="7"/>
+      <cost cost="60" slot="1" team1="3" team2="7"/>
+      <cost cost="47" slot="2" team1="3" team2="7"/>
+      <cost cost="56" slot="3" team1="3" team2="7"/>
+      <cost cost="15" slot="4" team1="3" team2="7"/>
+      <cost cost="48" slot="5" team1="3" team2="7"/>
+      <cost cost="63" slot="6" team1="3" team2="7"/>
+      <cost cost="51" slot="0" team1="4" team2="0"/>
+      <cost cost="53" slot="1" team1="4" team2="0"/>
+      <cost cost="4" slot="2" team1="4" team2="0"/>
+      <cost cost="57" slot="3" team1="4" team2="0"/>
+      <cost cost="17" slot="4" team1="4" team2="0"/>
+      <cost cost="33" slot="5" team1="4" team2="0"/>
+      <cost cost="4" slot="6" team1="4" team2="0"/>
+      <cost cost="35" slot="0" team1="4" team2="1"/>
+      <cost cost="62" slot="1" team1="4" team2="1"/>
+      <cost cost="34" slot="2" team1="4" team2="1"/>
+      <cost cost="54" slot="3" team1="4" team2="1"/>
+      <cost cost="8" slot="4" team1="4" team2="1"/>
+      <cost cost="61" slot="5" team1="4" team2="1"/>
+      <cost cost="25" slot="6" team1="4" team2="1"/>
+      <cost cost="60" slot="0" team1="4" team2="2"/>
+      <cost cost="25" slot="1" team1="4" team2="2"/>
+      <cost cost="34" slot="2" team1="4" team2="2"/>
+      <cost cost="43" slot="3" team1="4" team2="2"/>
+      <cost cost="43" slot="4" team1="4" team2="2"/>
+      <cost cost="33" slot="5" team1="4" team2="2"/>
+      <cost cost="37" slot="6" team1="4" team2="2"/>
+      <cost cost="9" slot="0" team1="4" team2="3"/>
+      <cost cost="51" slot="1" team1="4" team2="3"/>
+      <cost cost="59" slot="2" team1="4" team2="3"/>
+      <cost cost="60" slot="3" team1="4" team2="3"/>
+      <cost cost="18" slot="4" team1="4" team2="3"/>
+      <cost cost="29" slot="5" team1="4" team2="3"/>
+      <cost cost="33" slot="6" team1="4" team2="3"/>
+      <cost cost="0" slot="0" team1="4" team2="4"/>
+      <cost cost="0" slot="1" team1="4" team2="4"/>
+      <cost cost="0" slot="2" team1="4" team2="4"/>
+      <cost cost="0" slot="3" team1="4" team2="4"/>
+      <cost cost="0" slot="4" team1="4" team2="4"/>
+      <cost cost="0" slot="5" team1="4" team2="4"/>
+      <cost cost="0" slot="6" team1="4" team2="4"/>
+      <cost cost="8" slot="0" team1="4" team2="5"/>
+      <cost cost="33" slot="1" team1="4" team2="5"/>
+      <cost cost="40" slot="2" team1="4" team2="5"/>
+      <cost cost="41" slot="3" team1="4" team2="5"/>
+      <cost cost="9" slot="4" team1="4" team2="5"/>
+      <cost cost="3" slot="5" team1="4" team2="5"/>
+      <cost cost="36" slot="6" team1="4" team2="5"/>
+      <cost cost="51" slot="0" team1="4" team2="6"/>
+      <cost cost="5" slot="1" team1="4" team2="6"/>
+      <cost cost="22" slot="2" team1="4" team2="6"/>
+      <cost cost="27" slot="3" team1="4" team2="6"/>
+      <cost cost="46" slot="4" team1="4" team2="6"/>
+      <cost cost="10" slot="5" team1="4" team2="6"/>
+      <cost cost="56" slot="6" team1="4" team2="6"/>
+      <cost cost="10" slot="0" team1="4" team2="7"/>
+      <cost cost="12" slot="1" team1="4" team2="7"/>
+      <cost cost="44" slot="2" team1="4" team2="7"/>
+      <cost cost="39" slot="3" team1="4" team2="7"/>
+      <cost cost="8" slot="4" team1="4" team2="7"/>
+      <cost cost="63" slot="5" team1="4" team2="7"/>
+      <cost cost="47" slot="6" team1="4" team2="7"/>
+      <cost cost="58" slot="0" team1="5" team2="0"/>
+      <cost cost="39" slot="1" team1="5" team2="0"/>
+      <cost cost="15" slot="2" team1="5" team2="0"/>
+      <cost cost="22" slot="3" team1="5" team2="0"/>
+      <cost cost="35" slot="4" team1="5" team2="0"/>
+      <cost cost="11" slot="5" team1="5" team2="0"/>
+      <cost cost="0" slot="6" team1="5" team2="0"/>
+      <cost cost="30" slot="0" team1="5" team2="1"/>
+      <cost cost="18" slot="1" team1="5" team2="1"/>
+      <cost cost="24" slot="2" team1="5" team2="1"/>
+      <cost cost="28" slot="3" team1="5" team2="1"/>
+      <cost cost="31" slot="4" team1="5" team2="1"/>
+      <cost cost="40" slot="5" team1="5" team2="1"/>
+      <cost cost="58" slot="6" team1="5" team2="1"/>
+      <cost cost="58" slot="0" team1="5" team2="2"/>
+      <cost cost="57" slot="1" team1="5" team2="2"/>
+      <cost cost="2" slot="2" team1="5" team2="2"/>
+      <cost cost="58" slot="3" team1="5" team2="2"/>
+      <cost cost="24" slot="4" team1="5" team2="2"/>
+      <cost cost="5" slot="5" team1="5" team2="2"/>
+      <cost cost="28" slot="6" team1="5" team2="2"/>
+      <cost cost="38" slot="0" team1="5" team2="3"/>
+      <cost cost="58" slot="1" team1="5" team2="3"/>
+      <cost cost="46" slot="2" team1="5" team2="3"/>
+      <cost cost="58" slot="3" team1="5" team2="3"/>
+      <cost cost="14" slot="4" team1="5" team2="3"/>
+      <cost cost="52" slot="5" team1="5" team2="3"/>
+      <cost cost="48" slot="6" team1="5" team2="3"/>
+      <cost cost="8" slot="0" team1="5" team2="4"/>
+      <cost cost="33" slot="1" team1="5" team2="4"/>
+      <cost cost="40" slot="2" team1="5" team2="4"/>
+      <cost cost="41" slot="3" team1="5" team2="4"/>
+      <cost cost="9" slot="4" team1="5" team2="4"/>
+      <cost cost="3" slot="5" team1="5" team2="4"/>
+      <cost cost="36" slot="6" team1="5" team2="4"/>
+      <cost cost="0" slot="0" team1="5" team2="5"/>
+      <cost cost="0" slot="1" team1="5" team2="5"/>
+      <cost cost="0" slot="2" team1="5" team2="5"/>
+      <cost cost="0" slot="3" team1="5" team2="5"/>
+      <cost cost="0" slot="4" team1="5" team2="5"/>
+      <cost cost="0" slot="5" team1="5" team2="5"/>
+      <cost cost="0" slot="6" team1="5" team2="5"/>
+      <cost cost="25" slot="0" team1="5" team2="6"/>
+      <cost cost="42" slot="1" team1="5" team2="6"/>
+      <cost cost="10" slot="2" team1="5" team2="6"/>
+      <cost cost="17" slot="3" team1="5" team2="6"/>
+      <cost cost="50" slot="4" team1="5" team2="6"/>
+      <cost cost="13" slot="5" team1="5" team2="6"/>
+      <cost cost="40" slot="6" team1="5" team2="6"/>
+      <cost cost="8" slot="0" team1="5" team2="7"/>
+      <cost cost="56" slot="1" team1="5" team2="7"/>
+      <cost cost="28" slot="2" team1="5" team2="7"/>
+      <cost cost="50" slot="3" team1="5" team2="7"/>
+      <cost cost="10" slot="4" team1="5" team2="7"/>
+      <cost cost="56" slot="5" team1="5" team2="7"/>
+      <cost cost="2" slot="6" team1="5" team2="7"/>
+      <cost cost="12" slot="0" team1="6" team2="0"/>
+      <cost cost="18" slot="1" team1="6" team2="0"/>
+      <cost cost="62" slot="2" team1="6" team2="0"/>
+      <cost cost="43" slot="3" team1="6" team2="0"/>
+      <cost cost="26" slot="4" team1="6" team2="0"/>
+      <cost cost="15" slot="5" team1="6" team2="0"/>
+      <cost cost="59" slot="6" team1="6" team2="0"/>
+      <cost cost="40" slot="0" team1="6" team2="1"/>
+      <cost cost="49" slot="1" team1="6" team2="1"/>
+      <cost cost="48" slot="2" team1="6" team2="1"/>
+      <cost cost="59" slot="3" team1="6" team2="1"/>
+      <cost cost="48" slot="4" team1="6" team2="1"/>
+      <cost cost="48" slot="5" team1="6" team2="1"/>
+      <cost cost="52" slot="6" team1="6" team2="1"/>
+      <cost cost="40" slot="0" team1="6" team2="2"/>
+      <cost cost="18" slot="1" team1="6" team2="2"/>
+      <cost cost="28" slot="2" team1="6" team2="2"/>
+      <cost cost="30" slot="3" team1="6" team2="2"/>
+      <cost cost="47" slot="4" team1="6" team2="2"/>
+      <cost cost="4" slot="5" team1="6" team2="2"/>
+      <cost cost="43" slot="6" team1="6" team2="2"/>
+      <cost cost="1" slot="0" team1="6" team2="3"/>
+      <cost cost="4" slot="1" team1="6" team2="3"/>
+      <cost cost="18" slot="2" team1="6" team2="3"/>
+      <cost cost="9" slot="3" team1="6" team2="3"/>
+      <cost cost="37" slot="4" team1="6" team2="3"/>
+      <cost cost="36" slot="5" team1="6" team2="3"/>
+      <cost cost="19" slot="6" team1="6" team2="3"/>
+      <cost cost="51" slot="0" team1="6" team2="4"/>
+      <cost cost="5" slot="1" team1="6" team2="4"/>
+      <cost cost="22" slot="2" team1="6" team2="4"/>
+      <cost cost="27" slot="3" team1="6" team2="4"/>
+      <cost cost="46" slot="4" team1="6" team2="4"/>
+      <cost cost="10" slot="5" team1="6" team2="4"/>
+      <cost cost="56" slot="6" team1="6" team2="4"/>
+      <cost cost="25" slot="0" team1="6" team2="5"/>
+      <cost cost="42" slot="1" team1="6" team2="5"/>
+      <cost cost="10" slot="2" team1="6" team2="5"/>
+      <cost cost="17" slot="3" team1="6" team2="5"/>
+      <cost cost="50" slot="4" team1="6" team2="5"/>
+      <cost cost="13" slot="5" team1="6" team2="5"/>
+      <cost cost="40" slot="6" team1="6" team2="5"/>
+      <cost cost="0" slot="0" team1="6" team2="6"/>
+      <cost cost="0" slot="1" team1="6" team2="6"/>
+      <cost cost="0" slot="2" team1="6" team2="6"/>
+      <cost cost="0" slot="3" team1="6" team2="6"/>
+      <cost cost="0" slot="4" team1="6" team2="6"/>
+      <cost cost="0" slot="5" team1="6" team2="6"/>
+      <cost cost="0" slot="6" team1="6" team2="6"/>
+      <cost cost="6" slot="0" team1="6" team2="7"/>
+      <cost cost="22" slot="1" team1="6" team2="7"/>
+      <cost cost="56" slot="2" team1="6" team2="7"/>
+      <cost cost="19" slot="3" team1="6" team2="7"/>
+      <cost cost="47" slot="4" team1="6" team2="7"/>
+      <cost cost="8" slot="5" team1="6" team2="7"/>
+      <cost cost="47" slot="6" team1="6" team2="7"/>
+      <cost cost="21" slot="0" team1="7" team2="0"/>
+      <cost cost="40" slot="1" team1="7" team2="0"/>
+      <cost cost="57" slot="2" team1="7" team2="0"/>
+      <cost cost="61" slot="3" team1="7" team2="0"/>
+      <cost cost="10" slot="4" team1="7" team2="0"/>
+      <cost cost="51" slot="5" team1="7" team2="0"/>
+      <cost cost="38" slot="6" team1="7" team2="0"/>
+      <cost cost="23" slot="0" team1="7" team2="1"/>
+      <cost cost="33" slot="1" team1="7" team2="1"/>
+      <cost cost="32" slot="2" team1="7" team2="1"/>
+      <cost cost="25" slot="3" team1="7" team2="1"/>
+      <cost cost="63" slot="4" team1="7" team2="1"/>
+      <cost cost="5" slot="5" team1="7" team2="1"/>
+      <cost cost="22" slot="6" team1="7" team2="1"/>
+      <cost cost="45" slot="0" team1="7" team2="2"/>
+      <cost cost="22" slot="1" team1="7" team2="2"/>
+      <cost cost="59" slot="2" team1="7" team2="2"/>
+      <cost cost="13" slot="3" team1="7" team2="2"/>
+      <cost cost="23" slot="4" team1="7" team2="2"/>
+      <cost cost="13" slot="5" team1="7" team2="2"/>
+      <cost cost="6" slot="6" team1="7" team2="2"/>
+      <cost cost="15" slot="0" team1="7" team2="3"/>
+      <cost cost="60" slot="1" team1="7" team2="3"/>
+      <cost cost="47" slot="2" team1="7" team2="3"/>
+      <cost cost="56" slot="3" team1="7" team2="3"/>
+      <cost cost="15" slot="4" team1="7" team2="3"/>
+      <cost cost="48" slot="5" team1="7" team2="3"/>
+      <cost cost="63" slot="6" team1="7" team2="3"/>
+      <cost cost="10" slot="0" team1="7" team2="4"/>
+      <cost cost="12" slot="1" team1="7" team2="4"/>
+      <cost cost="44" slot="2" team1="7" team2="4"/>
+      <cost cost="39" slot="3" team1="7" team2="4"/>
+      <cost cost="8" slot="4" team1="7" team2="4"/>
+      <cost cost="63" slot="5" team1="7" team2="4"/>
+      <cost cost="47" slot="6" team1="7" team2="4"/>
+      <cost cost="8" slot="0" team1="7" team2="5"/>
+      <cost cost="56" slot="1" team1="7" team2="5"/>
+      <cost cost="28" slot="2" team1="7" team2="5"/>
+      <cost cost="50" slot="3" team1="7" team2="5"/>
+      <cost cost="10" slot="4" team1="7" team2="5"/>
+      <cost cost="56" slot="5" team1="7" team2="5"/>
+      <cost cost="2" slot="6" team1="7" team2="5"/>
+      <cost cost="6" slot="0" team1="7" team2="6"/>
+      <cost cost="22" slot="1" team1="7" team2="6"/>
+      <cost cost="56" slot="2" team1="7" team2="6"/>
+      <cost cost="19" slot="3" team1="7" team2="6"/>
+      <cost cost="47" slot="4" team1="7" team2="6"/>
+      <cost cost="8" slot="5" team1="7" team2="6"/>
+      <cost cost="47" slot="6" team1="7" team2="6"/>
+      <cost cost="0" slot="0" team1="7" team2="7"/>
+      <cost cost="0" slot="1" team1="7" team2="7"/>
+      <cost cost="0" slot="2" team1="7" team2="7"/>
+      <cost cost="0" slot="3" team1="7" team2="7"/>
+      <cost cost="0" slot="4" team1="7" team2="7"/>
+      <cost cost="0" slot="5" team1="7" team2="7"/>
+      <cost cost="0" slot="6" team1="7" team2="7"/>
+    </Costs>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="All teams"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0"/>
+      <team id="1" league="0" name="Team 1"/>
+      <team id="2" league="0" name="Team 2"/>
+      <team id="3" league="0" name="Team 3"/>
+      <team id="4" league="0" name="Team 4"/>
+      <team id="5" league="0" name="Team 5"/>
+      <team id="6" league="0" name="Team 6"/>
+      <team id="7" league="0" name="Team 7"/>
+    </Teams>
+    <SlotGroups/>
+    <Slots>
+      <slot id="0" name="Slot0"/>
+      <slot id="1" name="Slot1"/>
+      <slot id="2" name="Slot2"/>
+      <slot id="3" name="Slot3"/>
+      <slot id="4" name="Slot4"/>
+      <slot id="5" name="Slot5"/>
+      <slot id="6" name="Slot6"/>
+      <slot id="7" name="Slot7"/>
+      <slot id="8" name="Slot8"/>
+      <slot id="9" name="Slot9"/>
+      <slot id="10" name="Slot10"/>
+      <slot id="11" name="Slot11"/>
+      <slot id="12" name="Slot12"/>
+      <slot id="13" name="Slot13"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints/>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

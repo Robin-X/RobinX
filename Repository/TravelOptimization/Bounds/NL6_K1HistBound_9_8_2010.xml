@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/NL6_K1.xml</InstanceName>
+        <Contributor>Bao and Trick</Contributor>
+        <Date year="2010" month="8" day="9"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>22642</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/CIRC16.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Melo, Ribeiro, Urrutia</Contributor>
+    <Date day="15" month="6" year="2006"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>846</Objective>
+  </LowerBound>
+</Bound>

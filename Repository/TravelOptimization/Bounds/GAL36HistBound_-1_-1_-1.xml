@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/GAL36.xml</InstanceName>
+        <Contributor>Independent lowerbound</Contributor>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>158549</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

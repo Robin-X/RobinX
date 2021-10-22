@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>TC_BM_4_228_Sol</SolutionName>
+        <InstanceName>TC_BM_4_228</InstanceName>
+        <Contributor>Elf, M.; Jünger, M.; Rinaldi, G.</Contributor>
+        <Date year="2003"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="2"/>
+        <Remarks>Computation time (s): 0.000000. Computation times are based on new computational experiments obtained from Elf et al. in 2020. See Elf, M.; Jünger, M. &amp; Rinaldi, G. Minimizing breaks by maximizing cuts Oper. Res. Lett., 2003, 31, 343 - 349</Remarks>
+    </MetaData>
+    <Games>
+        <ScheduledMatch home="1" away="2" slot="0"/>
+        <ScheduledMatch home="3" away="1" slot="1"/>
+        <ScheduledMatch home="1" away="0" slot="2"/>
+        <ScheduledMatch home="2" away="3" slot="2"/>
+        <ScheduledMatch home="0" away="2" slot="1"/>
+        <ScheduledMatch home="0" away="3" slot="0"/>
+    </Games>
+</Solution>

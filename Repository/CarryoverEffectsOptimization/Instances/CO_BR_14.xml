@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>CO_BR_14</InstanceName>
+    <DataType>A</DataType>
+    <Contributor>Gunnec, Demir</Contributor>
+    <Date day="29" month="10" year="2010"/>
+    <Remarks/>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>2</numberRoundRobin>
+      <compactness>C</compactness>
+      <gameMode>M</gameMode>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>CO</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="All teams"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0" teamGroups="0"/>
+      <team id="1" league="0" name="Team 1" teamGroups="0"/>
+      <team id="2" league="0" name="Team 2" teamGroups="0"/>
+      <team id="3" league="0" name="Team 3" teamGroups="0"/>
+      <team id="4" league="0" name="Team 4" teamGroups="0"/>
+      <team id="5" league="0" name="Team 5" teamGroups="0"/>
+      <team id="6" league="0" name="Team 6" teamGroups="0"/>
+      <team id="7" league="0" name="Team 7" teamGroups="0"/>
+      <team id="8" league="0" name="Team 8" teamGroups="0"/>
+      <team id="9" league="0" name="Team 9" teamGroups="0"/>
+      <team id="10" league="0" name="Team 10" teamGroups="0"/>
+      <team id="11" league="0" name="Team 11" teamGroups="0"/>
+      <team id="12" league="0" name="Team 12" teamGroups="0"/>
+      <team id="13" league="0" name="Team 13" teamGroups="0"/>
+    </Teams>
+    <SlotGroups>
+      <slotGroup id="0" name="First half"/>
+      <slotGroup id="1" name="Second half"/>
+    </SlotGroups>
+    <Slots>
+      <slot id="0" name="Slot0" slotGroup="0"/>
+      <slot id="1" name="Slot1" slotGroup="0"/>
+      <slot id="2" name="Slot2" slotGroup="0"/>
+      <slot id="3" name="Slot3" slotGroup="0"/>
+      <slot id="4" name="Slot4" slotGroup="0"/>
+      <slot id="5" name="Slot5" slotGroup="0"/>
+      <slot id="6" name="Slot6" slotGroup="0"/>
+      <slot id="7" name="Slot7" slotGroup="0"/>
+      <slot id="8" name="Slot8" slotGroup="0"/>
+      <slot id="9" name="Slot9" slotGroup="0"/>
+      <slot id="10" name="Slot10" slotGroup="0"/>
+      <slot id="11" name="Slot11" slotGroup="0"/>
+      <slot id="12" name="Slot12" slotGroup="0"/>
+      <slot id="13" name="Slot13" slotGroup="1"/>
+      <slot id="14" name="Slot14" slotGroup="1"/>
+      <slot id="15" name="Slot15" slotGroup="1"/>
+      <slot id="16" name="Slot16" slotGroup="1"/>
+      <slot id="17" name="Slot17" slotGroup="1"/>
+      <slot id="18" name="Slot18" slotGroup="1"/>
+      <slot id="19" name="Slot19" slotGroup="1"/>
+      <slot id="20" name="Slot20" slotGroup="1"/>
+      <slot id="21" name="Slot21" slotGroup="1"/>
+      <slot id="22" name="Slot22" slotGroup="1"/>
+      <slot id="23" name="Slot23" slotGroup="1"/>
+      <slot id="24" name="Slot24" slotGroup="1"/>
+      <slot id="25" name="Slot25" slotGroup="1"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints/>
+    <GameConstraints/>
+    <BreakConstraints>
+      <BR1 breakMode="REGULAR" homeMode="HA" max="0" min="0" penalty="1" slots="0;25" teamGroups="0" type="HARD"/>
+      <BR1 breakMode="REGULAR" homeMode="HA" max="1" min="0" penalty="1" slotGroups="0" teamGroups="0" type="HARD"/>
+      <BR1 breakMode="REGULAR" homeMode="HA" max="1" min="0" penalty="1" slotGroups="1" teamGroups="0" type="HARD"/>
+    </BreakConstraints>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

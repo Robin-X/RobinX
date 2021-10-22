@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>FootballSouthAmerica</InstanceName>
+    <DataType>R</DataType>
+    <Contributor>Duran, Guajardo, Saure</Contributor>
+    <Date year="2017"/>
+    <Country>South America</Country>
+    <Remarks>Converted by David Van Bulck</Remarks>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>2</numberRoundRobin>
+      <compactness>C</compactness>
+      <gameMode>F</gameMode>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>SC</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="All teams"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="ARG" teamGroups="0"/>
+      <team id="1" league="0" name="BOL" teamGroups="0"/>
+      <team id="2" league="0" name="BRA" teamGroups="0"/>
+      <team id="3" league="0" name="CHI" teamGroups="0"/>
+      <team id="4" league="0" name="COL" teamGroups="0"/>
+      <team id="5" league="0" name="ECU" teamGroups="0"/>
+      <team id="6" league="0" name="PAR" teamGroups="0"/>
+      <team id="7" league="0" name="PER" teamGroups="0"/>
+      <team id="8" league="0" name="URU" teamGroups="0"/>
+      <team id="9" league="0" name="VEN" teamGroups="0"/>
+    </Teams>
+    <SlotGroups>
+      <slotGroup id="0" name="All slots"/>
+      <slotGroup id="1" name="First rounds"/>
+      <slotGroup id="2" name="Second rounds"/>
+    </SlotGroups>
+    <Slots>
+      <slot id="0" name="Slot 0" slotGroup="0;1"/>
+      <slot id="1" name="Slot 1" slotGroup="0;2"/>
+      <slot id="2" name="Slot 2" slotGroup="0;1"/>
+      <slot id="3" name="Slot 3" slotGroup="0;2"/>
+      <slot id="4" name="Slot 4" slotGroup="0;1"/>
+      <slot id="5" name="Slot 5" slotGroup="0;2"/>
+      <slot id="6" name="Slot 6" slotGroup="0;1"/>
+      <slot id="7" name="Slot 7" slotGroup="0;2"/>
+      <slot id="8" name="Slot 8" slotGroup="0;1"/>
+      <slot id="9" name="Slot 9" slotGroup="0;2"/>
+      <slot id="10" name="Slot 10" slotGroup="0;1"/>
+      <slot id="11" name="Slot 11" slotGroup="0;2"/>
+      <slot id="12" name="Slot 12" slotGroup="0;1"/>
+      <slot id="13" name="Slot 13" slotGroup="0;2"/>
+      <slot id="14" name="Slot 14" slotGroup="0;1"/>
+      <slot id="15" name="Slot 15" slotGroup="0;2"/>
+      <slot id="16" name="Slot 16" slotGroup="0;1"/>
+      <slot id="17" name="Slot 17" slotGroup="0;2"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints>
+      <CA3 intp="2" max="1" min="0" mode1="HA" mode2="GAMES" penalty="1" teamGroups1="0" teams2="0;2" type="HARD"/>
+      <CA1 max="5" min="4" mode="H" penalty="1" slotGroups="2" teamGroups="0" type="HARD"/>
+    </CapacityConstraints>
+    <GameConstraints/>
+    <BreakConstraints>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="1" slotGroups="2" slots="" teamGroups="0" teams="" type="SOFT"/>
+    </BreakConstraints>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

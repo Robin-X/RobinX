@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>NULL</SolutionName>
+        <InstanceName>SUP4</InstanceName>
+        <Contributor>David Van Bulck</Contributor>
+        <Date year="2021" month="5" day="18"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="63405"/>
+        <Remarks>Solution generated with a generic ALNS algorithm.</Remarks>
+    </MetaData>
+    <Games>
+        <ScheduledMatch home="0" away="1" slot="2"/>
+        <ScheduledMatch home="1" away="0" slot="5"/>
+        <ScheduledMatch home="0" away="2" slot="1"/>
+        <ScheduledMatch home="2" away="0" slot="4"/>
+        <ScheduledMatch home="0" away="3" slot="3"/>
+        <ScheduledMatch home="3" away="0" slot="0"/>
+        <ScheduledMatch home="1" away="2" slot="0"/>
+        <ScheduledMatch home="2" away="1" slot="3"/>
+        <ScheduledMatch home="1" away="3" slot="4"/>
+        <ScheduledMatch home="3" away="1" slot="1"/>
+        <ScheduledMatch home="2" away="3" slot="5"/>
+        <ScheduledMatch home="3" away="2" slot="2"/>
+    </Games>
+</Solution>

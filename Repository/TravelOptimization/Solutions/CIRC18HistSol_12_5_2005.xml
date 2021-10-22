@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/CIRC18HistSol_12_5_2005.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/CIRC18.xml</InstanceName>
+        <Contributor>Urrutia and Ribeiro</Contributor>
+        <Date year="2005" month="5" day="12"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="1306"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

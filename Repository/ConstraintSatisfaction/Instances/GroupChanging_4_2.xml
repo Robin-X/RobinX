@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>GroupChanging_4_2</InstanceName>
+    <DataType>A</DataType>
+    <Contributor>Briskorn</Contributor>
+    <Date year="2009"/>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+        <Objective>NONE</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="Group 0"/>
+      <teamGroup id="1" name="Group 1"/>
+      <teamGroup id="2" name="All teams"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0" teamGroups="0"/>
+      <team id="1" league="0" name="Team 1" teamGroups="0"/>
+      <team id="2" league="0" name="Team 2" teamGroups="1"/>
+      <team id="3" league="0" name="Team 3" teamGroups="1"/>
+    </Teams>
+    <SlotGroups/>
+    <Slots>
+      <slot id="0" name="Slot 0"/>
+      <slot id="1" name="Slot 1"/>
+      <slot id="2" name="Slot 2"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints>
+      <CA3 intp="2" max="1" min="0" mode1="HA" mode2="GAMES" penalty="1" teamGroups1="2" teamGroups2="0" type="HARD"/>
+      <CA3 intp="2" max="1" min="0" mode1="HA" mode2="GAMES" penalty="1" teamGroups1="2" teamGroups2="1" type="HARD"/>
+    </CapacityConstraints>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

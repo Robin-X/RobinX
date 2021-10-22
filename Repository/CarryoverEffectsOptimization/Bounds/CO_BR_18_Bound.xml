@@ -1,0 +1,15 @@
+<Bound>
+	<MetaData>
+		<InstanceName>
+			./Repository/CarryoverEffectsOptimization/Instances/CO_BR_18.xml
+		</InstanceName>
+		<BoundName/>
+		<Contributor>Van Bulck</Contributor>
+		<Date day="13" month="10" year="2020"/>
+		<Remarks>Trivial LB for a 1RR*4. Reasoning: tournament is mirrored, COE for 1RR takes into account carryover from first to last time slot. Hence, mirrored tournament has exactly twice as many carryovers, and since objective squares the carryover values we can simply multiply with four.</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>1360</Objective>
+	</LowerBound>
+</Bound>

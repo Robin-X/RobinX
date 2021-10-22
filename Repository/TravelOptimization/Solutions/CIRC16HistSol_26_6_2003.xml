@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/CIRC16HistSol_26_6_2003.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/CIRC16.xml</InstanceName>
+        <Contributor>Anagnostopoulos, Michel, Van Hentenryck and Vergados</Contributor>
+        <Date year="2003" month="6" day="26"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="976"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

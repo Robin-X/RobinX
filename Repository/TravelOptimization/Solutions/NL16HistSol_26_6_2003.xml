@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/NL16HistSol_26_6_2003.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/NL16.xml</InstanceName>
+        <Contributor>Van Hentenryck</Contributor>
+        <Date year="2003" month="6" day="26"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="267194"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

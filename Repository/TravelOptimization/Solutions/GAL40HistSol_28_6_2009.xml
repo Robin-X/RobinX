@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/GAL40HistSol_28_6_2009.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/GAL40.xml</InstanceName>
+        <Contributor>Uthus, Riddle, and Guesgen</Contributor>
+        <Date year="2009" month="6" day="28"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="304689"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

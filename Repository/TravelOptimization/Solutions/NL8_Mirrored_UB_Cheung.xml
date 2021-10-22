@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>NULL</SolutionName>
+        <InstanceName>NL8_Mirrored</InstanceName>
+        <Contributor>Cheung</Contributor>
+        <Date year="2008" month="0" day="0"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="41928"/>
+        <Remarks>Solution reproduced by generic ALNS method by David Van Bulck.</Remarks>
+    </MetaData>
+    <Games>
+        <ScheduledMatch home="0" away="1" slot="11"/>
+        <ScheduledMatch home="1" away="0" slot="4"/>
+        <ScheduledMatch home="0" away="2" slot="1"/>
+        <ScheduledMatch home="2" away="0" slot="8"/>
+        <ScheduledMatch home="0" away="3" slot="12"/>
+        <ScheduledMatch home="3" away="0" slot="5"/>
+        <ScheduledMatch home="0" away="4" slot="7"/>
+        <ScheduledMatch home="4" away="0" slot="0"/>
+        <ScheduledMatch home="0" away="5" slot="13"/>
+        <ScheduledMatch home="5" away="0" slot="6"/>
+        <ScheduledMatch home="0" away="6" slot="3"/>
+        <ScheduledMatch home="6" away="0" slot="10"/>
+        <ScheduledMatch home="0" away="7" slot="2"/>
+        <ScheduledMatch home="7" away="0" slot="9"/>
+        <ScheduledMatch home="1" away="2" slot="9"/>
+        <ScheduledMatch home="2" away="1" slot="2"/>
+        <ScheduledMatch home="1" away="3" slot="7"/>
+        <ScheduledMatch home="3" away="1" slot="0"/>
+        <ScheduledMatch home="1" away="4" slot="3"/>
+        <ScheduledMatch home="4" away="1" slot="10"/>
+        <ScheduledMatch home="1" away="5" slot="8"/>
+        <ScheduledMatch home="5" away="1" slot="1"/>
+        <ScheduledMatch home="1" away="6" slot="13"/>
+        <ScheduledMatch home="6" away="1" slot="6"/>
+        <ScheduledMatch home="1" away="7" slot="12"/>
+        <ScheduledMatch home="7" away="1" slot="5"/>
+        <ScheduledMatch home="2" away="3" slot="3"/>
+        <ScheduledMatch home="3" away="2" slot="10"/>
+        <ScheduledMatch home="2" away="4" slot="13"/>
+        <ScheduledMatch home="4" away="2" slot="6"/>
+        <ScheduledMatch home="2" away="5" slot="7"/>
+        <ScheduledMatch home="5" away="2" slot="0"/>
+        <ScheduledMatch home="2" away="6" slot="12"/>
+        <ScheduledMatch home="6" away="2" slot="5"/>
+        <ScheduledMatch home="2" away="7" slot="11"/>
+        <ScheduledMatch home="7" away="2" slot="4"/>
+        <ScheduledMatch home="3" away="4" slot="4"/>
+        <ScheduledMatch home="4" away="3" slot="11"/>
+        <ScheduledMatch home="3" away="5" slot="9"/>
+        <ScheduledMatch home="5" away="3" slot="2"/>
+        <ScheduledMatch home="3" away="6" slot="8"/>
+        <ScheduledMatch home="6" away="3" slot="1"/>
+        <ScheduledMatch home="3" away="7" slot="6"/>
+        <ScheduledMatch home="7" away="3" slot="13"/>
+        <ScheduledMatch home="4" away="5" slot="12"/>
+        <ScheduledMatch home="5" away="4" slot="5"/>
+        <ScheduledMatch home="4" away="6" slot="2"/>
+        <ScheduledMatch home="6" away="4" slot="9"/>
+        <ScheduledMatch home="4" away="7" slot="1"/>
+        <ScheduledMatch home="7" away="4" slot="8"/>
+        <ScheduledMatch home="5" away="6" slot="11"/>
+        <ScheduledMatch home="6" away="5" slot="4"/>
+        <ScheduledMatch home="5" away="7" slot="10"/>
+        <ScheduledMatch home="7" away="5" slot="3"/>
+        <ScheduledMatch home="6" away="7" slot="0"/>
+        <ScheduledMatch home="7" away="6" slot="7"/>
+    </Games>
+</Solution>

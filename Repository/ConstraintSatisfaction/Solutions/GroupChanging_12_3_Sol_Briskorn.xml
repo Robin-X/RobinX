@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>./Repository/ConstraintSatisfaction/Solutions/GroupChanging_12_3_Sol_Briskorn.xml</SolutionName>
+    <InstanceName>./Repository/ConstraintSatisfaction/Instances/GroupChanging_12_3.xml</InstanceName>
+    <Contributor>Briskorn</Contributor>
+    <Date year="2009"/>
+    <ObjectiveValue infeasibility="0" objective="0"/>
+    <Remarks>Solutions retrieved from applet http://www2.inf.uos.de/knust/sportssched/webapp/index.html during November 2018</Remarks>
+  </MetaData>
+
+  <Games>
+    <ScheduledMatch away="1" home="0" slot="8"/>
+    <ScheduledMatch away="2" home="0" slot="5"/>
+    <ScheduledMatch away="3" home="0" slot="2"/>
+    <ScheduledMatch away="4" home="0" slot="0"/>
+    <ScheduledMatch away="5" home="0" slot="7"/>
+    <ScheduledMatch away="6" home="0" slot="4"/>
+    <ScheduledMatch away="7" home="0" slot="9"/>
+    <ScheduledMatch away="8" home="0" slot="6"/>
+    <ScheduledMatch away="9" home="0" slot="10"/>
+    <ScheduledMatch away="10" home="0" slot="1"/>
+    <ScheduledMatch away="11" home="0" slot="3"/>
+    <ScheduledMatch away="2" home="1" slot="2"/>
+    <ScheduledMatch away="3" home="1" slot="5"/>
+    <ScheduledMatch away="4" home="1" slot="10"/>
+    <ScheduledMatch away="5" home="1" slot="1"/>
+    <ScheduledMatch away="6" home="1" slot="6"/>
+    <ScheduledMatch away="7" home="1" slot="3"/>
+    <ScheduledMatch away="8" home="1" slot="4"/>
+    <ScheduledMatch away="9" home="1" slot="7"/>
+    <ScheduledMatch away="10" home="1" slot="9"/>
+    <ScheduledMatch away="11" home="1" slot="0"/>
+    <ScheduledMatch away="3" home="2" slot="8"/>
+    <ScheduledMatch away="4" home="2" slot="4"/>
+    <ScheduledMatch away="5" home="2" slot="9"/>
+    <ScheduledMatch away="6" home="2" slot="0"/>
+    <ScheduledMatch away="7" home="2" slot="7"/>
+    <ScheduledMatch away="8" home="2" slot="1"/>
+    <ScheduledMatch away="9" home="2" slot="3"/>
+    <ScheduledMatch away="10" home="2" slot="6"/>
+    <ScheduledMatch away="11" home="2" slot="10"/>
+    <ScheduledMatch away="4" home="3" slot="6"/>
+    <ScheduledMatch away="5" home="3" slot="3"/>
+    <ScheduledMatch away="6" home="3" slot="10"/>
+    <ScheduledMatch away="7" home="3" slot="1"/>
+    <ScheduledMatch away="8" home="3" slot="9"/>
+    <ScheduledMatch away="9" home="3" slot="0"/>
+    <ScheduledMatch away="10" home="3" slot="4"/>
+    <ScheduledMatch away="11" home="3" slot="7"/>
+    <ScheduledMatch away="5" home="4" slot="8"/>
+    <ScheduledMatch away="6" home="4" slot="5"/>
+    <ScheduledMatch away="7" home="4" slot="2"/>
+    <ScheduledMatch away="8" home="4" slot="3"/>
+    <ScheduledMatch away="9" home="4" slot="1"/>
+    <ScheduledMatch away="10" home="4" slot="7"/>
+    <ScheduledMatch away="11" home="4" slot="9"/>
+    <ScheduledMatch away="6" home="5" slot="2"/>
+    <ScheduledMatch away="7" home="5" slot="5"/>
+    <ScheduledMatch away="8" home="5" slot="10"/>
+    <ScheduledMatch away="9" home="5" slot="4"/>
+    <ScheduledMatch away="10" home="5" slot="0"/>
+    <ScheduledMatch away="11" home="5" slot="6"/>
+    <ScheduledMatch away="7" home="6" slot="8"/>
+    <ScheduledMatch away="8" home="6" slot="7"/>
+    <ScheduledMatch away="9" home="6" slot="9"/>
+    <ScheduledMatch away="10" home="6" slot="3"/>
+    <ScheduledMatch away="11" home="6" slot="1"/>
+    <ScheduledMatch away="8" home="7" slot="0"/>
+    <ScheduledMatch away="9" home="7" slot="6"/>
+    <ScheduledMatch away="10" home="7" slot="10"/>
+    <ScheduledMatch away="11" home="7" slot="4"/>
+    <ScheduledMatch away="9" home="8" slot="8"/>
+    <ScheduledMatch away="10" home="8" slot="5"/>
+    <ScheduledMatch away="11" home="8" slot="2"/>
+    <ScheduledMatch away="10" home="9" slot="2"/>
+    <ScheduledMatch away="11" home="9" slot="5"/>
+    <ScheduledMatch away="11" home="10" slot="8"/>
+  </Games>
+
+</Solution>

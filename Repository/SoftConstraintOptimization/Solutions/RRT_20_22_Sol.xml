@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/SoftConstraintOptimization/Solutions/RRT_20_22_Sol.xml</SolutionName>
+        <InstanceName>./Repository/SoftConstraintOptimization/Instances/RRT_20_22.xml</InstanceName>
+        <Contributor>Horbach, Bartsch, Briskorn</Contributor>
+        <Date year="2010"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="0"/>
+        <Remarks>Converted by David Van Bulck</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

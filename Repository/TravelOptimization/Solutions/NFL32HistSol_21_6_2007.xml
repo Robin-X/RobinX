@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/NFL32HistSol_21_6_2007.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/NFL32.xml</InstanceName>
+        <Contributor>Araujo, Urrutia, and Ribeiro</Contributor>
+        <Date year="2007" month="6" day="21"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="914620"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

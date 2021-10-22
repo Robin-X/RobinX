@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/NL8.xml</InstanceName>
+        <Contributor>Easton</Contributor>
+        <Date year="2001" month="1" day="2"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>38870</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

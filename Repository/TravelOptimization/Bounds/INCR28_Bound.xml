@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/INCR28.xml</InstanceName>
+    <BoundName>ILB approximation via column generation CVRP model</BoundName>
+    <Contributor>David Van Bulck</Contributor>
+    <Date day="11" month="7" year="2019"/>
+    <Remarks></Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>75456</Objective>
+  </LowerBound>
+</Bound>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>./Repository/SoftConstraintOptimization/Solutions/IF31_Sol_VanBulck.xml</SolutionName>
+    <InstanceName>./Repository/SoftConstraintOptimization/Instances/IF31.xml</InstanceName>
+    <Contributor>Van Bulck, Goossens, Spieksma</Contributor>
+    <Date day="0" month="0" year="0"/>
+    <SolutionMethod>IP</SolutionMethod>
+    <ObjectiveValue infeasibility="0" objective="0"/>
+    <Remarks/>
+  </MetaData>
+
+  <Games/>
+
+</Solution>

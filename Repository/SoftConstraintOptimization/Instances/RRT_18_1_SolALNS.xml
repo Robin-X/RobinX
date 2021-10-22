@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>NULL</SolutionName>
+        <InstanceName>RRT_18_1</InstanceName>
+        <Contributor>Horbach, Bartsch, Briskorn</Contributor>
+        <Date year="2010" month="5" day="1"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="306" objective="0"/>
+        <Remarks>Converted by David Van Bulck</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

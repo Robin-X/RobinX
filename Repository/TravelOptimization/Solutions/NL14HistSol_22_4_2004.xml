@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/NL14HistSol_22_4_2004.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/NL14.xml</InstanceName>
+        <Contributor>Langford</Contributor>
+        <Date year="2004" month="4" day="22"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="190056"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

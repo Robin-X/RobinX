@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>Repository/CarryoverEffectsOptimization/Solutions/CIRC_NonBalanced_h_18_Sol_Melo.xml</SolutionName>
+    <InstanceName>Repository/CarryoverEffectsOptimization/Instances/CIRC_NonBalanced_h_18.xml</InstanceName>
+    <Contributor>Melo, Urrutia, Ribeiro</Contributor>
+    <Date year="2009"/>
+    <ObjectiveValue infeasibility="0" objective="1110"/>
+    <Remarks>Melo, R. A., Urrutia, S., and Ribeiro, C. C. (2009). The traveling tournament problem with predefined venues. Journal of Scheduling, 12, 607–622.</Remarks>
+  </MetaData>
+
+  <Games/>
+
+</Solution>

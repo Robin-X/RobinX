@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/CON8_Mirrored.xml</InstanceName>
+        <Contributor>Urrutia and Ribeiro</Contributor>
+        <Date year="2004" month="8" day="26"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>80</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

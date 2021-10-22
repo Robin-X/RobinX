@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/CON20.xml</InstanceName>
+        <Contributor>Fujiwara, Imahori, Matsui, and Miyashiro</Contributor>
+        <Date year="2006" month="7" day="8"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>520</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

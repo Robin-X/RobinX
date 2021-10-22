@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>TC_BM_8_4711</InstanceName>
+        <Contributor>Elf, M.; Jünger, M.; Rinaldi, G.</Contributor>
+        <Date year="2003"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>8</Objective>
+        </LowerBound>
+        <Remarks>Optimality proof from exact approach.</Remarks>
+    </MetaData>
+</Bound>

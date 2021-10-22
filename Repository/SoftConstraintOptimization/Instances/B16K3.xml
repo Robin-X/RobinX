@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Instance>
+    <MetaData>
+        <InstanceName>B16K3</InstanceName>
+        <DataType>A</DataType>
+        <Contributor>Nurmi et al.</Contributor>
+        <Date year="2010" month="0" day="0"/>
+        <Country>NULL</Country>
+        <Description>B16K3
+</Description>
+        <Remarks>Instance from "A Framework for a Highly Constrained Sports Scheduling Problem"</Remarks>
+    </MetaData>
+    <Structure>
+        <Format leagueIds="0">
+            <numberRoundRobin>2</numberRoundRobin>
+            <compactness>C</compactness>
+            <gameMode>NULL</gameMode>
+        </Format>
+        <AdditionalGames/>
+    </Structure>
+    <ObjectiveFunction>
+        <Objective>SC</Objective>
+    </ObjectiveFunction>
+    <Data>
+        <Distances/>
+        <COEWeights/>
+        <Costs/>
+    </Data>
+    <Resources>
+        <LeagueGroups/>
+        <Leagues>
+            <league id="0" leagueGroups="" name="League 0"/>
+        </Leagues>
+        <TeamGroups>
+            <teamGroup id="0" name="All teams"/>
+        </TeamGroups>
+        <Teams>
+            <team id="0" league="0" name="01" teamGroups="0"/>
+            <team id="1" league="0" name="02" teamGroups="0"/>
+            <team id="2" league="0" name="03" teamGroups="0"/>
+            <team id="3" league="0" name="04" teamGroups="0"/>
+            <team id="4" league="0" name="05" teamGroups="0"/>
+            <team id="5" league="0" name="06" teamGroups="0"/>
+            <team id="6" league="0" name="07" teamGroups="0"/>
+            <team id="7" league="0" name="08" teamGroups="0"/>
+            <team id="8" league="0" name="09" teamGroups="0"/>
+            <team id="9" league="0" name="10" teamGroups="0"/>
+            <team id="10" league="0" name="11" teamGroups="0"/>
+            <team id="11" league="0" name="12" teamGroups="0"/>
+            <team id="12" league="0" name="13" teamGroups="0"/>
+            <team id="13" league="0" name="14" teamGroups="0"/>
+            <team id="14" league="0" name="15" teamGroups="0"/>
+            <team id="15" league="0" name="16" teamGroups="0"/>
+        </Teams>
+        <SlotGroups>
+            <slotGroup id="0" name="All slots"/>
+        </SlotGroups>
+        <Slots>
+            <slot id="0" name="Slot0" slotGroup="0"/>
+            <slot id="1" name="Slot1" slotGroup="0"/>
+            <slot id="2" name="Slot2" slotGroup="0"/>
+            <slot id="3" name="Slot3" slotGroup="0"/>
+            <slot id="4" name="Slot4" slotGroup="0"/>
+            <slot id="5" name="Slot5" slotGroup="0"/>
+            <slot id="6" name="Slot6" slotGroup="0"/>
+            <slot id="7" name="Slot7" slotGroup="0"/>
+            <slot id="8" name="Slot8" slotGroup="0"/>
+            <slot id="9" name="Slot9" slotGroup="0"/>
+            <slot id="10" name="Slot10" slotGroup="0"/>
+            <slot id="11" name="Slot11" slotGroup="0"/>
+            <slot id="12" name="Slot12" slotGroup="0"/>
+            <slot id="13" name="Slot13" slotGroup="0"/>
+            <slot id="14" name="Slot14" slotGroup="0"/>
+            <slot id="15" name="Slot15" slotGroup="0"/>
+            <slot id="16" name="Slot16" slotGroup="0"/>
+            <slot id="17" name="Slot17" slotGroup="0"/>
+            <slot id="18" name="Slot18" slotGroup="0"/>
+            <slot id="19" name="Slot19" slotGroup="0"/>
+            <slot id="20" name="Slot20" slotGroup="0"/>
+            <slot id="21" name="Slot21" slotGroup="0"/>
+            <slot id="22" name="Slot22" slotGroup="0"/>
+            <slot id="23" name="Slot23" slotGroup="0"/>
+            <slot id="24" name="Slot24" slotGroup="0"/>
+            <slot id="25" name="Slot25" slotGroup="0"/>
+            <slot id="26" name="Slot26" slotGroup="0"/>
+            <slot id="27" name="Slot27" slotGroup="0"/>
+            <slot id="28" name="Slot28" slotGroup="0"/>
+            <slot id="29" name="Slot29" slotGroup="0"/>
+        </Slots>
+    </Resources>
+    <Constraints>
+        <BasicConstraints/>
+        <CapacityConstraints>
+            <CA3 intp="3" max="2" min="0" mode1="H" mode2="GAMES" penalty="1" teamGroups1="0" teamGroups2="0" teams1="" teams2="" type="SOFT"/>
+            <CA3 intp="3" max="2" min="0" mode1="A" mode2="GAMES" penalty="1" teamGroups1="0" teamGroups2="0" teams1="" teams2="" type="SOFT"/>
+        </CapacityConstraints>
+        <GameConstraints/>
+        <BreakConstraints>
+            <BR2 intp="14" mode1="REGULAR" mode2="LEQ" penalty="1" slotGroups="0" slots="" teamGroups="0" teams="" type="SOFT"/>
+        </BreakConstraints>
+        <FairnessConstraints/>
+        <SeparationConstraints>
+            <SE1 min="3" penalty="1" teamGroups="0" teams="" type="SOFT"/>
+        </SeparationConstraints>
+    </Constraints>
+</Instance>

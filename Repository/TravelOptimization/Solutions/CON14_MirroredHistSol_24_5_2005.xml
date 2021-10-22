@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/CON14_MirroredHistSol_24_5_2005.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/CON14_Mirrored.xml</InstanceName>
+        <Contributor>Rasmussen and Trick</Contributor>
+        <Date year="2005" month="5" day="24"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="253"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

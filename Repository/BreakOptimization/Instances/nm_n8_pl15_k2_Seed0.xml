@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Instance>
+    <MetaData>
+        <InstanceName>nm_n8_pl15_k2_Seed0</InstanceName>
+        <DataType>A</DataType>
+        <Contributor>Rasmussen, Trick</Contributor>
+        <Date year="2006"/>
+        <Country>NULL</Country>
+        <Description>NULL</Description>
+        <Remarks>Converted by David Van Bulck. For the original paper, see: Rasmussen, R. V. &amp; Trick, M. A. A Benders approach for the constrained minimum break problem Eur. J. Oper. Res., 2007, 177, 198 - 213</Remarks>
+    </MetaData>
+    <Structure>
+        <Format leagueIds="0">
+            <numberRoundRobin>2</numberRoundRobin>
+            <compactness>C</compactness>
+            <gameMode>NULL</gameMode>
+        </Format>
+        <AdditionalGames/>
+    </Structure>
+    <ObjectiveFunction>
+        <Objective>BM</Objective>
+    </ObjectiveFunction>
+    <Data>
+        <Distances/>
+        <COEWeights/>
+        <Costs/>
+    </Data>
+    <Resources>
+        <LeagueGroups/>
+        <Leagues>
+            <league id="0" leagueGroups="" name="League 0"/>
+        </Leagues>
+        <TeamGroups>
+            <teamGroup id="0" name="All teams"/>
+        </TeamGroups>
+        <Teams>
+            <team id="0" league="0" name="0" teamGroups="0"/>
+            <team id="1" league="0" name="1" teamGroups="0"/>
+            <team id="2" league="0" name="2" teamGroups="0"/>
+            <team id="3" league="0" name="3" teamGroups="0"/>
+            <team id="4" league="0" name="4" teamGroups="0"/>
+            <team id="5" league="0" name="5" teamGroups="0"/>
+            <team id="6" league="0" name="6" teamGroups="0"/>
+            <team id="7" league="0" name="7" teamGroups="0"/>
+        </Teams>
+        <SlotGroups/>
+        <Slots>
+            <slot id="0" name="Slot 0" slotGroup=""/>
+            <slot id="1" name="Slot 1" slotGroup=""/>
+            <slot id="2" name="Slot 2" slotGroup=""/>
+            <slot id="3" name="Slot 3" slotGroup=""/>
+            <slot id="4" name="Slot 4" slotGroup=""/>
+            <slot id="5" name="Slot 5" slotGroup=""/>
+            <slot id="6" name="Slot 6" slotGroup=""/>
+            <slot id="7" name="Slot 7" slotGroup=""/>
+            <slot id="8" name="Slot 8" slotGroup=""/>
+            <slot id="9" name="Slot 9" slotGroup=""/>
+            <slot id="10" name="Slot 10" slotGroup=""/>
+            <slot id="11" name="Slot 11" slotGroup=""/>
+            <slot id="12" name="Slot 12" slotGroup=""/>
+            <slot id="13" name="Slot 13" slotGroup=""/>
+        </Slots>
+    </Resources>
+    <Constraints>
+        <BasicConstraints/>
+        <CapacityConstraints>
+            <CA1 max="0" min="0" mode="A" penalty="1" slotGroups="" slots="10;1" teamGroups="" teams="0" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slotGroups="" slots="10;8;11" teamGroups="" teams="1" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slotGroups="" slots="1;13" teamGroups="" teams="2" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slotGroups="" slots="9;7;13;5" teamGroups="" teams="3" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slotGroups="" slots="8" teamGroups="" teams="5" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slotGroups="" slots="6" teamGroups="" teams="6" type="HARD"/>
+            <CA1 max="0" min="0" mode="A" penalty="1" slotGroups="" slots="12;0" teamGroups="" teams="7" type="HARD"/>
+        </CapacityConstraints>
+        <GameConstraints/>
+        <BreakConstraints/>
+        <FairnessConstraints/>
+        <SeparationConstraints>
+            <SE1 min="2" mode1="SLOTS" penalty="1" teamGroups="0" teams="" type="HARD"/>
+        </SeparationConstraints>
+    </Constraints>
+</Instance>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>inst8linearperturbacaoA</InstanceName>
+    <DataType>A</DataType>
+    <Contributor>Guedes, Ribeiro</Contributor>
+    <Date year="2011"/>
+    <Remarks/>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>CO</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights>
+      <COEWeight team1="0" team2="0" weight="1"/>
+      <COEWeight team1="0" team2="1" weight="0"/>
+      <COEWeight team1="0" team2="2" weight="2"/>
+      <COEWeight team1="0" team2="4" weight="3"/>
+      <COEWeight team1="0" team2="7" weight="7"/>
+      <COEWeight team1="0" team2="3" weight="0"/>
+      <COEWeight team1="0" team2="6" weight="9"/>
+      <COEWeight team1="0" team2="5" weight="3"/>
+      <COEWeight team1="1" team2="0" weight="1"/>
+      <COEWeight team1="1" team2="1" weight="3"/>
+      <COEWeight team1="1" team2="2" weight="1"/>
+      <COEWeight team1="1" team2="4" weight="2"/>
+      <COEWeight team1="1" team2="7" weight="7"/>
+      <COEWeight team1="1" team2="3" weight="0"/>
+      <COEWeight team1="1" team2="6" weight="6"/>
+      <COEWeight team1="1" team2="5" weight="4"/>
+      <COEWeight team1="2" team2="0" weight="2"/>
+      <COEWeight team1="2" team2="1" weight="2"/>
+      <COEWeight team1="2" team2="2" weight="1"/>
+      <COEWeight team1="2" team2="4" weight="5"/>
+      <COEWeight team1="2" team2="7" weight="3"/>
+      <COEWeight team1="2" team2="3" weight="3"/>
+      <COEWeight team1="2" team2="6" weight="3"/>
+      <COEWeight team1="2" team2="5" weight="1"/>
+      <COEWeight team1="4" team2="0" weight="5"/>
+      <COEWeight team1="4" team2="1" weight="3"/>
+      <COEWeight team1="4" team2="2" weight="5"/>
+      <COEWeight team1="4" team2="4" weight="2"/>
+      <COEWeight team1="4" team2="7" weight="0"/>
+      <COEWeight team1="4" team2="3" weight="3"/>
+      <COEWeight team1="4" team2="6" weight="3"/>
+      <COEWeight team1="4" team2="5" weight="3"/>
+      <COEWeight team1="7" team2="0" weight="8"/>
+      <COEWeight team1="7" team2="1" weight="7"/>
+      <COEWeight team1="7" team2="2" weight="7"/>
+      <COEWeight team1="7" team2="4" weight="1"/>
+      <COEWeight team1="7" team2="7" weight="1"/>
+      <COEWeight team1="7" team2="3" weight="6"/>
+      <COEWeight team1="7" team2="6" weight="1"/>
+      <COEWeight team1="7" team2="5" weight="4"/>
+      <COEWeight team1="3" team2="0" weight="2"/>
+      <COEWeight team1="3" team2="1" weight="2"/>
+      <COEWeight team1="3" team2="2" weight="0"/>
+      <COEWeight team1="3" team2="4" weight="2"/>
+      <COEWeight team1="3" team2="7" weight="6"/>
+      <COEWeight team1="3" team2="3" weight="3"/>
+      <COEWeight team1="3" team2="6" weight="1"/>
+      <COEWeight team1="3" team2="5" weight="0"/>
+      <COEWeight team1="6" team2="0" weight="3"/>
+      <COEWeight team1="6" team2="1" weight="2"/>
+      <COEWeight team1="6" team2="2" weight="5"/>
+      <COEWeight team1="6" team2="4" weight="1"/>
+      <COEWeight team1="6" team2="7" weight="2"/>
+      <COEWeight team1="6" team2="3" weight="1"/>
+      <COEWeight team1="6" team2="6" weight="2"/>
+      <COEWeight team1="6" team2="5" weight="3"/>
+      <COEWeight team1="5" team2="0" weight="7"/>
+      <COEWeight team1="5" team2="1" weight="7"/>
+      <COEWeight team1="5" team2="2" weight="2"/>
+      <COEWeight team1="5" team2="4" weight="0"/>
+      <COEWeight team1="5" team2="7" weight="5"/>
+      <COEWeight team1="5" team2="3" weight="1"/>
+      <COEWeight team1="5" team2="6" weight="3"/>
+      <COEWeight team1="5" team2="5" weight="4"/>
+    </COEWeights>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups/>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0"/>
+      <team id="1" league="0" name="Team 1"/>
+      <team id="2" league="0" name="Team 2"/>
+      <team id="3" league="0" name="Team 3"/>
+      <team id="4" league="0" name="Team 4"/>
+      <team id="5" league="0" name="Team 5"/>
+      <team id="6" league="0" name="Team 6"/>
+      <team id="7" league="0" name="Team 7"/>
+    </Teams>
+    <SlotGroups/>
+    <Slots>
+      <slot id="0" name="Slot0"/>
+      <slot id="1" name="Slot1"/>
+      <slot id="2" name="Slot2"/>
+      <slot id="3" name="Slot3"/>
+      <slot id="4" name="Slot4"/>
+      <slot id="5" name="Slot5"/>
+      <slot id="6" name="Slot6"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints/>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

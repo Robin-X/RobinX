@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/CIRC12_MirroredHistSol_18_5_2006.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/CIRC12_Mirrored.xml</InstanceName>
+        <Contributor>Van Hentenryck and Vergados</Contributor>
+        <Date year="2006" month="5" day="18"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="432"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>inst20randomC</InstanceName>
+    <DataType>A</DataType>
+    <Contributor>Guedes, Ribeiro</Contributor>
+    <Date year="2011"/>
+    <Remarks/>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>CO</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights>
+      <COEWeight team1="7" team2="7" weight="35"/>
+      <COEWeight team1="7" team2="6" weight="5"/>
+      <COEWeight team1="7" team2="5" weight="11"/>
+      <COEWeight team1="7" team2="2" weight="24"/>
+      <COEWeight team1="7" team2="0" weight="2"/>
+      <COEWeight team1="7" team2="1" weight="23"/>
+      <COEWeight team1="7" team2="16" weight="21"/>
+      <COEWeight team1="7" team2="17" weight="23"/>
+      <COEWeight team1="7" team2="18" weight="15"/>
+      <COEWeight team1="7" team2="19" weight="27"/>
+      <COEWeight team1="7" team2="15" weight="23"/>
+      <COEWeight team1="7" team2="8" weight="40"/>
+      <COEWeight team1="7" team2="9" weight="16"/>
+      <COEWeight team1="7" team2="10" weight="16"/>
+      <COEWeight team1="7" team2="11" weight="1"/>
+      <COEWeight team1="7" team2="12" weight="11"/>
+      <COEWeight team1="7" team2="13" weight="40"/>
+      <COEWeight team1="7" team2="14" weight="8"/>
+      <COEWeight team1="7" team2="4" weight="18"/>
+      <COEWeight team1="7" team2="3" weight="18"/>
+      <COEWeight team1="6" team2="7" weight="33"/>
+      <COEWeight team1="6" team2="6" weight="15"/>
+      <COEWeight team1="6" team2="5" weight="22"/>
+      <COEWeight team1="6" team2="2" weight="32"/>
+      <COEWeight team1="6" team2="0" weight="10"/>
+      <COEWeight team1="6" team2="1" weight="36"/>
+      <COEWeight team1="6" team2="16" weight="1"/>
+      <COEWeight team1="6" team2="17" weight="22"/>
+      <COEWeight team1="6" team2="18" weight="19"/>
+      <COEWeight team1="6" team2="19" weight="1"/>
+      <COEWeight team1="6" team2="15" weight="40"/>
+      <COEWeight team1="6" team2="8" weight="14"/>
+      <COEWeight team1="6" team2="9" weight="3"/>
+      <COEWeight team1="6" team2="10" weight="35"/>
+      <COEWeight team1="6" team2="11" weight="10"/>
+      <COEWeight team1="6" team2="12" weight="30"/>
+      <COEWeight team1="6" team2="13" weight="34"/>
+      <COEWeight team1="6" team2="14" weight="27"/>
+      <COEWeight team1="6" team2="4" weight="21"/>
+      <COEWeight team1="6" team2="3" weight="16"/>
+      <COEWeight team1="5" team2="7" weight="20"/>
+      <COEWeight team1="5" team2="6" weight="4"/>
+      <COEWeight team1="5" team2="5" weight="8"/>
+      <COEWeight team1="5" team2="2" weight="8"/>
+      <COEWeight team1="5" team2="0" weight="4"/>
+      <COEWeight team1="5" team2="1" weight="28"/>
+      <COEWeight team1="5" team2="16" weight="18"/>
+      <COEWeight team1="5" team2="17" weight="30"/>
+      <COEWeight team1="5" team2="18" weight="20"/>
+      <COEWeight team1="5" team2="19" weight="22"/>
+      <COEWeight team1="5" team2="15" weight="27"/>
+      <COEWeight team1="5" team2="8" weight="40"/>
+      <COEWeight team1="5" team2="9" weight="29"/>
+      <COEWeight team1="5" team2="10" weight="13"/>
+      <COEWeight team1="5" team2="11" weight="32"/>
+      <COEWeight team1="5" team2="12" weight="17"/>
+      <COEWeight team1="5" team2="13" weight="36"/>
+      <COEWeight team1="5" team2="14" weight="27"/>
+      <COEWeight team1="5" team2="4" weight="18"/>
+      <COEWeight team1="5" team2="3" weight="26"/>
+      <COEWeight team1="2" team2="7" weight="8"/>
+      <COEWeight team1="2" team2="6" weight="32"/>
+      <COEWeight team1="2" team2="5" weight="20"/>
+      <COEWeight team1="2" team2="2" weight="31"/>
+      <COEWeight team1="2" team2="0" weight="25"/>
+      <COEWeight team1="2" team2="1" weight="19"/>
+      <COEWeight team1="2" team2="16" weight="15"/>
+      <COEWeight team1="2" team2="17" weight="23"/>
+      <COEWeight team1="2" team2="18" weight="17"/>
+      <COEWeight team1="2" team2="19" weight="40"/>
+      <COEWeight team1="2" team2="15" weight="9"/>
+      <COEWeight team1="2" team2="8" weight="24"/>
+      <COEWeight team1="2" team2="9" weight="1"/>
+      <COEWeight team1="2" team2="10" weight="12"/>
+      <COEWeight team1="2" team2="11" weight="39"/>
+      <COEWeight team1="2" team2="12" weight="20"/>
+      <COEWeight team1="2" team2="13" weight="22"/>
+      <COEWeight team1="2" team2="14" weight="8"/>
+      <COEWeight team1="2" team2="4" weight="5"/>
+      <COEWeight team1="2" team2="3" weight="4"/>
+      <COEWeight team1="0" team2="7" weight="28"/>
+      <COEWeight team1="0" team2="6" weight="24"/>
+      <COEWeight team1="0" team2="5" weight="4"/>
+      <COEWeight team1="0" team2="2" weight="14"/>
+      <COEWeight team1="0" team2="0" weight="33"/>
+      <COEWeight team1="0" team2="1" weight="32"/>
+      <COEWeight team1="0" team2="16" weight="11"/>
+      <COEWeight team1="0" team2="17" weight="13"/>
+      <COEWeight team1="0" team2="18" weight="9"/>
+      <COEWeight team1="0" team2="19" weight="13"/>
+      <COEWeight team1="0" team2="15" weight="37"/>
+      <COEWeight team1="0" team2="8" weight="26"/>
+      <COEWeight team1="0" team2="9" weight="24"/>
+      <COEWeight team1="0" team2="10" weight="17"/>
+      <COEWeight team1="0" team2="11" weight="19"/>
+      <COEWeight team1="0" team2="12" weight="19"/>
+      <COEWeight team1="0" team2="13" weight="27"/>
+      <COEWeight team1="0" team2="14" weight="38"/>
+      <COEWeight team1="0" team2="4" weight="8"/>
+      <COEWeight team1="0" team2="3" weight="10"/>
+      <COEWeight team1="1" team2="7" weight="9"/>
+      <COEWeight team1="1" team2="6" weight="24"/>
+      <COEWeight team1="1" team2="5" weight="2"/>
+      <COEWeight team1="1" team2="2" weight="11"/>
+      <COEWeight team1="1" team2="0" weight="15"/>
+      <COEWeight team1="1" team2="1" weight="28"/>
+      <COEWeight team1="1" team2="16" weight="35"/>
+      <COEWeight team1="1" team2="17" weight="2"/>
+      <COEWeight team1="1" team2="18" weight="10"/>
+      <COEWeight team1="1" team2="19" weight="21"/>
+      <COEWeight team1="1" team2="15" weight="23"/>
+      <COEWeight team1="1" team2="8" weight="26"/>
+      <COEWeight team1="1" team2="9" weight="32"/>
+      <COEWeight team1="1" team2="10" weight="35"/>
+      <COEWeight team1="1" team2="11" weight="18"/>
+      <COEWeight team1="1" team2="12" weight="23"/>
+      <COEWeight team1="1" team2="13" weight="40"/>
+      <COEWeight team1="1" team2="14" weight="27"/>
+      <COEWeight team1="1" team2="4" weight="30"/>
+      <COEWeight team1="1" team2="3" weight="10"/>
+      <COEWeight team1="16" team2="7" weight="36"/>
+      <COEWeight team1="16" team2="6" weight="12"/>
+      <COEWeight team1="16" team2="5" weight="25"/>
+      <COEWeight team1="16" team2="2" weight="19"/>
+      <COEWeight team1="16" team2="0" weight="26"/>
+      <COEWeight team1="16" team2="1" weight="5"/>
+      <COEWeight team1="16" team2="16" weight="21"/>
+      <COEWeight team1="16" team2="17" weight="15"/>
+      <COEWeight team1="16" team2="18" weight="40"/>
+      <COEWeight team1="16" team2="19" weight="36"/>
+      <COEWeight team1="16" team2="15" weight="11"/>
+      <COEWeight team1="16" team2="8" weight="30"/>
+      <COEWeight team1="16" team2="9" weight="15"/>
+      <COEWeight team1="16" team2="10" weight="39"/>
+      <COEWeight team1="16" team2="11" weight="16"/>
+      <COEWeight team1="16" team2="12" weight="23"/>
+      <COEWeight team1="16" team2="13" weight="2"/>
+      <COEWeight team1="16" team2="14" weight="37"/>
+      <COEWeight team1="16" team2="4" weight="31"/>
+      <COEWeight team1="16" team2="3" weight="16"/>
+      <COEWeight team1="17" team2="7" weight="32"/>
+      <COEWeight team1="17" team2="6" weight="28"/>
+      <COEWeight team1="17" team2="5" weight="3"/>
+      <COEWeight team1="17" team2="2" weight="25"/>
+      <COEWeight team1="17" team2="0" weight="20"/>
+      <COEWeight team1="17" team2="1" weight="17"/>
+      <COEWeight team1="17" team2="16" weight="5"/>
+      <COEWeight team1="17" team2="17" weight="36"/>
+      <COEWeight team1="17" team2="18" weight="28"/>
+      <COEWeight team1="17" team2="19" weight="34"/>
+      <COEWeight team1="17" team2="15" weight="32"/>
+      <COEWeight team1="17" team2="8" weight="40"/>
+      <COEWeight team1="17" team2="9" weight="14"/>
+      <COEWeight team1="17" team2="10" weight="10"/>
+      <COEWeight team1="17" team2="11" weight="25"/>
+      <COEWeight team1="17" team2="12" weight="10"/>
+      <COEWeight team1="17" team2="13" weight="28"/>
+      <COEWeight team1="17" team2="14" weight="33"/>
+      <COEWeight team1="17" team2="4" weight="15"/>
+      <COEWeight team1="17" team2="3" weight="15"/>
+      <COEWeight team1="18" team2="7" weight="31"/>
+      <COEWeight team1="18" team2="6" weight="35"/>
+      <COEWeight team1="18" team2="5" weight="37"/>
+      <COEWeight team1="18" team2="2" weight="9"/>
+      <COEWeight team1="18" team2="0" weight="2"/>
+      <COEWeight team1="18" team2="1" weight="18"/>
+      <COEWeight team1="18" team2="16" weight="38"/>
+      <COEWeight team1="18" team2="17" weight="16"/>
+      <COEWeight team1="18" team2="18" weight="40"/>
+      <COEWeight team1="18" team2="19" weight="37"/>
+      <COEWeight team1="18" team2="15" weight="9"/>
+      <COEWeight team1="18" team2="8" weight="11"/>
+      <COEWeight team1="18" team2="9" weight="26"/>
+      <COEWeight team1="18" team2="10" weight="27"/>
+      <COEWeight team1="18" team2="11" weight="23"/>
+      <COEWeight team1="18" team2="12" weight="34"/>
+      <COEWeight team1="18" team2="13" weight="3"/>
+      <COEWeight team1="18" team2="14" weight="29"/>
+      <COEWeight team1="18" team2="4" weight="11"/>
+      <COEWeight team1="18" team2="3" weight="25"/>
+      <COEWeight team1="19" team2="7" weight="25"/>
+      <COEWeight team1="19" team2="6" weight="22"/>
+      <COEWeight team1="19" team2="5" weight="6"/>
+      <COEWeight team1="19" team2="2" weight="14"/>
+      <COEWeight team1="19" team2="0" weight="21"/>
+      <COEWeight team1="19" team2="1" weight="1"/>
+      <COEWeight team1="19" team2="16" weight="7"/>
+      <COEWeight team1="19" team2="17" weight="13"/>
+      <COEWeight team1="19" team2="18" weight="3"/>
+      <COEWeight team1="19" team2="19" weight="9"/>
+      <COEWeight team1="19" team2="15" weight="21"/>
+      <COEWeight team1="19" team2="8" weight="1"/>
+      <COEWeight team1="19" team2="9" weight="1"/>
+      <COEWeight team1="19" team2="10" weight="10"/>
+      <COEWeight team1="19" team2="11" weight="3"/>
+      <COEWeight team1="19" team2="12" weight="10"/>
+      <COEWeight team1="19" team2="13" weight="10"/>
+      <COEWeight team1="19" team2="14" weight="27"/>
+      <COEWeight team1="19" team2="4" weight="29"/>
+      <COEWeight team1="19" team2="3" weight="31"/>
+      <COEWeight team1="15" team2="7" weight="29"/>
+      <COEWeight team1="15" team2="6" weight="19"/>
+      <COEWeight team1="15" team2="5" weight="19"/>
+      <COEWeight team1="15" team2="2" weight="12"/>
+      <COEWeight team1="15" team2="0" weight="27"/>
+      <COEWeight team1="15" team2="1" weight="17"/>
+      <COEWeight team1="15" team2="16" weight="25"/>
+      <COEWeight team1="15" team2="17" weight="6"/>
+      <COEWeight team1="15" team2="18" weight="26"/>
+      <COEWeight team1="15" team2="19" weight="19"/>
+      <COEWeight team1="15" team2="15" weight="22"/>
+      <COEWeight team1="15" team2="8" weight="24"/>
+      <COEWeight team1="15" team2="9" weight="14"/>
+      <COEWeight team1="15" team2="10" weight="26"/>
+      <COEWeight team1="15" team2="11" weight="30"/>
+      <COEWeight team1="15" team2="12" weight="35"/>
+      <COEWeight team1="15" team2="13" weight="7"/>
+      <COEWeight team1="15" team2="14" weight="27"/>
+      <COEWeight team1="15" team2="4" weight="37"/>
+      <COEWeight team1="15" team2="3" weight="21"/>
+      <COEWeight team1="8" team2="7" weight="3"/>
+      <COEWeight team1="8" team2="6" weight="37"/>
+      <COEWeight team1="8" team2="5" weight="14"/>
+      <COEWeight team1="8" team2="2" weight="36"/>
+      <COEWeight team1="8" team2="0" weight="25"/>
+      <COEWeight team1="8" team2="1" weight="9"/>
+      <COEWeight team1="8" team2="16" weight="28"/>
+      <COEWeight team1="8" team2="17" weight="9"/>
+      <COEWeight team1="8" team2="18" weight="32"/>
+      <COEWeight team1="8" team2="19" weight="20"/>
+      <COEWeight team1="8" team2="15" weight="6"/>
+      <COEWeight team1="8" team2="8" weight="35"/>
+      <COEWeight team1="8" team2="9" weight="15"/>
+      <COEWeight team1="8" team2="10" weight="35"/>
+      <COEWeight team1="8" team2="11" weight="36"/>
+      <COEWeight team1="8" team2="12" weight="37"/>
+      <COEWeight team1="8" team2="13" weight="18"/>
+      <COEWeight team1="8" team2="14" weight="13"/>
+      <COEWeight team1="8" team2="4" weight="2"/>
+      <COEWeight team1="8" team2="3" weight="6"/>
+      <COEWeight team1="9" team2="7" weight="19"/>
+      <COEWeight team1="9" team2="6" weight="40"/>
+      <COEWeight team1="9" team2="5" weight="20"/>
+      <COEWeight team1="9" team2="2" weight="12"/>
+      <COEWeight team1="9" team2="0" weight="16"/>
+      <COEWeight team1="9" team2="1" weight="40"/>
+      <COEWeight team1="9" team2="16" weight="5"/>
+      <COEWeight team1="9" team2="17" weight="12"/>
+      <COEWeight team1="9" team2="18" weight="11"/>
+      <COEWeight team1="9" team2="19" weight="31"/>
+      <COEWeight team1="9" team2="15" weight="17"/>
+      <COEWeight team1="9" team2="8" weight="2"/>
+      <COEWeight team1="9" team2="9" weight="15"/>
+      <COEWeight team1="9" team2="10" weight="37"/>
+      <COEWeight team1="9" team2="11" weight="18"/>
+      <COEWeight team1="9" team2="12" weight="23"/>
+      <COEWeight team1="9" team2="13" weight="32"/>
+      <COEWeight team1="9" team2="14" weight="15"/>
+      <COEWeight team1="9" team2="4" weight="39"/>
+      <COEWeight team1="9" team2="3" weight="18"/>
+      <COEWeight team1="10" team2="7" weight="2"/>
+      <COEWeight team1="10" team2="6" weight="12"/>
+      <COEWeight team1="10" team2="5" weight="31"/>
+      <COEWeight team1="10" team2="2" weight="26"/>
+      <COEWeight team1="10" team2="0" weight="18"/>
+      <COEWeight team1="10" team2="1" weight="5"/>
+      <COEWeight team1="10" team2="16" weight="3"/>
+      <COEWeight team1="10" team2="17" weight="24"/>
+      <COEWeight team1="10" team2="18" weight="11"/>
+      <COEWeight team1="10" team2="19" weight="36"/>
+      <COEWeight team1="10" team2="15" weight="33"/>
+      <COEWeight team1="10" team2="8" weight="31"/>
+      <COEWeight team1="10" team2="9" weight="4"/>
+      <COEWeight team1="10" team2="10" weight="13"/>
+      <COEWeight team1="10" team2="11" weight="7"/>
+      <COEWeight team1="10" team2="12" weight="35"/>
+      <COEWeight team1="10" team2="13" weight="24"/>
+      <COEWeight team1="10" team2="14" weight="24"/>
+      <COEWeight team1="10" team2="4" weight="22"/>
+      <COEWeight team1="10" team2="3" weight="7"/>
+      <COEWeight team1="11" team2="7" weight="28"/>
+      <COEWeight team1="11" team2="6" weight="28"/>
+      <COEWeight team1="11" team2="5" weight="28"/>
+      <COEWeight team1="11" team2="2" weight="13"/>
+      <COEWeight team1="11" team2="0" weight="38"/>
+      <COEWeight team1="11" team2="1" weight="8"/>
+      <COEWeight team1="11" team2="16" weight="18"/>
+      <COEWeight team1="11" team2="17" weight="18"/>
+      <COEWeight team1="11" team2="18" weight="9"/>
+      <COEWeight team1="11" team2="19" weight="8"/>
+      <COEWeight team1="11" team2="15" weight="16"/>
+      <COEWeight team1="11" team2="8" weight="31"/>
+      <COEWeight team1="11" team2="9" weight="38"/>
+      <COEWeight team1="11" team2="10" weight="10"/>
+      <COEWeight team1="11" team2="11" weight="8"/>
+      <COEWeight team1="11" team2="12" weight="34"/>
+      <COEWeight team1="11" team2="13" weight="36"/>
+      <COEWeight team1="11" team2="14" weight="14"/>
+      <COEWeight team1="11" team2="4" weight="31"/>
+      <COEWeight team1="11" team2="3" weight="12"/>
+      <COEWeight team1="12" team2="7" weight="7"/>
+      <COEWeight team1="12" team2="6" weight="39"/>
+      <COEWeight team1="12" team2="5" weight="30"/>
+      <COEWeight team1="12" team2="2" weight="6"/>
+      <COEWeight team1="12" team2="0" weight="13"/>
+      <COEWeight team1="12" team2="1" weight="21"/>
+      <COEWeight team1="12" team2="16" weight="26"/>
+      <COEWeight team1="12" team2="17" weight="25"/>
+      <COEWeight team1="12" team2="18" weight="10"/>
+      <COEWeight team1="12" team2="19" weight="16"/>
+      <COEWeight team1="12" team2="15" weight="23"/>
+      <COEWeight team1="12" team2="8" weight="5"/>
+      <COEWeight team1="12" team2="9" weight="1"/>
+      <COEWeight team1="12" team2="10" weight="34"/>
+      <COEWeight team1="12" team2="11" weight="34"/>
+      <COEWeight team1="12" team2="12" weight="40"/>
+      <COEWeight team1="12" team2="13" weight="7"/>
+      <COEWeight team1="12" team2="14" weight="37"/>
+      <COEWeight team1="12" team2="4" weight="4"/>
+      <COEWeight team1="12" team2="3" weight="7"/>
+      <COEWeight team1="13" team2="7" weight="15"/>
+      <COEWeight team1="13" team2="6" weight="15"/>
+      <COEWeight team1="13" team2="5" weight="29"/>
+      <COEWeight team1="13" team2="2" weight="15"/>
+      <COEWeight team1="13" team2="0" weight="14"/>
+      <COEWeight team1="13" team2="1" weight="19"/>
+      <COEWeight team1="13" team2="16" weight="1"/>
+      <COEWeight team1="13" team2="17" weight="6"/>
+      <COEWeight team1="13" team2="18" weight="36"/>
+      <COEWeight team1="13" team2="19" weight="37"/>
+      <COEWeight team1="13" team2="15" weight="38"/>
+      <COEWeight team1="13" team2="8" weight="38"/>
+      <COEWeight team1="13" team2="9" weight="23"/>
+      <COEWeight team1="13" team2="10" weight="15"/>
+      <COEWeight team1="13" team2="11" weight="10"/>
+      <COEWeight team1="13" team2="12" weight="3"/>
+      <COEWeight team1="13" team2="13" weight="20"/>
+      <COEWeight team1="13" team2="14" weight="16"/>
+      <COEWeight team1="13" team2="4" weight="6"/>
+      <COEWeight team1="13" team2="3" weight="8"/>
+      <COEWeight team1="14" team2="7" weight="13"/>
+      <COEWeight team1="14" team2="6" weight="28"/>
+      <COEWeight team1="14" team2="5" weight="27"/>
+      <COEWeight team1="14" team2="2" weight="30"/>
+      <COEWeight team1="14" team2="0" weight="6"/>
+      <COEWeight team1="14" team2="1" weight="30"/>
+      <COEWeight team1="14" team2="16" weight="14"/>
+      <COEWeight team1="14" team2="17" weight="13"/>
+      <COEWeight team1="14" team2="18" weight="11"/>
+      <COEWeight team1="14" team2="19" weight="3"/>
+      <COEWeight team1="14" team2="15" weight="37"/>
+      <COEWeight team1="14" team2="8" weight="3"/>
+      <COEWeight team1="14" team2="9" weight="29"/>
+      <COEWeight team1="14" team2="10" weight="20"/>
+      <COEWeight team1="14" team2="11" weight="8"/>
+      <COEWeight team1="14" team2="12" weight="39"/>
+      <COEWeight team1="14" team2="13" weight="34"/>
+      <COEWeight team1="14" team2="14" weight="7"/>
+      <COEWeight team1="14" team2="4" weight="28"/>
+      <COEWeight team1="14" team2="3" weight="6"/>
+      <COEWeight team1="4" team2="7" weight="33"/>
+      <COEWeight team1="4" team2="6" weight="12"/>
+      <COEWeight team1="4" team2="5" weight="31"/>
+      <COEWeight team1="4" team2="2" weight="32"/>
+      <COEWeight team1="4" team2="0" weight="33"/>
+      <COEWeight team1="4" team2="1" weight="37"/>
+      <COEWeight team1="4" team2="16" weight="21"/>
+      <COEWeight team1="4" team2="17" weight="33"/>
+      <COEWeight team1="4" team2="18" weight="28"/>
+      <COEWeight team1="4" team2="19" weight="2"/>
+      <COEWeight team1="4" team2="15" weight="8"/>
+      <COEWeight team1="4" team2="8" weight="5"/>
+      <COEWeight team1="4" team2="9" weight="20"/>
+      <COEWeight team1="4" team2="10" weight="25"/>
+      <COEWeight team1="4" team2="11" weight="11"/>
+      <COEWeight team1="4" team2="12" weight="15"/>
+      <COEWeight team1="4" team2="13" weight="34"/>
+      <COEWeight team1="4" team2="14" weight="31"/>
+      <COEWeight team1="4" team2="4" weight="19"/>
+      <COEWeight team1="4" team2="3" weight="4"/>
+      <COEWeight team1="3" team2="7" weight="29"/>
+      <COEWeight team1="3" team2="6" weight="3"/>
+      <COEWeight team1="3" team2="5" weight="28"/>
+      <COEWeight team1="3" team2="2" weight="10"/>
+      <COEWeight team1="3" team2="0" weight="6"/>
+      <COEWeight team1="3" team2="1" weight="3"/>
+      <COEWeight team1="3" team2="16" weight="10"/>
+      <COEWeight team1="3" team2="17" weight="33"/>
+      <COEWeight team1="3" team2="18" weight="26"/>
+      <COEWeight team1="3" team2="19" weight="34"/>
+      <COEWeight team1="3" team2="15" weight="27"/>
+      <COEWeight team1="3" team2="8" weight="30"/>
+      <COEWeight team1="3" team2="9" weight="12"/>
+      <COEWeight team1="3" team2="10" weight="9"/>
+      <COEWeight team1="3" team2="11" weight="6"/>
+      <COEWeight team1="3" team2="12" weight="22"/>
+      <COEWeight team1="3" team2="13" weight="31"/>
+      <COEWeight team1="3" team2="14" weight="9"/>
+      <COEWeight team1="3" team2="4" weight="34"/>
+      <COEWeight team1="3" team2="3" weight="29"/>
+    </COEWeights>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups/>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0"/>
+      <team id="1" league="0" name="Team 1"/>
+      <team id="2" league="0" name="Team 2"/>
+      <team id="3" league="0" name="Team 3"/>
+      <team id="4" league="0" name="Team 4"/>
+      <team id="5" league="0" name="Team 5"/>
+      <team id="6" league="0" name="Team 6"/>
+      <team id="7" league="0" name="Team 7"/>
+      <team id="8" league="0" name="Team 8"/>
+      <team id="9" league="0" name="Team 9"/>
+      <team id="10" league="0" name="Team 10"/>
+      <team id="11" league="0" name="Team 11"/>
+      <team id="12" league="0" name="Team 12"/>
+      <team id="13" league="0" name="Team 13"/>
+      <team id="14" league="0" name="Team 14"/>
+      <team id="15" league="0" name="Team 15"/>
+      <team id="16" league="0" name="Team 16"/>
+      <team id="17" league="0" name="Team 17"/>
+      <team id="18" league="0" name="Team 18"/>
+      <team id="19" league="0" name="Team 19"/>
+    </Teams>
+    <SlotGroups/>
+    <Slots>
+      <slot id="0" name="Slot0"/>
+      <slot id="1" name="Slot1"/>
+      <slot id="2" name="Slot2"/>
+      <slot id="3" name="Slot3"/>
+      <slot id="4" name="Slot4"/>
+      <slot id="5" name="Slot5"/>
+      <slot id="6" name="Slot6"/>
+      <slot id="7" name="Slot7"/>
+      <slot id="8" name="Slot8"/>
+      <slot id="9" name="Slot9"/>
+      <slot id="10" name="Slot10"/>
+      <slot id="11" name="Slot11"/>
+      <slot id="12" name="Slot12"/>
+      <slot id="13" name="Slot13"/>
+      <slot id="14" name="Slot14"/>
+      <slot id="15" name="Slot15"/>
+      <slot id="16" name="Slot16"/>
+      <slot id="17" name="Slot17"/>
+      <slot id="18" name="Slot18"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints/>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

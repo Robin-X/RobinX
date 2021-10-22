@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/CarryoverEffectsOptimization/Instances/CO34.xml</InstanceName>
+    <Contributor>Kidd</Contributor>
+    <Date year="1980"/>
+    <Remarks>Kidd, M. P. A tabu-search for minimising the carry-over effects value of a round-robin tournament ORiON, Operations Research Society of South Africa (ORSSA), 2010, 26, 125-141.</Remarks>
+    <Infeasibility>0</Infeasibility>
+    <Objective>1254</Objective>
+  </MetaData>
+</Bound>

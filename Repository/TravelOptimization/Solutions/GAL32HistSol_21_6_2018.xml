@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/GAL32HistSol_21_6_2018.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/GAL32.xml</InstanceName>
+        <Contributor>Hirano, Abe and Imahori</Contributor>
+        <Date year="2018" month="6" day="21"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="119665"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

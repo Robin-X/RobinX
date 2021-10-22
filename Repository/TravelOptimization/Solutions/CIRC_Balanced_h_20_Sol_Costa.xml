@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>Repository/CarryoverEffectsOptimization/Solutions/CIRC_Balanced_h_20_Sol_Costa.xml</SolutionName>
+    <InstanceName>Repository/CarryoverEffectsOptimization/Instances/CIRC_Balanced_h_20.xml</InstanceName>
+    <Contributor>Costa, Urrutia, Ribeiro</Contributor>
+    <Date year="2012"/>
+    <ObjectiveValue infeasibility="0" objective="1106"/>
+    <Remarks>Costa F. N.; Urrutia, S. and Ribeiro, C. C. An ILS heuristic for the traveling tournament problem with predefined venues Ann. Oper. Res., 2012, 194, 137-150 </Remarks>
+  </MetaData>
+
+  <Games/>
+
+</Solution>

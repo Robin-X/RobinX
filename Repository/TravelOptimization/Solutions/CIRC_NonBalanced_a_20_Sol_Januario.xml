@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>Repository/CarryoverEffectsOptimization/Solutions/CIRC_NonBalanced_a_20_Sol_Januario.xml</SolutionName>
+    <InstanceName>Repository/CarryoverEffectsOptimization/Instances/CIRC_NonBalanced_a_20.xml</InstanceName>
+    <Contributor>Januario, Urrutia</Contributor>
+    <Date year="2016"/>
+    <ObjectiveValue infeasibility="0" objective="1088"/>
+    <Remarks>Januario, T. and Urrutia, S. A new neighborhood structure for round robin scheduling problems Comput. Oper. Res., 2016, 70, 127 - 139</Remarks>
+  </MetaData>
+
+  <Games/>
+
+</Solution>

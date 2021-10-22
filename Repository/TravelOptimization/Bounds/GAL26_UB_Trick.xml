@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/GAL26.xml</InstanceName>
+    <BoundName>Independend lower bound</BoundName>
+    <Contributor>Goerigk and Westphal</Contributor>
+    <Date day="9" month="2" year="2012"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>58968</Objective>
+  </LowerBound>
+</Bound>

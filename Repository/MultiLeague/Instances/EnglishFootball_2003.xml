@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>EnglishFootball_2003</InstanceName>
+    <DataType>R</DataType>
+    <Contributor>Kendall</Contributor>
+    <Date year="2008"/>
+    <Country>England</Country>
+    <Remarks>Converted by David Van Bulck.</Remarks>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <Format leagueIds="1">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <Format leagueIds="2">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <Format leagueIds="3">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>SC</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="All teams"/>
+      <teamGroup id="1" name="FA Barclaycard Premiership"/>
+      <teamGroup id="2" name="First division football league"/>
+      <teamGroup id="3" name="Second division football league"/>
+      <teamGroup id="4" name="Third division football league"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+      <league id="1" name="League 0"/>
+      <league id="2" name="League 0"/>
+      <league id="3" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="BirminghamCity" teamGroups="0;1"/>
+      <team id="1" league="0" name="PortsmouthFC" teamGroups="0;1"/>
+      <team id="2" league="0" name="ArsenalFC" teamGroups="0;1"/>
+      <team id="3" league="0" name="BlackburnRovers" teamGroups="0;1"/>
+      <team id="4" league="0" name="FulhamFC" teamGroups="0;1"/>
+      <team id="5" league="0" name="LeicesterCity" teamGroups="0;1"/>
+      <team id="6" league="0" name="ManchesterUnited" teamGroups="0;1"/>
+      <team id="7" league="0" name="CharltonAthletic" teamGroups="0;1"/>
+      <team id="8" league="0" name="LeedsUnited" teamGroups="0;1"/>
+      <team id="9" league="0" name="LiverpoolFC" teamGroups="0;1"/>
+      <team id="10" league="0" name="TottenhamHotspur" teamGroups="0;1"/>
+      <team id="11" league="0" name="AstonVilla" teamGroups="0;1"/>
+      <team id="12" league="0" name="EvertonFC" teamGroups="0;1"/>
+      <team id="13" league="0" name="WolverhamptonWanderers" teamGroups="0;1"/>
+      <team id="14" league="0" name="MiddlesbroughFC" teamGroups="0;1"/>
+      <team id="15" league="0" name="SouthamptonFC" teamGroups="0;1"/>
+      <team id="16" league="0" name="BoltonWanderers" teamGroups="0;1"/>
+      <team id="17" league="0" name="ManchesterCity" teamGroups="0;1"/>
+      <team id="18" league="0" name="NewcastleUnited" teamGroups="0;1"/>
+      <team id="19" league="0" name="ChelseaFC" teamGroups="0;1"/>
+      <team id="20" league="1" name="PrestonNorthEnd" teamGroups="0;2"/>
+      <team id="21" league="1" name="BradfordCity" teamGroups="0;2"/>
+      <team id="22" league="1" name="WalsallFC" teamGroups="0;2"/>
+      <team id="23" league="1" name="WimbledonFC" teamGroups="0;2"/>
+      <team id="24" league="1" name="BurnleyFC" teamGroups="0;2"/>
+      <team id="25" league="1" name="DerbyCounty" teamGroups="0;2"/>
+      <team id="26" league="1" name="IpswichTown" teamGroups="0;2"/>
+      <team id="27" league="1" name="MillwallFC" teamGroups="0;2"/>
+      <team id="28" league="1" name="RotherhamUnited" teamGroups="0;2"/>
+      <team id="29" league="1" name="SheffieldUnited" teamGroups="0;2"/>
+      <team id="30" league="1" name="NottinghamForest" teamGroups="0;2"/>
+      <team id="31" league="1" name="WatfordFC" teamGroups="0;2"/>
+      <team id="32" league="1" name="WestHamUnited" teamGroups="0;2"/>
+      <team id="33" league="1" name="NorwichCity" teamGroups="0;2"/>
+      <team id="34" league="1" name="WestBromwichAlbion" teamGroups="0;2"/>
+      <team id="35" league="1" name="CreweAlexandra" teamGroups="0;2"/>
+      <team id="36" league="1" name="CrystalPalace" teamGroups="0;2"/>
+      <team id="37" league="1" name="StokeCity" teamGroups="0;2"/>
+      <team id="38" league="1" name="ReadingFC" teamGroups="0;2"/>
+      <team id="39" league="1" name="WiganAthletic" teamGroups="0;2"/>
+      <team id="40" league="1" name="CardiffCity" teamGroups="0;2"/>
+      <team id="41" league="1" name="GillinghamFC" teamGroups="0;2"/>
+      <team id="42" league="1" name="SunderlandAFC" teamGroups="0;2"/>
+      <team id="43" league="1" name="CoventryCity" teamGroups="0;2"/>
+      <team id="44" league="2" name="BarnsleyFC" teamGroups="0;3"/>
+      <team id="45" league="2" name="BristolCity" teamGroups="0;3"/>
+      <team id="46" league="2" name="LutonTown" teamGroups="0;3"/>
+      <team id="47" league="2" name="OldhamAthletic" teamGroups="0;3"/>
+      <team id="48" league="2" name="PeterboroughUnited" teamGroups="0;3"/>
+      <team id="49" league="2" name="PlymouthArgyle" teamGroups="0;3"/>
+      <team id="50" league="2" name="PortValeFC" teamGroups="0;3"/>
+      <team id="51" league="2" name="QueensParkRangers" teamGroups="0;3"/>
+      <team id="52" league="2" name="SwindonTown" teamGroups="0;3"/>
+      <team id="53" league="2" name="TranmereRovers" teamGroups="0;3"/>
+      <team id="54" league="2" name="WrexhamAFC" teamGroups="0;3"/>
+      <team id="55" league="2" name="WycombeWanderers" teamGroups="0;3"/>
+      <team id="56" league="2" name="ColchesterUnited" teamGroups="0;3"/>
+      <team id="57" league="2" name="NottsCounty" teamGroups="0;3"/>
+      <team id="58" league="2" name="Rushden&amp;Diamonds" teamGroups="0;3"/>
+      <team id="59" league="2" name="Brighton&amp;HoveAlbion" teamGroups="0;3"/>
+      <team id="60" league="2" name="HartlepoolUnited" teamGroups="0;3"/>
+      <team id="61" league="2" name="GrimsbyTown" teamGroups="0;3"/>
+      <team id="62" league="2" name="AFCBournemouth" teamGroups="0;3"/>
+      <team id="63" league="2" name="BlackpoolFC" teamGroups="0;3"/>
+      <team id="64" league="2" name="SheffieldWednesday" teamGroups="0;3"/>
+      <team id="65" league="2" name="BrentfordFC" teamGroups="0;3"/>
+      <team id="66" league="2" name="ChesterfieldFC" teamGroups="0;3"/>
+      <team id="67" league="2" name="StockportCounty" teamGroups="0;3"/>
+      <team id="68" league="3" name="BostonUnited" teamGroups="0;4"/>
+      <team id="69" league="3" name="BristolRovers" teamGroups="0;4"/>
+      <team id="70" league="3" name="BuryFC" teamGroups="0;4"/>
+      <team id="71" league="3" name="CambridgeUnited" teamGroups="0;4"/>
+      <team id="72" league="3" name="CarlisleUnited" teamGroups="0;4"/>
+      <team id="73" league="3" name="CheltenhamTown" teamGroups="0;4"/>
+      <team id="74" league="3" name="DarlingtonFC" teamGroups="0;4"/>
+      <team id="75" league="3" name="DoncasterRovers" teamGroups="0;4"/>
+      <team id="76" league="3" name="HuddersfieldTown" teamGroups="0;4"/>
+      <team id="77" league="3" name="HullCity" teamGroups="0;4"/>
+      <team id="78" league="3" name="KidderminsterHarriers" teamGroups="0;4"/>
+      <team id="79" league="3" name="LeytonOrient" teamGroups="0;4"/>
+      <team id="80" league="3" name="LincolnCity" teamGroups="0;4"/>
+      <team id="81" league="3" name="MacclesfieldTown" teamGroups="0;4"/>
+      <team id="82" league="3" name="MansfieldTown" teamGroups="0;4"/>
+      <team id="83" league="3" name="NorthamptonTown" teamGroups="0;4"/>
+      <team id="84" league="3" name="OxfordUnited" teamGroups="0;4"/>
+      <team id="85" league="3" name="RochdaleAFC" teamGroups="0;4"/>
+      <team id="86" league="3" name="ScunthorpeUnited" teamGroups="0;4"/>
+      <team id="87" league="3" name="SouthendUnited" teamGroups="0;4"/>
+      <team id="88" league="3" name="SwanseaCity" teamGroups="0;4"/>
+      <team id="89" league="3" name="TorquayUnited" teamGroups="0;4"/>
+      <team id="90" league="3" name="YeovilTown" teamGroups="0;4"/>
+      <team id="91" league="3" name="YorkCity" teamGroups="0;4"/>
+    </Teams>
+    <SlotGroups>
+      <slotGroup id="0" name="All slots"/>
+    </SlotGroups>
+    <Slots>
+      <slot id="0" name="Boxing day" slotGroup="0"/>
+      <slot id="1" name="New Year's day" slotGroup="0"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints>
+      <BA1 penalty="0" type="SOFT"/>
+    </BasicConstraints>
+    <CapacityConstraints>
+      <CA1 max="2" min="2" mode="HA" penalty="1" slots="0;1" teamGroups="1" type="HARD"/>
+      <CA1 max="2" min="2" mode="HA" penalty="1" slots="0;1" teamGroups="2" type="HARD"/>
+      <CA1 max="2" min="2" mode="HA" penalty="1" slots="0;1" teamGroups="3" type="HARD"/>
+      <CA1 max="2" min="2" mode="HA" penalty="1" slots="0;1" teamGroups="4" type="HARD"/>
+      <CA2 max="1" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teamGroups1="1" teamGroups2="1" type="HARD"/>
+      <CA2 max="1" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teamGroups1="2" teamGroups2="2" type="HARD"/>
+      <CA2 max="1" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teamGroups1="3" teamGroups2="3" type="HARD"/>
+      <CA2 max="1" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teamGroups1="4" teamGroups2="4" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="2;10" teams2="2;10" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="2;10" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="3;24" teams2="3;24" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="3;24" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="20;63" teams2="20;63" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="20;63" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="67;16" teams2="67;16" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="67;16" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="65;51" teams2="65;51" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="65;51" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="45;69" teams2="45;69" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="45;69" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="70;85" teams2="70;85" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="70;85" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="48;71" teams2="48;71" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="48;71" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="40;88" teams2="40;88" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="40;88" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="27;7" teams2="27;7" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="27;7" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="4;19" teams2="4;19" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="4;19" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="25;66" teams2="25;66" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="25;66" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="81;35" teams2="81;35" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="81;35" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="36;23" teams2="36;23" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="36;23" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="61;77" teams2="61;77" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="61;77" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="14;60" teams2="14;60" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="14;60" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="79;32" teams2="79;32" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="79;32" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="80;86" teams2="80;86" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="80;86" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="46;31" teams2="46;31" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="46;31" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="6;0" teams2="6;0" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="6;0" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="18;42" teams2="18;42" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="18;42" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="47;39" teams2="47;39" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="47;39" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="84;38" teams2="84;38" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="84;38" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="50;37" teams2="50;37" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="50;37" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="0;15" teams2="0;15" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="0;15" type="SOFT"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="43;11;0" teams2="43;11;0" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="2" slots="0;1" teamGroups2="0" teams1="43;11;0" type="SOFT"/>
+      <CA4 max="2" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="43;11;0" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="8;76;21" teams2="8;76;21" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="2" slots="0;1" teamGroups2="0" teams1="8;76;21" type="SOFT"/>
+      <CA4 max="2" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="8;76;21" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="9;12;53" teams2="9;12;53" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="2" slots="0;1" teamGroups2="0" teams1="9;12;53" type="SOFT"/>
+      <CA4 max="2" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="9;12;53" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="57;82" teams2="57;82" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="2" slots="0;1" teamGroups2="0" teams1="57;82" type="SOFT"/>
+      <CA4 max="2" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="57;82" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="28;29;64" teams2="28;29;64" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="2" slots="0;1" teamGroups2="0" teams1="28;29;64" type="SOFT"/>
+      <CA4 max="2" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="28;29;64" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="13;22;34" teams2="13;22;34" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="2" slots="0;1" teamGroups2="0" teams1="13;22;34" type="SOFT"/>
+      <CA4 max="2" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="13;22;34" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="0;1" teams1="33;26;56;87" teams2="33;26;56;87" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="2" slots="0;1" teamGroups2="0" teams1="33;26;56;87" type="SOFT"/>
+      <CA4 max="2" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="33;26;56;87" type="HARD"/>
+      <CA4 max="6" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="27;79;4;36;7;19;65;2;32;23;10;51" type="HARD"/>
+      <CA4 max="3" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="4;7;19;2;10" type="HARD"/>
+      <CA4 max="4" min="0" mode1="H" mode2="EVERY" penalty="1" slots="0;1" teamGroups2="0" teams1="47;6;17;70;39;67;85;16" type="HARD"/>
+    </CapacityConstraints>
+    <GameConstraints/>
+    <BreakConstraints>
+      <BR2 intp="0" mode1="REGULAR" mode2="LEQ" penalty="1" teamGroups="0" type="HARD"/>
+    </BreakConstraints>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

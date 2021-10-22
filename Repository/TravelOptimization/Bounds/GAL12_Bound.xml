@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/GAL12.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Uthus, Riddle, Guesgen</Contributor>
+    <Date day="6" month="1" year="2010"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>7034</Objective>
+  </LowerBound>
+</Bound>

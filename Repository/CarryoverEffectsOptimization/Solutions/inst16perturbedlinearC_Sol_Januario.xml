@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>Repository/CarryoverEffectsOptimization/Solutions/inst16perturbedlinearC_Sol_Januario.xml</SolutionName>
+    <InstanceName>Repository/CarryoverEffectsOptimization/Instances/inst16perturbedlinearC.xml</InstanceName>
+    <Contributor>Januario, Urrutia</Contributor>
+    <Date year="2016"/>
+    <ObjectiveValue infeasibility="0" objective="962"/>
+    <Remarks>Januario, T. and Urrutia, S. A new neighborhood structure for round robin scheduling problems Comput. Oper. Res., 2016, 70, 127 - 139</Remarks>
+  </MetaData>
+
+  <Games/>
+
+</Solution>

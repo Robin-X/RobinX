@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/SoftConstraintOptimization/Instances/RRT_18_78.xml</InstanceName>
+    <BoundName>LB from excel file https://sites.google.com/site/schedulingsport/file-cabinet</BoundName>
+    <Contributor>Horbach, Bartsch, Briskorn</Contributor>
+    <Date year="2010"/>
+    <Remarks></Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>0</Objective>
+  </LowerBound>
+</Bound>

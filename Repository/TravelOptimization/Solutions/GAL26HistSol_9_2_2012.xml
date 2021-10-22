@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/GAL26HistSol_9_2_2012.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/GAL26.xml</InstanceName>
+        <Contributor>Goerigk and Westphal</Contributor>
+        <Date year="2012" month="2" day="9"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="58968"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

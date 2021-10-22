@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>GAL8_Uthus</SolutionName>
+    <InstanceName>./Repository/TravelOptimization/Instances/GAL8.xml</InstanceName>
+    <Contributor>Uthus, Riddle, Guesgen</Contributor>
+    <Date day="28" month="7" year="2009"/>
+    <ObjectiveValue infeasibility="0" objective="2373"/>
+    <Remarks>Solution retrieved from website Uthus.</Remarks>
+  </MetaData>
+
+  <Games>
+    <ScheduledMatch away="1" home="0" slot="3"/>
+    <ScheduledMatch away="0" home="1" slot="11"/>
+    <ScheduledMatch away="2" home="0" slot="10"/>
+    <ScheduledMatch away="0" home="2" slot="13"/>
+    <ScheduledMatch away="3" home="0" slot="8"/>
+    <ScheduledMatch away="0" home="3" slot="6"/>
+    <ScheduledMatch away="4" home="0" slot="9"/>
+    <ScheduledMatch away="0" home="4" slot="2"/>
+    <ScheduledMatch away="5" home="0" slot="12"/>
+    <ScheduledMatch away="0" home="5" slot="0"/>
+    <ScheduledMatch away="6" home="0" slot="5"/>
+    <ScheduledMatch away="0" home="6" slot="1"/>
+    <ScheduledMatch away="7" home="0" slot="4"/>
+    <ScheduledMatch away="0" home="7" slot="7"/>
+    <ScheduledMatch away="2" home="1" slot="0"/>
+    <ScheduledMatch away="1" home="2" slot="12"/>
+    <ScheduledMatch away="3" home="1" slot="10"/>
+    <ScheduledMatch away="1" home="3" slot="1"/>
+    <ScheduledMatch away="4" home="1" slot="4"/>
+    <ScheduledMatch away="1" home="4" slot="7"/>
+    <ScheduledMatch away="5" home="1" slot="13"/>
+    <ScheduledMatch away="1" home="5" slot="9"/>
+    <ScheduledMatch away="6" home="1" slot="6"/>
+    <ScheduledMatch away="1" home="6" slot="8"/>
+    <ScheduledMatch away="7" home="1" slot="5"/>
+    <ScheduledMatch away="1" home="7" slot="2"/>
+    <ScheduledMatch away="3" home="2" slot="9"/>
+    <ScheduledMatch away="2" home="3" slot="7"/>
+    <ScheduledMatch away="4" home="2" slot="8"/>
+    <ScheduledMatch away="2" home="4" slot="1"/>
+    <ScheduledMatch away="5" home="2" slot="11"/>
+    <ScheduledMatch away="2" home="5" slot="5"/>
+    <ScheduledMatch away="6" home="2" slot="4"/>
+    <ScheduledMatch away="2" home="6" slot="2"/>
+    <ScheduledMatch away="7" home="2" slot="3"/>
+    <ScheduledMatch away="2" home="7" slot="6"/>
+    <ScheduledMatch away="4" home="3" slot="11"/>
+    <ScheduledMatch away="3" home="4" slot="5"/>
+    <ScheduledMatch away="5" home="3" slot="2"/>
+    <ScheduledMatch away="3" home="5" slot="4"/>
+    <ScheduledMatch away="6" home="3" slot="12"/>
+    <ScheduledMatch away="3" home="6" slot="3"/>
+    <ScheduledMatch away="7" home="3" slot="13"/>
+    <ScheduledMatch away="3" home="7" slot="0"/>
+    <ScheduledMatch away="5" home="4" slot="6"/>
+    <ScheduledMatch away="4" home="5" slot="3"/>
+    <ScheduledMatch away="6" home="4" slot="0"/>
+    <ScheduledMatch away="4" home="6" slot="13"/>
+    <ScheduledMatch away="7" home="4" slot="10"/>
+    <ScheduledMatch away="4" home="7" slot="12"/>
+    <ScheduledMatch away="6" home="5" slot="10"/>
+    <ScheduledMatch away="5" home="6" slot="7"/>
+    <ScheduledMatch away="7" home="5" slot="8"/>
+    <ScheduledMatch away="5" home="7" slot="1"/>
+    <ScheduledMatch away="7" home="6" slot="9"/>
+    <ScheduledMatch away="6" home="7" slot="11"/>
+  </Games>
+
+</Solution>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/CON24HistSol_4_10_2005.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/CON24.xml</InstanceName>
+        <Contributor>Schaerf and Di Gaspero</Contributor>
+        <Date year="2005" month="10" day="4"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="757"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

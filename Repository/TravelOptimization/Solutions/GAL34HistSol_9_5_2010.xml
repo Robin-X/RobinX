@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/GAL34HistSol_9_5_2010.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/GAL34.xml</InstanceName>
+        <Contributor>Langford</Contributor>
+        <Date year="2010" month="5" day="9"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="153530"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

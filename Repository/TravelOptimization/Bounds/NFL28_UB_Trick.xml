@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/NFL28.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Goerigk, Hoshino, Kawarabayashi, and Westphal</Contributor>
+    <Date day="27" month="8" year="2013"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>598123</Objective>
+  </LowerBound>
+</Bound>

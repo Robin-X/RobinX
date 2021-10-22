@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/CIRC12.xml</InstanceName>
+        <Contributor>Trick</Contributor>
+        <Date year="2001" month="5" day="1"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>384</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

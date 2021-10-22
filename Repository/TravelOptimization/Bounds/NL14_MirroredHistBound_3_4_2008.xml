@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/NL14_Mirrored.xml</InstanceName>
+        <Contributor>Cheung</Contributor>
+        <Date year="2008" month="4" day="3"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>183631</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

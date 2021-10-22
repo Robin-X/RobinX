@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/NL8HistSol_27_1_2000.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/NL8.xml</InstanceName>
+        <Contributor>Easton</Contributor>
+        <Date year="2000" month="1" day="27"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="41113"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

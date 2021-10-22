@@ -1,0 +1,15 @@
+<Bound>
+	<MetaData>
+		<InstanceName>
+			./Repository/CostOptimization/Instances/MinCost8.xml
+		</InstanceName>
+		<BoundName/>
+		<Contributor>Trick</Contributor>
+		<Date day="-1" month="-1" year="2008"/>
+		<Remarks>Bound found with IP formulation.</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>499</Objective>
+	</LowerBound>
+</Bound>

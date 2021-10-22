@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/CON28.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Fujiwara, Imahori, Matsui, Miyashiro</Contributor>
+    <Date day="-1" month="-1" year="2007"/>
+    <Remarks>Constructive Algorithms for the Constant Distance Traveling Tournament Problem</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>1359</Objective>
+  </LowerBound>
+</Bound>

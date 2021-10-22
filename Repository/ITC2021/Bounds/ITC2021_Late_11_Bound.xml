@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+	<MetaData>
+		<InstanceName>ITC2021_Late_11.xml</InstanceName>
+		<BoundName/>
+		<Contributor>David Van Bulck</Contributor>
+		<Date day="15" month="4" year="2021"/>
+		<Remarks>Feasibility guarantee</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>0</Objective>
+	</LowerBound>
+</Bound>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>Principality5</InstanceName>
+    <DataType>R</DataType>
+    <Contributor>Lewis, Thompson</Contributor>
+    <Date day="0" month="0" year="0"/>
+    <Country>Wales</Country>
+    <Remarks/>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>2</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>SC</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="All teams"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0" teamGroups="0"/>
+      <team id="1" league="0" name="Team 1" teamGroups="0"/>
+      <team id="2" league="0" name="Team 2" teamGroups="0"/>
+      <team id="3" league="0" name="Team 3" teamGroups="0"/>
+      <team id="4" league="0" name="Team 4" teamGroups="0"/>
+      <team id="5" league="0" name="Team 5" teamGroups="0"/>
+      <team id="6" league="0" name="Team 6" teamGroups="0"/>
+      <team id="7" league="0" name="Team 7" teamGroups="0"/>
+      <team id="8" league="0" name="Team 8" teamGroups="0"/>
+      <team id="9" league="0" name="Team 9" teamGroups="0"/>
+      <team id="10" league="0" name="Team 10" teamGroups="0"/>
+      <team id="11" league="0" name="Team 11" teamGroups="0"/>
+      <team id="12" league="0" name="Team 12" teamGroups="0"/>
+      <team id="13" league="0" name="Team 13" teamGroups="0"/>
+    </Teams>
+    <SlotGroups>
+      <slotGroup id="0" name="All slots"/>
+      <slotGroup id="1" name="First half"/>
+      <slotGroup id="2" name="Second half"/>
+    </SlotGroups>
+    <Slots>
+      <slot id="0" name="Slot 0" slotGroup="0;1"/>
+      <slot id="1" name="Slot 1" slotGroup="0;1"/>
+      <slot id="2" name="Slot 2" slotGroup="0;1"/>
+      <slot id="3" name="Slot 3" slotGroup="0;1"/>
+      <slot id="4" name="Slot 4" slotGroup="0;1"/>
+      <slot id="5" name="Slot 5" slotGroup="0;1"/>
+      <slot id="6" name="Slot 6" slotGroup="0;1"/>
+      <slot id="7" name="Slot 7" slotGroup="0;1"/>
+      <slot id="8" name="Slot 8" slotGroup="0;1"/>
+      <slot id="9" name="Slot 9" slotGroup="0;1"/>
+      <slot id="10" name="Slot 10" slotGroup="0;1"/>
+      <slot id="11" name="Slot 11" slotGroup="0;1"/>
+      <slot id="12" name="Slot 12" slotGroup="0;1"/>
+      <slot id="13" name="Slot 13" slotGroup="0;2"/>
+      <slot id="14" name="Slot 14" slotGroup="0;2"/>
+      <slot id="15" name="Slot 15" slotGroup="0;2"/>
+      <slot id="16" name="Slot 16" slotGroup="0;2"/>
+      <slot id="17" name="Slot 17" slotGroup="0;2"/>
+      <slot id="18" name="Slot 18" slotGroup="0;2"/>
+      <slot id="19" name="Slot 19" slotGroup="0;2"/>
+      <slot id="20" name="Slot 20" slotGroup="0;2"/>
+      <slot id="21" name="Slot 21" slotGroup="0;2"/>
+      <slot id="22" name="Slot 22" slotGroup="0;2"/>
+      <slot id="23" name="Slot 23" slotGroup="0;2"/>
+      <slot id="24" name="Slot 24" slotGroup="0;2"/>
+      <slot id="25" name="Slot 25" slotGroup="0;2"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="23;1;25;7;14;22;0;3" teams="3" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="23;1;24;25;14;10;20;16;22;5" teams="8" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="24;25;7;20;16;22;0;5;3;13" teams="10" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slotGroups="0" teamGroups2="0" teams1="2;6" type="HARD"/>
+      <CA2 max="2" min="2" mode1="HA" mode2="GLOBAL" penalty="1" slots="22;12" teams1="9;0" teams2="9;0" type="HARD"/>
+      <CA2 max="2" min="2" mode1="HA" mode2="GLOBAL" penalty="1" slots="22;12" teams1="13;8" teams2="13;8" type="HARD"/>
+      <CA2 max="2" min="2" mode1="HA" mode2="GLOBAL" penalty="1" slots="22;12" teams1="3;1" teams2="3;1" type="HARD"/>
+      <CA2 max="2" min="2" mode1="HA" mode2="GLOBAL" penalty="1" slots="22;12" teams1="4;10" teams2="4;10" type="HARD"/>
+      <CA2 max="2" min="2" mode1="HA" mode2="GLOBAL" penalty="1" slots="22;12" teams1="2;12" teams2="2;12" type="HARD"/>
+      <CA2 max="2" min="2" mode1="HA" mode2="GLOBAL" penalty="1" slots="22;12" teams1="11;5" teams2="11;5" type="HARD"/>
+      <CA2 max="2" min="2" mode1="HA" mode2="GLOBAL" penalty="1" slots="22;12" teams1="6;7" teams2="6;7" type="HARD"/>
+      <CA2 max="1" min="1" mode1="HA" mode2="EVERY" penalty="1" slotGroups="1" teamGroups1="0" teamGroups2="0" type="SOFT"/>
+      <CA3 intp="3" max="2" min="0" mode1="H" mode2="GAMES" penalty="20" teamGroups1="0" teamGroups2="0" type="SOFT"/>
+      <CA3 intp="4" max="3" min="0" mode1="H" mode2="GAMES" penalty="0" teamGroups1="0" teamGroups2="0" type="SOFT"/>
+      <CA3 intp="5" max="4" min="0" mode1="H" mode2="GAMES" penalty="20" teamGroups1="0" teamGroups2="0" type="SOFT"/>
+      <CA3 intp="6" max="5" min="0" mode1="H" mode2="GAMES" penalty="40" teamGroups1="0" teamGroups2="0" type="SOFT"/>
+      <CA3 intp="7" max="6" min="0" mode1="H" mode2="GAMES" penalty="80" teamGroups1="0" teamGroups2="0" type="SOFT"/>
+      <CA3 intp="8" max="7" min="0" mode1="H" mode2="GAMES" penalty="160" teamGroups1="0" teamGroups2="0" type="SOFT"/>
+      <CA3 intp="9" max="8" min="0" mode1="H" mode2="GAMES" penalty="320" teamGroups1="0" teamGroups2="0" type="SOFT"/>
+      <CA3 intp="10" max="9" min="0" mode1="H" mode2="GAMES" penalty="1" teamGroups1="0" teamGroups2="0" type="HARD"/>
+    </CapacityConstraints>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints>
+      <SE1 max="26" min="5" penalty="10" teamGroups="0" type="SOFT"/>
+    </SeparationConstraints>
+  </Constraints>
+
+</Instance>

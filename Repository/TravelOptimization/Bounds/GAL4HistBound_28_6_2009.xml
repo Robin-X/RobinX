@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/GAL4.xml</InstanceName>
+        <Contributor>Uthus, Riddle, and Guesgen</Contributor>
+        <Date year="2009" month="6" day="28"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>416</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

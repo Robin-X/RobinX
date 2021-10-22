@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+    <MetaData>
+        <SolutionName>Early Instance 15 First Milestone</SolutionName>
+        <InstanceName>Early Instance 15</InstanceName>
+        <Contributor>First milestone prize</Contributor>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="3873"/>
+        <Remarks>First milestone submission</Remarks>
+    	<Date day="18" month="1" year="2021"/>
+    </MetaData>
+    <Games>
+    </Games>
+</Solution>

@@ -1,0 +1,15 @@
+<Bound>
+	<MetaData>
+		<InstanceName>
+			./Repository/CarryoverEffectsOptimization/Instances/CO6.xml
+		</InstanceName>
+		<BoundName/>
+		<Contributor>Trick</Contributor>
+		<Date year="2001"/>
+		<Remarks>Trick, M. A. Burke, E. and Erben, W. (Eds.) A Schedule-Then-Break Approach to Sports Timetabling Practice and Theory of Automated Timetabling III, Springer, 2001, 242-253.</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>60</Objective>
+	</LowerBound>
+</Bound>

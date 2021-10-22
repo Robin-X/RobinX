@@ -1,0 +1,5 @@
+# ignore the build map
+build/*
+
+# ignore swap files
+*.swp

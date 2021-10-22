@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/BRA24_MirroredHistSol_11_3_2005.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/BRA24_Mirrored.xml</InstanceName>
+        <Contributor>Urritia, Ribeiro and Araujo</Contributor>
+        <Date year="2005" month="3" day="11"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="503158"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

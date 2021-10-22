@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/CIRC8HistSol_1_6_2001.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/CIRC8.xml</InstanceName>
+        <Contributor>Rottembourg and Laburthe</Contributor>
+        <Date year="2001" month="6" day="1"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="148"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/NL16_K1.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Montero, Riff</Contributor>
+    <Date day="-1" month="-1" year="2015"/>
+    <Remarks>Schedule for K=1 also valid for K=2 and K=3. RAIS TTP Revisited to Solve Relaxed Travel Tournament Problem</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>249477</Objective>
+  </LowerBound>
+</Bound>

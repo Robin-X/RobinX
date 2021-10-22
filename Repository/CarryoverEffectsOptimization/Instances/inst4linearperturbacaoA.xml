@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>inst4linearperturbacaoA</InstanceName>
+    <DataType>A</DataType>
+    <Contributor>Guedes, Ribeiro</Contributor>
+    <Date year="2011"/>
+    <Remarks/>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>CO</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights>
+      <COEWeight team1="2" team2="2" weight="0"/>
+      <COEWeight team1="2" team2="3" weight="1"/>
+      <COEWeight team1="2" team2="0" weight="2"/>
+      <COEWeight team1="2" team2="1" weight="0"/>
+      <COEWeight team1="3" team2="2" weight="1"/>
+      <COEWeight team1="3" team2="3" weight="1"/>
+      <COEWeight team1="3" team2="0" weight="4"/>
+      <COEWeight team1="3" team2="1" weight="3"/>
+      <COEWeight team1="0" team2="2" weight="0"/>
+      <COEWeight team1="0" team2="3" weight="1"/>
+      <COEWeight team1="0" team2="0" weight="0"/>
+      <COEWeight team1="0" team2="1" weight="0"/>
+      <COEWeight team1="1" team2="2" weight="2"/>
+      <COEWeight team1="1" team2="3" weight="1"/>
+      <COEWeight team1="1" team2="0" weight="1"/>
+      <COEWeight team1="1" team2="1" weight="2"/>
+    </COEWeights>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups/>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0"/>
+      <team id="1" league="0" name="Team 1"/>
+      <team id="2" league="0" name="Team 2"/>
+      <team id="3" league="0" name="Team 3"/>
+    </Teams>
+    <SlotGroups/>
+    <Slots>
+      <slot id="0" name="Slot0"/>
+      <slot id="1" name="Slot1"/>
+      <slot id="2" name="Slot2"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints/>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

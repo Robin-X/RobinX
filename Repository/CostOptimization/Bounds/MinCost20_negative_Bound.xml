@@ -1,0 +1,15 @@
+<Bound>
+	<MetaData>
+		<InstanceName>
+			./Repository/CostOptimization/Instances/MinCost20_negative.xml
+		</InstanceName>
+		<BoundName/>
+		<Contributor>Trick</Contributor>
+		<Date day="12" month="10" year="2020"/>
+		<Remarks>Bound found with general IP formulation.</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>-68533</Objective>
+	</LowerBound>
+</Bound>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>TC_BM_12_228_Sol</SolutionName>
+        <InstanceName>TC_BM_12_228</InstanceName>
+        <Contributor>Elf, M.; Jünger, M.; Rinaldi, G.</Contributor>
+        <Date year="2003"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="18"/>
+        <Remarks>Computation time (s): 0.010000. Computation times are based on new computational experiments obtained from Elf et al. in 2020. See Elf, M.; Jünger, M. &amp; Rinaldi, G. Minimizing breaks by maximizing cuts Oper. Res. Lett., 2003, 31, 343 - 349</Remarks>
+    </MetaData>
+    <Games>
+        <ScheduledMatch home="3" away="0" slot="6"/>
+        <ScheduledMatch home="3" away="1" slot="2"/>
+        <ScheduledMatch home="2" away="3" slot="3"/>
+        <ScheduledMatch home="6" away="3" slot="5"/>
+        <ScheduledMatch home="3" away="10" slot="0"/>
+        <ScheduledMatch home="3" away="9" slot="7"/>
+        <ScheduledMatch home="3" away="8" slot="9"/>
+        <ScheduledMatch home="3" away="4" slot="4"/>
+        <ScheduledMatch home="7" away="3" slot="8"/>
+        <ScheduledMatch home="5" away="3" slot="1"/>
+        <ScheduledMatch home="11" away="3" slot="10"/>
+        <ScheduledMatch home="0" away="1" slot="7"/>
+        <ScheduledMatch home="0" away="2" slot="0"/>
+        <ScheduledMatch home="6" away="0" slot="10"/>
+        <ScheduledMatch home="10" away="0" slot="8"/>
+        <ScheduledMatch home="0" away="9" slot="5"/>
+        <ScheduledMatch home="8" away="0" slot="1"/>
+        <ScheduledMatch home="0" away="4" slot="2"/>
+        <ScheduledMatch home="7" away="0" slot="4"/>
+        <ScheduledMatch home="5" away="0" slot="3"/>
+        <ScheduledMatch home="0" away="11" slot="9"/>
+        <ScheduledMatch home="1" away="2" slot="6"/>
+        <ScheduledMatch home="1" away="6" slot="4"/>
+        <ScheduledMatch home="10" away="1" slot="9"/>
+        <ScheduledMatch home="1" away="9" slot="8"/>
+        <ScheduledMatch home="8" away="1" slot="5"/>
+        <ScheduledMatch home="4" away="1" slot="3"/>
+        <ScheduledMatch home="1" away="7" slot="1"/>
+        <ScheduledMatch home="1" away="5" slot="10"/>
+        <ScheduledMatch home="11" away="1" slot="0"/>
+        <ScheduledMatch home="2" away="6" slot="1"/>
+        <ScheduledMatch home="2" away="10" slot="7"/>
+        <ScheduledMatch home="9" away="2" slot="9"/>
+        <ScheduledMatch home="8" away="2" slot="8"/>
+        <ScheduledMatch home="2" away="4" slot="10"/>
+        <ScheduledMatch home="2" away="7" slot="5"/>
+        <ScheduledMatch home="5" away="2" slot="4"/>
+        <ScheduledMatch home="11" away="2" slot="2"/>
+        <ScheduledMatch home="6" away="10" slot="3"/>
+        <ScheduledMatch home="9" away="6" slot="2"/>
+        <ScheduledMatch home="6" away="8" slot="6"/>
+        <ScheduledMatch home="6" away="4" slot="8"/>
+        <ScheduledMatch home="6" away="7" slot="0"/>
+        <ScheduledMatch home="5" away="6" slot="9"/>
+        <ScheduledMatch home="11" away="6" slot="7"/>
+        <ScheduledMatch home="10" away="9" slot="1"/>
+        <ScheduledMatch home="10" away="8" slot="4"/>
+        <ScheduledMatch home="10" away="4" slot="6"/>
+        <ScheduledMatch home="7" away="10" slot="10"/>
+        <ScheduledMatch home="10" away="5" slot="2"/>
+        <ScheduledMatch home="11" away="10" slot="5"/>
+        <ScheduledMatch home="8" away="9" slot="10"/>
+        <ScheduledMatch home="9" away="4" slot="0"/>
+        <ScheduledMatch home="7" away="9" slot="3"/>
+        <ScheduledMatch home="9" away="5" slot="6"/>
+        <ScheduledMatch home="9" away="11" slot="4"/>
+        <ScheduledMatch home="4" away="8" slot="7"/>
+        <ScheduledMatch home="7" away="8" slot="2"/>
+        <ScheduledMatch home="8" away="5" slot="0"/>
+        <ScheduledMatch home="8" away="11" slot="3"/>
+        <ScheduledMatch home="4" away="7" slot="9"/>
+        <ScheduledMatch home="4" away="5" slot="5"/>
+        <ScheduledMatch home="4" away="11" slot="1"/>
+        <ScheduledMatch home="5" away="7" slot="7"/>
+        <ScheduledMatch home="7" away="11" slot="6"/>
+        <ScheduledMatch home="11" away="5" slot="8"/>
+    </Games>
+</Solution>

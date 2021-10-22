@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/CON12.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Schaerf and Di Gaspero</Contributor>
+    <Date day="30" month="3" year="2005"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>181</Objective>
+  </LowerBound>
+</Bound>

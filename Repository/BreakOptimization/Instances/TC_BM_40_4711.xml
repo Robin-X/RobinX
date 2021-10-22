@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Instance>
+    <MetaData>
+        <InstanceName>TC_BM_40_4711</InstanceName>
+        <DataType>A</DataType>
+        <Contributor>Elf, M.; Jünger, M.; Rinaldi, G.</Contributor>
+        <Date year="2003"/>
+        <Country>NULL</Country>
+        <Description>NULL</Description>
+        <Remarks>Original file name: sched-40-4711. Instances are part of MINLPLib, under the name of 'sporttournament'. See https://www.minlplib.org/sporttournament06.html.</Remarks>
+    </MetaData>
+    <Structure>
+        <Format leagueIds="0">
+            <numberRoundRobin>1</numberRoundRobin>
+            <compactness>C</compactness>
+            <gameMode>NULL</gameMode>
+        </Format>
+        <AdditionalGames/>
+    </Structure>
+    <ObjectiveFunction>
+        <Objective>BM</Objective>
+    </ObjectiveFunction>
+    <Data>
+        <Distances/>
+        <COEWeights/>
+        <Costs/>
+    </Data>
+    <Resources>
+        <LeagueGroups/>
+        <Leagues>
+            <league id="0" leagueGroups="" name="League 0"/>
+        </Leagues>
+        <TeamGroups/>
+        <Teams>
+            <team id="0" league="0" name="Team 0" teamGroups=""/>
+            <team id="1" league="0" name="Team 1" teamGroups=""/>
+            <team id="2" league="0" name="Team 2" teamGroups=""/>
+            <team id="3" league="0" name="Team 3" teamGroups=""/>
+            <team id="4" league="0" name="Team 4" teamGroups=""/>
+            <team id="5" league="0" name="Team 5" teamGroups=""/>
+            <team id="6" league="0" name="Team 6" teamGroups=""/>
+            <team id="7" league="0" name="Team 7" teamGroups=""/>
+            <team id="8" league="0" name="Team 8" teamGroups=""/>
+            <team id="9" league="0" name="Team 9" teamGroups=""/>
+            <team id="10" league="0" name="Team 10" teamGroups=""/>
+            <team id="11" league="0" name="Team 11" teamGroups=""/>
+            <team id="12" league="0" name="Team 12" teamGroups=""/>
+            <team id="13" league="0" name="Team 13" teamGroups=""/>
+            <team id="14" league="0" name="Team 14" teamGroups=""/>
+            <team id="15" league="0" name="Team 15" teamGroups=""/>
+            <team id="16" league="0" name="Team 16" teamGroups=""/>
+            <team id="17" league="0" name="Team 17" teamGroups=""/>
+            <team id="18" league="0" name="Team 18" teamGroups=""/>
+            <team id="19" league="0" name="Team 19" teamGroups=""/>
+            <team id="20" league="0" name="Team 20" teamGroups=""/>
+            <team id="21" league="0" name="Team 21" teamGroups=""/>
+            <team id="22" league="0" name="Team 22" teamGroups=""/>
+            <team id="23" league="0" name="Team 23" teamGroups=""/>
+            <team id="24" league="0" name="Team 24" teamGroups=""/>
+            <team id="25" league="0" name="Team 25" teamGroups=""/>
+            <team id="26" league="0" name="Team 26" teamGroups=""/>
+            <team id="27" league="0" name="Team 27" teamGroups=""/>
+            <team id="28" league="0" name="Team 28" teamGroups=""/>
+            <team id="29" league="0" name="Team 29" teamGroups=""/>
+            <team id="30" league="0" name="Team 30" teamGroups=""/>
+            <team id="31" league="0" name="Team 31" teamGroups=""/>
+            <team id="32" league="0" name="Team 32" teamGroups=""/>
+            <team id="33" league="0" name="Team 33" teamGroups=""/>
+            <team id="34" league="0" name="Team 34" teamGroups=""/>
+            <team id="35" league="0" name="Team 35" teamGroups=""/>
+            <team id="36" league="0" name="Team 36" teamGroups=""/>
+            <team id="37" league="0" name="Team 37" teamGroups=""/>
+            <team id="38" league="0" name="Team 38" teamGroups=""/>
+            <team id="39" league="0" name="Team 39" teamGroups=""/>
+        </Teams>
+        <SlotGroups/>
+        <Slots>
+            <slot id="0" name="Slot0" slotGroup=""/>
+            <slot id="1" name="Slot1" slotGroup=""/>
+            <slot id="2" name="Slot2" slotGroup=""/>
+            <slot id="3" name="Slot3" slotGroup=""/>
+            <slot id="4" name="Slot4" slotGroup=""/>
+            <slot id="5" name="Slot5" slotGroup=""/>
+            <slot id="6" name="Slot6" slotGroup=""/>
+            <slot id="7" name="Slot7" slotGroup=""/>
+            <slot id="8" name="Slot8" slotGroup=""/>
+            <slot id="9" name="Slot9" slotGroup=""/>
+            <slot id="10" name="Slot10" slotGroup=""/>
+            <slot id="11" name="Slot11" slotGroup=""/>
+            <slot id="12" name="Slot12" slotGroup=""/>
+            <slot id="13" name="Slot13" slotGroup=""/>
+            <slot id="14" name="Slot14" slotGroup=""/>
+            <slot id="15" name="Slot15" slotGroup=""/>
+            <slot id="16" name="Slot16" slotGroup=""/>
+            <slot id="17" name="Slot17" slotGroup=""/>
+            <slot id="18" name="Slot18" slotGroup=""/>
+            <slot id="19" name="Slot19" slotGroup=""/>
+            <slot id="20" name="Slot20" slotGroup=""/>
+            <slot id="21" name="Slot21" slotGroup=""/>
+            <slot id="22" name="Slot22" slotGroup=""/>
+            <slot id="23" name="Slot23" slotGroup=""/>
+            <slot id="24" name="Slot24" slotGroup=""/>
+            <slot id="25" name="Slot25" slotGroup=""/>
+            <slot id="26" name="Slot26" slotGroup=""/>
+            <slot id="27" name="Slot27" slotGroup=""/>
+            <slot id="28" name="Slot28" slotGroup=""/>
+            <slot id="29" name="Slot29" slotGroup=""/>
+            <slot id="30" name="Slot30" slotGroup=""/>
+            <slot id="31" name="Slot31" slotGroup=""/>
+            <slot id="32" name="Slot32" slotGroup=""/>
+            <slot id="33" name="Slot33" slotGroup=""/>
+            <slot id="34" name="Slot34" slotGroup=""/>
+            <slot id="35" name="Slot35" slotGroup=""/>
+            <slot id="36" name="Slot36" slotGroup=""/>
+            <slot id="37" name="Slot37" slotGroup=""/>
+            <slot id="38" name="Slot38" slotGroup=""/>
+        </Slots>
+    </Resources>
+    <Constraints>
+        <BasicConstraints/>
+        <CapacityConstraints/>
+        <GameConstraints>
+            <GA1 max="1" meetings="0,1;1,0;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="0,4;4,0;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="0,31;31,0;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="0,33;33,0;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="0,29;29,0;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="0,16;16,0;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="0,36;36,0;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="0,2;2,0;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="0,38;38,0;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="0,10;10,0;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="0,13;13,0;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="0,37;37,0;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="0,22;22,0;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="0,9;9,0;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="0,26;26,0;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="0,17;17,0;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="0,12;12,0;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="0,30;30,0;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="0,20;20,0;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="0,23;23,0;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="0,7;7,0;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="0,11;11,0;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="0,35;35,0;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="0,5;5,0;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="0,19;19,0;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="0,6;6,0;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="0,27;27,0;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="0,8;8,0;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="0,24;24,0;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="0,32;32,0;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="0,3;3,0;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="0,21;21,0;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="0,15;15,0;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="0,34;34,0;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="0,18;18,0;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="0,28;28,0;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="0,14;14,0;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="0,39;39,0;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="0,25;25,0;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="1,3;3,1;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="1,30;30,1;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="1,32;32,1;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="1,28;28,1;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="1,15;15,1;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="1,35;35,1;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="1,39;39,1;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="1,37;37,1;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="1,9;9,1;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="1,12;12,1;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="1,36;36,1;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="1,21;21,1;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="1,8;8,1;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="1,25;25,1;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="1,16;16,1;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="1,11;11,1;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="1,29;29,1;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="1,19;19,1;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="1,22;22,1;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="1,6;6,1;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="1,10;10,1;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="1,34;34,1;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="1,4;4,1;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="1,18;18,1;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="1,5;5,1;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="1,26;26,1;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="1,7;7,1;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="1,23;23,1;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="1,31;31,1;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="1,2;2,1;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="1,20;20,1;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="1,14;14,1;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="1,33;33,1;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="1,17;17,1;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="1,27;27,1;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="1,13;13,1;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="1,38;38,1;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="1,24;24,1;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="2,38;38,2;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="2,39;39,2;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="2,29;29,2;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="2,31;31,2;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="2,27;27,2;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="2,14;14,2;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="2,34;34,2;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="2,36;36,2;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="2,8;8,2;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="2,11;11,2;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="2,35;35,2;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="2,20;20,2;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="2,7;7,2;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="2,24;24,2;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="2,15;15,2;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="2,10;10,2;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="2,28;28,2;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="2,18;18,2;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="2,21;21,2;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="2,5;5,2;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="2,9;9,2;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="2,33;33,2;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="2,3;3,2;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="2,17;17,2;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="2,4;4,2;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="2,25;25,2;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="2,6;6,2;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="2,22;22,2;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="2,30;30,2;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="2,19;19,2;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="2,13;13,2;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="2,32;32,2;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="2,16;16,2;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="2,26;26,2;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="2,12;12,2;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="2,37;37,2;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="2,23;23,2;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="3,37;37,3;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="3,28;28,3;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="3,30;30,3;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="3,26;26,3;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="3,13;13,3;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="3,33;33,3;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="3,38;38,3;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="3,35;35,3;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="3,7;7,3;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="3,10;10,3;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="3,34;34,3;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="3,19;19,3;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="3,6;6,3;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="3,23;23,3;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="3,14;14,3;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="3,9;9,3;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="3,27;27,3;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="3,17;17,3;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="3,20;20,3;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="3,4;4,3;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="3,8;8,3;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="3,32;32,3;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="3,16;16,3;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="3,39;39,3;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="3,24;24,3;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="3,5;5,3;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="3,21;21,3;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="3,29;29,3;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="3,18;18,3;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="3,12;12,3;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="3,31;31,3;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="3,15;15,3;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="3,25;25,3;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="3,11;11,3;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="3,36;36,3;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="3,22;22,3;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="4,36;36,4;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="4,27;27,4;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="4,29;29,4;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="4,25;25,4;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="4,12;12,4;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="4,32;32,4;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="4,37;37,4;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="4,34;34,4;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="4,6;6,4;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="4,9;9,4;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="4,33;33,4;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="4,18;18,4;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="4,5;5,4;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="4,22;22,4;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="4,13;13,4;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="4,8;8,4;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="4,26;26,4;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="4,16;16,4;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="4,19;19,4;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="4,7;7,4;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="4,31;31,4;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="4,15;15,4;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="4,23;23,4;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="4,39;39,4;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="4,20;20,4;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="4,28;28,4;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="4,38;38,4;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="4,17;17,4;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="4,11;11,4;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="4,30;30,4;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="4,14;14,4;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="4,24;24,4;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="4,10;10,4;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="4,35;35,4;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="4,21;21,4;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="5,35;35,5;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="5,38;38,5;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="5,26;26,5;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="5,28;28,5;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="5,24;24,5;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="5,11;11,5;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="5,31;31,5;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="5,36;36,5;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="5,33;33,5;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="5,39;39,5;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="5,8;8,5;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="5,32;32,5;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="5,17;17,5;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="5,21;21,5;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="5,12;12,5;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="5,7;7,5;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="5,25;25,5;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="5,15;15,5;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="5,18;18,5;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="5,6;6,5;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="5,30;30,5;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="5,14;14,5;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="5,22;22,5;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="5,19;19,5;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="5,27;27,5;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="5,37;37,5;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="5,16;16,5;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="5,10;10,5;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="5,29;29,5;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="5,13;13,5;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="5,23;23,5;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="5,9;9,5;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="5,34;34,5;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="5,20;20,5;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="6,34;34,6;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="6,37;37,6;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="6,25;25,6;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="6,27;27,6;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="6,23;23,6;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="6,10;10,6;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="6,30;30,6;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="6,35;35,6;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="6,32;32,6;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="6,7;7,6;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="6,31;31,6;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="6,16;16,6;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="6,20;20,6;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="6,11;11,6;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="6,39;39,6;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="6,24;24,6;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="6,14;14,6;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="6,17;17,6;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="6,29;29,6;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="6,38;38,6;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="6,13;13,6;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="6,21;21,6;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="6,18;18,6;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="6,26;26,6;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="6,36;36,6;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="6,15;15,6;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="6,9;9,6;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="6,28;28,6;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="6,12;12,6;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="6,22;22,6;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="6,8;8,6;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="6,33;33,6;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="6,19;19,6;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="7,33;33,7;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="7,36;36,7;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="7,24;24,7;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="7,26;26,7;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="7,22;22,7;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="7,9;9,7;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="7,29;29,7;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="7,34;34,7;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="7,31;31,7;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="7,30;30,7;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="7,15;15,7;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="7,19;19,7;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="7,10;10,7;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="7,23;23,7;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="7,13;13,7;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="7,16;16,7;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="7,28;28,7;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="7,37;37,7;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="7,12;12,7;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="7,38;38,7;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="7,20;20,7;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="7,17;17,7;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="7,25;25,7;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="7,35;35,7;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="7,14;14,7;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="7,8;8,7;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="7,27;27,7;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="7,11;11,7;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="7,21;21,7;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="7,39;39,7;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="7,32;32,7;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="7,18;18,7;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="8,32;32,8;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="8,35;35,8;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="8,23;23,8;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="8,25;25,8;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="8,21;21,8;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="8,39;39,8;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="8,28;28,8;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="8,33;33,8;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="8,30;30,8;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="8,29;29,8;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="8,14;14,8;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="8,18;18,8;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="8,9;9,8;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="8,22;22,8;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="8,12;12,8;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="8,15;15,8;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="8,38;38,8;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="8,27;27,8;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="8,36;36,8;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="8,11;11,8;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="8,37;37,8;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="8,19;19,8;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="8,16;16,8;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="8,24;24,8;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="8,34;34,8;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="8,13;13,8;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="8,26;26,8;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="8,10;10,8;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="8,20;20,8;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="8,31;31,8;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="8,17;17,8;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="9,31;31,9;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="9,34;34,9;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="9,22;22,9;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="9,24;24,9;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="9,20;20,9;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="9,27;27,9;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="9,32;32,9;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="9,29;29,9;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="9,28;28,9;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="9,13;13,9;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="9,17;17,9;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="9,21;21,9;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="9,11;11,9;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="9,14;14,9;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="9,37;37,9;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="9,26;26,9;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="9,35;35,9;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="9,10;10,9;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="9,36;36,9;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="9,18;18,9;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="9,38;38,9;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="9,15;15,9;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="9,23;23,9;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="9,33;33,9;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="9,12;12,9;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="9,25;25,9;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="9,39;39,9;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="9,19;19,9;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="9,30;30,9;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="9,16;16,9;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="10,30;30,10;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="10,33;33,10;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="10,21;21,10;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="10,23;23,10;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="10,19;19,10;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="10,26;26,10;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="10,31;31,10;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="10,28;28,10;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="10,27;27,10;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="10,12;12,10;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="10,38;38,10;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="10,16;16,10;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="10,20;20,10;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="10,39;39,10;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="10,13;13,10;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="10,36;36,10;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="10,25;25,10;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="10,34;34,10;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="10,35;35,10;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="10,17;17,10;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="10,37;37,10;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="10,14;14,10;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="10,22;22,10;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="10,32;32,10;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="10,11;11,10;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="10,24;24,10;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="10,18;18,10;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="10,29;29,10;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="10,15;15,10;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="11,29;29,11;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="11,32;32,11;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="11,20;20,11;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="11,22;22,11;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="11,18;18,11;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="11,25;25,11;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="11,30;30,11;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="11,27;27,11;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="11,38;38,11;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="11,26;26,11;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="11,39;39,11;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="11,37;37,11;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="11,15;15,11;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="11,19;19,11;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="11,12;12,11;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="11,35;35,11;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="11,24;24,11;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="11,33;33,11;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="11,34;34,11;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="11,16;16,11;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="11,36;36,11;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="11,13;13,11;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="11,21;21,11;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="11,31;31,11;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="11,23;23,11;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="11,17;17,11;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="11,28;28,11;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="11,14;14,11;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="12,28;28,12;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="12,31;31,12;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="12,19;19,12;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="12,21;21,12;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="12,17;17,12;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="12,24;24,12;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="12,29;29,12;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="12,26;26,12;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="12,37;37,12;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="12,25;25,12;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="12,36;36,12;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="12,14;14,12;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="12,18;18,12;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="12,34;34,12;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="12,38;38,12;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="12,23;23,12;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="12,32;32,12;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="12,33;33,12;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="12,15;15,12;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="12,35;35,12;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="12,39;39,12;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="12,20;20,12;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="12,30;30,12;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="12,22;22,12;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="12,16;16,12;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="12,27;27,12;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="12,13;13,12;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="13,27;27,13;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="13,30;30,13;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="13,18;18,13;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="13,20;20,13;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="13,16;16,13;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="13,23;23,13;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="13,28;28,13;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="13,25;25,13;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="13,36;36,13;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="13,24;24,13;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="13,35;35,13;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="13,39;39,13;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="13,38;38,13;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="13,17;17,13;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="13,33;33,13;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="13,37;37,13;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="13,22;22,13;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="13,31;31,13;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="13,32;32,13;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="13,14;14,13;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="13,34;34,13;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="13,19;19,13;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="13,29;29,13;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="13,21;21,13;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="13,15;15,13;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="13,26;26,13;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="14,26;26,14;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="14,29;29,14;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="14,17;17,14;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="14,19;19,14;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="14,15;15,14;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="14,22;22,14;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="14,27;27,14;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="14,24;24,14;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="14,35;35,14;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="14,38;38,14;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="14,23;23,14;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="14,34;34,14;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="14,37;37,14;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="14,16;16,14;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="14,32;32,14;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="14,36;36,14;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="14,21;21,14;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="14,30;30,14;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="14,31;31,14;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="14,33;33,14;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="14,18;18,14;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="14,28;28,14;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="14,20;20,14;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="14,39;39,14;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="14,25;25,14;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="15,25;25,15;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="15,28;28,15;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="15,16;16,15;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="15,18;18,15;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="15,21;21,15;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="15,26;26,15;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="15,23;23,15;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="15,34;34,15;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="15,37;37,15;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="15,22;22,15;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="15,33;33,15;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="15,36;36,15;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="15,39;39,15;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="15,31;31,15;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="15,35;35,15;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="15,20;20,15;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="15,29;29,15;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="15,30;30,15;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="15,32;32,15;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="15,17;17,15;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="15,27;27,15;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="15,19;19,15;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="15,38;38,15;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="15,24;24,15;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="16,24;24,16;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="16,27;27,16;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="16,17;17,16;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="16,20;20,16;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="16,25;25,16;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="16,22;22,16;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="16,33;33,16;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="16,36;36,16;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="16,21;21,16;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="16,32;32,16;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="16,35;35,16;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="16,30;30,16;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="16,34;34,16;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="16,19;19,16;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="16,28;28,16;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="16,29;29,16;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="16,31;31,16;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="16,39;39,16;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="16,26;26,16;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="16,38;38,16;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="16,18;18,16;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="16,37;37,16;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="16,23;23,16;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="17,23;23,17;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="17,26;26,17;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="17,38;38,17;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="17,19;19,17;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="17,24;24,17;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="17,21;21,17;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="17,32;32,17;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="17,35;35,17;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="17,20;20,17;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="17,31;31,17;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="17,34;34,17;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="17,29;29,17;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="17,33;33,17;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="17,18;18,17;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="17,27;27,17;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="17,28;28,17;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="17,30;30,17;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="17,25;25,17;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="17,37;37,17;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="17,39;39,17;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="17,36;36,17;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="17,22;22,17;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="18,22;22,18;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="18,25;25,18;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="18,37;37,18;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="18,39;39,18;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="18,23;23,18;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="18,20;20,18;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="18,31;31,18;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="18,34;34,18;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="18,19;19,18;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+            <GA1 max="1" meetings="18,30;30,18;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="18,38;38,18;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="18,33;33,18;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="18,28;28,18;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="18,32;32,18;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="18,26;26,18;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="18,27;27,18;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="18,29;29,18;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="18,24;24,18;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="18,36;36,18;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="18,35;35,18;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="18,21;21,18;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="19,21;21,19;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="19,24;24,19;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="19,36;36,19;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="19,22;22,19;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="19,39;39,19;" min="1" penalty="1" slotGroups="" slots="8" type="HARD"/>
+            <GA1 max="1" meetings="19,30;30,19;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="19,33;33,19;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="19,29;29,19;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="19,37;37,19;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="19,32;32,19;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="19,27;27,19;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="19,31;31,19;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="19,25;25,19;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="19,26;26,19;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="19,28;28,19;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="19,23;23,19;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="19,35;35,19;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="19,38;38,19;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="19,34;34,19;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="19,20;20,19;" min="1" penalty="1" slotGroups="" slots="37" type="HARD"/>
+            <GA1 max="1" meetings="20,39;39,20;" min="1" penalty="1" slotGroups="" slots="0" type="HARD"/>
+            <GA1 max="1" meetings="20,23;23,20;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="20,35;35,20;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="20,21;21,20;" min="1" penalty="1" slotGroups="" slots="7" type="HARD"/>
+            <GA1 max="1" meetings="20,29;29,20;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="20,32;32,20;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="20,28;28,20;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="20,36;36,20;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="20,31;31,20;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="20,26;26,20;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="20,30;30,20;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="20,24;24,20;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="20,38;38,20;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="20,25;25,20;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="20,27;27,20;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="20,22;22,20;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="20,34;34,20;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="20,37;37,20;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="20,33;33,20;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="21,22;22,21;" min="1" penalty="1" slotGroups="" slots="1" type="HARD"/>
+            <GA1 max="1" meetings="21,34;34,21;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="21,28;28,21;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="21,31;31,21;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="21,27;27,21;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="21,35;35,21;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="21,30;30,21;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="21,38;38,21;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="21,25;25,21;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="21,29;29,21;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="21,23;23,21;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="21,37;37,21;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="21,24;24,21;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="21,26;26,21;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="21,39;39,21;" min="1" penalty="1" slotGroups="" slots="30" type="HARD"/>
+            <GA1 max="1" meetings="21,33;33,21;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="21,36;36,21;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="21,32;32,21;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="22,33;33,22;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="22,27;27,22;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="22,30;30,22;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="22,26;26,22;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="22,34;34,22;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="22,29;29,22;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="22,37;37,22;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="22,24;24,22;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="22,28;28,22;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="22,39;39,22;" min="1" penalty="1" slotGroups="" slots="23" type="HARD"/>
+            <GA1 max="1" meetings="22,36;36,22;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="22,23;23,22;" min="1" penalty="1" slotGroups="" slots="25" type="HARD"/>
+            <GA1 max="1" meetings="22,25;25,22;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="22,38;38,22;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="22,32;32,22;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="22,35;35,22;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="22,31;31,22;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="23,32;32,23;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="23,26;26,23;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="23,29;29,23;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="23,38;38,23;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="23,25;25,23;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="23,33;33,23;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="23,28;28,23;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="23,36;36,23;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="23,39;39,23;" min="1" penalty="1" slotGroups="" slots="20" type="HARD"/>
+            <GA1 max="1" meetings="23,27;27,23;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="23,35;35,23;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="23,24;24,23;" min="1" penalty="1" slotGroups="" slots="27" type="HARD"/>
+            <GA1 max="1" meetings="23,37;37,23;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="23,31;31,23;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="23,34;34,23;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="23,30;30,23;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="24,31;31,24;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="24,25;25,24;" min="1" penalty="1" slotGroups="" slots="9" type="HARD"/>
+            <GA1 max="1" meetings="24,28;28,24;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="24,37;37,24;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="24,39;39,24;" min="1" penalty="1" slotGroups="" slots="13" type="HARD"/>
+            <GA1 max="1" meetings="24,32;32,24;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="24,27;27,24;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="24,35;35,24;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="24,38;38,24;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="24,26;26,24;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="24,34;34,24;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="24,36;36,24;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="24,30;30,24;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="24,33;33,24;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="24,29;29,24;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="25,30;30,25;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="25,27;27,25;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="25,36;36,25;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="25,31;31,25;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="25,26;26,25;" min="1" penalty="1" slotGroups="" slots="16" type="HARD"/>
+            <GA1 max="1" meetings="25,34;34,25;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="25,37;37,25;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="25,39;39,25;" min="1" penalty="1" slotGroups="" slots="21" type="HARD"/>
+            <GA1 max="1" meetings="25,33;33,25;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="25,38;38,25;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="25,35;35,25;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="25,29;29,25;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="25,32;32,25;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="25,28;28,25;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="26,29;29,26;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="26,39;39,26;" min="1" penalty="1" slotGroups="" slots="10" type="HARD"/>
+            <GA1 max="1" meetings="26,35;35,26;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="26,30;30,26;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="26,33;33,26;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="26,36;36,26;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="26,32;32,26;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="26,37;37,26;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="26,34;34,26;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="26,28;28,26;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="26,31;31,26;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="26,27;27,26;" min="1" penalty="1" slotGroups="" slots="36" type="HARD"/>
+            <GA1 max="1" meetings="26,38;38,26;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="27,28;28,27;" min="1" penalty="1" slotGroups="" slots="5" type="HARD"/>
+            <GA1 max="1" meetings="27,34;34,27;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="27,38;38,27;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="27,29;29,27;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="27,32;32,27;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="27,35;35,27;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="27,31;31,27;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="27,36;36,27;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="27,33;33,27;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="27,39;39,27;" min="1" penalty="1" slotGroups="" slots="32" type="HARD"/>
+            <GA1 max="1" meetings="27,30;30,27;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="27,37;37,27;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="28,33;33,28;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="28,37;37,28;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="28,39;39,28;" min="1" penalty="1" slotGroups="" slots="15" type="HARD"/>
+            <GA1 max="1" meetings="28,31;31,28;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="28,34;34,28;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="28,30;30,28;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="28,38;38,28;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="28,35;35,28;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="28,32;32,28;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="28,29;29,28;" min="1" penalty="1" slotGroups="" slots="34" type="HARD"/>
+            <GA1 max="1" meetings="28,36;36,28;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="29,32;32,29;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="29,36;36,29;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="29,30;30,29;" min="1" penalty="1" slotGroups="" slots="18" type="HARD"/>
+            <GA1 max="1" meetings="29,33;33,29;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="29,39;39,29;" min="1" penalty="1" slotGroups="" slots="24" type="HARD"/>
+            <GA1 max="1" meetings="29,37;37,29;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="29,34;34,29;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="29,31;31,29;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="29,38;38,29;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="29,35;35,29;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="30,38;38,30;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="30,31;31,30;" min="1" penalty="1" slotGroups="" slots="12" type="HARD"/>
+            <GA1 max="1" meetings="30,35;35,30;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="30,32;32,30;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="30,36;36,30;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="30,33;33,30;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="30,39;39,30;" min="1" penalty="1" slotGroups="" slots="31" type="HARD"/>
+            <GA1 max="1" meetings="30,37;37,30;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="30,34;34,30;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="31,37;37,31;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="31,34;34,31;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="31,38;38,31;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="31,39;39,31;" min="1" penalty="1" slotGroups="" slots="19" type="HARD"/>
+            <GA1 max="1" meetings="31,35;35,31;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="31,32;32,31;" min="1" penalty="1" slotGroups="" slots="28" type="HARD"/>
+            <GA1 max="1" meetings="31,36;36,31;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="31,33;33,31;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="32,38;38,32;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="32,36;36,32;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="32,33;33,32;" min="1" penalty="1" slotGroups="" slots="14" type="HARD"/>
+            <GA1 max="1" meetings="32,37;37,32;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="32,34;34,32;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="32,35;35,32;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="32,39;39,32;" min="1" penalty="1" slotGroups="" slots="38" type="HARD"/>
+            <GA1 max="1" meetings="33,37;37,33;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="33,35;35,33;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="33,36;36,33;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="33,39;39,33;" min="1" penalty="1" slotGroups="" slots="26" type="HARD"/>
+            <GA1 max="1" meetings="33,38;38,33;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="33,34;34,33;" min="1" penalty="1" slotGroups="" slots="35" type="HARD"/>
+            <GA1 max="1" meetings="34,36;36,34;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="34,38;38,34;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="34,39;39,34;" min="1" penalty="1" slotGroups="" slots="4" type="HARD"/>
+            <GA1 max="1" meetings="34,35;35,34;" min="1" penalty="1" slotGroups="" slots="17" type="HARD"/>
+            <GA1 max="1" meetings="34,37;37,34;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="35,39;39,35;" min="1" penalty="1" slotGroups="" slots="2" type="HARD"/>
+            <GA1 max="1" meetings="35,37;37,35;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="35,36;36,35;" min="1" penalty="1" slotGroups="" slots="29" type="HARD"/>
+            <GA1 max="1" meetings="35,38;38,35;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="36,39;39,36;" min="1" penalty="1" slotGroups="" slots="3" type="HARD"/>
+            <GA1 max="1" meetings="36,38;38,36;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="36,37;37,36;" min="1" penalty="1" slotGroups="" slots="33" type="HARD"/>
+            <GA1 max="1" meetings="37,38;38,37;" min="1" penalty="1" slotGroups="" slots="6" type="HARD"/>
+            <GA1 max="1" meetings="37,39;39,37;" min="1" penalty="1" slotGroups="" slots="22" type="HARD"/>
+            <GA1 max="1" meetings="38,39;39,38;" min="1" penalty="1" slotGroups="" slots="11" type="HARD"/>
+        </GameConstraints>
+        <BreakConstraints/>
+        <FairnessConstraints/>
+        <SeparationConstraints/>
+    </Constraints>
+</Instance>

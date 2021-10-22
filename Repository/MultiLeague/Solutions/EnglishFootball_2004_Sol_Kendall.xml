@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>EnglishFootball_2004_Sol_Kendall</SolutionName>
+    <InstanceName>EnglishFootball_2004</InstanceName>
+    <Contributor>Kendall</Contributor>
+    <Date year="2008"/>
+    <ObjectiveValue infeasibility="-1" objective="-1"/>
+    <Remarks>Converted by David Van Bulck.</Remarks>
+  </MetaData>
+
+  <Games>
+    <ScheduledMatch away="0" home="5" slot="0"/>
+    <ScheduledMatch away="8" home="0" slot="1"/>
+    <ScheduledMatch away="2" home="1" slot="1"/>
+    <ScheduledMatch away="1" home="9" slot="0"/>
+    <ScheduledMatch away="17" home="2" slot="0"/>
+    <ScheduledMatch away="12" home="3" slot="1"/>
+    <ScheduledMatch away="3" home="19" slot="0"/>
+    <ScheduledMatch away="4" home="8" slot="0"/>
+    <ScheduledMatch away="11" home="4" slot="1"/>
+    <ScheduledMatch away="5" home="6" slot="1"/>
+    <ScheduledMatch away="6" home="15" slot="0"/>
+    <ScheduledMatch away="7" home="16" slot="0"/>
+    <ScheduledMatch away="19" home="7" slot="1"/>
+    <ScheduledMatch away="9" home="10" slot="1"/>
+    <ScheduledMatch away="10" home="12" slot="0"/>
+    <ScheduledMatch away="13" home="11" slot="0"/>
+    <ScheduledMatch away="18" home="13" slot="1"/>
+    <ScheduledMatch away="15" home="14" slot="1"/>
+    <ScheduledMatch away="14" home="18" slot="0"/>
+    <ScheduledMatch away="16" home="17" slot="1"/>
+    <ScheduledMatch away="28" home="26" slot="0"/>
+    <ScheduledMatch away="26" home="43" slot="1"/>
+    <ScheduledMatch away="27" home="31" slot="0"/>
+    <ScheduledMatch away="42" home="27" slot="1"/>
+    <ScheduledMatch away="34" home="28" slot="1"/>
+    <ScheduledMatch away="29" home="20" slot="1"/>
+    <ScheduledMatch away="21" home="29" slot="0"/>
+    <ScheduledMatch away="33" home="30" slot="0"/>
+    <ScheduledMatch away="30" home="40" slot="1"/>
+    <ScheduledMatch away="31" home="35" slot="1"/>
+    <ScheduledMatch away="41" home="32" slot="1"/>
+    <ScheduledMatch away="32" home="23" slot="0"/>
+    <ScheduledMatch away="23" home="33" slot="1"/>
+    <ScheduledMatch away="36" home="34" slot="0"/>
+    <ScheduledMatch away="35" home="37" slot="0"/>
+    <ScheduledMatch away="22" home="36" slot="1"/>
+    <ScheduledMatch away="37" home="24" slot="1"/>
+    <ScheduledMatch away="38" home="39" slot="1"/>
+    <ScheduledMatch away="24" home="38" slot="0"/>
+    <ScheduledMatch away="39" home="22" slot="0"/>
+    <ScheduledMatch away="40" home="25" slot="0"/>
+    <ScheduledMatch away="43" home="41" slot="0"/>
+    <ScheduledMatch away="20" home="42" slot="0"/>
+    <ScheduledMatch away="25" home="21" slot="1"/>
+    <ScheduledMatch away="51" home="44" slot="1"/>
+    <ScheduledMatch away="44" home="53" slot="0"/>
+    <ScheduledMatch away="49" home="45" slot="0"/>
+    <ScheduledMatch away="45" home="50" slot="1"/>
+    <ScheduledMatch away="50" home="46" slot="0"/>
+    <ScheduledMatch away="46" home="54" slot="1"/>
+    <ScheduledMatch away="61" home="47" slot="0"/>
+    <ScheduledMatch away="47" home="62" slot="1"/>
+    <ScheduledMatch away="48" home="58" slot="0"/>
+    <ScheduledMatch away="65" home="48" slot="1"/>
+    <ScheduledMatch away="52" home="49" slot="1"/>
+    <ScheduledMatch away="67" home="51" slot="0"/>
+    <ScheduledMatch away="54" home="52" slot="0"/>
+    <ScheduledMatch away="53" home="56" slot="1"/>
+    <ScheduledMatch away="58" home="55" slot="1"/>
+    <ScheduledMatch away="55" home="59" slot="0"/>
+    <ScheduledMatch away="56" home="57" slot="0"/>
+    <ScheduledMatch away="57" home="60" slot="1"/>
+    <ScheduledMatch away="59" home="66" slot="1"/>
+    <ScheduledMatch away="60" home="64" slot="0"/>
+    <ScheduledMatch away="63" home="61" slot="1"/>
+    <ScheduledMatch away="62" home="63" slot="0"/>
+    <ScheduledMatch away="64" home="67" slot="1"/>
+    <ScheduledMatch away="66" home="65" slot="0"/>
+    <ScheduledMatch away="88" home="68" slot="0"/>
+    <ScheduledMatch away="68" home="91" slot="1"/>
+    <ScheduledMatch away="76" home="69" slot="0"/>
+    <ScheduledMatch away="69" home="88" slot="1"/>
+    <ScheduledMatch away="70" home="75" slot="1"/>
+    <ScheduledMatch away="87" home="70" slot="0"/>
+    <ScheduledMatch away="71" home="84" slot="0"/>
+    <ScheduledMatch away="86" home="71" slot="1"/>
+    <ScheduledMatch away="72" home="90" slot="1"/>
+    <ScheduledMatch away="91" home="72" slot="0"/>
+    <ScheduledMatch away="73" home="89" slot="1"/>
+    <ScheduledMatch away="90" home="73" slot="0"/>
+    <ScheduledMatch away="74" home="77" slot="1"/>
+    <ScheduledMatch away="80" home="74" slot="0"/>
+    <ScheduledMatch away="75" home="85" slot="0"/>
+    <ScheduledMatch away="84" home="76" slot="1"/>
+    <ScheduledMatch away="77" home="79" slot="0"/>
+    <ScheduledMatch away="81" home="78" slot="1"/>
+    <ScheduledMatch away="78" home="86" slot="0"/>
+    <ScheduledMatch away="79" home="80" slot="1"/>
+    <ScheduledMatch away="89" home="81" slot="0"/>
+    <ScheduledMatch away="83" home="82" slot="0"/>
+    <ScheduledMatch away="82" home="87" slot="1"/>
+    <ScheduledMatch away="85" home="83" slot="1"/>
+  </Games>
+
+</Solution>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/SUP12HistSol_30_3_2009.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/SUP12.xml</InstanceName>
+        <Contributor>Misir, Wauters, Verbeeck, Vanden Berghe</Contributor>
+        <Date year="2009" month="3" day="30"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="467267"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

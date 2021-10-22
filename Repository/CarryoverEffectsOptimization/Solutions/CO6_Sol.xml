@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>CO_SOL6</SolutionName>
+    <InstanceName>./Repository/CarryoverEffectsOptimization/Instances/CO6.xml</InstanceName>
+    <Contributor>Rusell</Contributor>
+    <Date year="1980"/>
+    <SolutionMethod>H</SolutionMethod>
+    <ObjectiveValue infeasibility="0" objective="60"/>
+    <Remarks>Russell, K. G. Balancing carry-over effects in round robin tournaments Biometrika, Oxford University Press, 1980, 67, 127-131</Remarks>
+  </MetaData>
+
+  <Games>
+    <ScheduledMatch away="1" home="0" slot="3"/>
+    <ScheduledMatch away="2" home="0" slot="1"/>
+    <ScheduledMatch away="3" home="0" slot="4"/>
+    <ScheduledMatch away="4" home="0" slot="2"/>
+    <ScheduledMatch away="5" home="0" slot="0"/>
+    <ScheduledMatch away="2" home="1" slot="4"/>
+    <ScheduledMatch away="3" home="1" slot="2"/>
+    <ScheduledMatch away="4" home="1" slot="0"/>
+    <ScheduledMatch away="5" home="1" slot="1"/>
+    <ScheduledMatch away="3" home="2" slot="0"/>
+    <ScheduledMatch away="4" home="2" slot="3"/>
+    <ScheduledMatch away="5" home="2" slot="2"/>
+    <ScheduledMatch away="4" home="3" slot="1"/>
+    <ScheduledMatch away="5" home="3" slot="3"/>
+    <ScheduledMatch away="5" home="4" slot="4"/>
+  </Games>
+
+</Solution>

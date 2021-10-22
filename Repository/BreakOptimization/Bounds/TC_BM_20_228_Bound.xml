@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>TC_BM_20_228</InstanceName>
+        <Contributor>Elf, M.; Jünger, M.; Rinaldi, G.</Contributor>
+        <Date year="2003"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>52</Objective>
+        </LowerBound>
+        <Remarks>Optimality proof from exact approach.</Remarks>
+    </MetaData>
+</Bound>

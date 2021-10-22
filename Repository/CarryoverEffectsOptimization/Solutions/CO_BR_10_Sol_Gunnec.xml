@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>Repository/CarryoverEffectsOptimization/Solutions/CO_BR_10_Sol_Gunnec.xml</SolutionName>
+    <InstanceName>Repository/CarryoverEffectsOptimization/Instances/CO_BR_10.xml</InstanceName>
+    <Contributor>Gunnec, Demir</Contributor>
+    <Date year="2018"/>
+    <ObjectiveValue infeasibility="0" objective="768"/>
+    <Remarks/>
+  </MetaData>
+
+  <Games/>
+</Solution>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/CON22_Mirrored.xml</InstanceName>
+        <Contributor>Rasmussen and Trick</Contributor>
+        <Date year="2005" month="6" day="20"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>650</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

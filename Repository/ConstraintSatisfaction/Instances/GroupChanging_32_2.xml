@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>GroupChanging_32_2</InstanceName>
+    <DataType>A</DataType>
+    <Contributor>Briskorn</Contributor>
+    <Date year="2009"/>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+        <Objective>NONE</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="Group 0"/>
+      <teamGroup id="1" name="Group 1"/>
+      <teamGroup id="2" name="All teams"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0" teamGroups="0"/>
+      <team id="1" league="0" name="Team 1" teamGroups="0"/>
+      <team id="2" league="0" name="Team 2" teamGroups="0"/>
+      <team id="3" league="0" name="Team 3" teamGroups="0"/>
+      <team id="4" league="0" name="Team 4" teamGroups="0"/>
+      <team id="5" league="0" name="Team 5" teamGroups="0"/>
+      <team id="6" league="0" name="Team 6" teamGroups="0"/>
+      <team id="7" league="0" name="Team 7" teamGroups="0"/>
+      <team id="8" league="0" name="Team 8" teamGroups="0"/>
+      <team id="9" league="0" name="Team 9" teamGroups="0"/>
+      <team id="10" league="0" name="Team 10" teamGroups="0"/>
+      <team id="11" league="0" name="Team 11" teamGroups="0"/>
+      <team id="12" league="0" name="Team 12" teamGroups="0"/>
+      <team id="13" league="0" name="Team 13" teamGroups="0"/>
+      <team id="14" league="0" name="Team 14" teamGroups="0"/>
+      <team id="15" league="0" name="Team 15" teamGroups="0"/>
+      <team id="16" league="0" name="Team 16" teamGroups="1"/>
+      <team id="17" league="0" name="Team 17" teamGroups="1"/>
+      <team id="18" league="0" name="Team 18" teamGroups="1"/>
+      <team id="19" league="0" name="Team 19" teamGroups="1"/>
+      <team id="20" league="0" name="Team 20" teamGroups="1"/>
+      <team id="21" league="0" name="Team 21" teamGroups="1"/>
+      <team id="22" league="0" name="Team 22" teamGroups="1"/>
+      <team id="23" league="0" name="Team 23" teamGroups="1"/>
+      <team id="24" league="0" name="Team 24" teamGroups="1"/>
+      <team id="25" league="0" name="Team 25" teamGroups="1"/>
+      <team id="26" league="0" name="Team 26" teamGroups="1"/>
+      <team id="27" league="0" name="Team 27" teamGroups="1"/>
+      <team id="28" league="0" name="Team 28" teamGroups="1"/>
+      <team id="29" league="0" name="Team 29" teamGroups="1"/>
+      <team id="30" league="0" name="Team 30" teamGroups="1"/>
+      <team id="31" league="0" name="Team 31" teamGroups="1"/>
+    </Teams>
+    <SlotGroups/>
+    <Slots>
+      <slot id="0" name="Slot 0"/>
+      <slot id="1" name="Slot 1"/>
+      <slot id="2" name="Slot 2"/>
+      <slot id="3" name="Slot 3"/>
+      <slot id="4" name="Slot 4"/>
+      <slot id="5" name="Slot 5"/>
+      <slot id="6" name="Slot 6"/>
+      <slot id="7" name="Slot 7"/>
+      <slot id="8" name="Slot 8"/>
+      <slot id="9" name="Slot 9"/>
+      <slot id="10" name="Slot 10"/>
+      <slot id="11" name="Slot 11"/>
+      <slot id="12" name="Slot 12"/>
+      <slot id="13" name="Slot 13"/>
+      <slot id="14" name="Slot 14"/>
+      <slot id="15" name="Slot 15"/>
+      <slot id="16" name="Slot 16"/>
+      <slot id="17" name="Slot 17"/>
+      <slot id="18" name="Slot 18"/>
+      <slot id="19" name="Slot 19"/>
+      <slot id="20" name="Slot 20"/>
+      <slot id="21" name="Slot 21"/>
+      <slot id="22" name="Slot 22"/>
+      <slot id="23" name="Slot 23"/>
+      <slot id="24" name="Slot 24"/>
+      <slot id="25" name="Slot 25"/>
+      <slot id="26" name="Slot 26"/>
+      <slot id="27" name="Slot 27"/>
+      <slot id="28" name="Slot 28"/>
+      <slot id="29" name="Slot 29"/>
+      <slot id="30" name="Slot 30"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints>
+      <CA3 intp="2" max="1" min="0" mode1="HA" mode2="GAMES" penalty="1" teamGroups1="2" teamGroups2="0" type="HARD"/>
+      <CA3 intp="2" max="1" min="0" mode1="HA" mode2="GAMES" penalty="1" teamGroups1="2" teamGroups2="1" type="HARD"/>
+    </CapacityConstraints>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

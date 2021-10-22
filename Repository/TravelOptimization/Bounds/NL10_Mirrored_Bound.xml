@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/NL10_Mirrored.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Cheung</Contributor>
+    <Date day="3" month="4" year="2008"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>58769</Objective>
+  </LowerBound>
+</Bound>

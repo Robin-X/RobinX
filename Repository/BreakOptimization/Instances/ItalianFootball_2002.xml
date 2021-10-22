@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>ItalianFootball_2002</InstanceName>
+    <DataType>R</DataType>
+    <Contributor>Della Croce, Oliveri</Contributor>
+    <Date year="2002"/>
+    <Country>Italy</Country>
+    <Remarks>Official name of league: Serie A. Created by David Van Bulck, based on Della Croce, Oliveri.</Remarks>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>2</numberRoundRobin>
+      <compactness>C</compactness>
+      <gameMode>M</gameMode>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>BM</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="Broadcaster 1"/>
+      <teamGroup id="1" name="Broadcaster 2"/>
+      <teamGroup id="2" name="Seeded teams"/>
+      <teamGroup id="3" name="All teams"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Juventus" teamGroups="0;2"/>
+      <team id="1" league="0" name="Internazionale" teamGroups="0;2"/>
+      <team id="2" league="0" name="Milan" teamGroups="0;2"/>
+      <team id="3" league="0" name="Lazio" teamGroups="1"/>
+      <team id="4" league="0" name="Parma" teamGroups="1"/>
+      <team id="5" league="0" name="Udinese" teamGroups="1"/>
+      <team id="6" league="0" name="Chievo" teamGroups="1"/>
+      <team id="7" league="0" name="Roma" teamGroups="1;2"/>
+      <team id="8" league="0" name="Brescia" teamGroups="1"/>
+      <team id="9" league="0" name="Perugia" teamGroups="0"/>
+      <team id="10" league="0" name="Bologna" teamGroups="1"/>
+      <team id="11" league="0" name="Modena" teamGroups="1"/>
+      <team id="12" league="0" name="Empoli" teamGroups="1"/>
+      <team id="13" league="0" name="Reggina" teamGroups="0"/>
+      <team id="14" league="0" name="Atalanta" teamGroups="0"/>
+      <team id="15" league="0" name="Piacenza" teamGroups="0"/>
+      <team id="16" league="0" name="Como" teamGroups="0"/>
+      <team id="17" league="0" name="Torino" teamGroups="0"/>
+    </Teams>
+    <SlotGroups>
+      <slotGroup id="0" name="All slots"/>
+    </SlotGroups>
+    <Slots>
+      <slot id="0" name="Slot0" slotGroup="0"/>
+      <slot id="1" name="Slot1" slotGroup="0"/>
+      <slot id="2" name="Slot2" slotGroup="0"/>
+      <slot id="3" name="Slot3" slotGroup="0"/>
+      <slot id="4" name="Slot4" slotGroup="0"/>
+      <slot id="5" name="Slot5" slotGroup="0"/>
+      <slot id="6" name="Slot6" slotGroup="0"/>
+      <slot id="7" name="Slot7" slotGroup="0"/>
+      <slot id="8" name="Slot8" slotGroup="0"/>
+      <slot id="9" name="Slot9" slotGroup="0"/>
+      <slot id="10" name="Slot10" slotGroup="0"/>
+      <slot id="11" name="Slot11" slotGroup="0"/>
+      <slot id="12" name="Slot12" slotGroup="0"/>
+      <slot id="13" name="Slot13" slotGroup="0"/>
+      <slot id="14" name="Slot14" slotGroup="0"/>
+      <slot id="15" name="Slot15" slotGroup="0"/>
+      <slot id="16" name="Slot16" slotGroup="0"/>
+      <slot id="17" name="Slot17" slotGroup="0"/>
+      <slot id="18" name="Slot18" slotGroup="0"/>
+      <slot id="19" name="Slot19" slotGroup="0"/>
+      <slot id="20" name="Slot20" slotGroup="0"/>
+      <slot id="21" name="Slot21" slotGroup="0"/>
+      <slot id="22" name="Slot22" slotGroup="0"/>
+      <slot id="23" name="Slot23" slotGroup="0"/>
+      <slot id="24" name="Slot24" slotGroup="0"/>
+      <slot id="25" name="Slot25" slotGroup="0"/>
+      <slot id="26" name="Slot26" slotGroup="0"/>
+      <slot id="27" name="Slot27" slotGroup="0"/>
+      <slot id="28" name="Slot28" slotGroup="0"/>
+      <slot id="29" name="Slot29" slotGroup="0"/>
+      <slot id="30" name="Slot30" slotGroup="0"/>
+      <slot id="31" name="Slot31" slotGroup="0"/>
+      <slot id="32" name="Slot32" slotGroup="0"/>
+      <slot id="33" name="Slot33" slotGroup="0"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slotGroups="0" teamGroups2="3" teams1="1;2" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="3;2;1;0;30;31;32;33" teams1="1;2" teams2="1;2" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slotGroups="0" teamGroups2="3" teams1="3;7" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="3;2;1;0;30;31;32;33" teams1="3;7" teams2="3;7" type="HARD"/>
+      <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slotGroups="0" teamGroups2="3" teams1="0;17" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="3;2;1;0;30;31;32;33" teams1="0;17" teams2="0;17" type="HARD"/>
+      <CA2 max="0" min="0" mode1="HA" mode2="EVERY" penalty="1" slots="2;1;0;31;32;33" teamGroups1="2" teamGroups2="2" type="HARD"/>
+      <CA3 intp="3" max="2" min="0" mode1="H" mode2="GAMES" penalty="1" teamGroups1="3" teamGroups2="0" type="HARD"/>
+      <CA3 intp="3" max="2" min="0" mode1="A" mode2="GAMES" penalty="1" teamGroups1="3" teamGroups2="0" type="HARD"/>
+      <CA4 max="9" min="0" mode1="H" mode2="EVERY" penalty="1" slotGroups="0" teamGroups1="1" teamGroups2="0" type="HARD"/>
+      <CA4 max="4" min="0" mode1="H" mode2="EVERY" penalty="1" slotGroups="0" teamGroups1="2" teamGroups2="0" type="HARD"/>
+    </CapacityConstraints>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

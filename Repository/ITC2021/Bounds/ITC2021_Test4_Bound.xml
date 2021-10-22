@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+	<MetaData>
+		<InstanceName>./Repository/ITC2021/Instances/ITC2021_Test4.xml</InstanceName>
+		<BoundName/>
+		<Contributor>David Van Bulck</Contributor>
+		<Date day="20" month="10" year="2020"/>
+		<Remarks>Bound from IP model</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>4535</Objective>
+	</LowerBound>
+</Bound>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/NL6.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Easton, Nemhauser, Trick</Contributor>
+    <Date day="27" month="9" year="1999"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>23916</Objective>
+  </LowerBound>
+</Bound>

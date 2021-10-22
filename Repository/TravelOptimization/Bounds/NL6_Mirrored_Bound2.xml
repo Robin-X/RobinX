@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/NL6_Mirrored.xml</InstanceName>
+        <Contributor>Cheung</Contributor>
+        <Date year="2008" month="-1" day="-1"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>26588</Objective>
+        </LowerBound>
+		<Remarks>Cheung, K. Solving mirrored traveling tournament problem benchmark instances with eight teams Discrete Optimization, 2008, 5, 138-143</Remarks>
+    </MetaData>
+</Bound>

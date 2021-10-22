@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/CON34.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Fujiwara, Imahori, Matsui, Miyashiro</Contributor>
+    <Date day="8" month="7" year="2006"/>
+    <Remarks>Bound retrieved Constructive Algorithms for the Constant Distance Traveling Tournament Problem by Nobutomo Fujiwara, Shinji Imahori, Tomomi Matsui and Ryuhei Miyashiro</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>1512</Objective>
+  </LowerBound>
+</Bound>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>CO16</InstanceName>
+    <DataType>A</DataType>
+    <Contributor>Russell</Contributor>
+    <Date day="29" month="10" year="2010"/>
+    <Remarks>Russell, K. G. Balancing carry-over effects in round robin tournaments Biometrika, Oxford University Press, 1980, 67, 127-131</Remarks>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>1</numberRoundRobin>
+      <compactness>C</compactness>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>CO</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="All teams"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0" teamGroups="0"/>
+      <team id="1" league="0" name="Team 1" teamGroups="0"/>
+      <team id="2" league="0" name="Team 2" teamGroups="0"/>
+      <team id="3" league="0" name="Team 3" teamGroups="0"/>
+      <team id="4" league="0" name="Team 4" teamGroups="0"/>
+      <team id="5" league="0" name="Team 5" teamGroups="0"/>
+      <team id="6" league="0" name="Team 6" teamGroups="0"/>
+      <team id="7" league="0" name="Team 7" teamGroups="0"/>
+      <team id="8" league="0" name="Team 8" teamGroups="0"/>
+      <team id="9" league="0" name="Team 9" teamGroups="0"/>
+      <team id="10" league="0" name="Team 10" teamGroups="0"/>
+      <team id="11" league="0" name="Team 11" teamGroups="0"/>
+      <team id="12" league="0" name="Team 12" teamGroups="0"/>
+      <team id="13" league="0" name="Team 13" teamGroups="0"/>
+      <team id="14" league="0" name="Team 14" teamGroups="0"/>
+      <team id="15" league="0" name="Team 15" teamGroups="0"/>
+    </Teams>
+    <SlotGroups/>
+    <Slots>
+      <slot id="0" name="Slot0"/>
+      <slot id="1" name="Slot1"/>
+      <slot id="2" name="Slot2"/>
+      <slot id="3" name="Slot3"/>
+      <slot id="4" name="Slot4"/>
+      <slot id="5" name="Slot5"/>
+      <slot id="6" name="Slot6"/>
+      <slot id="7" name="Slot7"/>
+      <slot id="8" name="Slot8"/>
+      <slot id="9" name="Slot9"/>
+      <slot id="10" name="Slot10"/>
+      <slot id="11" name="Slot11"/>
+      <slot id="12" name="Slot12"/>
+      <slot id="13" name="Slot13"/>
+      <slot id="14" name="Slot14"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints/>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

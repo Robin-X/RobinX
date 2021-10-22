@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>./INCR4_RTTP.xml</SolutionName>
+    <InstanceName>./Repository/TravelOptimization/Instances/INCR4.xml</InstanceName>
+    <Contributor>Brandão and Pedroso</Contributor>
+    <SolutonMethod>H</SolutonMethod>
+    <ObjectiveValue infeasibility="0" objective="48"/>
+  </MetaData>
+
+  <Games>
+    <scheduledMatch slot="0" team1="0" team2="1"/>
+    <scheduledMatch slot="2" team1="0" team2="3"/>
+    <scheduledMatch slot="0" team1="1" team2="2"/>
+    <scheduledMatch slot="1" team1="1" team2="3"/>
+    <scheduledMatch slot="0" team1="2" team2="3"/>
+    <scheduledMatch slot="1" team1="2" team2="2"/>
+    <scheduledMatch slot="1" team1="3" team2="0"/>
+    <scheduledMatch slot="3" team1="3" team2="2"/>
+  </Games>
+
+</Solution>

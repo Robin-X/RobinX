@@ -1,0 +1,15 @@
+<Bound>
+	<MetaData>
+		<InstanceName>
+			./Repository/CarryoverEffectsOptimization/Instances/CO20.xml
+		</InstanceName>
+		<BoundName/>
+		<Contributor>Russell</Contributor>
+		<Date year="1980"/>
+		<Remarks>Trivial LB from Russell, K. G. Balancing carry-over effects in round robin tournaments Biometrika, Oxford University Press, 1980, 67, 127-131.</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>380</Objective>
+	</LowerBound>
+</Bound>

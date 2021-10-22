@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>./Repository/TravelOptimization/Instances/NFL28.xml</InstanceName>
+        <Contributor>Trick</Contributor>
+        <Date year="2007" month="6" day="22"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>560697</Objective>
+        </LowerBound>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+</Bound>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/LINE10.xml</InstanceName>
+    <BoundName>Independent Lower Bound</BoundName>
+    <Contributor>David Van Bulck, with RRTP solver of Brandao and Pedroso</Contributor>
+    <Date day="9" month="10" year="2019"/>
+    <Remarks>Brando, F. and Pedroso, J. (2013). A complete search method for the relaxed traveling tournament problem. EURO Journal on Computational Optimization</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>288</Objective>
+  </LowerBound>
+</Bound>

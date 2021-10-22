@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/NL8_Mirrored.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Urrutia and Ribeiro</Contributor>
+    <Date day="16" month="7" year="2003"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>41928</Objective>
+  </LowerBound>
+</Bound>

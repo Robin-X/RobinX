@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <MetaData>
+    <SolutionName>Repository/CarryoverEffectsOptimization/Solutions/inst16perturbedlinearB_Sol_Guedes.xml</SolutionName>
+    <InstanceName>Repository/CarryoverEffectsOptimization/Instances/inst16perturbedlinearB.xml</InstanceName>
+    <Contributor>Guedes, Ribeiro</Contributor>
+    <Date year="2011"/>
+    <ObjectiveValue infeasibility="0" objective="1348"/>
+    <Remarks>Guedes, A. C. B. and Ribeiro, C. C. A heuristic for minimizing weighted carry-over effects in round robin tournaments J. Sched., 2011, 14, 655-667</Remarks>
+  </MetaData>
+
+  <Games/>
+
+</Solution>

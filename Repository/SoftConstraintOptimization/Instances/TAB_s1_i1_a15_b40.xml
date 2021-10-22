@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Instance>
+
+  <MetaData>
+    <InstanceName>TAB_s1_i1_a15_b40.xml</InstanceName>
+    <DataType>A</DataType>
+    <Contributor>Jörn Schönberger</Contributor>
+    <Date day="0" month="0" year="0"/>
+    <Country>Germany</Country>
+    <Remarks>Preliminary version</Remarks>
+    <Lowerbound infeasibility="0" objective="0"/>
+  </MetaData>
+
+  <Structure>
+    <Format leagueIds="0">
+      <numberRoundRobin>2</numberRoundRobin>
+      <compactness>R</compactness>
+      <gameMode>P</gameMode>
+    </Format>
+    <AdditionalGames/>
+  </Structure>
+
+  <ObjectiveFunction>
+    <Objective>SC</Objective>
+  </ObjectiveFunction>
+
+  <Data>
+    <Distances/>
+    <COEWeights/>
+    <Costs/>
+  </Data>
+
+  <Resources>
+    <TeamGroups>
+      <teamGroup id="0" name="All teams"/>
+    </TeamGroups>
+    <LeagueGroups/>
+    <Leagues>
+      <league id="0" name="League 0"/>
+    </Leagues>
+    <Teams>
+      <team id="0" league="0" name="Team 0" teamGroups="0"/>
+      <team id="1" league="0" name="Team 1" teamGroups="0"/>
+      <team id="2" league="0" name="Team 2" teamGroups="0"/>
+      <team id="3" league="0" name="Team 3" teamGroups="0"/>
+      <team id="4" league="0" name="Team 4" teamGroups="0"/>
+      <team id="5" league="0" name="Team 5" teamGroups="0"/>
+      <team id="6" league="0" name="Team 6" teamGroups="0"/>
+      <team id="7" league="0" name="Team 7" teamGroups="0"/>
+      <team id="8" league="0" name="Team 8" teamGroups="0"/>
+      <team id="9" league="0" name="Team 9" teamGroups="0"/>
+    </Teams>
+    <SlotGroups>
+      <slotGroup id="0" name="Interval 0"/>
+      <slotGroup id="1" name="Interval 1"/>
+      <slotGroup id="2" name="Interval 2"/>
+      <slotGroup id="3" name="Interval 3"/>
+      <slotGroup id="4" name="Interval 4"/>
+      <slotGroup id="5" name="Interval 5"/>
+      <slotGroup id="6" name="First half of the season"/>
+      <slotGroup id="7" name="Second half of the season"/>
+    </SlotGroups>
+    <Slots>
+      <slot id="0" name="Slot 0"/>
+      <slot id="1" name="Slot 1"/>
+      <slot id="2" name="Slot 2"/>
+      <slot id="3" name="Slot 3"/>
+      <slot id="4" name="Slot 4"/>
+      <slot id="5" name="Slot 5"/>
+      <slot id="6" name="Slot 6"/>
+      <slot id="7" name="Slot 7"/>
+      <slot id="8" name="Slot 8"/>
+      <slot id="9" name="Slot 9"/>
+      <slot id="10" name="Slot 10"/>
+      <slot id="11" name="Slot 11"/>
+      <slot id="12" name="Slot 12"/>
+      <slot id="13" name="Slot 13"/>
+      <slot id="14" name="Slot 14"/>
+      <slot id="15" name="Slot 15"/>
+      <slot id="16" name="Slot 16"/>
+      <slot id="17" name="Slot 17"/>
+      <slot id="18" name="Slot 18"/>
+      <slot id="19" name="Slot 19"/>
+      <slot id="20" name="Slot 20"/>
+      <slot id="21" name="Slot 21"/>
+      <slot id="22" name="Slot 22"/>
+      <slot id="23" name="Slot 23"/>
+      <slot id="24" name="Slot 24"/>
+      <slot id="25" name="Slot 25"/>
+      <slot id="26" name="Slot 26"/>
+      <slot id="27" name="Slot 27"/>
+      <slot id="28" name="Slot 28"/>
+      <slot id="29" name="Slot 29"/>
+      <slot id="30" name="Slot 30"/>
+      <slot id="31" name="Slot 31"/>
+      <slot id="32" name="Slot 32"/>
+      <slot id="33" name="Slot 33"/>
+      <slot id="34" name="Slot 34"/>
+      <slot id="35" name="Slot 35"/>
+      <slot id="36" name="Slot 36"/>
+      <slot id="37" name="Slot 37"/>
+      <slot id="38" name="Slot 38"/>
+      <slot id="39" name="Slot 39"/>
+      <slot id="40" name="Slot 40"/>
+      <slot id="41" name="Slot 41"/>
+      <slot id="42" name="Slot 42"/>
+      <slot id="43" name="Slot 43"/>
+      <slot id="44" name="Slot 44"/>
+      <slot id="45" name="Slot 45"/>
+      <slot id="46" name="Slot 46"/>
+      <slot id="47" name="Slot 47"/>
+      <slot id="48" name="Slot 48"/>
+      <slot id="49" name="Slot 49"/>
+      <slot id="50" name="Slot 50"/>
+      <slot id="51" name="Slot 51"/>
+      <slot id="52" name="Slot 52"/>
+      <slot id="53" name="Slot 53"/>
+      <slot id="54" name="Slot 54"/>
+      <slot id="55" name="Slot 55"/>
+      <slot id="56" name="Slot 56"/>
+      <slot id="57" name="Slot 57"/>
+      <slot id="58" name="Slot 58"/>
+      <slot id="59" name="Slot 59"/>
+      <slot id="60" name="Slot 60"/>
+      <slot id="61" name="Slot 61"/>
+      <slot id="62" name="Slot 62"/>
+      <slot id="63" name="Slot 63"/>
+      <slot id="64" name="Slot 64"/>
+      <slot id="65" name="Slot 65"/>
+      <slot id="66" name="Slot 66"/>
+      <slot id="67" name="Slot 67"/>
+      <slot id="68" name="Slot 68"/>
+      <slot id="69" name="Slot 69"/>
+      <slot id="70" name="Slot 70"/>
+      <slot id="71" name="Slot 71"/>
+      <slot id="72" name="Slot 72"/>
+      <slot id="73" name="Slot 73"/>
+      <slot id="74" name="Slot 74"/>
+      <slot id="75" name="Slot 75"/>
+      <slot id="76" name="Slot 76"/>
+      <slot id="77" name="Slot 77"/>
+      <slot id="78" name="Slot 78"/>
+      <slot id="79" name="Slot 79"/>
+      <slot id="80" name="Slot 80"/>
+      <slot id="81" name="Slot 81"/>
+      <slot id="82" name="Slot 82"/>
+      <slot id="83" name="Slot 83"/>
+      <slot id="84" name="Slot 84"/>
+      <slot id="85" name="Slot 85"/>
+      <slot id="86" name="Slot 86"/>
+      <slot id="87" name="Slot 87"/>
+      <slot id="88" name="Slot 88"/>
+      <slot id="89" name="Slot 89"/>
+      <slot id="90" name="Slot 90"/>
+      <slot id="91" name="Slot 91"/>
+      <slot id="92" name="Slot 92"/>
+      <slot id="93" name="Slot 93"/>
+      <slot id="94" name="Slot 94"/>
+      <slot id="95" name="Slot 95"/>
+      <slot id="96" name="Slot 96"/>
+      <slot id="97" name="Slot 97"/>
+      <slot id="98" name="Slot 98"/>
+      <slot id="99" name="Slot 99"/>
+      <slot id="100" name="Slot 100"/>
+      <slot id="101" name="Slot 101"/>
+      <slot id="102" name="Slot 102"/>
+      <slot id="103" name="Slot 103"/>
+      <slot id="104" name="Slot 104"/>
+      <slot id="105" name="Slot 105"/>
+      <slot id="106" name="Slot 106"/>
+      <slot id="107" name="Slot 107"/>
+      <slot id="108" name="Slot 108"/>
+      <slot id="109" name="Slot 109"/>
+      <slot id="110" name="Slot 110"/>
+      <slot id="111" name="Slot 111"/>
+      <slot id="112" name="Slot 112"/>
+      <slot id="113" name="Slot 113"/>
+      <slot id="114" name="Slot 114"/>
+      <slot id="115" name="Slot 115"/>
+      <slot id="116" name="Slot 116"/>
+      <slot id="117" name="Slot 117"/>
+      <slot id="118" name="Slot 118"/>
+      <slot id="119" name="Slot 119"/>
+      <slot id="120" name="Slot 120"/>
+      <slot id="121" name="Slot 121"/>
+      <slot id="122" name="Slot 122"/>
+      <slot id="123" name="Slot 123"/>
+      <slot id="124" name="Slot 124"/>
+      <slot id="125" name="Slot 125"/>
+      <slot id="126" name="Slot 126"/>
+      <slot id="127" name="Slot 127"/>
+      <slot id="128" name="Slot 128"/>
+      <slot id="129" name="Slot 129"/>
+      <slot id="130" name="Slot 130"/>
+      <slot id="131" name="Slot 131"/>
+      <slot id="132" name="Slot 132"/>
+      <slot id="133" name="Slot 133"/>
+      <slot id="134" name="Slot 134"/>
+      <slot id="135" name="Slot 135"/>
+      <slot id="136" name="Slot 136"/>
+      <slot id="137" name="Slot 137"/>
+      <slot id="138" name="Slot 138"/>
+      <slot id="139" name="Slot 139"/>
+      <slot id="140" name="Slot 140"/>
+      <slot id="141" name="Slot 141"/>
+      <slot id="142" name="Slot 142"/>
+      <slot id="143" name="Slot 143"/>
+      <slot id="144" name="Slot 144"/>
+      <slot id="145" name="Slot 145"/>
+      <slot id="146" name="Slot 146"/>
+      <slot id="147" name="Slot 147"/>
+      <slot id="148" name="Slot 148"/>
+      <slot id="149" name="Slot 149"/>
+      <slot id="150" name="Slot 150"/>
+      <slot id="151" name="Slot 151"/>
+      <slot id="152" name="Slot 152"/>
+      <slot id="153" name="Slot 153"/>
+      <slot id="154" name="Slot 154"/>
+      <slot id="155" name="Slot 155"/>
+      <slot id="156" name="Slot 156"/>
+      <slot id="157" name="Slot 157"/>
+      <slot id="158" name="Slot 158"/>
+      <slot id="159" name="Slot 159"/>
+      <slot id="160" name="Slot 160"/>
+      <slot id="161" name="Slot 161"/>
+      <slot id="162" name="Slot 162"/>
+      <slot id="163" name="Slot 163"/>
+      <slot id="164" name="Slot 164"/>
+      <slot id="165" name="Slot 165"/>
+      <slot id="166" name="Slot 166"/>
+      <slot id="167" name="Slot 167"/>
+      <slot id="168" name="Slot 168"/>
+      <slot id="169" name="Slot 169"/>
+      <slot id="170" name="Slot 170"/>
+      <slot id="171" name="Slot 171"/>
+      <slot id="172" name="Slot 172"/>
+      <slot id="173" name="Slot 173"/>
+      <slot id="174" name="Slot 174"/>
+      <slot id="175" name="Slot 175"/>
+      <slot id="176" name="Slot 176"/>
+      <slot id="177" name="Slot 177"/>
+      <slot id="178" name="Slot 178"/>
+      <slot id="179" name="Slot 179"/>
+      <slot id="180" name="Slot 180"/>
+      <slot id="181" name="Slot 181"/>
+      <slot id="182" name="Slot 182"/>
+      <slot id="183" name="Slot 183"/>
+      <slot id="184" name="Slot 184"/>
+      <slot id="185" name="Slot 185"/>
+      <slot id="186" name="Slot 186"/>
+      <slot id="187" name="Slot 187"/>
+      <slot id="188" name="Slot 188"/>
+      <slot id="189" name="Slot 189"/>
+      <slot id="190" name="Slot 190"/>
+      <slot id="191" name="Slot 191"/>
+      <slot id="192" name="Slot 192"/>
+      <slot id="193" name="Slot 193"/>
+      <slot id="194" name="Slot 194"/>
+      <slot id="195" name="Slot 195"/>
+      <slot id="196" name="Slot 196"/>
+      <slot id="197" name="Slot 197"/>
+      <slot id="198" name="Slot 198"/>
+      <slot id="199" name="Slot 199"/>
+    </Slots>
+  </Resources>
+
+  <Constraints>
+    <BasicConstraints/>
+    <CapacityConstraints>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="56;57;58;59;141;142;143;144;145;146;147;87;88;90;91;148;149;150;151;152;153;18;19;20;154;155;156;157;158;159;160;77;78;80;81;48;49;50;51;10;11;130;131;132;133;134;60;61;62;198;168;169;170;171;172;173;174;4;5;6;40;41;42;33;34;35;15;16;17;0;175;176;177;178;179;180;181;182;24;25;26;191;192;193;195;196;197;97;98;99;100;101;52;53;54;55;2;3;7;8;9;36;37;38;39;113;114;115;116;117;118;82;83;84;86;73;75;76;92;93;94;95;96;103;104;105;106;135;136;137;138;139;140;161;162;163;164;165;166;167;124;125;126;127;128;129;119;120;122;123;107;108;110;111;13;14;183;184;185;186;187;188;189;190;27;28;29;68;69;70;71;72;64;65;66;67;21;22;23;44;45;46;30;31;32" teams="0" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="56;58;144;152;18;48;50;11;4;6;42;34;16;17;26;97;100;101;53;8;36;38;83;84;75;92;96;104;129;108;111;14;29;68;70;71;21;22;23;45" teams="0" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="56;57;58;59;141;142;143;144;145;146;147;87;88;90;91;148;150;151;152;153;18;19;20;154;155;157;158;159;160;77;78;79;80;81;48;49;50;10;11;130;131;132;133;134;60;61;62;63;198;168;169;170;171;172;173;174;4;5;6;40;41;42;33;34;35;15;16;17;0;1;175;176;177;178;179;180;181;182;24;25;26;191;192;193;194;195;196;197;97;98;99;100;101;52;53;54;55;2;8;9;36;37;38;39;113;114;115;116;117;118;82;83;85;86;73;74;75;76;92;93;94;95;96;102;103;105;106;135;136;137;138;139;140;161;162;163;164;165;166;167;124;125;126;127;128;119;120;121;122;123;107;108;109;110;111;112;12;13;14;183;184;185;186;187;188;189;190;28;29;68;69;70;71;64;65;66;21;22;23;44;45;46;30;31;32" teams="1" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="58;59;19;20;80;81;48;50;10;61;41;34;35;16;17;0;1;197;100;8;113;117;85;76;93;119;108;110;111;12;13;69;71;65;66;22;23;45;46;30" teams="1" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="56;57;58;59;141;142;143;144;145;146;147;87;88;89;90;91;148;149;150;151;152;18;19;20;154;155;156;157;158;159;160;77;78;79;48;49;50;51;10;11;130;131;132;133;134;61;62;63;198;199;168;169;170;171;172;173;174;4;6;40;42;43;33;34;35;15;16;17;0;1;175;176;177;178;179;180;181;182;24;25;26;191;192;193;194;195;196;197;97;98;99;100;101;52;53;54;55;2;3;7;8;37;38;39;113;114;115;116;118;82;83;84;85;86;73;74;75;76;92;93;94;95;96;102;103;104;105;106;135;136;137;138;139;140;161;162;163;164;165;166;167;124;125;126;127;128;129;119;121;122;123;107;108;110;111;112;12;14;183;184;185;186;187;188;189;190;27;28;68;69;70;71;72;64;65;66;67;21;23;44;46;47;30;31;32" teams="2" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="57;87;19;20;77;78;48;50;51;11;130;131;62;172;173;4;40;42;33;35;17;0;24;25;192;98;99;3;83;136;112;14;183;27;68;71;64;67;21;46" teams="2" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="57;58;59;141;142;143;144;146;147;87;88;89;90;91;148;149;150;151;152;153;18;19;20;154;155;156;157;158;159;160;77;78;79;80;81;48;49;51;10;11;130;131;132;133;134;60;61;62;63;198;199;168;169;170;171;172;173;174;4;5;6;41;42;43;33;34;35;15;16;17;0;175;176;177;178;179;181;182;24;26;191;192;194;195;196;197;97;98;100;101;52;53;54;55;2;3;7;8;9;36;37;38;39;113;114;115;116;117;118;82;83;85;86;73;75;92;93;94;95;96;102;103;104;105;106;136;137;138;139;140;161;162;163;164;165;166;167;124;125;126;127;128;129;119;120;121;123;107;108;110;111;112;12;13;14;183;184;185;186;187;188;189;190;27;28;29;68;69;70;71;72;64;65;66;67;21;22;23;44;45;46;47;30;31;32" teams="3" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="59;142;88;149;18;156;80;130;61;5;41;34;17;0;26;100;52;53;55;2;39;82;85;92;93;96;125;119;14;190;27;28;68;72;65;67;22;23;44;47" teams="3" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="56;57;58;141;142;143;144;145;146;147;87;88;89;90;148;149;150;151;152;153;19;20;154;155;156;157;158;159;160;78;80;81;48;49;50;51;10;11;130;131;132;133;134;60;61;62;198;168;170;171;172;173;174;4;6;40;41;42;43;33;34;35;15;16;17;0;1;175;176;177;178;179;180;181;182;24;25;26;191;192;193;194;195;196;197;97;98;99;100;101;52;53;54;55;2;3;7;8;9;36;37;38;39;113;114;115;116;118;82;83;84;85;86;73;74;76;92;93;95;96;102;103;104;105;106;135;137;138;139;140;161;162;163;164;165;166;167;124;125;126;127;128;129;119;120;122;123;107;108;109;110;111;112;12;13;14;183;184;185;186;187;188;189;190;27;28;29;68;69;70;71;72;64;65;66;21;22;23;44;45;46;47;30;31;32" teams="4" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="57;58;87;19;78;60;4;41;42;35;15;16;17;24;55;3;7;8;36;38;82;83;85;74;92;124;122;112;12;13;190;27;28;29;68;69;71;44;30;32" teams="4" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="56;57;58;59;141;142;144;145;147;87;89;90;91;148;149;150;151;152;153;18;19;20;154;155;156;157;158;159;160;77;78;79;80;81;48;49;50;51;10;11;130;131;132;133;134;60;61;62;63;198;199;168;169;170;171;172;173;174;4;40;41;42;43;33;34;35;15;16;17;1;175;177;178;179;180;181;182;24;25;26;191;192;193;194;195;196;197;97;98;99;100;101;52;53;54;55;2;3;7;8;9;36;37;39;113;114;115;117;118;82;83;84;85;86;73;74;75;76;92;93;95;102;103;104;106;135;136;137;138;139;140;161;163;164;165;167;124;125;126;127;128;129;119;120;121;122;123;107;108;109;110;112;12;13;14;183;184;185;186;187;188;189;190;27;28;29;68;69;70;71;72;64;65;66;67;21;22;23;44;45;46;47;30;31;32" teams="5" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="57;141;87;89;19;77;48;51;10;131;132;133;60;61;63;4;42;33;34;16;98;52;54;114;83;84;76;137;13;28;68;69;71;66;21;22;23;46;30;32" teams="5" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="56;57;58;59;141;143;144;145;146;147;87;88;89;90;91;148;149;150;151;152;153;18;19;20;154;155;156;158;159;77;79;80;81;48;49;50;51;10;11;130;131;132;134;60;61;62;63;198;199;168;169;170;171;172;174;4;5;6;41;42;43;33;34;35;15;16;17;0;1;175;176;177;179;180;181;182;24;25;26;191;192;193;194;195;196;197;97;98;99;100;101;52;53;54;55;2;3;7;8;9;36;37;38;39;113;114;115;116;117;118;82;84;85;86;73;74;75;92;93;95;96;102;103;104;105;135;136;137;138;139;140;161;162;163;164;165;166;167;124;125;126;127;128;129;119;120;121;122;123;107;108;109;110;111;112;12;13;14;183;184;185;186;187;188;189;190;27;28;29;68;69;71;72;64;65;67;21;22;23;44;45;46;47;30;32" teams="6" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="58;59;88;89;90;79;49;50;134;63;5;6;42;33;34;35;15;17;24;25;26;98;53;54;55;36;37;113;85;96;108;13;27;28;68;71;22;46;30;32" teams="6" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="56;57;58;59;141;142;143;144;145;146;147;87;88;89;90;91;148;149;150;151;152;153;18;19;20;154;155;156;157;158;159;160;77;78;79;81;48;49;50;51;10;11;130;131;132;134;60;61;62;63;198;199;168;169;170;171;172;173;174;4;5;6;40;41;42;43;33;34;15;16;17;0;1;175;176;177;178;179;180;182;24;25;26;191;192;193;194;195;196;197;98;99;100;101;52;53;54;55;3;7;8;36;37;38;39;113;114;116;118;82;83;84;85;86;73;74;75;76;92;93;94;95;96;102;103;104;105;106;135;136;137;138;139;140;161;162;163;164;165;166;167;124;125;126;127;128;129;119;120;121;123;107;108;110;111;112;12;13;14;183;184;185;186;187;188;189;190;27;28;68;69;70;71;64;65;66;67;21;22;44;45;46;47;30;31" teams="7" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="56;57;89;18;19;20;48;51;11;60;63;5;40;41;34;16;26;100;52;54;8;36;39;74;140;124;127;107;111;112;12;14;187;27;68;67;44;45;46;30" teams="7" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="56;57;58;59;141;142;143;144;145;146;147;87;88;89;90;91;148;149;150;151;152;153;18;19;20;154;155;156;157;158;159;77;78;79;80;81;48;49;50;51;10;11;130;131;132;133;134;60;61;62;63;198;199;168;169;170;171;172;173;174;4;6;40;41;42;33;34;35;15;16;17;1;176;177;178;179;180;181;182;24;25;26;191;192;194;195;196;197;97;98;99;100;101;52;53;54;55;2;7;8;9;36;37;38;113;114;115;116;117;118;82;83;84;85;86;74;75;76;92;93;94;95;96;102;103;104;105;106;136;137;138;139;140;161;162;163;164;165;166;167;125;126;127;128;129;119;120;121;122;123;107;108;109;110;111;112;12;13;14;183;184;185;186;187;188;189;190;27;28;68;70;71;72;64;65;66;67;22;23;44;45;46;30;31;32" teams="8" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="56;57;148;18;20;81;130;131;134;61;4;6;41;34;15;17;1;52;2;8;115;85;74;96;104;105;123;109;111;112;12;13;27;28;72;64;22;23;45;32" teams="8" type="HARD"/>
+      <CA1 max="0" min="0" mode="H" penalty="1" slots="56;57;58;59;141;142;143;144;145;146;147;87;88;89;90;91;148;149;150;152;153;18;19;20;154;155;156;157;158;159;77;78;79;80;81;49;50;51;10;11;130;131;132;133;134;60;61;62;63;198;199;168;169;170;171;172;173;4;5;6;40;41;42;43;33;34;35;16;17;0;1;175;176;177;178;179;180;182;24;25;26;191;192;193;194;195;196;197;97;98;99;100;101;52;53;55;2;3;7;8;9;36;37;38;39;113;114;116;117;118;82;83;84;85;86;74;75;92;93;94;95;96;102;103;104;105;106;135;136;137;138;139;140;161;162;164;165;166;167;124;125;126;127;128;129;119;121;122;123;107;108;109;111;112;12;13;14;183;184;185;186;187;188;189;190;27;28;29;68;69;71;72;64;65;66;67;22;23;44;45;46;47;30;31;32" teams="9" type="HARD"/>
+      <CA1 max="0" min="0" mode="HA" penalty="1" slots="58;20;154;155;61;198;4;5;42;33;34;35;0;175;100;52;53;2;8;9;38;113;82;86;75;92;102;129;111;12;13;28;68;69;64;66;22;44;46;31" teams="9" type="HARD"/>
+      <CA1 max="4" min="2" mode="HA" penalty="1" slotGroups="0" teamGroups="0" type="HARD"/>
+      <CA1 max="4" min="2" mode="HA" penalty="1" slotGroups="1" teamGroups="0" type="HARD"/>
+      <CA1 max="4" min="2" mode="HA" penalty="1" slotGroups="2" teamGroups="0" type="HARD"/>
+      <CA1 max="4" min="2" mode="HA" penalty="1" slotGroups="3" teamGroups="0" type="HARD"/>
+      <CA1 max="4" min="2" mode="HA" penalty="1" slotGroups="4" teamGroups="0" type="HARD"/>
+      <CA1 max="4" min="2" mode="HA" penalty="1" slotGroups="5" teamGroups="0" type="HARD"/>
+      <CA3 intp="4" max="1" min="0" mode1="HA" mode2="SLOTS" penalty="1" teamGroups1="0" teamGroups2="0" type="SOFT"/>
+      <CA1 max="5" min="4" mode="H" penalty="1" slotGroups="6" teamGroups="0" type="SOFT"/>
+      <CA1 max="5" min="4" mode="H" penalty="1" slotGroups="7" teamGroups="0" type="SOFT"/>
+    </CapacityConstraints>
+    <GameConstraints/>
+    <BreakConstraints/>
+    <FairnessConstraints/>
+    <SeparationConstraints/>
+  </Constraints>
+
+</Instance>

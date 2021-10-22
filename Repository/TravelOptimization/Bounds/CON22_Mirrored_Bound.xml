@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/CON22_Mirrored.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor></Contributor>
+    <Date day="-1" month="-1" year="-1"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>650</Objective>
+  </LowerBound>
+</Bound>

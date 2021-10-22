@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Instance>
+    <MetaData>
+        <InstanceName>Elitserien11</InstanceName>
+        <DataType>R</DataType>
+        <Contributor>Larson, Carlsson</Contributor>
+        <Date year="0" month="0" day="0"/>
+        <Country>Sweden</Country>
+        <Description>NULL</Description>
+        <Remarks></Remarks>
+    </MetaData>
+    <Structure>
+        <Format leagueIds="0">
+            <numberRoundRobin>2</numberRoundRobin>
+            <compactness>C</compactness>
+            <gameMode>NULL</gameMode>
+        </Format>
+        <AdditionalGames>
+            <game team1="0" team2="1" noHome="true"/>
+            <game team1="0" team2="3" noHome="true"/>
+            <game team1="0" team2="5" noHome="true"/>
+            <game team1="0" team2="10" noHome="true"/>
+            <game team1="0" team2="11" noHome="true"/>
+            <game team1="0" team2="13" noHome="true"/>
+            <game team1="1" team2="3" noHome="true"/>
+            <game team1="1" team2="5" noHome="true"/>
+            <game team1="1" team2="10" noHome="true"/>
+            <game team1="1" team2="11" noHome="true"/>
+            <game team1="1" team2="13" noHome="true"/>
+            <game team1="2" team2="4" noHome="true"/>
+            <game team1="2" team2="6" noHome="true"/>
+            <game team1="2" team2="7" noHome="true"/>
+            <game team1="2" team2="8" noHome="true"/>
+            <game team1="2" team2="9" noHome="true"/>
+            <game team1="2" team2="12" noHome="true"/>
+            <game team1="3" team2="5" noHome="true"/>
+            <game team1="3" team2="10" noHome="true"/>
+            <game team1="3" team2="11" noHome="true"/>
+            <game team1="3" team2="13" noHome="true"/>
+            <game team1="6" team2="4" noHome="true"/>
+            <game team1="7" team2="4" noHome="true"/>
+            <game team1="8" team2="4" noHome="true"/>
+            <game team1="4" team2="9" noHome="true"/>
+            <game team1="4" team2="12" noHome="true"/>
+            <game team1="5" team2="10" noHome="true"/>
+            <game team1="5" team2="11" noHome="true"/>
+            <game team1="5" team2="13" noHome="true"/>
+            <game team1="6" team2="7" noHome="true"/>
+            <game team1="6" team2="8" noHome="true"/>
+            <game team1="6" team2="9" noHome="true"/>
+            <game team1="6" team2="12" noHome="true"/>
+            <game team1="7" team2="8" noHome="true"/>
+            <game team1="7" team2="9" noHome="true"/>
+            <game team1="7" team2="12" noHome="true"/>
+            <game team1="8" team2="9" noHome="true"/>
+            <game team1="8" team2="12" noHome="true"/>
+            <game team1="12" team2="9" noHome="true"/>
+            <game team1="10" team2="11" noHome="true"/>
+            <game team1="13" team2="10" noHome="true"/>
+            <game team1="13" team2="11" noHome="true"/>
+        </AdditionalGames>
+    </Structure>
+    <ObjectiveFunction>
+        <Objective>SC</Objective>
+    </ObjectiveFunction>
+    <Data>
+        <Distances/>
+        <COEWeights/>
+        <Costs/>
+    </Data>
+    <Resources>
+        <LeagueGroups/>
+        <Leagues>
+            <league id="0" leagueGroups="" name="League 0"/>
+        </Leagues>
+        <TeamGroups>
+            <teamGroup id="0" name="Division 0"/>
+            <teamGroup id="1" name="Division 1"/>
+            <teamGroup id="2" name="Derby Group 0"/>
+            <teamGroup id="3" name="Derby Group 1"/>
+            <teamGroup id="4" name="Derby Group 2"/>
+            <teamGroup id="5" name="Complementary pair 0"/>
+            <teamGroup id="6" name="Complementary pair 1"/>
+        </TeamGroups>
+        <Teams>
+            <team id="0" league="0" name="Team 0" teamGroups="3;1"/>
+            <team id="1" league="0" name="Team 1" teamGroups="1"/>
+            <team id="2" league="0" name="Team 2" teamGroups="0"/>
+            <team id="3" league="0" name="Team 3" teamGroups="2;1"/>
+            <team id="4" league="0" name="Team 4" teamGroups="4;0"/>
+            <team id="5" league="0" name="Team 5" teamGroups="3;6;1"/>
+            <team id="6" league="0" name="Team 6" teamGroups="0"/>
+            <team id="7" league="0" name="Team 7" teamGroups="2;0"/>
+            <team id="8" league="0" name="Team 8" teamGroups="2;0"/>
+            <team id="9" league="0" name="Team 9" teamGroups="5;0"/>
+            <team id="10" league="0" name="Team 10" teamGroups="4;1"/>
+            <team id="11" league="0" name="Team 11" teamGroups="3;6;1"/>
+            <team id="12" league="0" name="Team 12" teamGroups="4;5;0"/>
+            <team id="13" league="0" name="Team 13" teamGroups="2;1"/>
+        </Teams>
+        <SlotGroups>
+            <slotGroup id="0" name="Slots [0,n/2]"/>
+            <slotGroup id="1" name="All Slots"/>
+        </SlotGroups>
+        <Slots>
+            <slot id="0" name="Round 0" slotGroup="1;0"/>
+            <slot id="1" name="Round 1" slotGroup="1;0"/>
+            <slot id="2" name="Round 2" slotGroup="1;0"/>
+            <slot id="3" name="Round 3" slotGroup="1;0"/>
+            <slot id="4" name="Round 4" slotGroup="1;0"/>
+            <slot id="5" name="Round 5" slotGroup="1;0"/>
+            <slot id="6" name="Round 6" slotGroup="1;0"/>
+            <slot id="7" name="Round 7" slotGroup="1"/>
+            <slot id="8" name="Round 8" slotGroup="1"/>
+            <slot id="9" name="Round 9" slotGroup="1"/>
+            <slot id="10" name="Round 10" slotGroup="1"/>
+            <slot id="11" name="Round 11" slotGroup="1"/>
+            <slot id="12" name="Round 12" slotGroup="1"/>
+            <slot id="13" name="Round 13" slotGroup="1"/>
+            <slot id="14" name="Round 14" slotGroup="1"/>
+            <slot id="15" name="Round 15" slotGroup="1"/>
+            <slot id="16" name="Round 16" slotGroup="1"/>
+            <slot id="17" name="Round 17" slotGroup="1"/>
+            <slot id="18" name="Round 18" slotGroup="1"/>
+            <slot id="19" name="Round 19" slotGroup="1"/>
+            <slot id="20" name="Round 20" slotGroup="1"/>
+            <slot id="21" name="Round 21" slotGroup="1"/>
+            <slot id="22" name="Round 22" slotGroup="1"/>
+            <slot id="23" name="Round 23" slotGroup="1"/>
+            <slot id="24" name="Round 24" slotGroup="1"/>
+            <slot id="25" name="Round 25" slotGroup="1"/>
+            <slot id="26" name="Round 26" slotGroup="1"/>
+            <slot id="27" name="Round 27" slotGroup="1"/>
+            <slot id="28" name="Round 28" slotGroup="1"/>
+            <slot id="29" name="Round 29" slotGroup="1"/>
+            <slot id="30" name="Round 30" slotGroup="1"/>
+            <slot id="31" name="Round 31" slotGroup="1"/>
+            <slot id="32" name="Round 32" slotGroup="1"/>
+        </Slots>
+    </Resources>
+    <Constraints>
+        <BasicConstraints/>
+        <CapacityConstraints>
+            <CA2 max="1" min="1" mode1="HA" mode2="EVERY" penalty="1" slotGroups="0" slots="" teamGroups1="0" teamGroups2="0" teams1="" teams2="" type="HARD"/>
+            <CA2 max="1" min="1" mode1="HA" mode2="EVERY" penalty="1" slotGroups="0" slots="" teamGroups1="1" teamGroups2="1" teams1="" teams2="" type="HARD"/>
+            <CA1 max="6" min="6" mode="HA" penalty="1" slotGroups="0" slots="" teamGroups="0;1" teams="" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slotGroups="1" slots="" teamGroups1="5" teamGroups2="0;1" teams1="" teams2="" type="HARD"/>
+            <CA4 max="1" min="0" mode1="H" mode2="EVERY" penalty="1" slotGroups="1" slots="" teamGroups1="6" teamGroups2="0;1" teams1="" teams2="" type="HARD"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="6" teamGroups="" teams="0" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="15" teamGroups="" teams="1" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="6;15;8" teamGroups="" teams="3" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="0;32;28" teamGroups="" teams="4" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="13;18;0;10" teamGroups="" teams="6" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="24" teamGroups="" teams="7" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="12;18;2" teamGroups="" teams="9" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="22;29;1" teamGroups="" teams="10" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="13" teamGroups="" teams="11" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="16" teamGroups="" teams="12" type="SOFT"/>
+            <CA1 max="0" min="0" mode="H" penalty="1" slotGroups="" slots="16;25;1" teamGroups="" teams="13" type="SOFT"/>
+            <CA4 max="2" min="2" mode1="HA" mode2="EVERY" penalty="1" slotGroups="" slots="9" teamGroups1="2" teamGroups2="2" teams1="" teams2="" type="HARD"/>
+            <CA4 max="1" min="1" mode1="HA" mode2="EVERY" penalty="1" slotGroups="" slots="4" teamGroups1="3" teamGroups2="3" teams1="" teams2="" type="HARD"/>
+            <CA4 max="1" min="1" mode1="HA" mode2="EVERY" penalty="1" slotGroups="" slots="18" teamGroups1="4" teamGroups2="4" teams1="" teams2="" type="HARD"/>
+        </CapacityConstraints>
+        <GameConstraints/>
+        <BreakConstraints>
+            <BR2 intp="24" mode1="REGULAR" mode2="LEQ" penalty="1" slotGroups="0" slots="" teamGroups="0;1" teams="" type="HARD"/>
+        </BreakConstraints>
+        <FairnessConstraints>
+            <FA1 intp="1" penalty="1" slotGroups="1" slots="" teamGroups="0;1" teams="" type="HARD"/>
+            <FA3 penalty="1" teamGroups="0;1" teams="" type="HARD"/>
+        </FairnessConstraints>
+        <SeparationConstraints>
+            <SE2 penalty="1" slotPairs="7,32;8,31;9,30;10,29;11,28;12,27;13,26;14,25;15,24;16,23;17,22;18,21;19,20;" teamGroups="0;1" teams="" type="HARD"/>
+        </SeparationConstraints>
+    </Constraints>
+</Instance>
