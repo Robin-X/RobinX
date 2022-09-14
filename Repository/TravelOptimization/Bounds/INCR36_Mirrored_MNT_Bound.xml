@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/INCR36_Mirrored.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>David Van Bulck, Kevin Cheung</Contributor>
+    <Date day="14" month="9" year="2022"/>
+    <Remarks>Minimum trip indipendent lowerbound</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>202504</Objective>
+  </LowerBound>
+</Bound>

@@ -966,62 +966,84 @@
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR18.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR18_Sol_CTSP_SA.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR18_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR18_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR18_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR20.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR20_Sol_CTSP_SA.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR20_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR20_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR20_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR22.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR22Sol_ModifiedCircle.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR22_MNT_Bound.xml</bestBoundFile>
+
 			<bestBoundFile>TravelOptimization/Bounds/INCR22_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR24.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR24Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR24_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR24_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR24_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR26.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR26Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR26_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR26_MNT_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR28.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR28Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR28_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR28_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR28_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR30.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR30Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR30_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR30_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR30_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR32.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR32Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR32_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR32_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR32_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR34.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR34Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR34_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR34_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR34_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR36.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR36Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR36_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR36_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR36_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR38.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR38Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR38_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR38_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR38_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR40.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR40Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR40_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR40_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR40_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL4_Mirrored.xml</instanceFile>
@@ -1591,8 +1613,10 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE6_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE6_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE6_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE6_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE6_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE8_Mirrored.xml</instanceFile>
@@ -1601,72 +1625,98 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE10_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE10_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE10_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE10_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE10_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE12_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE12_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE12_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE12_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE12_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE14_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE14_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE14_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE14_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE14_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE16_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE16_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE16_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE16_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE16_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE18_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE18_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE18_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE18_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE18_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE20_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE20_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE20_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE20_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE20_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE22_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE22_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE22_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE22_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE22_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE24_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE24_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE24_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE24_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE24_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE26_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE26_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE26_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE26_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE28_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE28_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE28_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE28_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE28_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE30_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE30_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE30_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE30_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE30_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE32_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE32_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE32_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE32_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE32_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE34_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE34_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE34_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE34_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE34_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE36_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE36_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE36_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE36_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE38_Mirrored.xml</instanceFile>
@@ -1674,7 +1724,9 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE40_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE40_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE40_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/LINE40_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR4_Mirrored.xml</instanceFile>
@@ -1683,89 +1735,123 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR6_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR6_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR6_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR6_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR6_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR8_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR8_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR8_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR8_Bound_ILB.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR10_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR10_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR10_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR10_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR10_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR12_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR12_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR12_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR12_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR12_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR14_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR14_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR14_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR14_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR14_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR16_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR16_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR16_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR16_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR16_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR18_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR18_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR18_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR18_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR18_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR20_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR20_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR20_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR20_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR20_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR22_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR22_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR22_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR22_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR22_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR24_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR24_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR24_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR24_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR24_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR26_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR26_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR26_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR26_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR26_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR28_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR28_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR28_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR28_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR28_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR30_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR30_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR30_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR30_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR30_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR32_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR32_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR32_Mirrored_SolALNS.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR32_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR32_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR34_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR34_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR34_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR34_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR36_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR36_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR36_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR36_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR38_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR38_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR38_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR38_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR40_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR40_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR40_Mirrored_MNT_Bound.xml</bestBoundFile>
+
+			<boundFile>TravelOptimization/Bounds/INCR40_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL4_K1.xml</instanceFile>
