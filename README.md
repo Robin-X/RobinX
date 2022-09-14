@@ -1,6 +1,7 @@
 # RobinX: an XML-driven classification for round-robin sports scheduling
 This readme provides additional info on how to compile the RobinX project.
 When using this software, please always refer to the following article: Van Bulck, D., Goossens, D., and Schönberger, J., & Guajardo, M. (2020). RobinX: A three-field classification and unified data format for round-robin sports timetabling. European Journal of Operational Research, 280, 568-580.
+In addition, the directory Repository contains a backup for the problem instances and solutions found at <https://www.sportscheduling.ugent.be/RobinX>.
 
 # Requirements
 - [GCC](https://gcc.gnu.org/)
