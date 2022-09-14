@@ -29,3 +29,6 @@ RobinXml is free software and comes with ABSOLUTELY NO WARRENTY! You are welcome
 to use, modify, and redistribute it under the GNU General Public Lincese.
 For the latest version of this software, please always refer to the online validator available at <https://www.sportscheduling.ugent.be/RobinX>.
 
+# Repository
+This directory is a back-up for the problem instancens, bounds, and solutions at <https://www.sportscheduling.ugent.be/RobinX>. An overview of all problems instances can be found in repository.xml.
+Please note that this directory is merely a back-up for the website, and that for the latest overview of best found solutions you should always refer to the website itself!
