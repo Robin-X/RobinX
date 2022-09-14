@@ -3,3 +3,6 @@ build/*
 
 # ignore swap files
 *.swp
+
+# ignore zip files
+*.zip
