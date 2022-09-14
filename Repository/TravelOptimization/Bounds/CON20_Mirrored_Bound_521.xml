@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/CON20_Mirrored.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Van Bulck, Goossens</Contributor>
+    <Date month="03" year="2022"/>
+    <Remarks>Bound generated with traditional Benders cuts.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>521</Objective>
+  </LowerBound>
+</Bound>

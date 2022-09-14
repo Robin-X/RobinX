@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+	<MetaData>
+		<InstanceName>ITC2021_Late_5.xml</InstanceName>
+		<BoundName/>
+		<Contributor>George H. G. Fonseca, and Túlio A. M. Toffolo</Contributor>
+		<Date day="10" month="11" year="2021"/>
+		<Remarks>Lowerbounds obtained by an integer programming model running single-thread on Gurobi solver for 1 hour.</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>396</Objective>
+	</LowerBound>
+</Bound>

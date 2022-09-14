@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>GAL16.xml</InstanceName>
+    <BoundName>Logic-Based Benders</BoundName>
+    <Contributor>David Van Bulck, Kevin Cheung</Contributor>
+    <Date day="13" month="5" year="2022"/>
+    <Remarks>Cheung, K. A Benders approach for computing lower bounds for the mirrored traveling tournament problem Discrete Optimization, 2009, 6, 189 - 196</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>13702</Objective>
+  </LowerBound>
+</Bound>

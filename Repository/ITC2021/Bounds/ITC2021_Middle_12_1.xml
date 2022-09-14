@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+	<MetaData>
+		<InstanceName>ITC2021_Middle_12.xml</InstanceName>
+		<BoundName/>
+		<Contributor>Team Udine</Contributor>
+		<Date day="11" month="11" year="2021"/>
+		<Remarks>Lowerbounds obtained by an integer programming model running on Cplex solver with two threads for 8 days. Best bound found after 267806 seconds.</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>1</Objective>
+	</LowerBound>
+</Bound>
