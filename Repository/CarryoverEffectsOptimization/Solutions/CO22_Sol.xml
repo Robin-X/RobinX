@@ -4,11 +4,11 @@
   <MetaData>
     <SolutionName>CO_SOL22</SolutionName>
     <InstanceName>./Repository/CarryoverEffectsOptimization/Instances/CO22.xml</InstanceName>
-    <Contributor>Anderson</Contributor>
-    <Date year="1999"/>
+    <Contributor>Kidd</Contributor>
+    <Date day="29" month="10" year="2010"/>
     <SolutionMethod>H</SolutionMethod>
     <ObjectiveValue infeasibility="0" objective="462"/>
-    <Remarks>Anderson, I. Holroyd, F.; Quinn, K.; Rowley, C. and Webb, B. (Eds.) Balancing carry-over effects in tournaments Combinatorial Designs and Their Applications, CRC Press, 1999</Remarks>
+    <Remarks/>
   </MetaData>
 
   <Games>

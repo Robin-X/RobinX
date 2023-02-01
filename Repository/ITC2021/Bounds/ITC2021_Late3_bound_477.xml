@@ -1,0 +1,16 @@
+<Bound>
+	<MetaData>
+		<InstanceName>ITC2021_Late_3.xml</InstanceName>
+		<BoundName/>
+		<Contributor>Team Modal</Contributor>
+		<Date day="01" month="02" year="2023"/>
+		<Remarks>
+			Name  | Best_LB_root | Best_LB_end | Improvement% | Time_root |    Time_end  |   Best_UB | Gap%
+			L03               449           477           6.2         784        8026            2614    448
+		</Remarks>
+	</MetaData>
+	<LowerBound>
+	<Infeasibility>0</Infeasibility>
+	<Objective>477</Objective>
+	</LowerBound>
+</Bound>

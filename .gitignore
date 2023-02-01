@@ -6,3 +6,6 @@ build/*
 
 # ignore zip files
 *.zip
+
+# Ignore duplicate ITC dir
+ITC_2021

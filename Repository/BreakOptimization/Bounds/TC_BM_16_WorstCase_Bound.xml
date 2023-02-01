@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>TC_BM_16_WorstCase</InstanceName>
+        <Contributor>Brouwer, Post, Woeginger</Contributor>
+        <Date year="2008"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>56</Objective>
+        </LowerBound>
+        <Remarks>See Brouwer, A. E.; Post, G. F. and Woeginger, G. J. Tight bounds for break minimization in tournament scheduling Journal of Combinatorial Theory, Series A, 2008, 115, 1065-1068</Remarks>
+    </MetaData>
+</Bound>

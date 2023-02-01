@@ -6,7 +6,7 @@
     <InstanceName>./Repository/SoftConstraintOptimization/Instances/FootballSouthAmerica.xml</InstanceName>
     <Contributor>Duran, Guajardo, Saure</Contributor>
     <Date year="2017"/>
-    <ObjectiveValue infeasibility="0" objective="0"/>
+    <ObjectiveValue infeasibility="-1" objective="-1"/>
     <Remarks>Converted by David Van Bulck</Remarks>
   </MetaData>
 

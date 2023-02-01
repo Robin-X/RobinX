@@ -6,7 +6,7 @@
     <InstanceName>./Repository/SoftConstraintOptimization/Instances/FootballEcuador_2012.xml</InstanceName>
     <Contributor>Recalde</Contributor>
     <Date year="2013"/>
-    <ObjectiveValue infeasibility="0" objective="12"/>
+    <ObjectiveValue infeasibility="-1" objective="-1"/>
     <Remarks>Converted by David Van Bulck</Remarks>
   </MetaData>
 
