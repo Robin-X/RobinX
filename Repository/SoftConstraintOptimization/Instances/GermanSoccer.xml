@@ -138,7 +138,7 @@
       <GA1 max="0" meetings="7,12;" min="0" penalty="1" slots="0" type="HARD"/>
     </GameConstraints>
     <BreakConstraints>
-      <BR2 intp="48" mode1="REGULAR" mode2="LEQ" penalty="1" teamGroups="0" type="HARD"/>
+            <BR2 intp="48" mode1="REGULAR" mode2="LEQ" penalty="1" slotGroups="0" slots="" teamGroups="0" teams="" type="HARD"/>
     </BreakConstraints>
     <FairnessConstraints/>
     <SeparationConstraints>

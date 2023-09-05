@@ -3,7 +3,8 @@
   <MetaData>
     <SolutionName>INCR10_RTTP.xml</SolutionName>
     <InstanceName>Repository/TravelOptimization/Instances/INCR10.xml</InstanceName>
-    <Contributor>David Van Bulck, Westphals approximation algorithm (LKH solver algorithm) implemented by Luigi Gianni</Contributor>
+    <Contributor>David Van Bulck, Luigi Gianni</Contributor>
+    <Remarks>Westphals approximation algorithm (LKH solver algorithm) implemented by Luigi Gianni</Remarks>
     <Date day="14" month="10" year="2019"/>
     <ObjectiveValue infeasibility="0" objective="1612"/>
   </MetaData>

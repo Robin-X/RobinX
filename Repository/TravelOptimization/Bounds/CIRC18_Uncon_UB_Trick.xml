@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/CIRC18_Unconstrained.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Langford</Contributor>
+    <Date day="24" month="6" year="2005"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>596</Objective>
+  </LowerBound>
+</Bound>

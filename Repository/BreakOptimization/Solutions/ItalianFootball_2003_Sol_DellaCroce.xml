@@ -6,7 +6,7 @@
     <InstanceName>./Repository/BreakOptimization/Instances/ItalianFootball_2003.xml</InstanceName>
     <Contributor>Della Croce, Oliveri</Contributor>
     <Date year="2006"/>
-    <ObjectiveValue infeasibility="-1" objective="-1"/>
+    <ObjectiveValue infeasibility="0" objective="50"/>
     <Remarks>Official name of league: Serie A. Converted by David Van Bulck.</Remarks>
   </MetaData>
 

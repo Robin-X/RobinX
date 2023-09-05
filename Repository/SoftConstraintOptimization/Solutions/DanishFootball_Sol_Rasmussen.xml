@@ -6,7 +6,7 @@
     <InstanceName>./Repository/SoftConstraintOptimization/Instances/DanishFootball.xml</InstanceName>
     <Contributor>Wright</Contributor>
     <Date year="2006"/>
-    <ObjectiveValue infeasibility="-1" objective="-1"/>
+    <ObjectiveValue infeasibility="0" objective="49"/>
     <Remarks>Converted by David Van Bulck. Official name of league: SAS Ligaen.</Remarks>
   </MetaData>
 

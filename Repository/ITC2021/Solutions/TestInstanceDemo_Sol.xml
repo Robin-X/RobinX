@@ -4,6 +4,7 @@
     <SolutionName>mySolution.xml</SolutionName>
     <InstanceName>myInstance.xml</InstanceName>
     <ObjectiveValue infeasibility="0" objective="0"/>
+    <Contributor>ITC2021</Contributor>
   </MetaData>
   <Games>
     <ScheduledMatch home="0" away="1" slot="0"/>

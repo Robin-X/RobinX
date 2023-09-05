@@ -6,7 +6,7 @@
     <InstanceName>./Repository/SoftConstraintOptimization/Instances/NorwegianFootball_6_2009.xml</InstanceName>
     <Contributor>Official calendar retreived from http://rsssf.no/2009/Premier.html</Contributor>
     <Date year="2009"/>
-    <ObjectiveValue infeasibility="-1" objective="-1"/>
+    <ObjectiveValue infeasibility="0" objective="48"/>
     <Remarks>Converted by David Van Bulck. Official name of league: Tippelligaen.</Remarks>
   </MetaData>
 

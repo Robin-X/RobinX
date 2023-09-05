@@ -4973,9 +4973,9 @@
       <GA1 max="1" meetings="2,4;" min="1" penalty="1" slots="10" type="HARD"/>
     </GameConstraints>
     <BreakConstraints>
-      <BR1 breakMode="REGULAR" homeMode="H" max="1" min="0" penalty="1" slotGroups="1" teamGroups="0" type="HARD"/>
-      <BR1 breakMode="REGULAR" homeMode="A" max="1" min="0" penalty="1" slotGroups="1" teamGroups="0" type="HARD"/>
-      <BR1 breakMode="REGULAR" homeMode="HA" max="0" min="0" penalty="1" slots="0;10" teamGroups="0" type="HARD"/>
+            <BR1 intp="1" mode1="LEQ" mode2="H" penalty="1" slotGroups="1" slots="" teamGroups="0" teams="" type="HARD"/>
+            <BR1 intp="1" mode1="LEQ" mode2="A" penalty="1" slotGroups="1" slots="" teamGroups="0" teams="" type="HARD"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="1" slotGroups="" slots="10;0" teamGroups="0" teams="" type="HARD"/>
     </BreakConstraints>
     <FairnessConstraints/>
     <SeparationConstraints/>

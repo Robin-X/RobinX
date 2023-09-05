@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/CON18_Unconstrained.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Urrutia and Ribeiro</Contributor>
+    <Date day="1" month="1" year="2006"/>
+    <Remarks>Urrutia, S., Ribeiro, C. C. Maximizing breaks and bounding solutions to the mirrored traveling tournament problem Discrete Appl. Math., Elsevier, 2006, 154, 1932-1938</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>332</Objective>
+  </LowerBound>
+</Bound>

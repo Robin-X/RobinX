@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/CIRC8_Uncon_WithoutRepHistSol_24_06_2005.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/CIRC8_Unconstrained_WithoutRep.xml</InstanceName>
+        <Contributor>Langford</Contributor>
+        <Date year="2005" month="07" day="06"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="102"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/NL10_Unconstrained.xml</InstanceName>
+    <BoundName></BoundName>
+    <Contributor>Ben Sliméne</Contributor>
+    <Date day="20" month="07" year="2019"/>
+    <Remarks>Bound retrieved from website Trick.</Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>44762</Objective>
+  </LowerBound>
+</Bound>

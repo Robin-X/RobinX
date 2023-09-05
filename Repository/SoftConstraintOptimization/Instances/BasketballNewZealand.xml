@@ -14,7 +14,7 @@
   <Structure>
     <Format leagueIds="0">
       <numberRoundRobin>2</numberRoundRobin>
-      <compactness>C</compactness>
+      <compactness>R</compactness>
     </Format>
     <AdditionalGames/>
   </Structure>

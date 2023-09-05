@@ -120,9 +120,9 @@
     </CapacityConstraints>
     <GameConstraints/>
     <BreakConstraints>
-      <BR1 breakMode="REGULAR" homeMode="HA" max="2" min="0" penalty="1" slotGroups="0" teamGroups="0" type="HARD"/>
-      <BR1 breakMode="REGULAR" homeMode="HA" max="0" min="0" penalty="1" slots="0;1" teamGroups="0" type="HARD"/>
-      <BR1 breakMode="REGULAR" homeMode="H" max="0" min="0" penalty="1" slotGroups="0" teamGroups="0" type="SOFT"/>
+            <BR1 intp="2" mode1="LEQ" mode2="HA" penalty="1" slotGroups="0" slots="" teamGroups="0" teams="" type="HARD"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="1" slotGroups="" slots="0;1" teamGroups="0" teams="" type="HARD"/>
+            <BR1 intp="0" mode1="LEQ" mode2="H" penalty="1" slotGroups="0" slots="" teamGroups="0" teams="" type="SOFT"/>
     </BreakConstraints>
     <FairnessConstraints/>
     <SeparationConstraints/>

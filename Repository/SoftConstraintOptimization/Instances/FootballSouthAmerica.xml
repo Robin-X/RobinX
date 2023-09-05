@@ -85,7 +85,7 @@
     </CapacityConstraints>
     <GameConstraints/>
     <BreakConstraints>
-      <BR1 breakMode="REGULAR" homeMode="HA" max="0" min="0" penalty="1" slotGroups="2" teamGroups="0" type="SOFT"/>
+            <BR1 intp="0" mode1="LEQ" mode2="HA" penalty="1" slotGroups="2" slots="" teamGroups="0" teams="" type="SOFT"/>
     </BreakConstraints>
     <FairnessConstraints/>
     <SeparationConstraints/>

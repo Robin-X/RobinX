@@ -21,7 +21,7 @@
   </Structure>
 
   <ObjectiveFunction>
-    <Objective/>
+        <Objective>NONE</Objective>
   </ObjectiveFunction>
 
   <Data>

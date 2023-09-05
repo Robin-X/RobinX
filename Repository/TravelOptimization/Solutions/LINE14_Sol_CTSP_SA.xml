@@ -3,7 +3,8 @@
   <MetaData>
     <SolutionName>LINE14_Sol_CTSP_SA.xml</SolutionName>
     <InstanceName>./Repository/TravelOptimization/Instances/LINE14.xml</InstanceName>
-    <Contributor>David Van Bulck, Circular TSP complemented with Anagnostopoulos SA algorithm implemented by Luigi Gianni</Contributor>
+    <Contributor>David Van Bulck, Luigi Gianni</Contributor>
+    <Remarks>Circular TSP complemented with Anagnostopoulos SA algorithm implemented by Luigi Gianni</Remarks>
     <Date day="9" month="10" year="2019"/>
     <SolutionMethod>H</SolutionMethod>
     <ObjectiveValue infeasibility="0" objective="918"/>

@@ -3,9 +3,9 @@
   <MetaData>
     <InstanceName>./Repository/TravelOptimization/Instances/CON20_Mirrored.xml</InstanceName>
     <BoundName></BoundName>
-    <Contributor>Urrutia, Ribeiro</Contributor>
-    <Date day="26" month="8" year="2004"/>
-    <Remarks>Bound retrieved from website Trick.</Remarks>
+    <Contributor>Van Bulck, Goossens</Contributor>
+    <Date month="03" year="2022"/>
+    <Remarks>Bound generated with traditional Benders cuts.</Remarks>
   </MetaData>
   <LowerBound>
     <Infeasibility>0</Infeasibility>

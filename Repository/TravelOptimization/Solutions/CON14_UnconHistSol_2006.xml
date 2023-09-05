@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/CON14_UnconHistSol_2006.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/CON14_Unconstrained.xml</InstanceName>
+        <Contributor>Urrutia and Ribeiro</Contributor>
+        <Date year="2006" month="1" day="1"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="202"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

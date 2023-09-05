@@ -19,9 +19,9 @@
     <AdditionalGames/>
   </Structure>
 
-  <ObjectiveFunction>
-    <Objective/>
-  </ObjectiveFunction>
+    <ObjectiveFunction>
+        <Objective>NONE</Objective>
+    </ObjectiveFunction>
 
   <Data>
     <Distances/>

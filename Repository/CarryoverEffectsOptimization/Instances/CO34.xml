@@ -4,9 +4,9 @@
   <MetaData>
     <InstanceName>CO34</InstanceName>
     <DataType>A</DataType>
-    <Contributor>Kidd</Contributor>
+    <Contributor>Russell</Contributor>
     <Date day="29" month="10" year="2010"/>
-    <Remarks/>
+    <Remarks>Russell, K. G. Balancing carry-over effects in round robin tournaments Biometrika, Oxford University Press, 1980, 67, 127-131</Remarks>
     <Lowerbound infeasibility="0" objective="0"/>
   </MetaData>
 

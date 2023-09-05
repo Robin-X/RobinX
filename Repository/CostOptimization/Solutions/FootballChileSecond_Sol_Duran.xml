@@ -6,7 +6,7 @@
     <InstanceName>./Repository/CostOptimization/Instances/FootballChileSecond.xml</InstanceName>
     <Contributor>Duran, Guajardo, Wolf-Yadlin</Contributor>
     <Date year="2012"/>
-    <ObjectiveValue infeasibility="-1" objective="-1"/>
+    <ObjectiveValue infeasibility="14" objective="-101"/>
     <Remarks>Converted by David Van Bulck</Remarks>
   </MetaData>
 

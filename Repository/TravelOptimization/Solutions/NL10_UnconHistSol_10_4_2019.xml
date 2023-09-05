@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+    <MetaData>
+        <SolutionName>./Repository/TravelOptimization/Solutions/NL10_UnconHistSol_10_4_2019.xml</SolutionName>
+        <InstanceName>./Repository/TravelOptimization/Instances/NL10_Unconstrained.xml</InstanceName>
+        <Contributor>Khelifa, Boughaci, Aimeur</Contributor>
+        <Date year="2019" month="4" day="10"/>
+        <SolutionMethod>NULL</SolutionMethod>
+        <ObjectiveValue infeasibility="0" objective="45309"/>
+        <Remarks>NULL</Remarks>
+    </MetaData>
+    <Games/>
+</Solution>

@@ -6,7 +6,7 @@
     <InstanceName>./Repository/SoftConstraintOptimization/Instances/VolleyballItaly_2016.xml</InstanceName>
     <Contributor>Cocchi</Contributor>
     <Date year="2018"/>
-    <ObjectiveValue infeasibility="-1" objective="-1"/>
+    <ObjectiveValue infeasibility="0" objective="672"/>
     <Remarks>Converted by David Van Bulck</Remarks>
   </MetaData>
 
