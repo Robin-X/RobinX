@@ -10,36 +10,36 @@
   </MetaData>
 
   <Games>
-    <scheduledMatch slot="0" team1="0" team2="1"/>
-    <scheduledMatch slot="2" team1="0" team2="3"/>
-    <scheduledMatch slot="4" team1="0" team2="5"/>
-    <scheduledMatch slot="6" team1="0" team2="7"/>
-    <scheduledMatch slot="0" team1="1" team2="2"/>
-    <scheduledMatch slot="1" team1="1" team2="3"/>
-    <scheduledMatch slot="6" team1="1" team2="4"/>
-    <scheduledMatch slot="7" team1="1" team2="5"/>
-    <scheduledMatch slot="0" team1="2" team2="3"/>
-    <scheduledMatch slot="1" team1="2" team2="2"/>
-    <scheduledMatch slot="6" team1="2" team2="5"/>
-    <scheduledMatch slot="7" team1="2" team2="4"/>
-    <scheduledMatch slot="1" team1="3" team2="0"/>
-    <scheduledMatch slot="2" team1="3" team2="6"/>
-    <scheduledMatch slot="3" team1="3" team2="4"/>
-    <scheduledMatch slot="5" team1="3" team2="7"/>
-    <scheduledMatch slot="0" team1="4" team2="6"/>
-    <scheduledMatch slot="2" team1="4" team2="1"/>
-    <scheduledMatch slot="3" team1="4" team2="5"/>
-    <scheduledMatch slot="4" team1="4" team2="7"/>
-    <scheduledMatch slot="1" team1="5" team2="6"/>
-    <scheduledMatch slot="2" team1="5" team2="4"/>
-    <scheduledMatch slot="3" team1="5" team2="7"/>
-    <scheduledMatch slot="5" team1="5" team2="0"/>
-    <scheduledMatch slot="1" team1="6" team2="4"/>
-    <scheduledMatch slot="5" team1="6" team2="3"/>
-    <scheduledMatch slot="6" team1="6" team2="0"/>
-    <scheduledMatch slot="5" team1="7" team2="2"/>
-    <scheduledMatch slot="6" team1="7" team2="3"/>
-    <scheduledMatch slot="7" team1="7" team2="0"/>
+    <ScheduledMatch slot="0" home="0" away="1"/>
+    <ScheduledMatch slot="2" home="0" away="3"/>
+    <ScheduledMatch slot="4" home="0" away="5"/>
+    <ScheduledMatch slot="6" home="0" away="7"/>
+    <ScheduledMatch slot="0" home="1" away="2"/>
+    <ScheduledMatch slot="1" home="1" away="3"/>
+    <ScheduledMatch slot="6" home="1" away="4"/>
+    <ScheduledMatch slot="7" home="1" away="5"/>
+    <ScheduledMatch slot="0" home="2" away="3"/>
+    <ScheduledMatch slot="1" home="2" away="2"/>
+    <ScheduledMatch slot="6" home="2" away="5"/>
+    <ScheduledMatch slot="7" home="2" away="4"/>
+    <ScheduledMatch slot="1" home="3" away="0"/>
+    <ScheduledMatch slot="2" home="3" away="6"/>
+    <ScheduledMatch slot="3" home="3" away="4"/>
+    <ScheduledMatch slot="5" home="3" away="7"/>
+    <ScheduledMatch slot="0" home="4" away="6"/>
+    <ScheduledMatch slot="2" home="4" away="1"/>
+    <ScheduledMatch slot="3" home="4" away="5"/>
+    <ScheduledMatch slot="4" home="4" away="7"/>
+    <ScheduledMatch slot="1" home="5" away="6"/>
+    <ScheduledMatch slot="2" home="5" away="4"/>
+    <ScheduledMatch slot="3" home="5" away="7"/>
+    <ScheduledMatch slot="5" home="5" away="0"/>
+    <ScheduledMatch slot="1" home="6" away="4"/>
+    <ScheduledMatch slot="5" home="6" away="3"/>
+    <ScheduledMatch slot="6" home="6" away="0"/>
+    <ScheduledMatch slot="5" home="7" away="2"/>
+    <ScheduledMatch slot="6" home="7" away="3"/>
+    <ScheduledMatch slot="7" home="7" away="0"/>
   </Games>
 
 </Solution>

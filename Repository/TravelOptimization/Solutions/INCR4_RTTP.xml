@@ -10,14 +10,14 @@
   </MetaData>
 
   <Games>
-    <scheduledMatch slot="0" team1="0" team2="1"/>
-    <scheduledMatch slot="2" team1="0" team2="3"/>
-    <scheduledMatch slot="0" team1="1" team2="2"/>
-    <scheduledMatch slot="1" team1="1" team2="3"/>
-    <scheduledMatch slot="0" team1="2" team2="3"/>
-    <scheduledMatch slot="1" team1="2" team2="2"/>
-    <scheduledMatch slot="1" team1="3" team2="0"/>
-    <scheduledMatch slot="3" team1="3" team2="2"/>
+    <ScheduledMatch slot="0" home="0" away="1"/>
+    <ScheduledMatch slot="2" home="0" away="3"/>
+    <ScheduledMatch slot="0" home="1" away="2"/>
+    <ScheduledMatch slot="1" home="1" away="3"/>
+    <ScheduledMatch slot="0" home="2" away="3"/>
+    <ScheduledMatch slot="1" home="2" away="2"/>
+    <ScheduledMatch slot="1" home="3" away="0"/>
+    <ScheduledMatch slot="3" home="3" away="2"/>
   </Games>
 
 </Solution>

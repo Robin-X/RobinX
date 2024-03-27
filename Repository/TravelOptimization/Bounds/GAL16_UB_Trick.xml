@@ -2,7 +2,7 @@
 <Bound>
   <MetaData>
     <InstanceName>./Repository/TravelOptimization/Instances/GAL16.xml</InstanceName>
-    <BoundName>Independet lower bound</BoundName>
+    <BoundName></BoundName>
     <Contributor>Langford</Contributor>
     <Date day="6" month="4" year="2010"/>
     <Remarks>Bound retrieved from website Trick.</Remarks>

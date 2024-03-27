@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>TC_BM_34_25_Sol</InstanceName>
+        <Contributor>Koichi Fuji, Tomomi Matsui</Contributor>
+        <Date year="2023"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>146</Objective>
+        </LowerBound>
+        <Remarks>Optimality proof from exact approach.</Remarks>
+    </MetaData>
+</Bound>
