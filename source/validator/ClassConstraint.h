@@ -5,6 +5,7 @@
 #include <list>
 #include <algorithm>    // std::find
 #include <iomanip>      // std::setw
+#include <array>
 
 #ifndef CLASSCONSTRAINT_H
 #define CLASSCONSTRAINT_H

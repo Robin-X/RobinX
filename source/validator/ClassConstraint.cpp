@@ -629,7 +629,7 @@ CA4::CA4 (CType c, int p, std::vector<std::pair<int, int>> teamPairs) : Constrai
 			teams2 = TeamSet(teams1);
 
 			// Uniformly choose |T| time slots
-			slots = IN->getRandSlots({teams1.size()}, {1});
+			slots = IN->getRandSlots({(int) teams1.size()}, {1});
 
 			min = 0;
 			max = (int) teams1.size()/2 -1;
