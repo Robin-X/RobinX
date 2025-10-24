@@ -17,14 +17,16 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL8.xml</instanceFile>
+			<!-- Attribute NL8 to Easton
 			<bestSolFile>TravelOptimization/Solutions/NL8_Sol_Uthus.xml</bestSolFile>
+			-->
+			<bestSolFile>/TravelOptimization/Solutions/NL8HistSol_25_August_2002.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/NL8_Bound.xml</bestBoundFile>
 
 			<solFile>/TravelOptimization/Solutions/NL8HistSol_4_6_1999.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NL8HistSol_27_1_2000.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NL8HistSol_2_7_2002.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NL8HistSol_19_August_2002.xml</solFile>
-			<solFile>/TravelOptimization/Solutions/NL8HistSol_25_August_2002.xml</solFile>
 			<boundFile>TravelOptimization/Bounds/NL8HistBound_15_12_2000.xml</boundFile>
 			<boundFile>TravelOptimization/Bounds/NL8HistBound_2_1_2001.xml</boundFile>
 			<boundFile>TravelOptimization/Bounds/NL8HistBound_26_2_2002.xml</boundFile>
@@ -71,7 +73,7 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL14.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/NL14_Sol_Zhang_Xingwen.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/NL14_203407.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/NL14_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NL14_UB_Trick.xml</bestUBLiterature>
 
@@ -90,8 +92,8 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL16.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/NL16_Sol_CTSP_SA.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/NL16_Bound_249500.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/NL16_271476.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/NL16_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NL16_UB_Trick.xml</bestUBLiterature>
 
 			<solFile>/TravelOptimization/Solutions/NL16HistSol_1_1_2002.xml</solFile>
@@ -106,13 +108,13 @@
 			<solFile>/TravelOptimization/Solutions/NL16HistSol_18_5_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NL16HistSol_30_5_2007.xml</solFile>
 			<boundFile>TravelOptimization/Bounds/NL16HistBound_1_1_2002.xml</boundFile>
-			<boundFile>TravelOptimization/Bounds/NL16_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/BRA24.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/BRA24_Sol_CTSP_SA.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/BRA24_Bound_470496.xml</bestBoundFile>
-			<boundFile>TravelOptimization/Bounds/BRA24_Bound.xml</boundFile>
+			<bestBoundFile>TravelOptimization/Bounds/BRA24_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/BRA24_499804.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/BRA24_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/SUP4.xml</instanceFile>
@@ -136,37 +138,34 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/SUP12.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/super12_458810.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/SUP12_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/SUP12_458810.xml</bestSolFile>
 
+			<solFile>TravelOptimization/Solutions/SUP12_460870_Sol.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/SUP12HistSol_30_3_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/SUP12HistSol_29_4_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/SUP12HistSol_8_5_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/SUP12HistSol_29_1_2016.xml</solFile>
-			<solFile>TravelOptimization/Solutions/SUP12_460870_Sol.xml</solFile>
-
 			<boundFile>TravelOptimization/Bounds/SUP12HistBound_11_3_2009.xml</boundFile>
 			<boundFile>TravelOptimization/Bounds/SUP12HistBound_28_6_2009.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/SUP14.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/SUP14_Bound.xml</bestBoundFile>
-			<bestSolFile>TravelOptimization/Solutions/super14_567891.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/SUP14_567891.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/SUP14HistSol_30_3_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/SUP14HistSol_29_4_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/SUP14HistSol_4_5_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/SUP14HistSol_15_5_2009.xml</solFile>
-			<solFile>TravelOptimization/Solutions/SUP14_Sol_CTSP_SA.xml</solFile>
-
 			<boundFile>TravelOptimization/Bounds/SUP14HistBound_11_3_2009.xml</boundFile>
 			<boundFile>TravelOptimization/Bounds/SUP14HistBound_28_6_2009.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL16.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NFL16_Bound_223822.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NFL16_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL16_UB_Trick.xml</bestUBLiterature>
-			<bestSolFile>TravelOptimization/Solutions/NFL16_Sol_CTSP_SA.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/NFL16_243856.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL16HistSol_30_12_2005.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL16HistSol_27_1_2006.xml</solFile>
@@ -175,14 +174,12 @@
 			<solFile>/TravelOptimization/Solutions/NFL16HistSol_28_4_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL16HistSol_10_10_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL16HistSol_30_5_2007.xml</solFile>
-
-			<boundFile>TravelOptimization/Bounds/NFL16_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL18.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/NFL18_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL18_UB_Trick.xml</bestUBLiterature>
-			<bestSolFile>TravelOptimization/Solutions/NFL18_Sol_CTSP_SA.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/NFL18_297205.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL18HistSol_9_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL18HistSol_10_1_2006.xml</solFile>
@@ -194,7 +191,7 @@
 			<instanceFile>TravelOptimization/Instances/NFL20.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/NFL20_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL20_UB_Trick.xml</bestUBLiterature>
-			<bestSolFile>TravelOptimization/Solutions/NFL20_Sol_CTSP_SA.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/NFL20_355144.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL20HistSol_9_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL20HistSol_10_1_2006.xml</solFile>
@@ -206,20 +203,19 @@
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL22.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/NFL22_Bound.xml</bestBoundFile>
-			<bestSolFile>TravelOptimization/Solutions/nfl22_400636.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/NFL22_400636.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL22HistSol_9_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL22HistSol_18_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL22HistSol_22_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL22HistSol_12_5_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL22HistSol_30_5_2007.xml</solFile>
-			<solFile>TravelOptimization/Solutions/NFL22Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL24.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/NFL24_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL24_UB_Trick.xml</bestUBLiterature>
-			<bestSolFile>TravelOptimization/Solutions/NFL24Sol_ModifiedCircle.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/NFL24_467345.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL24HistSol_9_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL24HistSol_20_A_2006.xml</solFile>
@@ -230,7 +226,7 @@
 			<instanceFile>TravelOptimization/Instances/NFL26.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/NFL26_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL26_UB_Trick.xml</bestUBLiterature>
-			<bestSolFile>TravelOptimization/Solutions/NFL26Sol_ModifiedCircle.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/NFL26_549824.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL26HistSol_27_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL26HistSol_27_1_2006.xml</solFile>
@@ -240,22 +236,25 @@
 		</member>		
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL28.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NFL28_Bound_561175.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NFL28_Bound.xml</bestBoundFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/NFL28_UB_Trick.xml</bestUBLiterature>
-			<bestSolFile>TravelOptimization/Solutions/NFL28Sol_ModifiedCircle.xml</bestSolFile>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/NFL28_592321.xml</bestSolFile>
 
+			<solFile>TravelOptimization/Solutions/NFL28_595254.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL28HistSol_27_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL28HistSol_7_2_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL28HistSol_10_2_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL28HistSol_21_6_2007.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL28HistSol_27_8_2013.xml</solFile>
-			<boundFile>TravelOptimization/Bounds/NFL28_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/NFL28_595012.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL30.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/NFL30_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL30_UB_Trick.xml</bestUBLiterature>
-			<bestSolFile>TravelOptimization/Solutions/NFL30Sol_ModifiedCircle.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/NFL30_741506.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL30HistSol_27_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL30HistSol_10_2_2006.xml</solFile>
@@ -265,7 +264,7 @@
 			<instanceFile>TravelOptimization/Instances/NFL32.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/NFL32_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL32_UB_Trick.xml</bestUBLiterature>
-			<bestSolFile>TravelOptimization/Solutions/NFL32Sol_ModifiedCircle.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/NFL32_946616.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL32HistSol_27_1_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL32HistSol_10_2_2006.xml</solFile>
@@ -295,66 +294,64 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL12.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/galaxy12_7135.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL12_7135.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/GAL12_Bound.xml</bestBoundFile>
 
+			<solFile>TravelOptimization/Solutions/GAL12_7180_Sol.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL12HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL12HistSol_28_7_2009.xml</solFile>
-			<solFile>TravelOptimization/Solutions/GAL12_7180_Sol.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL14.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/galaxy14_10840.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL14_10840.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/GAL14_Bound.xml</bestBoundFile>
 
+			<solFile>TravelOptimization/Solutions/GAL14_10879_Sol.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL14HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL14HistSol_1_8_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL14HistSol_14_9_2009.xml</solFile>
-			<solFile>TravelOptimization/Solutions/GAL14_10879_Sol.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL16.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/galaxy16_14583.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL16_Bound_13702.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL16_14583.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL16_Bound.xml</bestBoundFile>
 
+			<solFile>TravelOptimization/Solutions/GAL16_14648_Sol.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL16HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL16HistSol_4_8_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL16HistSol_20_9_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL16HistSol_6_4_2010.xml</solFile>
-			<solFile>TravelOptimization/Solutions/GAL16_14648_Sol.xml</solFile>
-
-			<boundFile>TravelOptimization/Bounds/GAL16_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL18.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/galaxy18_20205.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL18_Bound_19051.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL18_20205.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL18_Bound.xml</bestBoundFile>
 
+			<solFile>TravelOptimization/Solutions/GAL18_20489_Sol.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL18HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL18HistSol_22_9_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL18HistSol_18_12_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL18HistSol_13_3_2010.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL18HistSol_21_5_2018.xml</solFile>
-			<solFile>TravelOptimization/Solutions/GAL18_20489_Sol.xml</solFile>
-
-			<boundFile>TravelOptimization/Bounds/GAL18_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL20.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/galaxy20_25401.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL20_25401.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/GAL20_Bound.xml</bestBoundFile>
 
+			<solFile>TravelOptimization/Solutions/GAL20_25818_Sol.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL20HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL20HistSol_25_9_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL20HistSol_27_12_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL20HistSol_18_3_2010.xml</solFile>
-			<solFile>TravelOptimization/Solutions/GAL20_25818_Sol.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL22.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL22_Sol_Uthus.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL22_Bound_31595.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL22_Bound.xml</bestBoundFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL22_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/GAL22_33754.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/GAL22HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL22HistSol_25_9_2009.xml</solFile>
@@ -366,14 +363,13 @@
 			<solFile>/TravelOptimization/Solutions/GAL22HistSol_28_9_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL22HistSol_29_11_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL22HistSol_27_9_2013.xml</solFile>
-
-			<boundFile>TravelOptimization/Bounds/GAL22_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL24.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL24_44260.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/GAL24_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL24_44167.xml</bestSolFile>
 
+			<solFile>TravelOptimization/Solutions/GAL24_44260.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL24HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL24HistSol_2_10_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL24HistSol_11_1_2010.xml</solFile>
@@ -387,7 +383,7 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL26.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL26_Sol_Uthus.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL26_59195.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/GAL26_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/GAL26_UB_Trick.xml</bestUBLiterature>
 
@@ -400,9 +396,11 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL28.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL28_Sol_Uthus.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL28_Bound_70189.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL28_Bound.xml</bestBoundFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL28_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/GAL28_74985.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/GAL28HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL28HistSol_4_10_2009.xml</solFile>
@@ -414,12 +412,10 @@
 			<solFile>/TravelOptimization/Solutions/GAL28HistSol_28_9_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL28HistSol_29_11_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL28HistSol_27_8_2013.xml</solFile>
-
-			<boundFile>TravelOptimization/Bounds/GAL28_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL30.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL30_Sol_Uthus.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL30_96349.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/GAL30_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/GAL30_UB_Trick.xml</bestUBLiterature>
 
@@ -436,9 +432,11 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL32.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL32_Sol_Uthus.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL32_119098.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/GAL32_Bound.xml</bestBoundFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL32_UB_Trick.xml</bestUBLiterature>
+			-->
 
 			<solFile>/TravelOptimization/Solutions/GAL32HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL32HistSol_27_10_2009.xml</solFile>
@@ -449,9 +447,11 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL34.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL34_Sol_Uthus.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL34_Bound_134269.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL34_Bound.xml</bestBoundFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL34_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/GAL34_142468.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/GAL34HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL34HistSol_27_10_2009.xml</solFile>
@@ -463,12 +463,10 @@
 			<solFile>/TravelOptimization/Solutions/GAL34HistSol_24_2_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL34HistSol_29_11_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL34HistSol_27_8_2013.xml</solFile>
-
-			<boundFile>TravelOptimization/Bounds/GAL34_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL36.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL36_Sol_Uthus.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/GAL36_170694.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/GAL36_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/GAL36_UB_Trick.xml</bestUBLiterature>
 
@@ -484,10 +482,13 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL38.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL38_Sol_Uthus.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/GAL38_Bound.xml</bestBoundFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL38_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/GAL38_204298.xml</bestSolFile>
 
+			<solFile>TravelOptimization/Solutions/GAL38_204654.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL38HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL38HistSol_24_11_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL38HistSol_3_7_2010.xml</solFile>
@@ -498,10 +499,13 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL40.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/GAL40_Sol_Uthus.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL40_Bound_227134.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL40_Bound.xml</bestBoundFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL40_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/GAL40_240063.xml</bestSolFile>
 
+			<solFile>TravelOptimization/Solutions/SA_GAL40_0_241829.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_24_11_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_3_7_2010.xml</solFile>
@@ -511,8 +515,6 @@
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_9_2_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_29_11_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_27_8_2013.xml</solFile>
-
-			<boundFile>TravelOptimization/Bounds/GAL40_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC4.xml</instanceFile>
@@ -554,9 +556,10 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC12.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/circ12_400.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC12_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC12_400.xml</bestSolFile>
 
+			<solFile>TravelOptimization/Solutions/CIRC12_Lim2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC12HistSol_2_7_2002.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC12HistSol_28_8_2002.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC12HistSol_6_1_2003.xml</solFile>
@@ -565,14 +568,14 @@
 			<solFile>/TravelOptimization/Solutions/CIRC12HistSol_26_6_2003.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC12HistSol_23_1_2005.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC12HistSol_30_5_2007.xml</solFile>
-			<solFile>TravelOptimization/Solutions/CIRC12_Lim2006.xml</solFile>
 			<boundFile>TravelOptimization/Bounds/CIRC12HistBound_1_5_2001.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC14.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/circ14_616.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC14_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC14_616.xml</bestSolFile>
 
+			<solFile>TravelOptimization/Solutions/CIRC14_628_Sol.xml</solFile>
 			<solFile>TravelOptimization/Solutions/CIRC14_Lim2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC14HistSol_2_7_2002.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC14HistSol_6_8_2002.xml</solFile>
@@ -583,13 +586,13 @@
 			<solFile>/TravelOptimization/Solutions/CIRC14HistSol_23_1_2005.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC14HistSol_30_5_2007.xml</solFile>
 			<solFile>TravelOptimization/Solutions/CIRC14_FrohnerSol.xml</solFile>
-			<solFile>TravelOptimization/Solutions/CIRC14_628_Sol.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC16.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/circ16_898.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC16_898.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC16_Bound.xml</bestBoundFile>
 
+			<solFile>TravelOptimization/Solutions/CIRC16_FrohnerSol.xml</solFile>
 			<solFile>TravelOptimization/Solutions/CIRC16_Lim2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC16HistSol_2_7_2002.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC16HistSol_28_8_2002.xml</solFile>
@@ -598,13 +601,13 @@
 			<solFile>/TravelOptimization/Solutions/CIRC16HistSol_23_1_2005.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC16HistSol_30_5_2007.xml</solFile>
 			<boundFile>TravelOptimization/Bounds/CIRC16HistBound_1_5_2001.xml</boundFile>
-			<solFile>TravelOptimization/Solutions/CIRC16_FrohnerSol.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC18.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/circ18_1268.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC18_1268.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC18_Bound.xml</bestBoundFile>
 
+			<solFile>TravelOptimization/Solutions/CIRC18_1284_Sol.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC18HistSol_2_7_2002.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC18HistSol_6_8_2002.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC18HistSol_28_8_2002.xml</solFile>
@@ -617,13 +620,13 @@
 			<solFile>/TravelOptimization/Solutions/CIRC18HistSol_12_5_2005.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC18HistSol_18_5_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC18HistSol_30_5_2007.xml</solFile>
-			<solFile>TravelOptimization/Solutions/CIRC18_1284_Sol.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC20.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC20_Bound.xml</bestBoundFile>
-			<bestSolFile>TravelOptimization/Solutions/circ20_1724.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC20_1724.xml</bestSolFile>
 
+			<solFile>TravelOptimization/Solutions/CIRC20_Lim2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC20HistSol_2_7_2002.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC20HistSol_6_8_2002.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC20HistSol_28_8_2002.xml</solFile>
@@ -635,57 +638,102 @@
 			<solFile>/TravelOptimization/Solutions/CIRC20HistSol_23_1_2005.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC20HistSol_18_5_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/CIRC20HistSol_30_May_2007.xml</solFile>
-			<solFile>TravelOptimization/Solutions/CIRC20_Lim2006.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC22.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC22Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC22_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC22_2270.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC22_2300.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC22_2366.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC22Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC24.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC24Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC24_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC24_2958.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC24_2960.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC24_3146.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC24Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC26.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC26Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC26_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC26_3882.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC26_3890.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC26_3992.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC26Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC28.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC28Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC28_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC28_4494.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC28_4498.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC28_4530.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC28_4642.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC28Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC30.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC30Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC30_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC30_5470.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC30_5486.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC30_5554.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC30_5842.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC30Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC32.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC32Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC32_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC32_6862.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC32_6870.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC32_6944.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC32_7074.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC32Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC34.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC34Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC34_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC34_7706.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC34_7746.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC34_7768.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC34_8042.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC34Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC36.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC36Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC36_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC36_9314.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC36_9328.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC36_9382.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC36_9726.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC36Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC38.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC38Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC38_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC38_11170.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC38_11176.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC38_11186.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC38_11424.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC38Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC40.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CIRC40Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CIRC40_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CIRC40_12296.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC40_12320.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC40_12752.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC40Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON4.xml</instanceFile>
@@ -800,15 +848,19 @@
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON30.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/CON30_Bound.xml</bestBoundFile>
-			<bestSolFile>TravelOptimization/Solutions/CON30_Comp_NoLex_1177.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/CON30_1175.xml</bestSolFile>
 
+			<solFile>TravelOptimization/Solutions/CON30_Comp_NoLex_1177.xml</solFile>
 			<solFile>TravelOptimization/Solutions/CON30Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON32.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CON32Sol_ModifiedCircle.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/SA_CON32_0_1358.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CON32_Bound.xml</bestBoundFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/CON32_UB_Fujiwara.xml</bestUBLiterature>
+			-->
+			<solFile>TravelOptimization/Solutions/CON32Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON34.xml</instanceFile>
@@ -818,14 +870,21 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON36.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CON36Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CON36_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CON36_1701.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/CON36Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON38.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/CON38Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/CON38_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/CON38_1913.xml</bestSolFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/CON38_UB_Fujiwara.xml</bestUBLiterature>
+			-->
+
+			<bestSolFile>TravelOptimization/Solutions/SA_CON38_0_1915.xml</bestSolFile>
+			<solFile>TravelOptimization/Solutions/CON38_UB_Fujiware.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON40.xml</instanceFile>
@@ -851,82 +910,115 @@
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE10.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE10_Bound_ILB.xml</bestBoundFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE10_RTTP.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE10_302.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE10_RTTP.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE12.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE12_Sol_CTSP_SA.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE12_Bound_ILB.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE12_512.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE12_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE14.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE14_Sol_CTSP_SA.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE14_Bound_ILB.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE14_794.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE14_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE16.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE16_Sol_CTSP_SA.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE16_Bound_ILB.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE16_1140.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE16_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE18.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE18_Sol_CTSP_SA.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE18_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE18_1666.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE18_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE20.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE20_Sol_CTSP_SA.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE20_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE20_2320.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE20_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE22.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE22Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE22_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE22_2864.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE22Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE24.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE24Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE24_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE24_3760.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE24Sol_ModifiedCircle.xml</solFile>
+			<solFile>TravelOptimization/Solutions/LINE24_3762.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE26.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE26Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE26_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE26_5030.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE26Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE28.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE28Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE28_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE28_5860.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE28Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE30.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE30Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE30_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE30_7044.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE30Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE32.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE32Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE32_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE32_8932.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE32Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE34.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE34Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE34_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE34_10000.xml</bestSolFile>
+			
+			<solFile>TravelOptimization/Solutions/LINE34Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE36.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE36Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE36_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE36_11968.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE36Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE38.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE38Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE38_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE38_14756.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE38Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE40.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE40Sol_ModifiedCircle.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE40_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE40_16064.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/LINE40Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR4.xml</instanceFile>
@@ -940,110 +1032,122 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR8.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR8_RTTP.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/INCR8_Bound_ILB.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR8_RTTP.xml</bestSolFile>
+
+			<bestSolFile>TravelOptimization/Solutions/INCR8_RTTP.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR10.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/INCR10_Bound_ILB.xml</bestBoundFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR10_RTTP.xml</bestSolFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR10_1570.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/INCR10_RTTP.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR12.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR12_Sol_CTSP_SA.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/INCR12_Bound_ILB.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR12_3008.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/INCR12_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR14.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR14_Sol_CTSP_SA.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/INCR14_Bound_ILB.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR14_5528.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/INCR14_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR16.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR16_Sol_CTSP_SA.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/INCR16_Bound_ILB.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR16_9100.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/INCR16_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR18.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR18_Sol_CTSP_SA.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR18_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR18_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR18_14856.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR18_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR18_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR20.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR20_Sol_CTSP_SA.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR20_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR20_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR20_22994.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR20_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR20_Sol_CTSP_SA.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR22.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR22Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR22_MNT_Bound.xml</bestBoundFile>
-
 			<bestBoundFile>TravelOptimization/Bounds/INCR22_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR22_31514.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/INCR22Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR24.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR24Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR24_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR24_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR24_44884.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR24_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR24Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR26.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR26Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR26_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR26_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR26_63536.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/INCR26Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR28.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR28Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR28_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR28_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR28_80422.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR28_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR28Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR30.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR30Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR30_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR30_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR30_105466.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR30_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR30Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR32.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR32Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR32_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR32_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR32_142592.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR32_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR32Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR34.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR34Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR34_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR34_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR34_170360.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR34_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR34Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR36.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR36Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR36_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR36_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR36_214322.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR36_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR36Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR38.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR38Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR38_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR38_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR38_278322.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR38_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR38Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR40.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR40Sol_ModifiedCircle.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR40_MNT_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR40_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR40_321750.xml</bestSolFile>
 
-			<boundFile>TravelOptimization/Bounds/INCR40_Bound.xml</boundFile>
+			<solFile>TravelOptimization/Solutions/INCR40Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL4_Mirrored.xml</instanceFile>
@@ -1065,7 +1169,7 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL10_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NL10_Mirrored_Bound_58883.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NL10_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NL10_Mirrored_UB_Trick.xml</bestUBLiterature>
 			<bestSolFile>TravelOptimization/Solutions/NL10_Mirrored_SolALNS.xml</bestSolFile>
 
@@ -1075,11 +1179,10 @@
 			<boundFile>TravelOptimization/Bounds/NL10_MirroredHistBound_12_5_2005.xml</boundFile>
 			<boundFile>TravelOptimization/Bounds/NL10_MirroredHistBound_15_7_2006.xml</boundFile>
 			<boundFile>TravelOptimization/Bounds/NL10_Mirrored_Bound.xml</boundFile>
-			<boundFile>TravelOptimization/Bounds/NL10_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL12_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NL12_Mirrored_Bound_111116.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NL12_Mirrored_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NL12_Mirrored_UB_Trick.xml</bestUBLiterature>
 			<bestSolFile>TravelOptimization/Solutions/NL12_Mirrored_SolALNS.xml</bestSolFile>
 
@@ -1087,7 +1190,6 @@
 			<solFile>/TravelOptimization/Solutions/NL12_MirroredHistSol_21_1_2004.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NL12_MirroredHistSol_18_5_2006.xml</solFile>
 			<boundFile>TravelOptimization/Bounds/NL12_MirroredHistBound_15_7_2006.xml</boundFile>
-			<boundFile>TravelOptimization/Bounds/NL12_Mirrored_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL14_Mirrored.xml</instanceFile>
@@ -1174,12 +1276,11 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL20_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NFL20_Mirrored_Bound_316737.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NFL20_Mirrored_Bound.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL20_Mirrored_UB_Trick.xml</bestUBLiterature>
 			<bestSolFile>TravelOptimization/Solutions/NFL20_Mirrored_SolALNS.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL20_MirroredHistSol_22_1_2006.xml</solFile>
-			<boundFile>TravelOptimization/Bounds/NFL20_Mirrored_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL22_Mirrored.xml</instanceFile>
@@ -1560,50 +1661,50 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON26_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/CON26_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/CON26_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/CON26Mirrored_Comp_886.xml</bestSolFile>
 
 			<solFile>TravelOptimization/Solutions/CON26_Mirrored_SolALNS.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON28_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/CON28_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/CON28_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/CON28Mirrored_1054.xml</bestSolFile>
 
 			<solFile>TravelOptimization/Solutions/CON28_Mirrored_SolALNS.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON30_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/CON30_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/CON30_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/CON30Mirrored_1200.xml</bestSolFile>
 
 			<solFile>TravelOptimization/Solutions/CON30_Mirrored_SolALNS.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON32_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/CON32_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/CON32_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/CON32Mirrored_Comp_NoLex_1348.xml</bestSolFile>
 
 			<solFile>TravelOptimization/Solutions/CON32_Mirrored_SolALNS.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON34_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/CON34_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/CON34_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/CON34Mirrored_1554.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON36_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/CON36_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/CON36_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/CON36Mirrored_Comp_1728.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON38_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/CON38_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/CON38_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/CON38Mirrored_Comp_NoLex_1912.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON40_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/CON40_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/CON40_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/CON40Mirrored_Comp_2150.xml</bestSolFile>
 		</member>
 		<member>
@@ -1613,10 +1714,8 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE6_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE6_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE6_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE6_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE6_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE8_Mirrored.xml</instanceFile>
@@ -1625,98 +1724,72 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE10_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE10_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE10_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE10_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE10_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE12_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE12_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE12_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE12_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE12_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE14_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE14_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE14_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE14_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE14_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE16_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE16_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE16_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE16_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE16_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE18_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE18_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE18_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE18_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE18_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE20_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE20_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE20_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE20_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE20_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE22_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE22_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE22_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE22_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE22_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE24_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE24_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE24_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE24_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE24_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE26_Mirrored.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/LINE26_Mirrored_SolALNS.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/LINE26_Bound.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/LINE26_Mirrored_SolALNS.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE28_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE28_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE28_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE28_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE28_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE30_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE30_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE30_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE30_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE30_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE32_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE32_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE32_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE32_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE32_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE34_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE34_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/LINE34_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE34_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE34_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE36_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE36_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE36_Bound.xml</boundFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE36_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE38_Mirrored.xml</instanceFile>
@@ -1724,9 +1797,7 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/LINE40_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/LINE40_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/LINE40_Bound.xml</boundFile>
+			<bestBoundFile>TravelOptimization/Bounds/LINE40_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR4_Mirrored.xml</instanceFile>
@@ -1735,123 +1806,89 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR6_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR6_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR6_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR6_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR6_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR8_Mirrored.xml</instanceFile>
-			<bestSolFile>TravelOptimization/Solutions/INCR8_Mirrored_SolALNS.xml</bestSolFile>
 			<bestBoundFile>TravelOptimization/Bounds/INCR8_Bound_ILB.xml</bestBoundFile>
+			<bestSolFile>TravelOptimization/Solutions/INCR8_Mirrored_SolALNS.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR10_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR10_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR10_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR10_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR10_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR12_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR12_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR12_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR12_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR12_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR14_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR14_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR14_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR14_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR14_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR16_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR16_Bound_ILB.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR16_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR16_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR16_Bound_ILB.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR18_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR18_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR18_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR18_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR18_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR20_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR20_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR20_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR20_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR20_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR22_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR22_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR22_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR22_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR22_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR24_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR24_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR24_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR24_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR24_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR26_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR26_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR26_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR26_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR26_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR28_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR28_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR28_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR28_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR28_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR30_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR30_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR30_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR30_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR30_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR32_Mirrored.xml</instanceFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR32_Bound.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/INCR32_Mirrored_SolALNS.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR32_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR32_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR34_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR34_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR34_Bound.xml</boundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR34_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR36_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR36_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR36_Bound.xml</boundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR36_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR38_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR38_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR38_Bound.xml</boundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR38_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/INCR40_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/INCR40_Mirrored_MNT_Bound.xml</bestBoundFile>
-
-			<boundFile>TravelOptimization/Bounds/INCR40_Bound.xml</boundFile>
+			<bestBoundFile>TravelOptimization/Bounds/INCR40_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL4_K1.xml</instanceFile>
@@ -2405,6 +2442,245 @@
 			<solFile>TravelOptimization/Solutions/CIRC_NonBalanced_i_20_Sol_Melo.xml</solFile>
 			<solFile>TravelOptimization/Solutions/CIRC_NonBalanced_j_20_Sol_Costa.xml</solFile>
 		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/NL6_Unconstrained.xml</instanceFile>
+			<!--
+			<bestUBLiterature>TravelOptimization/Bounds/NL6_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/NL6Uncon_19900.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/NL6_UnconHistSol_15_1_2018.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/NL8_Unconstrained.xml</instanceFile>
+			<!--
+			<bestUBLiterature>TravelOptimization/Bounds/NL8_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/NL8Uncon_30700.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/NL8_UnconHistSol_15_1_2018.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/NL10_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/NL10_Uncon_UB_Trick.xml</bestUBLiterature>
+			<bestSolFile>TravelOptimization/Solutions/NL10Uncon_45412.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/NL10_UnconHistSol_20_7_2019.xml</solFile>
+			<solFile>TravelOptimization/Solutions/NL10_UnconHistSol_10_4_2019.xml</solFile>
+			<solFile>TravelOptimization/Solutions/NL10_UnconHistSol_10_3_2019.xml</solFile>
+			<solFile>TravelOptimization/Solutions/NL10_UnconHistSol_15_1_2018.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/NL12_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/NL12_Uncon_UB_Trick.xml</bestUBLiterature>
+			<bestSolFile>TravelOptimization/Solutions/NL12Uncon_79623.xml</bestSolFile>
+			
+			<solFile>TravelOptimization/Solutions/NL12_UnconHistSol_20_7_2019.xml</solFile>
+			<solFile>TravelOptimization/Solutions/NL12_UnconHistSol_15_1_2018.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/NL14_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/NL14_Uncon_UB_Trick.xml</bestUBLiterature>
+			<bestSolFile>TravelOptimization/Solutions/NL14Uncon_125734.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/NL14_UnconHistSol_20_7_2019.xml</solFile>
+			<solFile>TravelOptimization/Solutions/NL14_UnconHistSol_15_1_2018.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/NL16_Unconstrained.xml</instanceFile>
+			<bestSolFile>TravelOptimization/Solutions/NL16_Uncon_sol_153930.xml</bestSolFile>
+
+			<solFile>TravelOptimization/Solutions/NL16_UnconHistSol_15_1_2018.xml</solFile>
+			<solFile>TravelOptimization/Solutions/NL16_UnconHistSol_20_7_2019.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC6_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC6_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC6_UnconHistSol_24_06_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC8_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC8_Uncon_UB_Trick.xml</bestUBLiterature>
+			<bestBoundFile>TravelOptimization/Bounds/CIRC8_Uncon_LB_Gschwind.xml</bestBoundFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC8_UnconHistSol_24_06_2005.xml</solFile>	
+			<boundFile>TravelOptimization/Bounds/CIRC8_Uncon_LB_Irnich.xml</boundFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC10_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC10_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC10_UnconHistSol_24_06_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC12_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC12_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC12_UnconHistSol_24_06_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC14_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC14_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC14_UnconHistSol_24_06_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC16_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC16_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC16_UnconHistSol_24_06_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC18_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC18_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC18_UnconHistSol_29_06_2005.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC18_UnconHistSol_24_06_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC20_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC20_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC20_UnconHistSol_29_06_2005.xml</solFile>
+			<solFile>TravelOptimization/Solutions/CIRC20_UnconHistSol_24_06_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC6_Unconstrained_WithoutRep.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC6_Uncon_WithoutRep_UB_Trick.xml</bestUBLiterature>
+			<bestBoundFile>TravelOptimization/Bounds/CIRC6_Uncon_WithoutRep_LB_Irnich.xml</bestBoundFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC6_Uncon_WithoutRepHistSol_06_07_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC8_Unconstrained_WithoutRep.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC8_Uncon_WithoutRep_UB_Trick.xml</bestUBLiterature>
+			<bestBoundFile>TravelOptimization/Bounds/CIRC8_Uncon_WithoutRep_LB_Gschwind.xml</bestBoundFile>
+
+			<solFile>TravelOptimization/Solutions/CIRC8_Uncon_WithoutRepHistSol_06_07_2005.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/CIRC6_Uncon_WithoutRep_LB_Irnich.xml</boundFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC10_Unconstrained_WithoutRep.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC10_Uncon_WithoutRep_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC10_Uncon_WithoutRepHistSol_06_07_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC12_Unconstrained_WithoutRep.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC12_Uncon_WithoutRep_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC12_Uncon_WithoutRepHistSol_06_07_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC14_Unconstrained_WithoutRep.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC14_Uncon_WithoutRep_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC14_Uncon_WithoutRepHistSol_06_07_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC16_Unconstrained_WithoutRep.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC16_Uncon_WithoutRep_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC16_Uncon_WithoutRepHistSol_06_07_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC18_Unconstrained_WithoutRep.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC18_Uncon_WithoutRep_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC18_Uncon_WithoutRepHistSol_06_07_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CIRC20_Unconstrained_WithoutRep.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CIRC20_Uncon_WithoutRep_UB_Trick.xml</bestUBLiterature>
+
+			<solFile>TravelOptimization/Solutions/CIRC20_Uncon_WithoutRepHistSol_06_07_2005.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON6_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CON6_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON6_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON6_UnconHistSol_2006.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON8_Unconstrained.xml</instanceFile>
+			<!--
+			<bestUBLiterature>TravelOptimization/Bounds/CON8_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON8Uncon_67.xml</bestSolFile>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON8_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON8_UnconHistSol_2006.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON10_Unconstrained.xml</instanceFile>
+			<!--
+			<bestUBLiterature>TravelOptimization/Bounds/CON10_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON10Uncon_104.xml</bestSolFile>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON10_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON10_UnconHistSol_2006.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON12_Unconstrained.xml</instanceFile>
+			<!--
+			<bestUBLiterature>TravelOptimization/Bounds/CON12_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON12Uncon_149.xml</bestSolFile>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON12_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON12_UnconHistSol_2006.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON14_Unconstrained.xml</instanceFile>
+			<!--
+			<bestUBLiterature>TravelOptimization/Bounds/CON14_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON14Uncon_202.xml</bestSolFile>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON14_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON14_UnconHistSol_2006.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON16_Unconstrained.xml</instanceFile>
+			<!--
+			<bestUBLiterature>TravelOptimization/Bounds/CON16_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON16Uncon_263.xml</bestSolFile>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON16_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON16_UnconHistSol_2006.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON18_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CON18_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON18_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON18_UnconHistSol_2006.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON20_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CON20_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON20_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON20_UnconHistSol_2006.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON22_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CON22_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON22_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON22_UnconHistSol_2006.xml</solFile>
+		</member>
+		<member>
+			<instanceFile>TravelOptimization/Instances/CON24_Unconstrained.xml</instanceFile>
+			<bestUBLiterature>TravelOptimization/Bounds/CON24_Uncon_UB_Trick.xml</bestUBLiterature>
+
+			<bestBoundFile>TravelOptimization/Bounds/CON24_Uncon_LB.xml</bestBoundFile>
+			<solFile>TravelOptimization/Solutions/CON24_UnconHistSol_2006.xml</solFile>
+		</member>
 	</TravelOptimization>
 	<BreakOptimization>
 		<member>
@@ -2894,48 +3170,78 @@
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_32_25.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_32_25_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_32_25_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_32_135.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_32_135_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_32_135_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_32_228.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_32_228_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_32_228_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_32_654.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_32_654_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_32_654_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_32_4711.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_32_4711_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_32_4711_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_34_25.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_34_25_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_34_25_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_34_135.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_34_135_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_34_135_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_34_228.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_34_228_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_34_228_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_34_654.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_34_654_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_34_654_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_34_4711.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_34_4711_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_34_4711_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_36_25.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_36_25_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_36_25_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_36_135.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_36_135_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_36_135_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_36_228.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_36_228_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_36_228_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_36_654.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_36_654_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_36_654_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_36_4711.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_36_4711_Sol.xml</bestSolFile>
+			<bestBoundFile>BreakOptimization/Bounds/TC_BM_36_4711_Bound.xml</bestBoundFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_38_25.xml</instanceFile>
@@ -3334,99 +3640,6 @@
 		<member>
 			<instanceFile>ConstraintSatisfaction/Instances/R16P116C23.xml</instanceFile>
 		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_8_14_7_3_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_8_21_10_5_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_8_28_14_7_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_8_35_17_8_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_8_42_21_10_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_8_49_24_12_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_8_56_28_14_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_12_11_5_2_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_12_22_11_5_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_12_33_16_8_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_12_44_22_11_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_12_55_27_13_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_12_66_33_16_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_12_77_38_19_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_12_88_44_22_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_16_105_52_26_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_16_120_60_30_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_16_15_7_3_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_16_30_15_7_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_16_45_22_11_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_16_60_30_15_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_16_75_37_18_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_16_90_45_22_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_20_114_57_28_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_20_133_66_33_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_20_152_76_38_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_20_19_9_4_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_20_38_19_9_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_20_57_28_14_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_20_76_38_19_0.xml</instanceFile>
-		</member>
-		<member>
-			<instanceFile>ConstraintSatisfaction/Instances/Instance_k2_20_95_47_23_0.xml</instanceFile>
-		</member>
 	</ConstraintSatisfaction>
 	<CarryoverEffectsOptimization>
 		<member>
@@ -3505,26 +3718,28 @@
 		<member>
 			<instanceFile>CarryoverEffectsOptimization/Instances/CO32.xml</instanceFile>
 			<bestBoundFile>CarryoverEffectsOptimization/Bounds/CO32_Bound.xml</bestBoundFile>
-			<bestUBLiterature>CarryoverEffectsOptimization/Bounds/CO32_UB.xml</bestUBLiterature>
+			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO32_Sol_Cao.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>CarryoverEffectsOptimization/Instances/CO34.xml</instanceFile>
 			<bestBoundFile>CarryoverEffectsOptimization/Bounds/CO34_Bound.xml</bestBoundFile>
-			<bestUBLiterature>CarryoverEffectsOptimization/Bounds/CO34_UB.xml</bestUBLiterature>
+			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO34_Sol_Cao.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>CarryoverEffectsOptimization/Instances/CO36.xml</instanceFile>
 			<bestBoundFile>CarryoverEffectsOptimization/Bounds/CO36_Bound.xml</bestBoundFile>
-			<bestUBLiterature>CarryoverEffectsOptimization/Bounds/CO36_UB.xml</bestUBLiterature>
+			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO36_Sol_Cao.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>CarryoverEffectsOptimization/Instances/CO38.xml</instanceFile>
 			<bestBoundFile>CarryoverEffectsOptimization/Bounds/CO38_Bound.xml</bestBoundFile>
+			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO38_Sol_Cao.xml</bestSolFile>
 			<bestUBLiterature>CarryoverEffectsOptimization/Bounds/CO38_UB.xml</bestUBLiterature>
 		</member>
 		<member>
 			<instanceFile>CarryoverEffectsOptimization/Instances/CO40.xml</instanceFile>
 			<bestBoundFile>CarryoverEffectsOptimization/Bounds/CO40_Bound.xml</bestBoundFile>
+			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO40_Sol_Cao.xml</bestSolFile>
 			<bestUBLiterature>CarryoverEffectsOptimization/Bounds/CO40_UB.xml</bestUBLiterature>
 		</member>
 		<member>
@@ -10322,16 +10537,18 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_2.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_2_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_2_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Early_2_144.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Early_2_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Early_2_comp_best.xml</solFile>
 		<solFile>ITC2021/Solutions/ITC2021_Early_2_Milestone.xml</solFile>
 	</member>
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_3.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_3_Bound_49.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_3_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Early_3_934.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Early_3_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Early_3_comp_best.xml</solFile>
 		<solFile>ITC2021/Solutions/ITC2021_Early_3_Milestone.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Early_3_Bound.xml</boundFile>
@@ -10340,8 +10557,9 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_4.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_4_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_4_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Early_4_430.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Early_4_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Early_4_comp_best.xml</solFile>
 		<solFile>ITC2021/Solutions/ITC2021_Early_4_Milestone.xml</solFile>
 	</member>
@@ -10356,8 +10574,9 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_6.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_6_Bound_607.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_6_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Early_6_3287.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Early_6_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Early_6_comp_best.xml</solFile>		
 		<solFile>ITC2021/Solutions/ITC2021_Early_6_Milestone.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Early_6_Bound.xml</boundFile>
@@ -10365,8 +10584,9 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_7.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_7_Bound_1296.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_7_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Early_7_4744.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Early_7_comp_best.xml</solFile>
 		<solFile>ITC2021/Solutions/ITC2021_Early_7_Milestone.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Early_7_Bound.xml</boundFile>
 	</member>
@@ -10383,8 +10603,9 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_9.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_9_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_9_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Early9_0_56_FBHS.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Early_9_comp_best.xml</solFile>
 		<solFile>ITC2021/Solutions/ITC2021_Early_9_Milestone.xml</solFile>
 	</member>
 	<member>
@@ -10398,9 +10619,10 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_11.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_11_Bound_348.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_11_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Early_11_4381.xml</bestSolFile>
 
 		
+		<solFile>ITC2021/Solutions/Early_11_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Early_11_comp_best.xml</solFile>
 		<solFile>ITC2021/Solutions/ITC2021_Early_11_Milestone.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Early_11_Bound.xml</boundFile>
@@ -10408,8 +10630,9 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_12.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_12_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_12_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Early12_0_315_FBHS.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Early_12_comp_best.xml</solFile>
 		<solFile>ITC2021/Solutions/ITC2021_Early_12_Milestone.xml</solFile>
 	</member>
 	<member>
@@ -10431,8 +10654,9 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_15.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_15_Bound_485.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_15_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Early15_0_2955_FBHS.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Early_15_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Early_15_comp_best.xml</solFile>
 		<solFile>ITC2021/Solutions/ITC2021_Early_15_Milestone.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Early_15_Bound.xml</boundFile>
@@ -10448,15 +10672,19 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_2.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_2_Bound_2984.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_2_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/ITC2021_Middle2_0_7115.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Middle_2_comp_best.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Middle_2_Bound.xml</boundFile>
 	</member>
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_3.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_3_Bound_3378.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_3_9542.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/ITC2021_Middle_3_0_8648.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Middle_3_9315.xml</solFile>
+		<solFile>ITC2021/Solutions/Middle3_Andreas_Krystallidis.xml</solFile>
+		<solFile>ITC2021/Solutions/Middle_3_9542.xml</solFile>
 		<solFile>ITC2021/Solutions/Middle_3_comp_best.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Middle_3_Bound.xml</boundFile>
 	</member>
@@ -10470,16 +10698,18 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_5.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_5_Bound_47.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_5_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle5_0_279_FBHS.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Middle_5_comp_best.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Middle_5_Bound.xml</boundFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Middle_5_Bound_45.xml</boundFile>
 	</member>
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_6.xml</instanceFile>
   	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_6_Bound_24.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_6_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle_6_1090.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Middle_6_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Middle_6_comp_best.xml</solFile>
   	        <boundFile>ITC2021/Bounds/ITC2021_Middle_6_Bound.xml</boundFile>
   	        <boundFile>ITC2021/Bounds/ITC2021_Middle_6_Bound_2.xml</boundFile>
@@ -10487,8 +10717,9 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_7.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_7_Bound_27.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_7_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle_7_1780.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Middle_7_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Middle_7_comp_best.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Middle_7_Bound.xml</boundFile>
 	</member>
@@ -10502,55 +10733,69 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_9.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_9_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_9_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle9_0_415_FBHS.xml</bestSolFile>
+
+		<solFile>ITC2021/Solutions/Middle_9_comp_best.xml</solFile>
 	</member>
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_10.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_10_Bound_4.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_10_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle10_Andreas_Krystallidis.xml</bestSolFile>
+
+		<solFile>ITC2021/Solutions/Middle_10_comp_best.xml</solFile>
 
    	        <boundFile>ITC2021/Bounds/ITC2021_Middle_10_Bound.xml</boundFile>
 	</member>
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_11.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_11_Bound_345.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_11_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle_11_2177.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Middle_11_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Middle_11_comp_best.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Middle_11_Bound.xml</boundFile>
 	</member>
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_12.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_12_1.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_12_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle_12_597.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Middle12_599.xml</solFile>
+		<solFile>ITC2021/Solutions/Middle12_0_674_FBHS.xml</solFile>
+		<solFile>ITC2021/Solutions/Middle_12_comp_best.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Middle_12_Bound.xml</boundFile>
 	</member>
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_13.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_13_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_13_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle_13_211.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Middle_13_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Middle_13_comp_best.xml</solFile>
 	</member>
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_14.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_14_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_14_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle14_1140.xml</bestSolFile>
+
+		<solFile>ITC2021/Solutions/Middle14_0_1150_FBHS.xml</solFile>
+		<solFile>ITC2021/Solutions/Middle_14_comp_best.xml</solFile>
 	</member>
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Middle_15.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Middle_15_Bound_1.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Middle_15_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Middle_15_462.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Middle_15_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Middle_15_comp_best.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Middle_15_Bound.xml</boundFile>
 	</member>
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_1.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_1_Bound_1103.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_1_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late_1_1919.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Late_1_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Late_1_comp_best.xml</solFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_1_Bound.xml</boundFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_1_Bound_1102.xml</boundFile>
@@ -10558,7 +10803,10 @@
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_2.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_2_Bound_2818.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_2_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late_2_5379.xml</bestSolFile>
+
+		<solFile>ITC2021/Solutions/Late2_Andreas_Krystallidis.xml</solFile>
+		<solFile>ITC2021/Solutions/Late_2_comp_best.xml</solFile>
 
                 <boundFile>ITC2021/Bounds/ITC2021_Late_2_Bound.xml</boundFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_2_Bound_2817.xml</boundFile>
@@ -10578,16 +10826,21 @@
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_5.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_5_Bound_398.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_5_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late_5_1849.xml</bestSolFile>
+
+		<solFile>ITC2021/Solutions/Late_5_SolDES.xml</solFile>
+		<solFile>ITC2021/Solutions/Late_5_comp_best.xml</solFile>
 
                 <boundFile>ITC2021/Bounds/ITC2021_Late_5_Bound.xml</boundFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_5_Bound_396.xml</boundFile>
-		<solFile>ITC2021/Solutions/Late_5_comp_best.xml</solFile>
         </member>
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_6.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_6_Bound_6.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_6_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late_6_872.xml</bestSolFile>
+
+		<solFile>ITC2021/Solutions/Late_6_904.xml</solFile>
+		<solFile>ITC2021/Solutions/Late_6_comp_best.xml</solFile>
 
                 <boundFile>ITC2021/Bounds/ITC2021_Late_6_Bound.xml</boundFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_6_Bound_5.xml</bestBoundFile>
@@ -10610,46 +10863,53 @@
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_9.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_9_Bound_3.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_9_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late9_0_498_FBHS.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Late_9_comp_best.xml</solFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_9_Bound.xml</boundFile>
         </member>
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_10.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_10_Bound_1.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_10_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late_10_1786.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Late_10_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Late_10_comp_best.xml</solFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_10_Bound.xml</boundFile>
         </member>
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_11.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_11_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_11_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late_11_201.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Late_11_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Late_11_comp_best.xml</solFile>
         </member>
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_12.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_12_Bound_203.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_12_SolDES.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late_12_3226.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Late_12_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Late_12_comp_best.xml</solFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_12_Bound.xml</boundFile>
         </member>
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_13.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_13_Bound_7.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_13_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late_13_1813.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Late_13_comp_best.xml</solFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_13_Bound.xml</boundFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_13_Bound_5.xml</boundFile>
         </member>
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_14.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_14_Bound_7.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_14_1202.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late_14_1140.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Late14_0_1174_FBHS.xml</solFile>
+		<solFile>ITC2021/Solutions/Late_14_1202.xml</solFile>
 		<solFile>ITC2021/Solutions/Late_14_Sol_Udine.xml</solFile>
 		<solFile>ITC2021/Solutions/Late_14_comp_best.xml</solFile>
                 <boundFile>ITC2021/Bounds/ITC2021_Late_14_Bound.xml</boundFile>
@@ -10657,7 +10917,9 @@
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_15.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_15_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_15_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/Late15_0_0_FBHS.xml</bestSolFile>
+
+		<solFile>ITC2021/Solutions/Late_15_comp_best.xml</solFile>
         </member>
 	</ITC2021>
 </repository>
