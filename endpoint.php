@@ -1,7 +1,7 @@
 
 <?php
 
-print "<B>Uploaded file processing</B><BR>\n";
+print "<B>Uploaded file processingg..</B><BR>\n";
 
 function writepayload() { // write payload to file
         $tempfile = tempnam(sys_get_temp_dir(),"latex");
@@ -43,6 +43,8 @@ if(array_key_exists("payload",$_FILES)) {
 $buf=readpayload($file);
 print "content: $buf<BR>\n";
 
-// unlink($file); // delete temp file
+system(cat $file);
+
+unlink($file); // delete temp file
 
 ?>

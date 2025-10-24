@@ -1,45 +1,69 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Solution>
-
-  <MetaData>
-    <SolutionName>./LINE8_RTTP.xml</SolutionName>
-    <InstanceName>./Repository/TravelOptimization/Instances/LINE8.xml</InstanceName>
-    <Contributor>Brandão and Pedroso</Contributor>
-    <SolutonMethod>H</SolutonMethod>
-    <ObjectiveValue infeasibility="0" objective="162"/>
-  </MetaData>
-
-  <Games>
-    <ScheduledMatch slot="0" home="0" away="1"/>
-    <ScheduledMatch slot="2" home="0" away="3"/>
-    <ScheduledMatch slot="4" home="0" away="5"/>
-    <ScheduledMatch slot="6" home="0" away="7"/>
-    <ScheduledMatch slot="0" home="1" away="2"/>
-    <ScheduledMatch slot="1" home="1" away="3"/>
-    <ScheduledMatch slot="6" home="1" away="4"/>
-    <ScheduledMatch slot="7" home="1" away="5"/>
-    <ScheduledMatch slot="0" home="2" away="3"/>
-    <ScheduledMatch slot="1" home="2" away="2"/>
-    <ScheduledMatch slot="6" home="2" away="5"/>
-    <ScheduledMatch slot="7" home="2" away="4"/>
-    <ScheduledMatch slot="1" home="3" away="0"/>
-    <ScheduledMatch slot="2" home="3" away="6"/>
-    <ScheduledMatch slot="3" home="3" away="4"/>
-    <ScheduledMatch slot="5" home="3" away="7"/>
-    <ScheduledMatch slot="0" home="4" away="6"/>
-    <ScheduledMatch slot="2" home="4" away="1"/>
-    <ScheduledMatch slot="3" home="4" away="5"/>
-    <ScheduledMatch slot="4" home="4" away="7"/>
-    <ScheduledMatch slot="1" home="5" away="6"/>
-    <ScheduledMatch slot="2" home="5" away="4"/>
-    <ScheduledMatch slot="3" home="5" away="7"/>
-    <ScheduledMatch slot="5" home="5" away="0"/>
-    <ScheduledMatch slot="1" home="6" away="4"/>
-    <ScheduledMatch slot="5" home="6" away="3"/>
-    <ScheduledMatch slot="6" home="6" away="0"/>
-    <ScheduledMatch slot="5" home="7" away="2"/>
-    <ScheduledMatch slot="6" home="7" away="3"/>
-    <ScheduledMatch slot="7" home="7" away="0"/>
-  </Games>
-
+    <MetaData>
+        <SolutionName>RTTP_LINE8_164.xml</SolutionName>
+        <InstanceName>../../../../RobinX/Repository/TravelOptimization/Instances/LINE8.xml</InstanceName>
+        <Contributor>Brandão and Pedroso</Contributor>
+        <Date year="2024" month="1" day="1"/>
+        <ObjectiveValue infeasibility="0" objective="164"/>
+        <Remarks>RTTP Solver by Brandao and Pedrosso</Remarks>
+    </MetaData>
+    <Games>
+        <ScheduledMatch home="0" away="1" slot="0"/>
+        <ScheduledMatch home="0" away="2" slot="1"/>
+        <ScheduledMatch home="0" away="5" slot="2"/>
+        <ScheduledMatch home="0" away="6" slot="4"/>
+        <ScheduledMatch home="0" away="7" slot="5"/>
+        <ScheduledMatch home="0" away="3" slot="9"/>
+        <ScheduledMatch home="0" away="4" slot="10"/>
+        <ScheduledMatch home="1" away="5" slot="1"/>
+        <ScheduledMatch home="1" away="2" slot="2"/>
+        <ScheduledMatch home="1" away="0" slot="3"/>
+        <ScheduledMatch home="1" away="6" slot="5"/>
+        <ScheduledMatch home="1" away="7" slot="6"/>
+        <ScheduledMatch home="1" away="4" slot="9"/>
+        <ScheduledMatch home="1" away="3" slot="10"/>
+        <ScheduledMatch home="2" away="3" slot="0"/>
+        <ScheduledMatch home="2" away="5" slot="3"/>
+        <ScheduledMatch home="2" away="1" slot="4"/>
+        <ScheduledMatch home="2" away="6" slot="6"/>
+        <ScheduledMatch home="2" away="7" slot="7"/>
+        <ScheduledMatch home="2" away="4" slot="11"/>
+        <ScheduledMatch home="2" away="0" slot="13"/>
+        <ScheduledMatch home="3" away="6" slot="1"/>
+        <ScheduledMatch home="3" away="7" slot="2"/>
+        <ScheduledMatch home="3" away="4" slot="6"/>
+        <ScheduledMatch home="3" away="5" slot="7"/>
+        <ScheduledMatch home="3" away="1" slot="8"/>
+        <ScheduledMatch home="3" away="0" slot="11"/>
+        <ScheduledMatch home="3" away="2" slot="12"/>
+        <ScheduledMatch home="4" away="6" slot="0"/>
+        <ScheduledMatch home="4" away="7" slot="1"/>
+        <ScheduledMatch home="4" away="2" slot="5"/>
+        <ScheduledMatch home="4" away="1" slot="7"/>
+        <ScheduledMatch home="4" away="5" slot="8"/>
+        <ScheduledMatch home="4" away="0" slot="12"/>
+        <ScheduledMatch home="4" away="3" slot="13"/>
+        <ScheduledMatch home="5" away="7" slot="0"/>
+        <ScheduledMatch home="5" away="4" slot="4"/>
+        <ScheduledMatch home="5" away="3" slot="5"/>
+        <ScheduledMatch home="5" away="0" slot="6"/>
+        <ScheduledMatch home="5" away="6" slot="9"/>
+        <ScheduledMatch home="5" away="2" slot="10"/>
+        <ScheduledMatch home="5" away="1" slot="13"/>
+        <ScheduledMatch home="6" away="4" slot="2"/>
+        <ScheduledMatch home="6" away="3" slot="3"/>
+        <ScheduledMatch home="6" away="0" slot="7"/>
+        <ScheduledMatch home="6" away="2" slot="8"/>
+        <ScheduledMatch home="6" away="7" slot="10"/>
+        <ScheduledMatch home="6" away="1" slot="11"/>
+        <ScheduledMatch home="6" away="5" slot="12"/>
+        <ScheduledMatch home="7" away="4" slot="3"/>
+        <ScheduledMatch home="7" away="3" slot="4"/>
+        <ScheduledMatch home="7" away="0" slot="8"/>
+        <ScheduledMatch home="7" away="2" slot="9"/>
+        <ScheduledMatch home="7" away="5" slot="11"/>
+        <ScheduledMatch home="7" away="1" slot="12"/>
+        <ScheduledMatch home="7" away="6" slot="13"/>
+    </Games>
 </Solution>
