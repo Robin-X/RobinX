@@ -93,7 +93,7 @@
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL16.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/NL16_271476.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/NL16_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NL16_Bound_249500.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NL16_UB_Trick.xml</bestUBLiterature>
 
 			<solFile>/TravelOptimization/Solutions/NL16HistSol_1_1_2002.xml</solFile>
@@ -108,13 +108,15 @@
 			<solFile>/TravelOptimization/Solutions/NL16HistSol_18_5_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NL16HistSol_30_5_2007.xml</solFile>
 			<boundFile>TravelOptimization/Bounds/NL16HistBound_1_1_2002.xml</boundFile>
+			<boundFile>TravelOptimization/Bounds/NL16_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/BRA24.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/BRA24_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/BRA24_Bound_470496.xml</bestBoundFile>
 			<bestSolFile>TravelOptimization/Solutions/BRA24_499804.xml</bestSolFile>
 
 			<solFile>TravelOptimization/Solutions/BRA24_Sol_CTSP_SA.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/BRA24_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/SUP4.xml</instanceFile>
@@ -163,7 +165,7 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL16.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NFL16_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NFL16_Bound_223822.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL16_UB_Trick.xml</bestUBLiterature>
 			<bestSolFile>TravelOptimization/Solutions/NFL16_243856.xml</bestSolFile>
 
@@ -174,6 +176,7 @@
 			<solFile>/TravelOptimization/Solutions/NFL16HistSol_28_4_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL16HistSol_10_10_2006.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL16HistSol_30_5_2007.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/NFL16_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL18.xml</instanceFile>
@@ -236,7 +239,7 @@
 		</member>		
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL28.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NFL28_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NFL28_Bound_561175.xml</bestBoundFile>
 			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/NFL28_UB_Trick.xml</bestUBLiterature>
 			-->
@@ -249,6 +252,7 @@
 			<solFile>/TravelOptimization/Solutions/NFL28HistSol_21_6_2007.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NFL28HistSol_27_8_2013.xml</solFile>
 			<solFile>TravelOptimization/Solutions/NFL28_595012.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/NFL28_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL30.xml</instanceFile>
@@ -314,18 +318,19 @@
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL16.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/GAL16_14583.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL16_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL16_Bound_13702.xml</bestBoundFile>
 
 			<solFile>TravelOptimization/Solutions/GAL16_14648_Sol.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL16HistSol_28_6_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL16HistSol_4_8_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL16HistSol_20_9_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL16HistSol_6_4_2010.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/GAL16_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL18.xml</instanceFile>
 			<bestSolFile>TravelOptimization/Solutions/GAL18_20205.xml</bestSolFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL18_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL18_Bound_19051.xml</bestBoundFile>
 
 			<solFile>TravelOptimization/Solutions/GAL18_20489_Sol.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL18HistSol_28_6_2009.xml</solFile>
@@ -333,6 +338,7 @@
 			<solFile>/TravelOptimization/Solutions/GAL18HistSol_18_12_2009.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL18HistSol_13_3_2010.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL18HistSol_21_5_2018.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/GAL18_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL20.xml</instanceFile>
@@ -347,7 +353,7 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL22.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL22_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL22_Bound_31595.xml</bestBoundFile>
 			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL22_UB_Trick.xml</bestUBLiterature>
 			-->
@@ -363,6 +369,7 @@
 			<solFile>/TravelOptimization/Solutions/GAL22HistSol_28_9_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL22HistSol_29_11_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL22HistSol_27_9_2013.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/GAL22_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL24.xml</instanceFile>
@@ -396,7 +403,7 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL28.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL28_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL28_Bound_70189.xml</bestBoundFile>
 			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL28_UB_Trick.xml</bestUBLiterature>
 			-->
@@ -412,6 +419,7 @@
 			<solFile>/TravelOptimization/Solutions/GAL28HistSol_28_9_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL28HistSol_29_11_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL28HistSol_27_8_2013.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/GAL28_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL30.xml</instanceFile>
@@ -447,7 +455,7 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL34.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL34_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL34_Bound_134269.xml</bestBoundFile>
 			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL34_UB_Trick.xml</bestUBLiterature>
 			-->
@@ -463,6 +471,7 @@
 			<solFile>/TravelOptimization/Solutions/GAL34HistSol_24_2_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL34HistSol_29_11_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL34HistSol_27_8_2013.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/GAL34_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL36.xml</instanceFile>
@@ -499,11 +508,11 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/GAL40.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/GAL40_Bound.xml</bestBoundFile>
 			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/GAL40_UB_Trick.xml</bestUBLiterature>
 			-->
 			<bestSolFile>TravelOptimization/Solutions/GAL40_240063.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/GAL40_Bound_227134.xml</bestBoundFile>
 
 			<solFile>TravelOptimization/Solutions/SA_GAL40_0_241829.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_28_6_2009.xml</solFile>
@@ -515,6 +524,7 @@
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_9_2_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_29_11_2012.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/GAL40HistSol_27_8_2013.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/GAL40_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CIRC4.xml</instanceFile>
@@ -1169,7 +1179,7 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL10_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NL10_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NL10_Mirrored_Bound_58883.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NL10_Mirrored_UB_Trick.xml</bestUBLiterature>
 			<bestSolFile>TravelOptimization/Solutions/NL10_Mirrored_SolALNS.xml</bestSolFile>
 
@@ -1179,10 +1189,11 @@
 			<boundFile>TravelOptimization/Bounds/NL10_MirroredHistBound_12_5_2005.xml</boundFile>
 			<boundFile>TravelOptimization/Bounds/NL10_MirroredHistBound_15_7_2006.xml</boundFile>
 			<boundFile>TravelOptimization/Bounds/NL10_Mirrored_Bound.xml</boundFile>
+			<boundFile>TravelOptimization/Bounds/NL10_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL12_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NL12_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NL12_Mirrored_Bound_111116.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NL12_Mirrored_UB_Trick.xml</bestUBLiterature>
 			<bestSolFile>TravelOptimization/Solutions/NL12_Mirrored_SolALNS.xml</bestSolFile>
 
@@ -1190,6 +1201,7 @@
 			<solFile>/TravelOptimization/Solutions/NL12_MirroredHistSol_21_1_2004.xml</solFile>
 			<solFile>/TravelOptimization/Solutions/NL12_MirroredHistSol_18_5_2006.xml</solFile>
 			<boundFile>TravelOptimization/Bounds/NL12_MirroredHistBound_15_7_2006.xml</boundFile>
+			<boundFile>TravelOptimization/Bounds/NL12_Mirrored_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NL14_Mirrored.xml</instanceFile>
@@ -1276,11 +1288,12 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL20_Mirrored.xml</instanceFile>
-			<bestBoundFile>TravelOptimization/Bounds/NFL20_Mirrored_Bound.xml</bestBoundFile>
+			<bestBoundFile>TravelOptimization/Bounds/NFL20_Mirrored_Bound_316737.xml</bestBoundFile>
 			<bestUBLiterature>TravelOptimization/Bounds/NFL20_Mirrored_UB_Trick.xml</bestUBLiterature>
 			<bestSolFile>TravelOptimization/Solutions/NFL20_Mirrored_SolALNS.xml</bestSolFile>
 
 			<solFile>/TravelOptimization/Solutions/NFL20_MirroredHistSol_22_1_2006.xml</solFile>
+			<boundFile>TravelOptimization/Bounds/NFL20_Mirrored_Bound.xml</boundFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/NFL22_Mirrored.xml</instanceFile>
