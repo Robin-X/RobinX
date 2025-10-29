@@ -2,7 +2,7 @@
 <Bound>
   <MetaData>
     <InstanceName>./Repository/TravelOptimization/Instances/CIRC26.xml</InstanceName>
-    <BoundName>ILB approximation via column generation CVRP model</BoundName>
+    <BoundName>MNILB</BoundName>
     <Contributor>David Van Bulck</Contributor>
     <Date day="11" month="7" year="2019"/>
     <Remarks></Remarks>

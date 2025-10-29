@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Bound>
   <MetaData>
-    <InstanceName>./Repository/TravelOptimization/Instances/LINE36.xml</InstanceName>
-    <BoundName>ILB approximation via column generation CVRP model</BoundName>
+    <InstanceName>./Repository/TravelOptimization/Instances/LINE40.xml</InstanceName>
+    <BoundName>MNILB</BoundName>
     <Contributor>David Van Bulck</Contributor>
-    <Date day="11" month="7" year="2019"/>
+    <Date day="29" month="10" year="2025"/>
     <Remarks></Remarks>
   </MetaData>
   <LowerBound>
     <Infeasibility>0</Infeasibility>
-    <Objective>15294</Objective>
+    <Objective>15288</Objective>
   </LowerBound>
 </Bound>
