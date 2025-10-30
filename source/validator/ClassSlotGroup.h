@@ -29,6 +29,7 @@ public:
 
 	int getNrMembers() const{ return members.size(); }
 	void addMember(Slot* s); 
+	void removeMember(Slot* s);
 	SlotSetIt getFirstMember() { return members.begin(); }
 	SlotSetIt getLastMember() { return members.end(); }
 	bool isMember(Slot* s) const{ return members.count(s); }

@@ -120,6 +120,31 @@ void Instance::addSlot(Slot* s){
 	}
 }
 
+
+void Instance::removeSlot(Slot* s) {
+    try {
+        // Check whether slot exists in slot map
+        if (!slots.count(s->getId())) {
+            std::stringstream msg;
+            msg << "Failed to remove slot " << s->getId() << " from slot map. Id not found.";
+            throw_line_robinx(InterfaceReadingException, msg.str());
+        } else {
+            // Remove slot from all slot groups it belongs to
+            for (auto sg : s->getSlotGroups()) {
+                sg->removeMember(s);
+            }
+
+            // Remove slot from the slot map
+            slots.erase(s->getId());
+        }
+    }
+    catch (InterfaceReadingException& e) {
+        std::cerr << e.what() << std::endl;
+        // Cleanup if something goes wrong
+        delete s;
+    }
+}
+
 void Instance::addSlotGroup(SlotGroup* sg){
 	// Check whether slot group already in team map
 	try{
@@ -844,3 +869,15 @@ TeamSet Instance::getRandTeams(const std::vector<int> values, const std::vector<
 
 	return teams;
 }
+
+
+void Instance::removeConstraint(Constraint* c){
+	for (auto it = constraints.begin(); it != constraints.end(); ++it) {
+	    if (*it == c) {
+	        delete *it;                // free the object
+	        constraints.erase(it);     // erase the pointer from the list
+	        break;                     // done — only one match expected
+	    }
+	}
+}
+

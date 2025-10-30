@@ -63,6 +63,7 @@ public:
 
 	// Modify slot map
 	void addSlot(Slot*);
+	void removeSlot(Slot*);
 	Slot* getSlot(const int id) const{ return slots.at(id); }
 	Slot* getRandSlot();
 	SlotSet getRandSlots(const std::vector<int> values, const std::vector<int> weights);
@@ -77,6 +78,7 @@ public:
 
 	// Modify constraint list
 	void addConstraint(Constraint* c) { constraints.push_back(c); }
+	void removeConstraint(Constraint* c);
 	ConstraintList getCnstrs() { return constraints; }
 
 	// Modify objective
