@@ -3261,6 +3261,7 @@
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_38_135.xml</instanceFile>
+			<bestSolFile>BreakOptimization/Solutions/TC_BM_38_135_Sol_176.xml</bestSolFile>
 		</member>
 		<member>
 			<instanceFile>BreakOptimization/Instances/TC_BM_38_228.xml</instanceFile>
