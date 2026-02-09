@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>TC_BM_16_228</InstanceName>
+        <Contributor>Nasser Salmasi (SimpleRose)</Contributor>
+        <Date year="2026"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>48</Objective>
+        </LowerBound>
+	<Remarks>The lower bound for the number of breaks for 2RR, C.M||BR based on deverra(1981) is 3n-6  which is equal to 48 for 18 teams.</Remarks>
+    </MetaData>
+</Bound>

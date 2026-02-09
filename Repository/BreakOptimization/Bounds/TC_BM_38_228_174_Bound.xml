@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>TC_BM_38_228_Sol</InstanceName>
+        <Contributor>Nasser Salmasi (SimpleRose) and Ali Hassanzadeh</Contributor>
+        <Date year="2025"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>174</Objective>
+        </LowerBound>
+        <Remarks>Optimality proof from exact approach.</Remarks>
+    </MetaData>
+</Bound>

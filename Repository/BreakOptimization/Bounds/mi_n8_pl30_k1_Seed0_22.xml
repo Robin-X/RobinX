@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bound>
+    <MetaData>
+        <InstanceName>nm_n8_pl30_k1_Seed0.xml</InstanceName>
+	<Contributor>Nasser Salmasi (SimpleRose)</Contributor>
+        <Date year="2026"/>
+        <LowerBound>
+            <Infeasibility>0</Infeasibility>
+            <Objective>22</Objective>
+        </LowerBound>
+        <Remarks>Optimality proof from exact approach.</Remarks>
+    </MetaData>
+</Bound>
