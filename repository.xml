@@ -2611,7 +2611,10 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON6_Unconstrained.xml</instanceFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/CON6_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON6_Uncon_ML.xml</bestSolFile>
 
 			<bestBoundFile>TravelOptimization/Bounds/CON6_Uncon_LB.xml</bestBoundFile>
 			<solFile>TravelOptimization/Solutions/CON6_UnconHistSol_2006.xml</solFile>
@@ -2668,28 +2671,40 @@
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON18_Unconstrained.xml</instanceFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/CON18_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON18_Uncon_ML.xml</bestSolFile>
 
 			<bestBoundFile>TravelOptimization/Bounds/CON18_Uncon_LB.xml</bestBoundFile>
 			<solFile>TravelOptimization/Solutions/CON18_UnconHistSol_2006.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON20_Unconstrained.xml</instanceFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/CON20_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON20_Uncon_ML.xml</bestSolFile>
 
 			<bestBoundFile>TravelOptimization/Bounds/CON20_Uncon_LB.xml</bestBoundFile>
 			<solFile>TravelOptimization/Solutions/CON20_UnconHistSol_2006.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON22_Unconstrained.xml</instanceFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/CON22_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON22_Uncon_ML.xml</bestSolFile>
 
 			<bestBoundFile>TravelOptimization/Bounds/CON22_Uncon_LB.xml</bestBoundFile>
 			<solFile>TravelOptimization/Solutions/CON22_UnconHistSol_2006.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>TravelOptimization/Instances/CON24_Unconstrained.xml</instanceFile>
+			<!--
 			<bestUBLiterature>TravelOptimization/Bounds/CON24_Uncon_UB_Trick.xml</bestUBLiterature>
+			-->
+			<bestSolFile>TravelOptimization/Solutions/CON24_Uncon_ML.xml</bestSolFile>
 
 			<bestBoundFile>TravelOptimization/Bounds/CON24_Uncon_LB.xml</bestBoundFile>
 			<solFile>TravelOptimization/Solutions/CON24_UnconHistSol_2006.xml</solFile>
