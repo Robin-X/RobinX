@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Bounds/GAL40_10_24137.xml</InstanceName>
+    <BoundName>DLB</BoundName>
+    <Contributor>Devriesere, Van Bulck, Goossens</Contributor>
+    <Date day="20" month="2" year="2026"/>
+    <Remarks></Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>51992</Objective>
+  </LowerBound>
+</Bound>

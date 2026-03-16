@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/I_NL16_12_98906.xml</InstanceName>
+    <BoundName>LP of F2</BoundName>
+    <Contributor>Devriesere, Van Bulck, Goossens</Contributor>
+    <Date day="20" month="2" year="2026"/>
+    <Remarks></Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>98906</Objective>
+  </LowerBound>
+</Bound>
