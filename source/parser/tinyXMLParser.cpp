@@ -539,7 +539,7 @@ void TinyParser::readSlots() {
 	// Load all slots into memory
 	for (const tinyxml2::XMLElement* p = slots->FirstChildElement("slot"); p; p = p->NextSiblingElement("slot")) {
 		// Read all attributes and add slot
-		IdList	slotGroupIds = detokenizeIntString(getStringAttrSafe(p, "slotGroup"));
+		IdList	slotGroupIds = detokenizeIntString(getStringAttr(p, "slotGroup"));
 		Interface::get()->addSlot(new Slot(getIntAttrSafe(p,"id"), getStringAttrSafe(p, "name"), slotGroupIds));	
 	}
 }
