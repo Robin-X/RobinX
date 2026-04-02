@@ -594,7 +594,7 @@ void TinyParser::readTeams() {
 	// Load all slot groups into memory
 	for (const tinyxml2::XMLElement* p = teams->FirstChildElement("team"); p; p = p->NextSiblingElement("team")) {
 		// Add team to team map
-		IdList teamGroupIds = detokenizeIntString(getStringAttrSafe(p, "teamGroups"));
+		IdList teamGroupIds = detokenizeIntString(getStringAttr(p, "teamGroups"));
 		Interface::get()->addTeam(new Team(getIntAttrSafe(p, "id"), getStringAttrSafe(p, "name"), getIntAttrSafe(p, "league"), teamGroupIds));
 	}
 }
