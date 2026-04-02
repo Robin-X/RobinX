@@ -1047,7 +1047,7 @@ BR1::BR1 (CType c, int p) : Constraint(c,p, "BR1"){
 
 		for (auto m : meetings) {
 			m1 = m2; 	// Game mode of previous period
-			m2 = (m->getFirstTeam() == t) ? H : A;
+			m2 = (m->getVenue() == t) ? H : A;
 			if (m1 == m2) { 
 				// Break with correct home mode occuring in one of the specified slots
 				slotIdsBreak.push_back(m->getAssignedSlot()->getId());
@@ -1123,7 +1123,7 @@ ObjCost BR1::checkConstr(){
 
 		for (auto m : meetings) {
 			m1 = m2; 	// Game mode of previous period
-			m2 = (m->getFirstTeam() == t) ? H : A;
+			m2 = (m->getVenue() == t) ? H : A;
 			if (m1 == m2 && (m2 == hMode || hMode==HA) && allSlots.count(m->getAssignedSlot())) { 
 				// Break with correct home mode occuring in one of the specified slots
 				br++; 
@@ -1184,7 +1184,7 @@ BR2::BR2 (CType c, int p) : Constraint(c,p, "BR2"){
 
 			for (auto m : meetings) {
 				m1 = m2; 	// Game mode of previous period
-				m2 = (m->getFirstTeam()->getId() == t) ? H : A;
+				m2 = (m->getVenue()->getId() == t) ? H : A;
 				if (m1 == m2) { 
 					// Break with correct home mode occuring in one of the specified slots
 					totNrBreaks++; 
@@ -1244,7 +1244,7 @@ ObjCost BR2::checkConstr(){
 		HomeMode m2 = HA; // Make sure the first game does not result in a break
 		for (auto m : meetings) {
 			m1 = m2; // Game mode of previous period
-			m2 = (m->getFirstTeam() == t) ? H : A;
+			m2 = (m->getVenue() == t) ? H : A;
 			// Need to loop over all meetings: slot set might be non-continuous
 			if (m1 == m2 && allSlots.count(m->getAssignedSlot())) { nrBreaks++; }	
 		}

@@ -114,6 +114,7 @@ public:
 	void addMeeting(Team* t1, Team* t2, bool noHome, int slot);
 	void generateMeeting(League* l);
 	void scheduleMeeting(Team* h, Team* a, Slot* s);
+	void scheduleMeetingVenueAway(Team* a1, Team* a2, Team* hostVenue, Slot* s);
 	void clearSchedule();
 
 	// Modify meta-data

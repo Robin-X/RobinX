@@ -17,8 +17,8 @@ class League
 public:
 	// constructors
 	// Team members are added when new teams are added
-	League(int id, std::string name, int nrRound, GameMode mode, Compactness comp) : id(id), name(name), nrRound(nrRound), mode(mode), comp(comp) {};
-	League(int id, std::string name, int nrRound, GameMode mode, Compactness comp, IdList leagueGroupIds);
+	League(int id, std::string name, int nrRound, bool balanced, GameMode mode, Compactness comp) : id(id), name(name), nrRound(nrRound), mode(mode), comp(comp) {};
+	League(int id, std::string name, int nrRound, bool balanced, GameMode mode, Compactness comp, IdList leagueGroupIds);
 	virtual ~League() {}
 	
 	// Getters and setters
@@ -43,6 +43,9 @@ public:
 	int getNrRound() const{ return nrRound; }
 	void setNrRound(const int nr) { nrRound = nr; }	
 
+	bool getBalanced() const{ return balanced; }
+	void setBalanced(const bool b) { balanced = b; }
+
 	GameMode getMode() const{ return mode; }
 	void setMode(const GameMode newMode) { mode = newMode; }
 	
@@ -63,6 +66,7 @@ protected:
 	std::string name; 	// Non-unique alias
 	TeamSet members;	// Pointer to all id's of associated teams
 	int nrRound; 		// Number of round robins played in the league
+	bool balanced; 		// If nrRound > 1, must the difference between (i,j) and (j,i) be at most one?
 	GameMode mode; 		// Game mode of the league
 	Compactness comp; 	// Compactness of the league
 	LeagueGroupSet leagueGroups; // All league groups of which the league is a member of

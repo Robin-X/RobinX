@@ -1,6 +1,6 @@
 #include "ClassLeague.h"
 
-League::League(int id, std::string name, int nrRound, GameMode mode, Compactness comp, IdList leagueGroupIds) : id(id), name(name), nrRound(nrRound), mode(mode), comp(comp) {
+League::League(int id, std::string name, int nrRound, bool balanced, GameMode mode, Compactness comp, IdList leagueGroupIds) : id(id), name(name), nrRound(nrRound), balanced(balanced), mode(mode), comp(comp) {
 	// Add league groups
 	for (auto id : leagueGroupIds) {
 		addLeagueGroup(Instance::get()->getLeagueGroup(id));

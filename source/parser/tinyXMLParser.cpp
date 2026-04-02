@@ -1,5 +1,6 @@
 #include "tinyXMLParser.h"
 
+
 void TinyParser::readFile(const std::string fileName){
 	tinyxml2::XMLError eResult = doc->LoadFile(fileName.c_str());
 	XMLCheckResult(eResult);
@@ -16,10 +17,40 @@ void TinyParser::saveXml(const std::string docName){
 	return;
 }
 
+
+const tinyxml2::XMLAttribute* TinyParser::findAttributeSafe(const tinyxml2::XMLElement* el, std::string attrName){
+	const tinyxml2::XMLAttribute* attr = el->FindAttribute(attrName.c_str());
+
+	if (!attr) {
+		std::stringstream msg;
+		msg << "Missing attribute '" << attrName
+			<< "' in <" << el->Name()
+			<< "> (line " << el->GetLineNum() << ")";
+
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
+	return attr;
+}
+
 int TinyParser::getIntAttr(const tinyxml2::XMLElement* el, std::string attrName){
 	int dummy = -1;
 	el->QueryIntAttribute(attrName.c_str(), &dummy);	
 	return dummy;
+}
+
+int TinyParser::getIntAttrSafe(const tinyxml2::XMLElement* el, std::string attrName){
+	const auto* attr = findAttributeSafe(el, attrName.c_str());
+	int value;
+	if (attr->QueryIntValue(&value) != tinyxml2::XML_SUCCESS) {
+		std::stringstream msg;
+		msg << "Invalid int for attribute '" << attrName
+			<< "' in <" << el->Name()
+			<< "> (line " << el->GetLineNum() << ")";
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
+	return value;
 }
 
 std::string TinyParser::getStringAttr(const tinyxml2::XMLElement* el, std::string attrName){
@@ -29,6 +60,12 @@ std::string TinyParser::getStringAttr(const tinyxml2::XMLElement* el, std::strin
 	}
 	return str;
 }
+
+std::string TinyParser::getStringAttrSafe(const tinyxml2::XMLElement* el, std::string name){
+	const auto* attr = findAttributeSafe(el, name);
+	return attr->Value();
+}
+
 
 IdList TinyParser::detokenizeIntString(std::string str){
 	int idx = 0;
@@ -114,53 +151,34 @@ void TinyParser::addChildNode(tinyxml2::XMLElement* parentNode, std::string chil
 
 void TinyParser::deserializeInstance(){
 	// Translate XML document into data structures
-	try{
-		readMetaData();
-		readObjectiveFunction();
-		readLeagues();
-		readSlotGroups();
-		readSlots();
-		readTeamGroups();
-		readTeams();
-		readAdditionalGames();
-		Interface::get()->generateMeetings();
-		readData();
-		readConstr(); 		// Should be last due to dependencies on teams etc. within constraints!	
-	} catch (const std::exception& e) {                                               	
-		std::stringstream msg;
-		msg << "Deserialization of instance resulted in unexpected exception: \n" <<  e.what( ) << "\n";                                                    	
-		throw_line_robinx(XmlReadingException, msg.str());
-	} catch (const XmlValidationException& e) {
-		std::stringstream msg;
-		msg << "Deserialization of instance resulted in xml validation exception: \n" << e.what() << std::endl;
-		throw_line_robinx(XmlReadingException, msg.str());
-	} catch (...){
-		std::stringstream msg;
-		msg << "Unknown exception during parsing." << std::endl;
-		throw_line_robinx(XmlReadingException, msg.str());
-	}	
+	readMetaData();
+	readObjectiveFunction();
+	readLeagues();
+	readSlotGroups();
+	readSlots();
+	readTeamGroups();
+	readTeams();
+	readAdditionalGames();
+	Interface::get()->generateMeetings();
+	readData();
+	readConstr(); 		// Should be last due to dependencies on teams etc. within constraints!	
 }
 
 void TinyParser::deserializeSolution(const bool readIn){
 	// Assumes that solution is stored in doc element
 	// Translate this solution into data structures
-	try{
-		if (readIn) {
-			// Read instance file
-			tinyxml2::XMLElement* el = doc->RootElement()->FirstChildElement("MetaData")->FirstChildElement("InstanceName");	
-			Interface::get()->readInstanceXml(el->GetText());
-		}
-
-		// Read meta data
-		readMetaDataSol();
-
-		// Read games
-		readGames();
-	} catch (...){
-		std::stringstream msg;
-		msg << "Unknown exception during parsing." << std::endl;
-		throw_line_robinx(XmlReadingException, msg.str());
+	if (readIn) {
+		// Read instance file
+		tinyxml2::XMLElement* el = doc->RootElement()->FirstChildElement("MetaData")->FirstChildElement("InstanceName");	
+		Interface::get()->readInstanceXml(el->GetText());
 	}
+
+	// Read meta data
+	readMetaDataSol();
+
+	// Read games
+	readGames();
+
 	return;
 }
 
@@ -172,7 +190,30 @@ void TinyParser::readGames(){
 	gamesEl = doc->RootElement()->FirstChildElement("Games");
 	if (gamesEl != nullptr) {
 		for (const tinyxml2::XMLElement* p = gamesEl->FirstChildElement("ScheduledMatch"); p; p = p->NextSiblingElement("ScheduledMatch")) {
-			Interface::get()->scheduleMeeting(getIntAttr(p,"home"), getIntAttr(p,"away"), getIntAttr(p, "slot"));
+			const tinyxml2::XMLAttribute* homeAttr = p->FindAttribute("home");
+			const tinyxml2::XMLAttribute* awayAttr = p->FindAttribute("away");
+			const tinyxml2::XMLAttribute* slotAttr = p->FindAttribute("slot");
+
+			const tinyxml2::XMLAttribute* away1Attr = p->FindAttribute("away1");
+			const tinyxml2::XMLAttribute* away2Attr = p->FindAttribute("away2");
+			const tinyxml2::XMLAttribute* venueAttr = p->FindAttribute("venue");
+
+			if(homeAttr && awayAttr && slotAttr){
+				Interface::get()->scheduleMeeting(homeAttr->IntValue(), awayAttr->IntValue(), slotAttr->IntValue());
+			} else if(away1Attr && away2Attr && venueAttr && slotAttr) {
+				Interface::get()->scheduleMeetingVenueAway(away1Attr->IntValue(), away2Attr->IntValue(), venueAttr->IntValue(), slotAttr->IntValue());
+			} else {
+
+				tinyxml2::XMLPrinter printer;
+				p->Accept(&printer);
+
+				std::stringstream msg;
+				msg << "Invalid XML element:\n"
+					    << printer.CStr()
+					        << "\nat line " << p->GetLineNum();
+
+				throw_line_robinx(XmlReadingException, msg.str());
+			}
 		}
 	}
 }
@@ -310,9 +351,12 @@ void TinyParser::readCOEWeights() {
         data = doc->RootElement()->FirstChildElement("Data");	
 
 	if(data != nullptr){
-		// Load all weights into memory
-		for (const tinyxml2::XMLElement* p = data->FirstChildElement("COEWeights")->FirstChildElement("COEWeight"); p; p = p->NextSiblingElement("COEWeight")) {
-			Interface::get()->addCOEWeight(getIntAttr(p,"team1"), getIntAttr(p,"team2"), getIntAttr(p,"weight"));
+		tinyxml2::XMLElement* weights = data->FirstChildElement("COEWeights");
+		if(weights != nullptr){
+			// Load all weights into memory
+			for (const tinyxml2::XMLElement* p = weights->FirstChildElement("COEWeight"); p; p = p->NextSiblingElement("COEWeight")) {
+				Interface::get()->addCOEWeight(getIntAttrSafe(p,"team1"), getIntAttrSafe(p,"team2"), getIntAttrSafe(p,"weight"));
+			}
 		}
 	}
 }
@@ -323,9 +367,12 @@ void TinyParser::readDistances() {
         data = doc->RootElement()->FirstChildElement("Data");	
 
 	if(data != nullptr){
-		// Load all distances into memory
-		for (const tinyxml2::XMLElement* p = data->FirstChildElement("Distances")->FirstChildElement("distance"); p; p = p->NextSiblingElement("distance")) {
-			Interface::get()->addDistance(getIntAttr(p,"team1"), getIntAttr(p,"team2"), getIntAttr(p,"dist"));
+		tinyxml2::XMLElement* distances = data->FirstChildElement("Distances");
+		if(distances != nullptr){
+			// Load all distances into memory
+			for (const tinyxml2::XMLElement* p = distances->FirstChildElement("distance"); p; p = p->NextSiblingElement("distance")) {
+				Interface::get()->addDistance(getIntAttrSafe(p,"team1"), getIntAttrSafe(p,"team2"), getIntAttrSafe(p,"dist"));
+			}
 		}
 	}
 }
@@ -336,9 +383,12 @@ void TinyParser::readCosts() {
         data = doc->RootElement()->FirstChildElement("Data");	
 
 	if(data != nullptr){
-		// Load all costs into memory
-		for (const tinyxml2::XMLElement* p = data->FirstChildElement("Costs")->FirstChildElement("cost"); p; p = p->NextSiblingElement("cost")) {
-			Interface::get()->addCost(getIntAttr(p,"team1"), getIntAttr(p,"team2"), getIntAttr(p,"slot"), getIntAttr(p,"cost"));
+		tinyxml2::XMLElement* costs = data->FirstChildElement("Costs");
+		if(costs != nullptr){
+			// Load all costs into memory
+			for (const tinyxml2::XMLElement* p = costs->FirstChildElement("cost"); p; p = p->NextSiblingElement("cost")) {
+				Interface::get()->addCost(getIntAttrSafe(p,"team1"), getIntAttrSafe(p,"team2"), getIntAttrSafe(p,"slot"), getIntAttrSafe(p,"cost"));
+			}
 		}
 	}
 }
@@ -350,20 +400,49 @@ void TinyParser::readObjectiveFunction() {
 }
 
 void TinyParser::readLeagues() {
+
+	tinyxml2::XMLElement* root = doc->RootElement();
+	if (!root) {
+		throw_line_robinx(XmlReadingException, "Missing root element");
+	}
+
+	// Get resources element
+	tinyxml2::XMLElement* resources = root->FirstChildElement("Resources");
+	if (!resources) {
+		std::stringstream msg;
+		msg << "Missing <Resources> element under <" << root->Name() << ">"
+			<< " at line " << root->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
 	// Get leagues element
-	tinyxml2::XMLElement* leagues = doc->RootElement()->FirstChildElement("Resources")->FirstChildElement("Leagues");	
+	tinyxml2::XMLElement* leagues = resources->FirstChildElement("Leagues");
+	if (!leagues) {
+		std::stringstream msg;
+		msg << "Missing <Leagues> element under <Resources>"
+			<< " at line " << resources->GetLineNum() << std::endl;
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
 
 	// Get structures element
-	tinyxml2::XMLElement* formats = doc->RootElement()->FirstChildElement("Structure");	
+	tinyxml2::XMLElement* formats = root->FirstChildElement("Structure");	
+	if (!formats) {
+		std::stringstream msg;
+		msg << "Missing <Structure> element"
+			<< " at line " << root->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
 
 	// Store format of each league
-	std::map<int, int> nrLeagues;
+	std::map<int, int> noRR;
+	std::map<int, bool> balanced;
 	std::map<int, Compactness> compactness; 
 	std::map<int, GameMode> gameMode;	
 
 	for (const tinyxml2::XMLElement* p = formats->FirstChildElement("Format"); p; p = p->NextSiblingElement("Format")) {
 		// For which leagues is the format applicable?
-		IdList ids = detokenizeIntString(getStringAttr(p, "leagueIds"));
+		IdList ids = detokenizeIntString(getStringAttrSafe(p, "leagueIds"));
 
 		// Compactness of the leagues: optional
 		Compactness c = NONECOM;
@@ -377,6 +456,14 @@ void TinyParser::readLeagues() {
 		int n = -1;
 	   	p->FirstChildElement("numberRoundRobin")->QueryIntText(&n);
 
+		// balanced: optional attribute. By default we assume a league to be balanced
+		// i.e., difference between (i,j) and (j,i) games is at most one
+		int b = 1;
+		const tinyxml2::XMLElement* bal = p->FirstChildElement("balanced");
+		if(bal != nullptr){
+			bal->QueryIntText(&b);
+		}
+
 		// gameMode
 		GameMode g;
 		dummyEl = nullptr;	
@@ -389,7 +476,7 @@ void TinyParser::readLeagues() {
 		// Add info for all applicable leagues
 		for (auto id : ids) {
 			try {
-				if (nrLeagues.count(id)) {
+				if (noRR.count(id)) {
 					std::stringstream msg;
 					msg << "Multiple formats defined for league " << id << std::endl;
 					throw_line_robinx(XmlReadingException, msg.str());
@@ -397,7 +484,8 @@ void TinyParser::readLeagues() {
 			}catch(XmlReadingException e) {
 				std::cerr << e.what() << std::endl;	
 			}
-			nrLeagues[id] = n;
+			noRR[id] = n;
+			balanced[id] = b;
 			compactness[id] = c;
 			gameMode[id] = g;
 		}
@@ -407,83 +495,228 @@ void TinyParser::readLeagues() {
 	// Load all leagues into memory
 	for (const tinyxml2::XMLElement* p = leagues->FirstChildElement("league"); p; p = p->NextSiblingElement("league")) {
 		// Read all attributes
-		int id = getIntAttr(p, "id");
-		std::string name = getStringAttr(p, "name");
+		int id = getIntAttrSafe(p, "id");
+		std::string name = getStringAttrSafe(p, "name");
 
 		// Add leagues
 		try {
-			if (!nrLeagues.count(id)) {
+			if (!noRR.count(id)) {
 				std::stringstream msg;	
 				msg << "No format specidied for league " << id << std::endl;
 				throw_line_robinx(XmlReadingException, msg.str());
 			}
-			Interface::get()->addLeague(new class League(id, name, nrLeagues[id], gameMode[id], compactness[id], {}));
+			Interface::get()->addLeague(new class League(id, name, noRR[id], balanced[id], gameMode[id], compactness[id], {}));
 		}catch(XmlReadingException e) {
 			std::cerr << e.what() << std::endl;	
 		}
 	}
 }
 void TinyParser::readSlots() {
-	tinyxml2::XMLElement* slots = doc->RootElement()->FirstChildElement("Resources")->FirstChildElement("Slots");	
+	tinyxml2::XMLElement* root = doc->RootElement();
+	if (!root) {
+		throw_line_robinx(XmlReadingException, "Missing root element");
+	}
+
+	// Get resources element
+	tinyxml2::XMLElement* resources = root->FirstChildElement("Resources");
+	if (!resources) {
+		std::stringstream msg;
+		msg << "Missing <Resources> element under <" << root->Name() << ">"
+			<< " at line " << root->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
+	// Get leagues element
+	tinyxml2::XMLElement* slots = resources->FirstChildElement("Slots");
+	if (!slots) {
+		std::stringstream msg;
+		msg << "Missing <Slots> element under <Resources>"
+			<< " at line " << resources->GetLineNum() << std::endl;
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
+
 	// Load all slots into memory
 	for (const tinyxml2::XMLElement* p = slots->FirstChildElement("slot"); p; p = p->NextSiblingElement("slot")) {
 		// Read all attributes and add slot
-		IdList	slotGroupIds = detokenizeIntString(getStringAttr(p, "slotGroup"));
-		Interface::get()->addSlot(new Slot(getIntAttr(p,"id"), getStringAttr(p, "name"), slotGroupIds));	
+		IdList	slotGroupIds = detokenizeIntString(getStringAttrSafe(p, "slotGroup"));
+		Interface::get()->addSlot(new Slot(getIntAttrSafe(p,"id"), getStringAttrSafe(p, "name"), slotGroupIds));	
 	}
 }
 void TinyParser::readSlotGroups() {
+	tinyxml2::XMLElement* root = doc->RootElement();
+	if (!root) {
+		throw_line_robinx(XmlReadingException, "Missing root element");
+	}
+
+	// Get resources element
+	tinyxml2::XMLElement* resources = root->FirstChildElement("Resources");
+	if (!resources) {
+		std::stringstream msg;
+		msg << "Missing <Resources> element under <" << root->Name() << ">"
+			<< " at line " << root->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
 	tinyxml2::XMLElement* slotGroups = nullptr;
-	slotGroups = doc->RootElement()->FirstChildElement("Resources")->FirstChildElement("SlotGroups");	
+	slotGroups = resources->FirstChildElement("SlotGroups");	
 	if(slotGroups != nullptr){
 		// Load all slot groups into memory
 		for (const tinyxml2::XMLElement* p = slotGroups->FirstChildElement("slotGroup"); p; p = p->NextSiblingElement("slotGroup")) {
 			// Add slot
-			Interface::get()->addSlotGroup(new SlotGroup(getIntAttr(p,"id"), getStringAttr(p, "name")));	
+			Interface::get()->addSlotGroup(new SlotGroup(getIntAttrSafe(p,"id"), getStringAttrSafe(p, "name")));	
 		}
 	}
 }
 void TinyParser::readTeams() {
-	tinyxml2::XMLElement* teams = doc->RootElement()->FirstChildElement("Resources")->FirstChildElement("Teams");	
+	tinyxml2::XMLElement* root = doc->RootElement();
+	if (!root) {
+		throw_line_robinx(XmlReadingException, "Missing root element");
+	}
+
+	// Get resources element
+	tinyxml2::XMLElement* resources = root->FirstChildElement("Resources");
+	if (!resources) {
+		std::stringstream msg;
+		msg << "Missing <Resources> element under <" << root->Name() << ">"
+			<< " at line " << root->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
+	tinyxml2::XMLElement* teams = resources->FirstChildElement("Teams");	
+	if (!teams) {
+		std::stringstream msg;
+		msg << "Missing <Teams> element under <" << resources->Name() << ">"
+			<< " at line " << root->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
 	// Load all slot groups into memory
 	for (const tinyxml2::XMLElement* p = teams->FirstChildElement("team"); p; p = p->NextSiblingElement("team")) {
 		// Add team to team map
-		IdList teamGroupIds = detokenizeIntString(getStringAttr(p, "teamGroups"));
-		Interface::get()->addTeam(new Team(getIntAttr(p, "id"), getStringAttr(p, "name"), getIntAttr(p, "league"), teamGroupIds));
+		IdList teamGroupIds = detokenizeIntString(getStringAttrSafe(p, "teamGroups"));
+		Interface::get()->addTeam(new Team(getIntAttrSafe(p, "id"), getStringAttrSafe(p, "name"), getIntAttrSafe(p, "league"), teamGroupIds));
 	}
 }
 void TinyParser::readAdditionalGames() {
+
+	tinyxml2::XMLElement* root = doc->RootElement();
+	if (!root) {
+		throw_line_robinx(XmlReadingException, "Missing root element");
+	}
+
 	tinyxml2::XMLElement* games = nullptr;
-	games = doc->RootElement()->FirstChildElement("Structure")->FirstChildElement("AdditionalGames");	
+	games = root->FirstChildElement("Structure")->FirstChildElement("AdditionalGames");	
 	if (games != nullptr) {
 		// Load all slot groups into memory
 		for (const tinyxml2::XMLElement* p = games->FirstChildElement("game"); p; p = p->NextSiblingElement("game")) {
 			// Add game to meetings map
-			Interface::get()->addMeeting(getIntAttr(p, "team1"), getIntAttr(p, "team2"), getIntAttr(p, "noHome"));
+			Interface::get()->addMeeting(getIntAttrSafe(p, "team1"), getIntAttrSafe(p, "team2"), getIntAttrSafe(p, "noHome"));
 		}
 	}
 }
 
 
 void TinyParser::readTeamGroups() {
+
+	tinyxml2::XMLElement* root = doc->RootElement();
+	if (!root) {
+		throw_line_robinx(XmlReadingException, "Missing root element");
+	}
+
+	// Get resources element
+	tinyxml2::XMLElement* resources = root->FirstChildElement("Resources");
+	if (!resources) {
+		std::stringstream msg;
+		msg << "Missing <Resources> element under <" << root->Name() << ">"
+			<< " at line " << root->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
+
 	// Get list of all team group nodes
 	tinyxml2::XMLElement* teamGroups = nullptr;
-	teamGroups = doc->RootElement()->FirstChildElement("Resources")->FirstChildElement("TeamGroups");	
+	teamGroups = resources->FirstChildElement("TeamGroups");	
 
 	if(teamGroups != nullptr){
 		// Load all team groups into memory
 		for (const tinyxml2::XMLElement* p = teamGroups->FirstChildElement("teamGroup"); p; p = p->NextSiblingElement("teamGroup")) {
 			// Add teamGroup to teamGroup list
-			Interface::get()->addTeamGroup(new TeamGroup(getIntAttr(p, "id"), getStringAttr(p, "name")));	
+			Interface::get()->addTeamGroup(new TeamGroup(getIntAttrSafe(p, "id"), getStringAttrSafe(p, "name")));	
 		}
 	}
 }
 void TinyParser::readConstr() {
+	// First we check whether the necessary elements exist
+	tinyxml2::XMLElement* root = doc->RootElement();
+	if (!root) {
+		throw_line_robinx(XmlReadingException, "Missing root element");
+	}
+
+	// Get constraints element
+	tinyxml2::XMLElement* cons = root->FirstChildElement("Constraints");
+	if (!cons) {
+		std::stringstream msg;
+		msg << "Missing <Constraints> element under <" << root->Name() << ">"
+			<< " at line " << root->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
+	// Not manadatory
+	tinyxml2::XMLElement* base = cons->FirstChildElement("BasicConstraints");
+	if (!base) {
+		std::stringstream msg;
+		msg << "Missing <BasicConstraints> element under <" << cons->Name() << ">"
+			<< " at line " << cons->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
 	readBaseConstr();
+
+	// Get Capacity el
+	tinyxml2::XMLElement* cap = cons->FirstChildElement("CapacityConstraints");
+	if (!cap) {
+		std::stringstream msg;
+		msg << "Missing <CapacityConstraints> element under <" << cons->Name() << ">"
+			<< " at line " << cons->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}	
 	readCapacityConstr();
+
+	// Get breaks el
+	tinyxml2::XMLElement* breaks = cons->FirstChildElement("BreakConstraints");
+	if (!breaks) {
+		std::stringstream msg;
+		msg << "Missing <CapacityConstraints> element under <" << cons->Name() << ">"
+			<< " at line " << cons->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
 	readBreakConstr();
+
+	tinyxml2::XMLElement* games = cons->FirstChildElement("GameConstraints");
+	if (!breaks) {
+		std::stringstream msg;
+		msg << "Missing <GameConstraints> element under <" << cons->Name() << ">"
+			<< " at line " << cons->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
 	readGameConstr();
+
+	tinyxml2::XMLElement* fairness = cons->FirstChildElement("FairnessConstraints");
+	if (!fairness) {
+		std::stringstream msg;
+		msg << "Missing <FairnessConstraints> element under <" << cons->Name() << ">"
+			<< " at line " << cons->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
 	readFairnessConstr();
+
+	tinyxml2::XMLElement* separation = cons->FirstChildElement("SeparationConstraints");
+	if (!separation) {
+		std::stringstream msg;
+		msg << "Missing <SeparationConstraints> element under <" << cons->Name() << ">"
+			<< " at line " << cons->GetLineNum();
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
 	readSeparationConstr();
 }
 
@@ -497,8 +730,8 @@ void TinyParser::readBA1(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("BA1"); c; c = c->NextSiblingElement("BA1")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		Interface::get()->addConstraint(new BA1(t, getIntAttr(c, "penalty")));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		Interface::get()->addConstraint(new BA1(t, getIntAttrSafe(c, "penalty")));
 	}
 }
 
@@ -515,8 +748,8 @@ void TinyParser::readCA1(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("CA1"); c; c = c->NextSiblingElement("CA1")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		HomeMode mode = HomeModeMap.at(getStringAttr(c, "mode"));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		HomeMode mode = HomeModeMap.at(getStringAttrSafe(c, "mode"));
 		Interface::get()->addConstraint(new CA1(t, getIntAttr(c, "penalty"), readTeamTags(c) , getIntAttr(c, "min"), getIntAttr(c, "max"), mode, readSlotTags(c)));
 	}
 }
@@ -527,13 +760,13 @@ void TinyParser::readCA2(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("CA2"); c; c = c->NextSiblingElement("CA2")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		HomeMode mode1 = HomeModeMap.at(getStringAttr(c, "mode1"));
-		GlobMode mode2 = GlobModeMap.at(getStringAttr(c, "mode2"));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		HomeMode mode1 = HomeModeMap.at(getStringAttrSafe(c, "mode1"));
+		GlobMode mode2 = GlobModeMap.at(getStringAttrSafe(c, "mode2"));
 		readTeamTags(c,1);
 		readTeamTags(c,2);
 		readSlotTags(c);
-		Interface::get()->addConstraint(new CA2(t, getIntAttr(c, "penalty"), readTeamTags(c,1) , getIntAttr(c, "min"), getIntAttr(c, "max"), mode1, mode2, readTeamTags(c,2), readSlotTags(c)));
+		Interface::get()->addConstraint(new CA2(t, getIntAttrSafe(c, "penalty"), readTeamTags(c,1) , getIntAttr(c, "min"), getIntAttr(c, "max"), mode1, mode2, readTeamTags(c,2), readSlotTags(c)));
 	}
 }
 void TinyParser::readCA3(){
@@ -542,10 +775,10 @@ void TinyParser::readCA3(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("CA3"); c; c = c->NextSiblingElement("CA3")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		HomeMode mode1 = HomeModeMap.at(getStringAttr(c, "mode1"));
-		CMode mode2 = CModeMap.at(getStringAttr(c, "mode2"));
-		Interface::get()->addConstraint(new CA3(t, getIntAttr(c, "penalty"), readTeamTags(c,1), getIntAttr(c, "min"), getIntAttr(c, "max"), mode1, readTeamTags(c,2), getIntAttr(c, "intp"), mode2));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		HomeMode mode1 = HomeModeMap.at(getStringAttrSafe(c, "mode1"));
+		CMode mode2 = CModeMap.at(getStringAttrSafe(c, "mode2"));
+		Interface::get()->addConstraint(new CA3(t, getIntAttrSafe(c, "penalty"), readTeamTags(c,1), getIntAttr(c, "min"), getIntAttr(c, "max"), mode1, readTeamTags(c,2), getIntAttrSafe(c, "intp"), mode2));
 	}
 }
 void TinyParser::readCA4(){
@@ -554,10 +787,10 @@ void TinyParser::readCA4(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("CA4"); c; c = c->NextSiblingElement("CA4")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		HomeMode mode1 = HomeModeMap.at(getStringAttr(c, "mode1"));
-		GlobMode mode2 = GlobModeMap.at(getStringAttr(c, "mode2"));
-		Interface::get()->addConstraint(new CA4(t, getIntAttr(c, "penalty"), readTeamTags(c,1), getIntAttr(c, "min"), getIntAttr(c, "max"), mode1, readTeamTags(c,2), mode2, readSlotTags(c)));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		HomeMode mode1 = HomeModeMap.at(getStringAttrSafe(c, "mode1"));
+		GlobMode mode2 = GlobModeMap.at(getStringAttrSafe(c, "mode2"));
+		Interface::get()->addConstraint(new CA4(t, getIntAttrSafe(c, "penalty"), readTeamTags(c,1), getIntAttr(c, "min"), getIntAttr(c, "max"), mode1, readTeamTags(c,2), mode2, readSlotTags(c)));
 	}
 }
 void TinyParser::readCA5(){
@@ -566,8 +799,8 @@ void TinyParser::readCA5(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("CA5"); c; c = c->NextSiblingElement("CA5")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		Interface::get()->addConstraint(new CA5(t, getIntAttr(c, "penalty"), readTeamTags(c,1), getIntAttr(c, "min"), getIntAttr(c, "max"), readTeamTags(c,2), readSlotTags(c)));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		Interface::get()->addConstraint(new CA5(t, getIntAttrSafe(c, "penalty"), readTeamTags(c,1), getIntAttr(c, "min"), getIntAttr(c, "max"), readTeamTags(c,2), readSlotTags(c)));
 	}
 }
 void TinyParser::readGameConstr(){
@@ -580,9 +813,9 @@ void TinyParser::readGA1(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("GA1"); c; c = c->NextSiblingElement("GA1")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		MeetingIdList meetingIds = detokenizeMeetings(getStringAttr(c, "meetings").c_str());
-		Interface::get()->addConstraint(new class GA1(t, getIntAttr(c, "penalty"), readSlotTags(c), getIntAttr(c, "min"), getIntAttr(c, "max"), meetingIds));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		MeetingIdList meetingIds = detokenizeMeetings(getStringAttrSafe(c, "meetings").c_str());
+		Interface::get()->addConstraint(new class GA1(t, getIntAttrSafe(c, "penalty"), readSlotTags(c), getIntAttr(c, "min"), getIntAttr(c, "max"), meetingIds));
 	}
 }
 void TinyParser::readGA2(){
@@ -591,11 +824,11 @@ void TinyParser::readGA2(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("GA2"); c; c = c->NextSiblingElement("GA2")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		HomeMode mode1 = HomeModeMap.at(getStringAttr(c, "mode1"));
-		CompareMode mode2 = CompareModeMap.at(getStringAttr(c, "mode2").c_str());
-		HomeMode mode3 = HomeModeMap.at(getStringAttr(c, "mode3"));
-		Interface::get()->addConstraint(new class GA2(t, getIntAttr(c, "penalty"), readTeamTags(c,1) , mode1, readTeamTags(c,2), readSlotTags(c,1), readTeamTags(c,3), mode2, mode3, readTeamTags(c,4), readSlotTags(c,2)));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		HomeMode mode1 = HomeModeMap.at(getStringAttrSafe(c, "mode1"));
+		CompareMode mode2 = CompareModeMap.at(getStringAttrSafe(c, "mode2").c_str());
+		HomeMode mode3 = HomeModeMap.at(getStringAttrSafe(c, "mode3"));
+		Interface::get()->addConstraint(new class GA2(t, getIntAttrSafe(c, "penalty"), readTeamTags(c,1) , mode1, readTeamTags(c,2), readSlotTags(c,1), readTeamTags(c,3), mode2, mode3, readTeamTags(c,4), readSlotTags(c,2)));
 	}
 }
 
@@ -612,10 +845,10 @@ void TinyParser::readBR1(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("BR1"); c; c = c->NextSiblingElement("BR1")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		CompareMode cMode = CompareModeMap.at(getStringAttr(c, "mode1"));
-		HomeMode hMode = HomeModeMap.at(getStringAttr(c, "mode2"));
-		Interface::get()->addConstraint(new class BR1(t, getIntAttr(c, "penalty"), readTeamTags(c), getIntAttr(c, "intp"), cMode, hMode, readSlotTags(c)));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		CompareMode cMode = CompareModeMap.at(getStringAttrSafe(c, "mode1"));
+		HomeMode hMode = HomeModeMap.at(getStringAttrSafe(c, "mode2"));
+		Interface::get()->addConstraint(new class BR1(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), getIntAttrSafe(c, "intp"), cMode, hMode, readSlotTags(c)));
 	}
 }
 void TinyParser::readBR2(){
@@ -624,9 +857,9 @@ void TinyParser::readBR2(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("BR2"); c; c = c->NextSiblingElement("BR2")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		CompareMode cMode = CompareModeMap.at(getStringAttr(c, "mode2"));
-		Interface::get()->addConstraint(new class BR2(t, getIntAttr(c, "penalty"), readTeamTags(c), cMode, getIntAttr(c, "intp"), readSlotTags(c)));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		CompareMode cMode = CompareModeMap.at(getStringAttrSafe(c, "mode2"));
+		Interface::get()->addConstraint(new class BR2(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), cMode, getIntAttrSafe(c, "intp"), readSlotTags(c)));
 	}
 }
 void TinyParser::readBR3(){
@@ -635,10 +868,10 @@ void TinyParser::readBR3(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("BR3"); c; c = c->NextSiblingElement("BR3")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		BreakMode bMode = BreakModeMap.at(getStringAttr(c, "mode1"));
-		HomeMode hMode = HomeModeMap.at(getStringAttr(c, "mode2"));
-		Interface::get()->addConstraint(new class BR3(t, getIntAttr(c, "penalty"), readTeamTags(c), bMode, hMode, getIntAttr(c, "intp")));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		BreakMode bMode = BreakModeMap.at(getStringAttrSafe(c, "mode1"));
+		HomeMode hMode = HomeModeMap.at(getStringAttrSafe(c, "mode2"));
+		Interface::get()->addConstraint(new class BR3(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), bMode, hMode, getIntAttrSafe(c, "intp")));
 	}
 }
 void TinyParser::readBR4(){
@@ -647,9 +880,9 @@ void TinyParser::readBR4(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("BR4"); c; c = c->NextSiblingElement("BR4")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		CompareMode cMode = CompareModeMap.at(getStringAttr(c, "mode"));
-		Interface::get()->addConstraint(new class BR4(t, getIntAttr(c, "penalty"), cMode, readTeamTags(c), getIntAttr(c, "min"), readSlotTags(c)));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		CompareMode cMode = CompareModeMap.at(getStringAttrSafe(c, "mode"));
+		Interface::get()->addConstraint(new class BR4(t, getIntAttrSafe(c, "penalty"), cMode, readTeamTags(c), getIntAttr(c, "min"), readSlotTags(c)));
 	}
 }
 
@@ -667,8 +900,8 @@ void TinyParser::readFA1(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("FA1"); c; c = c->NextSiblingElement("FA1")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		Interface::get()->addConstraint(new class FA1(t, getIntAttr(c, "penalty"), readTeamTags(c), getIntAttr(c, "intp"), readSlotTags(c)));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		Interface::get()->addConstraint(new class FA1(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), getIntAttrSafe(c, "intp"), readSlotTags(c)));
 	}
 }
 void TinyParser::readFA2(){
@@ -677,9 +910,9 @@ void TinyParser::readFA2(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("FA2"); c; c = c->NextSiblingElement("FA2")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		HomeMode mode = HomeModeMap.at(getStringAttr(c, "mode"));
-		Interface::get()->addConstraint(new class FA2(t, getIntAttr(c, "penalty"), readTeamTags(c), mode, getIntAttr(c, "intp"), readSlotTags(c)));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		HomeMode mode = HomeModeMap.at(getStringAttrSafe(c, "mode"));
+		Interface::get()->addConstraint(new class FA2(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), mode, getIntAttrSafe(c, "intp"), readSlotTags(c)));
 	}
 }
 void TinyParser::readFA3(){
@@ -688,8 +921,8 @@ void TinyParser::readFA3(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("FA3"); c; c = c->NextSiblingElement("FA3")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		Interface::get()->addConstraint(new class FA3(t, getIntAttr(c, "penalty"), readTeamTags(c)));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		Interface::get()->addConstraint(new class FA3(t, getIntAttrSafe(c, "penalty"), readTeamTags(c)));
 	}
 }
 void TinyParser::readFA4(){
@@ -698,8 +931,8 @@ void TinyParser::readFA4(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("FA4"); c; c = c->NextSiblingElement("FA4")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		Interface::get()->addConstraint(new class FA4(t, getIntAttr(c, "penalty"), readTeamTags(c), getIntAttr(c, "intp")));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		Interface::get()->addConstraint(new class FA4(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), getIntAttrSafe(c, "intp")));
 	}
 }
 void TinyParser::readFA5(){
@@ -708,8 +941,8 @@ void TinyParser::readFA5(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("FA5"); c; c = c->NextSiblingElement("FA5")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		Interface::get()->addConstraint(new class FA5(t, getIntAttr(c, "penalty"), readTeamTags(c), readSlotTags(c), getIntAttr(c, "intp")));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		Interface::get()->addConstraint(new class FA5(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), readSlotTags(c), getIntAttrSafe(c, "intp")));
 	}
 }
 void TinyParser::readFA6(){
@@ -718,8 +951,8 @@ void TinyParser::readFA6(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("FA6"); c; c = c->NextSiblingElement("FA6")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		Interface::get()->addConstraint(new class FA6(t, getIntAttr(c, "penalty"), readSlotTags(c), getIntAttr(c, "intp")));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		Interface::get()->addConstraint(new class FA6(t, getIntAttrSafe(c, "penalty"), readSlotTags(c), getIntAttrSafe(c, "intp")));
 	}
 }
 
@@ -733,8 +966,8 @@ void TinyParser::readSE1(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("SE1"); c; c = c->NextSiblingElement("SE1")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		Interface::get()->addConstraint(new class SE1(t, getIntAttr(c, "penalty"), readTeamTags(c), getIntAttr(c, "min")));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		Interface::get()->addConstraint(new class SE1(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), getIntAttrSafe(c, "min")));
 	}
 }
 void TinyParser::readSE2(){
@@ -743,9 +976,9 @@ void TinyParser::readSE2(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("SE2"); c; c = c->NextSiblingElement("SE2")) {
-		CType t = CTypeMap.at(getStringAttr(c, "type"));
-		SlotPairList slotPairs = detokenizeSlotPairs(getStringAttr(c, "slotPairs").c_str());
-		Interface::get()->addConstraint(new class SE2(t, getIntAttr(c, "penalty"), readTeamTags(c), slotPairs));
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		SlotPairList slotPairs = detokenizeSlotPairs(getStringAttrSafe(c, "slotPairs").c_str());
+		Interface::get()->addConstraint(new class SE2(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), slotPairs));
 	}
 }
 
@@ -787,6 +1020,7 @@ void TinyParser::serializeInstance(std::string fileName){
 		tinyxml2::XMLElement* form = doc->NewElement("Format");
 		form->SetAttribute("leagueIds", std::to_string(i.second->getId()).c_str());
 		addChildNode(form, "numberRoundRobin", std::to_string(i.second->getNrRound()));
+		addChildNode(form, "balanced", std::to_string(i.second->getBalanced()));
 		addChildNode(form, "compactness", CompactnessToStr[i.second->getComp()]);
 		addChildNode(form, "gameMode", GameModeToStr[i.second->getMode()]);
 		struc->InsertEndChild(form);
@@ -939,9 +1173,20 @@ void TinyParser::serializeSolution(std::string fileName){
 	for (auto m:Instance::get()->getMeetings()) {
 		if (m->getAssignedSlot() != NULL) {
 			tinyxml2::XMLElement* game = doc->NewElement("ScheduledMatch");
-			game->SetAttribute("home", m->getFirstTeam()->getId());
-			game->SetAttribute("away", m->getSecondTeam()->getId());
-			game->SetAttribute("slot", m->getAssignedSlot()->getId());
+			if(m->getFirstTeam() == m->getVenue()){
+				game->SetAttribute("home", m->getFirstTeam()->getId());
+				game->SetAttribute("away", m->getSecondTeam()->getId());
+				game->SetAttribute("slot", m->getAssignedSlot()->getId());
+			} else if(m->getSecondTeam() == m->getVenue()) {
+				std::stringstream msg;
+				msg << "Deserialization of instance resulted in unexpected exception: did not expect the second team to be the home team. \n" << "\n";
+				throw_line_robinx(XmlReadingException, msg.str());
+			} else {
+				game->SetAttribute("away1", m->getFirstTeam()->getId());
+				game->SetAttribute("away2", m->getSecondTeam()->getId());
+				game->SetAttribute("venue", m->getVenue()->getId());
+				game->SetAttribute("slot", m->getAssignedSlot()->getId());
+			}
 			games->InsertEndChild(game);
 		}
 	}

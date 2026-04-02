@@ -5,7 +5,7 @@
 #include "rlutil.h" 	/* setColor, reset color */
 
 // Define a macro to send the line where an exception was thrown
-#define throw_line_robinx(e, msg) throw(e(msg, __FILE__, __LINE__));
+#define throw_line_robinx(e, msg) throw e((msg), __FILE__, __LINE__)
 
 /****************
 *  Base Class  *

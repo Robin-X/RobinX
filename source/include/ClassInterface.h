@@ -87,6 +87,8 @@ public:
 	void addMeeting(int teamId1, int teamId2, bool noHome, int slot = -1);
 	void generateMeetings();
 	void scheduleMeeting(int homeId, int awayId, int slot);
+	// Team awayId1 and awayId2 both play away at the venue of team teamVenueId (used for minitournaments)
+	void scheduleMeetingVenueAway(int awayId1, int awayId2, int teamVenueId, int slot);
 
 	/// Generate a canonical timetable
 	std::pair<std::vector<std::vector<int>>, std::vector<std::vector<bool>>> canonicalPattern(const int nrTeams, const int nrRoundRobin = 1, const bool modifiedPattern = false, const GameMode symmetry = M);	

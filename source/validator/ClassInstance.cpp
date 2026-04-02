@@ -362,11 +362,17 @@ void Instance::generateMeeting(League* l){
 	try{
 		try{
 			int k = l->getNrRound();
+			bool balanced = l->getBalanced();
 			for (TeamSetIt it1 = l->getFirstMember(); it1 != l->getLastMember(); ++it1) {
 				for (TeamSetIt it2 = std::next(it1, 1); it2 != l->getLastMember(); ++it2) {
 					for (int i = 0; i < k/2; ++i) {
-						addMeeting(*it1, *it2, false, -1);	
-						addMeeting(*it2, *it1, false, -1);	
+						if(balanced){
+							addMeeting(*it1, *it2, false, -1);	
+							addMeeting(*it2, *it1, false, -1);	
+						} else {
+							addMeeting(*it1, *it2, true, -1);	
+							addMeeting(*it2, *it1, true, -1);	
+						}
 					}
 					if (k%2) {
 						addMeeting(*it1, *it2, true, -1);
@@ -398,7 +404,7 @@ void Instance::scheduleMeeting(Team* h, Team* a, Slot* s){
 			if (t1 == h && t2 == a && !meeting->getNoHome()) { m = meeting; break; }
 			// Case 2: teams match + undetermined home advantage
 			if (t1 == h && t2 == a && meeting->getNoHome()) { m = meeting; }
-			if (t1 == a && t2 == h && meeting->getNoHome()) { m = meeting; m->swapTeams();  }
+			if (t1 == a && t2 == h && meeting->getNoHome()) { m = meeting; m->swapTeams(); }
 		}
 		if (m == NULL) { 
 			std::stringstream msg;
@@ -406,6 +412,34 @@ void Instance::scheduleMeeting(Team* h, Team* a, Slot* s){
 			throw_line_robinx(XmlReadingException, msg.str());
 		}
 		m->setAssignedSlot(s);
+		m->setVenue(h);
+	} catch(XmlReadingException e){
+		std::cerr << e.what() << std::endl;
+	}
+}
+
+void Instance::scheduleMeetingVenueAway(Team* a1, Team* a2, Team* hostVenue, Slot* s){
+	// Find unscheduled meeting between home team h, and away team a
+	// By preference, select meeting with determined home advantage
+	try{
+		Meeting* m = NULL;
+		
+		for(auto meeting:meetings){
+			if (meeting->getAssignedSlot() != NULL) { continue; }
+			Team* t1 = meeting->getFirstTeam();
+			Team* t2 = meeting->getSecondTeam();
+			
+			// Games at another teams venue always requires on undetermined home advantage!
+			if (t1 == a1 && t2 == a2 && meeting->getNoHome()) { m = meeting; }
+			if (t1 == a2 && t2 == a1 && meeting->getNoHome()) { m = meeting; m->swapTeams(); }
+		}
+		if (m == NULL) { 
+			std::stringstream msg;
+			msg << "Meeting not scheduled: there is no unscheduled meeting between away team " << a1->getId() << " (" << a1->getName() << ")" << " and away team " << a2->getId() << " (" << a2->getName() << ")" <<  std::endl;
+			throw_line_robinx(XmlReadingException, msg.str());
+		}
+		m->setAssignedSlot(s);
+		m->setVenue(hostVenue);
 	} catch(XmlReadingException e){
 		std::cerr << e.what() << std::endl;
 	}
@@ -474,17 +508,17 @@ int Instance::distance(Team* t, SlotSet slots){
 	
 	// Assume teams begin in their home city: + dist home --> first match
 	if (slots.count((*(meetings.begin()))->getAssignedSlot()) || slots.empty()) {
-		dist += getDistance(t, (*(meetings.begin()))->getFirstTeam());
+		dist += getDistance(t, (*(meetings.begin()))->getVenue());
 	}
 
 	// Assume teams end in their home city: + dist last match --> home
 	if (slots.count((*(std::prev(meetings.end())))->getAssignedSlot()) || slots.empty()) {
-		dist += getDistance((*(std::prev(meetings.end())))->getFirstTeam(), t);
+		dist += getDistance((*(std::prev(meetings.end())))->getVenue(), t);
 	}
 	// Calculate distance between all other matches	
 	for (MeetingListIt it2 = meetings.begin(); it2 != std::prev(meetings.end()); ++it2) {
 		if (slots.count((*(std::next(it2)))->getAssignedSlot()) || slots.empty()) {
-			dist += getDistance((*it2)->getFirstTeam(), (*(std::next(it2)))->getFirstTeam());
+			dist += getDistance((*it2)->getVenue(), (*(std::next(it2)))->getVenue());
 		}
 	}
 	return dist;
@@ -501,7 +535,7 @@ int Instance::breaks(Team* t){
 	HomeMode m2 = HA; // Make sure the first game does not result in a break
 	for (auto m : meetings) {
 		m1 = m2; 	// Game mode of previous period
-		m2 = (m->getFirstTeam() == t) ? H : A;
+		m2 = (m->getVenue() == t) ? H : A;
 		if (m1 == m2) { br++; }
 	}
 	return br;
@@ -515,7 +549,11 @@ int Instance::cost(Team* t){
 
 	// Sum over all costs
 	for (auto m : meetings) {
-		cost += getCost(m->getFirstTeam(), m->getSecondTeam(), m->getAssignedSlot());
+		// TODO
+		// No costs for games at neutral venues
+		if(m->getVenue() == m->getFirstTeam()){
+			cost += getCost(m->getFirstTeam(), m->getSecondTeam(), m->getAssignedSlot());
+		}
 	}
 	return cost;
 }

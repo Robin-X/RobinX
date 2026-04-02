@@ -296,6 +296,33 @@ void Interface::scheduleMeeting(int homeId, int awayId, int slotId){
 
 	INS->scheduleMeeting(t1, t2, s); 
 }
+void Interface::scheduleMeetingVenueAway(int awayId1, int awayId2, int teamVenueId, int slotId){ 
+	Team *t1, *t2, *t3;
+	try{
+		t1 = INS->getTeam(awayId1);
+		t2 = INS->getTeam(awayId2);
+		t3 = INS->getTeam(teamVenueId);
+	}catch(std::out_of_range e){
+		std::stringstream msg;
+		msg << "Error during scheduling game " << awayId1 << " vs. " << awayId2 << " at the venue of " << teamVenueId << " on " << slotId << std::endl;
+		msg << "Team " << awayId1 << " or " << awayId2 << " or " << teamVenueId << " does not exist: " << e.what() << std::endl;
+		std::cout << msg.str() << std::endl;
+		throw_line_robinx(InterfaceReadingException, msg.str());
+	}		
+
+	Slot *s;
+	try{
+		s = INS->getSlot(slotId);
+	}catch(std::out_of_range e){
+		std::stringstream msg;
+		msg << "Error during scheduling game " << awayId1 << " vs. " << awayId2 << " at the venue of " << teamVenueId << " on " << slotId << std::endl;
+		msg << "Slot " << slotId << " does not exist: " << e.what() << std::endl;
+		std::cout << msg.str() << std::endl;
+		throw_line_robinx(InterfaceReadingException, msg.str());
+	}		
+
+	INS->scheduleMeetingVenueAway(t1, t2, t3, s); 
+}
 
 void Interface::addDataType(const DataType d) { INS->setDataType(d); }
 void Interface::addContributor(const std::string s) { INS->setContributor(s); }

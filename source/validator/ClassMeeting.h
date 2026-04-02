@@ -26,11 +26,17 @@ public:
 	bool getNoHome() const{ return noHome; }
 	void setNoHome(const bool newMod) { noHome = newMod; } 
 
+	// Venue modifiers
+	Team* getVenue() const{ return venueTeam; }
+	void setVenue(Team* t) { venueTeam = t; } 
+
 private:
 	Team* team1;			// First team
 	Team* team2;			// Second team
 	bool noHome;			// True if the home advantage is undetermined. False if t1 is the home team, and t2 is the away team.
 	Slot* assignedSlot = NULL; 	// Date of play: initially no meeting is scheduled yet
+	Team* venueTeam; 		// Venue where the game is played. If equal to team1, then team1 plays home. 
+					// Otherwise both teams play away.
 };
 
 // Comparator functions

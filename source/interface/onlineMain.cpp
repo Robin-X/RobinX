@@ -92,7 +92,7 @@ int main(int argc, char *argv[])
 	// Validate
 	if (validation) {
 		// TODO Set to false to have verbose mode, not silent
-		ObjCost obj = Interface::get()->checkConstr(true);
+		ObjCost obj = Interface::get()->checkConstr(false);
 		std::cout << "       -------------------------------------------------------------------" << std::endl;
 		std::cout << std::setw(30) << std::left << "       Objective:"  << std::setw(20) << obj.first << std::setw(10) << obj.second << std::right << std::endl;
 		std::cout << "       -------------------------------------------------------------------" << std::endl;
