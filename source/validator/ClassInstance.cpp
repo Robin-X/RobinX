@@ -292,8 +292,10 @@ MeetingList Instance::getMeetingsTeamSlot(TeamSet teams, SlotSet slots, HomeMode
 		Team* t1 = meeting->getFirstTeam();
 		Team* t2 = meeting->getSecondTeam();
 		Slot* s = meeting->getAssignedSlot();
+		Team* venue = meeting->getVenue();
 
-		if (slots.count(s) && teams.count(t1) && (mode == H || mode == HA) && meeting->getAssignedSlot() != NULL) {
+		// t1 is an away team if t1 != venue
+		if (slots.count(s) && teams.count(t1) && ((mode == H && t1 == venue) || (mode == A && t1 != venue) || mode == HA) && meeting->getAssignedSlot() != NULL) {
 			foundMeetings.push_back(meeting);	
 		}
 	
