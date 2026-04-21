@@ -198,7 +198,7 @@ void TinyParser::readGames(){
 			const tinyxml2::XMLAttribute* away2Attr = p->FindAttribute("away2");
 			const tinyxml2::XMLAttribute* venueAttr = p->FindAttribute("venue");
 
-			if(homeAttr && awayAttr && slotAttr){
+			if(homeAttr && awayAttr && slotAttr && (!venueAttr || venueAttr->IntValue() == homeAttr->IntValue())){
 				Interface::get()->scheduleMeeting(homeAttr->IntValue(), awayAttr->IntValue(), slotAttr->IntValue());
 			} else if(away1Attr && away2Attr && venueAttr && slotAttr) {
 				Interface::get()->scheduleMeetingVenueAway(away1Attr->IntValue(), away2Attr->IntValue(), venueAttr->IntValue(), slotAttr->IntValue());
