@@ -142,6 +142,7 @@ public:
 	void readSeparationConstr();
 	void readSE1();
 	void readSE2();
+	void readSE3();
 
 	// Solution
 	void readMetaDataSol();

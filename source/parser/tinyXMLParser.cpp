@@ -838,7 +838,6 @@ void TinyParser::readGA2(){
 	}
 }
 
-
 void TinyParser::readBreakConstr(){
 	readBR1();
 	readBR2();
@@ -965,6 +964,7 @@ void TinyParser::readFA6(){
 void TinyParser::readSeparationConstr(){
 	readSE1();
 	readSE2();
+	readSE3();
 }
 void TinyParser::readSE1(){
 	// Get list of all capacity constraints
@@ -985,6 +985,16 @@ void TinyParser::readSE2(){
 		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
 		SlotPairList slotPairs = detokenizeSlotPairs(getStringAttrSafe(c, "slotPairs").c_str());
 		Interface::get()->addConstraint(new class SE2(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), slotPairs));
+	}
+}
+void TinyParser::readSE3(){
+	// Get list of all capacity constraints
+	tinyxml2::XMLElement* constraints = doc->RootElement()->FirstChildElement("Constraints")->FirstChildElement("SeparationConstraints");	
+
+	// Load all constraints into memory
+	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("SE3"); c; c = c->NextSiblingElement("SE3")) {
+		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+		Interface::get()->addConstraint(new class SE3(t, getIntAttrSafe(c, "penalty"), readTeamTags(c), readSlotTags(c,1), readSlotTags(c,2), getIntAttrSafe(c, "min"), getIntAttr(c, "max")));
 	}
 }
 
