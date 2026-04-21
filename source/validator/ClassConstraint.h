@@ -209,6 +209,7 @@ public:
 	SlotGroupSet slotGroups1, slotGroups2;
 };
 
+
 class BR1 : public Constraint{
 public:
 	BR1(CType c, int p, std::array<IdList, 2> t_tg_Id, int intp, CompareMode mod1, HomeMode mod2, std::array<IdList, 2> s_sg_Id);
@@ -385,5 +386,27 @@ public:
     TeamGroupSet teamGroups;
 	SlotPairList slotPairings;
 };
+
+class SE3 : public Constraint{
+public:
+	SE3(CType c, int p, std::array<IdList, 2> teamIds, std::array<IdList, 2> slotIds1, std::array<IdList, 2> slotIds2, int min, int max);
+	SE3 (CType c, int p);
+	~SE3(){}
+	AttrMap serialize();
+	ObjCost checkConstr();
+
+	TeamSet teams;
+	TeamGroupSet teamGroups;
+
+	SlotSet slots1;
+	SlotGroupSet slotGroups1;
+
+	SlotSet slots2;
+	SlotGroupSet slotGroups2;
+
+	int min;
+	int max;
+};
+
 
 #endif /* CLASSCONSTRAINT_H */

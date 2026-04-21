@@ -931,7 +931,7 @@ ObjCost GA1::checkConstr(){
 	return c;
 }
 
-GA2::GA2(CType c, int p, std::array<IdList, 2> teamIds1, HomeMode mode1, std::array<IdList, 2> teamIds2, std::array<IdList, 2> slotIds1, std::array<IdList, 2> teamIds3, CompareMode mode2, HomeMode mode3, std::array<IdList, 2> teamIds4, std::array<IdList, 2> slotIds2) : Constraint(c,p, "GA2"), hMode1(mode1), cMode(mode2), hMode2(mode3) {
+GA2::GA2(CType c, int p, std::array<IdList, 2> teamIds1, HomeMode mode1, std::array<IdList, 2> teamIds2, std::array<IdList, 2> slotIds1, std::array<IdList, 2> teamIds3, CompareMode mode2, HomeMode mode3, std::array<IdList, 2> teamIds4, std::array<IdList, 2> slotIds2) : Constraint(c,p, "gA2"), hMode1(mode1), cMode(mode2), hMode2(mode3) {
 	for (auto id : teamIds1[0]) { teams1.insert(Instance::get()->getTeam(id)); }
 	for (auto id : teamIds1[1]) { teamGroups1.insert(Instance::get()->getTeamGroup(id)); }
 
@@ -1819,3 +1819,105 @@ ObjCost SE2::checkConstr(){
 
 	return c;
 }
+
+SE3::SE3(CType c, int p, std::array<IdList, 2> teamIds, std::array<IdList, 2> slotIds1, std::array<IdList, 2> slotIds2, int min, int max): Constraint(c,p, "SE3"), min(min), max(max) {
+	for (auto id : teamIds[0]){ teams.insert(Instance::get()->getTeam(id)); }
+	for (auto id : teamIds[1]){ teamGroups.insert(Instance::get()->getTeamGroup(id)); }
+
+	for (auto id : slotIds1[0]){ slots1.insert(Instance::get()->getSlot(id)); }
+	for (auto id : slotIds1[1]){ slotGroups1.insert(Instance::get()->getSlotGroup(id)); }
+
+	for (auto id : slotIds2[0]){ slots2.insert(Instance::get()->getSlot(id)); }
+	for (auto id : slotIds2[1]){ slotGroups2.insert(Instance::get()->getSlotGroup(id)); }
+}
+
+SE3::SE3 (CType c, int p) : Constraint(c,p, "SE3"){
+	std::cout << "SE3 random generator not yet initialized!" << std::endl;
+	assert ( 2 < 1);
+}
+AttrMap SE3::serialize(){
+	AttrMap attrs;
+	attrs["ClassType"] = "FairnessConstraints";
+	attrs["Type"] = "SE3";
+	attrs["type"] = CTypeToStr[type];
+	attrs["penalty"] = std::to_string(penalty);	
+	attrs["teams"] = idToString(teams);
+	attrs["teamGroups"] = idToString(teamGroups);
+	attrs["slots1"] = idToString(slots1);
+	attrs["slotGroups1"] = idToString(slotGroups1);
+	attrs["slots2"] = idToString(slots2);
+	attrs["slotGroups2"] = idToString(slotGroups2);
+	attrs["min"] = std::to_string(min);
+	attrs["max"] = std::to_string(max);
+	return attrs;
+}
+
+ObjCost SE3::checkConstr(){
+	/**
+	 * For each team in T1, the games played in slot groups S1 and S2 differ by at least min and at most max games.
+	 *
+	 * Deviation equal to the number of different games less than min or more than max.
+	 **/
+	TeamSet allTeams = IN->collectTeams(teams, teamGroups);
+	SlotSet allSlots1 = IN->collectSlots(slots1, slotGroups1);
+	SlotSet allSlots2 = IN->collectSlots(slots1, slotGroups2);
+	ObjCost c = std::make_pair(0,0);
+	int totalCost=0;
+	for (auto &t : allTeams) {
+		MeetingList list1 = IN->getMeetingsTeamSlot({t}, {allSlots1}, HA);
+		MeetingList list2 = IN->getMeetingsTeamSlot({t}, {allSlots2}, HA);
+
+		auto sameMeeting = [](const Meeting* a, const Meeting* b) {
+			if (a->getVenue() != b->getVenue())
+				return false;
+
+			Team* a1 = a->getFirstTeam();
+			Team* a2 = a->getSecondTeam();
+			Team* b1 = b->getFirstTeam();
+			Team* b2 = b->getSecondTeam();
+
+			return (a1 == b1 && a2 == b2) ||
+				(a1 == b2 && a2 == b1);
+		};
+
+		int diff = 0;
+
+		// elements in list1 not in list2
+		for (auto m1 : list1) {
+			bool found = false;
+			for (auto m2 : list2) {
+				if (sameMeeting(m1, m2)) {
+					found = true;
+					break;
+				}
+			}
+			if (!found)
+				diff++;
+		}
+
+		// elements in list2 not in list1
+		for (auto m2 : list2) {
+			bool found = false;
+			for (auto m1 : list1) {
+				if (sameMeeting(m2, m1)) {
+					found = true;
+					break;
+				}
+			}
+			if (!found)
+				diff++;
+		}
+
+		int dev = std::max(0, diff-max) + std::max(0, min-diff);
+		if (dev > 0) {
+			(type == HARD) ? c.first += dev*penalty : c.second += dev*penalty;
+			std::stringstream msg;
+			msg << "Team " << std::setw(3) << t->getId() << " has " << std::setw(3) << diff
+				<< " different meetings between slots " << printSet(allSlots1) << " and " << printSet(allSlots2) << ".";
+			std::cout << std::setw(10) << name << std::setw(10) << " " << std::setw(50) << msg.str() << std::setw(10) << c.first << std::setw(10) << c.second << std::endl;
+		}
+	}
+
+	return c;
+}
+
