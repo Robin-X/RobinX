@@ -1136,13 +1136,13 @@ ObjCost BR1::checkConstr(){
 			case EQ:
 				if (br != intp) {
 					dev = std::abs(br - intp);
-					msg1 << "Team " << t->getId() << " has " << br << " " << HomeModeToStr[hMode] << " breaks in given period. Must be equal to " << intp <<".";
+					msg1 << "Team " << t->getId() << " has " << br << " " << HomeModeToStr[hMode] << " breaks in periods " << printSet(allSlots) << ". Must be equal to " << intp <<".";
 				}	
 				break;
 			case LEQ:
 				if (br > intp) {
 					dev = br - intp;
-					msg1 << "Team " << t->getId() << " has " << br << " " << HomeModeToStr[hMode] << " breaks in given period. Must be smaller than " << intp <<".";
+					msg1 << "Team " << t->getId() << " has " << br << " " << HomeModeToStr[hMode] << " breaks in periods " << printSet(allSlots) << ". Must be smaller than " << intp <<".";
 				}
 				break;
 			default:
