@@ -748,9 +748,15 @@ void TinyParser::readCA1(){
 
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("CA1"); c; c = c->NextSiblingElement("CA1")) {
-		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
-		HomeMode mode = HomeModeMap.at(getStringAttrSafe(c, "mode"));
-		Interface::get()->addConstraint(new CA1(t, getIntAttr(c, "penalty"), readTeamTags(c) , getIntAttr(c, "min"), getIntAttr(c, "max"), mode, readSlotTags(c)));
+		try {
+			CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
+			HomeMode mode = HomeModeMap.at(getStringAttrSafe(c, "mode"));
+			Interface::get()->addConstraint(new CA1(t, getIntAttr(c, "penalty"), readTeamTags(c) , getIntAttr(c, "min"), getIntAttr(c, "max"), mode, readSlotTags(c)));
+		} catch (const std::exception& e) {
+			std::ostringstream msg;
+			msg << c->Name() << " Parse Error at XML line " << c->GetLineNum() << ": " <<  e.what() << std::endl;
+			throw_line_robinx(XmlReadingException, msg.str());
+		}
 	}
 }
 
