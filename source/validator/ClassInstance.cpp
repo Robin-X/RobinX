@@ -732,7 +732,7 @@ void Instance::checkConstr(bool silent){
 	}	
 	try {
 		if (lowerBound.first != -1 && lowerBound.first > result.first) {
-			throw_line_robinx(XmlValidationException, "Infeasibility value of " + std::to_string(result.first) +  " is lower than infeasibility lowerbound from XML file (" + std::to_string(objectiveValue.first) + ").");
+			throw_line_robinx(XmlValidationException, "Infeasibility value of " + std::to_string(result.first) +  " is lower than infeasibility lowerbound from XML file (" + std::to_string(lowerBound.first) + ").");
 		}
 	}catch(XmlValidationException e) {
 		std::cerr << e.what() << std::endl;	
@@ -740,7 +740,7 @@ void Instance::checkConstr(bool silent){
 
 	try {
 		if (lowerBound.second != -1 && lowerBound.second > result.second) {
-			throw_line_robinx(XmlValidationException, "Objective value of " + std::to_string(result.second) + " is lower than objective value lowerbound from XML file (" + std::to_string(objectiveValue.second) + ").");
+			throw_line_robinx(XmlValidationException, "Objective value of " + std::to_string(result.second) + " is lower than objective value lowerbound from XML file (" + std::to_string(lowerBound.second) + ").");
 		}		
 	}catch(XmlValidationException e) {
 		std::cerr << e.what() << std::endl;	

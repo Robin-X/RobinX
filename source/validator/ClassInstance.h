@@ -21,6 +21,7 @@ Singleton pattern:
 #include "ClassTeam.h"
 #include "ClassTeamGroup.h"
 #include "ClassException.h"
+#include <climits>
 
 class Instance
 {
@@ -220,7 +221,7 @@ protected:
 	std::string description = "NULL";
 	std::string remarks = "NULL";
 	SolutionMethod solMethod = NONESOL;
-	ObjCost lowerBound = {0,0};
+	ObjCost lowerBound = {-INT_MAX,-INT_MAX};
 };
 
 #endif /* CLASSINSTANCE_H */
