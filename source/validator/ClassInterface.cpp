@@ -26,6 +26,8 @@
 //typedef IloArray<IloBoolVarArray3> IloBoolVarArray4;
 //typedef IloArray<IloIntVarArray> IloIntVarArray2;
 //typedef IloArray<IloIntVarArray2> IloIntVarArray3;
+//
+#include "Globals.h"
 
 
 
@@ -94,29 +96,38 @@ void Interface::addCOEWeight(int teamId1, int teamId2, int weight){
 	}
 }
 
-void Interface::addCost(int teamId1, int teamId2, int slotId, int cost){
+void Interface::addCost(int teamId1, int teamId2, std::array<IdList, 2> slotIds, int cost){
 	try {
 		Team *t1, *t2;
-		Slot* s;
+		SlotSet slots;
+		SlotGroupSet slotGroups;
+
 		try{
 			t1 = INS->getTeam(teamId1);
 			t2 = INS->getTeam(teamId2);
-			s = INS->getSlot(slotId);
+
+			for (auto id : slotIds[0]){ slots.insert(Instance::get()->getSlot(id)); }
+			for (auto id : slotIds[1]){ slotGroups.insert(Instance::get()->getSlotGroup(id)); }
 		}catch(std::out_of_range e){
 			std::stringstream msg;
 			msg << "Team " << teamId1 << " or " << teamId2 << "does not exist: " << e.what() << std::endl;
 			throw_line_robinx(InterfaceReadingException, msg.str());
 		}		
-		// Is the cost already set?
-		if (INS->isSetCost(t1, t2, s)) {
-			std::stringstream msg;
-			msg << "Cost between home team " << teamId1 << ", away team" << teamId2 << " and slot " << slotId << " is already set.";
-			throw_line_robinx(InterfaceReadingException, msg.str());
+
+		SlotSet allSlots = INS->collectSlots(slots, slotGroups);
+
+		for(auto &s : allSlots){
+			// Is the cost already set?
+			if (INS->isSetCost(t1, t2, s)) {
+				std::stringstream msg;
+				msg << "Cost between home team " << teamId1 << ", away team" << teamId2 << " and slot " << s->getId() << " is already set.";
+				throw_line_robinx(InterfaceReadingException, msg.str());
+			}
+			INS->setCost(t1, t2, s, cost);	
 		}
-		INS->setCost(t1, t2, s, cost);	
 	}catch(std::out_of_range e){
 		std::stringstream msg;
-		msg << "Team " << teamId1 << " or " << teamId2 << "does not exist: " << e.what() << std::endl;
+		msg << "Failed to set cost: " << e.what() << std::endl;
 		throw_line_robinx(InterfaceReadingException, msg.str());
 	}catch(InterfaceReadingException e) {
 		std::cerr << e.what() << std::endl;

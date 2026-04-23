@@ -387,7 +387,11 @@ void TinyParser::readCosts() {
 		if(costs != nullptr){
 			// Load all costs into memory
 			for (const tinyxml2::XMLElement* p = costs->FirstChildElement("cost"); p; p = p->NextSiblingElement("cost")) {
-				Interface::get()->addCost(getIntAttrSafe(p,"team1"), getIntAttrSafe(p,"team2"), getIntAttrSafe(p,"slot"), getIntAttrSafe(p,"cost"));
+
+				std::array<IdList, 2> tags;
+				tags[0] = detokenizeIntString(getStringAttr(p, "slot"));
+				tags[1] = detokenizeIntString(getStringAttr(p, "slotGroups"));
+				Interface::get()->addCost(getIntAttrSafe(p,"team1"), getIntAttrSafe(p,"team2"), {tags[0], tags[1]}, getIntAttrSafe(p,"cost"));
 			}
 		}
 	}
