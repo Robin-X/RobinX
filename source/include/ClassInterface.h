@@ -61,7 +61,7 @@ public:
 	// Data
 	void addDistance(int teamId1, int teamId2, int dist);
 	void addCOEWeight(int teamId1, int teamId2, int weight);
-	void addCost(int homeId, int awayId, int slotId, int cost);
+	void addCost(int homeId, int awayId, std::array<IdList, 2> slotIds, int cost);
 
 	// Parser
 	void addInstanceName(const std::string name, const std::string schema = "");
