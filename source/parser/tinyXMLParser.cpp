@@ -838,7 +838,7 @@ void TinyParser::readGA2(){
 		HomeMode mode1 = HomeModeMap.at(getStringAttrSafe(c, "mode1"));
 		CompareMode mode2 = CompareModeMap.at(getStringAttrSafe(c, "mode2").c_str());
 		HomeMode mode3 = HomeModeMap.at(getStringAttrSafe(c, "mode3"));
-		Interface::get()->addConstraint(new class GA2(t, getIntAttrSafe(c, "penalty"), readTeamTags(c,1) , mode1, readTeamTags(c,2), readSlotTags(c,1), readTeamTags(c,3), mode2, mode3, readTeamTags(c,4), readSlotTags(c,2)));
+		Interface::get()->addConstraint(new class GA2(t, getIntAttrSafe(c, "penalty"), readTeamTags(c,1) , mode1, readTeamTags(c,2), readSlotTags(c,1), readTeamTags(c,3), mode2, mode3, readTeamTags(c,4), readSlotTags(c,2), readTeamTags(c,5)));
 	}
 }
 

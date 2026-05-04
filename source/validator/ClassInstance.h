@@ -149,6 +149,7 @@ public:
 	MeetingList getMeetingsTeamSlot(TeamSet teams, SlotSet slots, HomeMode mode);
 	MeetingList getMeetingsTeamSlotGroup(TeamSet teams, SlotGroupSet slotGroups, HomeMode mode);
 	MeetingList getMeetingsTeamTeamSlot(TeamSet teams1, TeamSet teams2, SlotSet slots, HomeMode mode);
+	MeetingList getMeetingsTeamTeamSlotVenue(TeamSet teams1, TeamSet teams2, TeamSet teams3, SlotSet slots);
 	MeetingList getMeetingsTeamTeam(TeamSet teams1, TeamSet teams2, HomeMode mode);
 
 	// Calculate the carry-over effects value

@@ -319,6 +319,23 @@ MeetingList Instance::getMeetingsTeamSlotGroup(TeamSet teams, SlotGroupSet slotG
 	return getMeetingsTeamSlot(teams, slots, mode);
 }
 
+MeetingList Instance::getMeetingsTeamTeamSlotVenue(TeamSet teams1, TeamSet teams2, TeamSet teams3, SlotSet slots) {
+	// Return all meetings involving a team from teams1 and a team from teams2 played at the venue of a team in teams3 during slots in slot set
+	MeetingList foundMeetings {};
+	
+	for(auto meeting:meetings){
+		if (meeting->getAssignedSlot() == NULL) { continue; }
+		Team* t1 = meeting->getFirstTeam();
+		Team* t2 = meeting->getSecondTeam();
+		Team* t3 = meeting->getVenue();
+		Slot* s = meeting->getAssignedSlot();
+
+		if (slots.count(s) && teams1.count(t1) && teams2.count(t2) && teams3.count(t3)){
+			foundMeetings.push_back(meeting);
+		}
+	}
+	return foundMeetings;
+}
 MeetingList Instance::getMeetingsTeamTeamSlot(TeamSet teams1, TeamSet teams2, SlotSet slots, HomeMode mode) {
 	// Return all meetings involving a (home) team from teams1 and an (away) team from teams2 during slots in slot set
 	MeetingList foundMeetings {};

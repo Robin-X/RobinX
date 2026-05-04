@@ -184,7 +184,7 @@ public:
 
 class GA2 : public Constraint{
 public:
-	GA2(CType c, int p, std::array<IdList, 2> t_tg_Id1, HomeMode mode1, std::array<IdList, 2> t_tg_Id2, std::array<IdList, 2> s_sg_Id1, std::array<IdList, 2> t_tg_Id3, CompareMode mode2, HomeMode mode3, std::array<IdList, 2> t_tg_Id4, std::array<IdList, 2> s_sg_Id2);
+	GA2(CType c, int p, std::array<IdList, 2> t_tg_Id1, HomeMode mode1, std::array<IdList, 2> t_tg_Id2, std::array<IdList, 2> s_sg_Id1, std::array<IdList, 2> t_tg_Id3, CompareMode mode2, HomeMode mode3, std::array<IdList, 2> t_tg_Id4, std::array<IdList, 2> s_sg_Id2, std::array<IdList, 2> t_tg_Id5);
 	GA2 (CType c, int p);
 	~GA2(){}
 	AttrMap serialize();
@@ -201,6 +201,10 @@ public:
 
 	TeamSet teams4;
 	TeamGroupSet teamGroups4;
+
+	TeamSet teams5;
+	TeamGroupSet teamGroups5;
+
 
 	HomeMode hMode1;
 	HomeMode hMode2;

@@ -931,7 +931,7 @@ ObjCost GA1::checkConstr(){
 	return c;
 }
 
-GA2::GA2(CType c, int p, std::array<IdList, 2> teamIds1, HomeMode mode1, std::array<IdList, 2> teamIds2, std::array<IdList, 2> slotIds1, std::array<IdList, 2> teamIds3, CompareMode mode2, HomeMode mode3, std::array<IdList, 2> teamIds4, std::array<IdList, 2> slotIds2) : Constraint(c,p, "gA2"), hMode1(mode1), cMode(mode2), hMode2(mode3) {
+GA2::GA2(CType c, int p, std::array<IdList, 2> teamIds1, HomeMode mode1, std::array<IdList, 2> teamIds2, std::array<IdList, 2> slotIds1, std::array<IdList, 2> teamIds3, CompareMode mode2, HomeMode mode3, std::array<IdList, 2> teamIds4, std::array<IdList, 2> slotIds2, std::array<IdList, 2> teamIds5) : Constraint(c,p, "GA2"), hMode1(mode1), cMode(mode2), hMode2(mode3) {
 	for (auto id : teamIds1[0]) { teams1.insert(Instance::get()->getTeam(id)); }
 	for (auto id : teamIds1[1]) { teamGroups1.insert(Instance::get()->getTeamGroup(id)); }
 
@@ -944,11 +944,22 @@ GA2::GA2(CType c, int p, std::array<IdList, 2> teamIds1, HomeMode mode1, std::ar
 	for (auto id : teamIds4[0]) { teams4.insert(Instance::get()->getTeam(id)); }
 	for (auto id : teamIds4[1]) { teamGroups4.insert(Instance::get()->getTeamGroup(id)); }
 
+	for (auto id : teamIds5[0]) { teams5.insert(Instance::get()->getTeam(id)); }
+	for (auto id : teamIds5[1]) { teamGroups5.insert(Instance::get()->getTeamGroup(id)); }
+
 	for (auto id : slotIds1[0]) { slots1.insert(Instance::get()->getSlot(id)); }
 	for (auto id : slotIds1[1]) { slotGroups1.insert(Instance::get()->getSlotGroup(id)); }
 
 	for (auto id : slotIds2[0]) { slots2.insert(Instance::get()->getSlot(id)); }
 	for (auto id : slotIds2[1]) { slotGroups2.insert(Instance::get()->getSlotGroup(id)); }
+
+	if((teamIds5[0].size() > 0 || teamIds5[1].size() > 0) && hMode1 != HA){
+		std::stringstream msg;
+		msg << "GA2 requires team5 to be empty or hmode HA" << std::endl;
+		throw_line_robinx(XmlReadingException, msg.str());
+
+	}
+
 }
 GA2::GA2 (CType c, int p) : Constraint(c,p, "GA2"){
 	std::cout << "GA2 random generator not yet initialized!" << std::endl;
@@ -975,11 +986,13 @@ AttrMap GA2::serialize(){
 	attrs["teamGroups4"] = idToString(teamGroups4);
 	attrs["slots2"] = idToString(slots2);
 	attrs["slotGroups2"] = idToString(slotGroups2);
+	attrs["teams5"] = idToString(teams5);
+	attrs["teamGroups5"] = idToString(teamGroups5);
 	return attrs;
 }
 ObjCost GA2::checkConstr(){
 	/**
-	 * If a team from team group T1 plays a { home game, game } against a team in team group T2 in time group S 1 , then
+	 * If a team from team group T1 plays a { home game, game } against a team in team group T2 in time group S 1 at the venue of one of the teams in team group T5, then
 	 * a team from team group T3 { plays, does not play } a { home game, game } against a team in team group T3 in time
 	 * group S 2 .
 	 * Time group S 2 triggers a deviation of 1 if i plays a home game against j in
@@ -995,14 +1008,28 @@ ObjCost GA2::checkConstr(){
 	TeamSet allTeams2 = IN->collectTeams(teams2, teamGroups2);
 	TeamSet allTeams3 = IN->collectTeams(teams3, teamGroups3);
 	TeamSet allTeams4 = IN->collectTeams(teams4, teamGroups4);
+	TeamSet allTeams5 = IN->collectTeams(teams5, teamGroups5);
+
+	assert(hMode1 == HA || allTeams5.size() == 0);
 
 	assert(cMode == EQ || cMode == NEQ);
 
-	if (IN->getMeetingsTeamTeamSlot(allTeams1, allTeams2, allSlots1, hMode1).size() > 0) { // i plays against j in S1
-		int cntr = IN->getMeetingsTeamTeamSlot(allTeams3, allTeams4, slots2, hMode2).size();
+	bool condition = (allTeams5.size() == 0 ? 
+			(IN->getMeetingsTeamTeamSlot(allTeams1, allTeams2, allSlots1, hMode1).size() > 0) :
+			(IN->getMeetingsTeamTeamSlotVenue(allTeams1, allTeams2, allTeams5, allSlots1).size() > 0));
+
+	if (condition) { // i plays against j in S1
+		int cntr = IN->getMeetingsTeamTeamSlot(allTeams3, allTeams4, allSlots2, hMode2).size();
 		if (cMode == EQ && cntr == 0) {
 			std::stringstream msg;
-			msg << "A team from T1 plays a game against a team from T2 in slot " << printSet(allSlots1) << " but no team from T3 plays against a team from T4 in slot " << printSet(slots2);
+			msg << "A team from T1 plays a game against a team from T2 in slot " << printSet(allSlots1) << " but no team from T3 plays against a team from T4 in slot " << printSet(slots2) << std::endl;;
+			//msg << "Teams 1: " << printSet(teams1) << std::endl;
+			//msg << "Teams 2: " << printSet(teams2) << std::endl;
+			//msg << "Teams 3: " << printSet(teams3) << std::endl;
+			//msg << "Teams 4: " << printSet(teams4) << std::endl;
+			//msg << "Teams 5: " << printSet(teams5) << std::endl;
+			//msg << "All slots 1: " << printSet(allSlots1) << std::endl;
+			//msg << "All slots 2: " << printSet(allSlots2) << std::endl;
 			(type == HARD) ? c.first += penalty : c.second += penalty;
 			std::cout << std::setw(10) << name << std::setw(10) << " " << std::setw(50) << msg.str() << std::setw(10) << c.first << std::setw(10) << c.second << std::endl;
 		} else if(cMode == NEQ && cntr > 0){
