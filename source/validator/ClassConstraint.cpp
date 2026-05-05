@@ -1881,9 +1881,11 @@ AttrMap SE3::serialize(){
 
 ObjCost SE3::checkConstr(){
 	/**
-	 * For each team in T1, the games played in slot groups S1 and S2 differ by at least min and at most max games.
+	 * For each team in T1 that plays at least one game in slot groups S1 or S2, the number of games played in S1 and S2 must differ by at least min and at most max games.
 	 *
-	 * Deviation equal to the number of different games less than min or more than max.
+	 * Teams that play no games in both S1 and S2 incur no violation.
+	 *
+	 * Deviation is the amount by which the difference is less than min or greater than max.
 	 **/
 	TeamSet allTeams = IN->collectTeams(teams, teamGroups);
 	SlotSet allSlots1 = IN->collectSlots(slots1, slotGroups1);
@@ -1936,7 +1938,7 @@ ObjCost SE3::checkConstr(){
 		}
 
 		int dev = std::max(0, diff-max) + std::max(0, min-diff);
-		if (dev > 0) {
+		if (dev > 0 && (list1.size() + list2.size() > 0)) {
 			(type == HARD) ? c.first += dev*penalty : c.second += dev*penalty;
 			std::stringstream msg;
 			msg << "Team " << std::setw(3) << t->getId() << " has " << std::setw(3) << diff
