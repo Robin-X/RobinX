@@ -1884,7 +1884,6 @@ ObjCost SE3::checkConstr(){
 	 * For each team in T1 that plays at least one game in slot groups S1 or S2, the number of games played in S1 and S2 must differ by at least min and at most max games.
 	 *
 	 * Teams that play no games in both S1 and S2 incur no violation.
-	 *
 	 * Deviation is the amount by which the difference is less than min or greater than max.
 	 **/
 	TeamSet allTeams = IN->collectTeams(teams, teamGroups);
