@@ -330,7 +330,10 @@ MeetingList Instance::getMeetingsTeamTeamSlotVenue(TeamSet teams1, TeamSet teams
 		Team* t3 = meeting->getVenue();
 		Slot* s = meeting->getAssignedSlot();
 
-		if (slots.count(s) && teams1.count(t1) && teams2.count(t2) && teams3.count(t3)){
+		if (slots.count(s) && 
+				// No meaning of home versus away
+				((teams1.count(t1) && teams2.count(t2)) || (teams1.count(t2) && teams2.count(t1))) 
+				&& teams3.count(t3)){
 			foundMeetings.push_back(meeting);
 		}
 	}

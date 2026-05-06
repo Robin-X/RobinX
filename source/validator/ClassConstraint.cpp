@@ -1023,13 +1023,15 @@ ObjCost GA2::checkConstr(){
 		if (cMode == EQ && cntr == 0) {
 			std::stringstream msg;
 			msg << "A team from T1 plays a game against a team from T2 in slot " << printSet(allSlots1) << " but no team from T3 plays against a team from T4 in slot " << printSet(slots2) << std::endl;;
-			//msg << "Teams 1: " << printSet(teams1) << std::endl;
-			//msg << "Teams 2: " << printSet(teams2) << std::endl;
-			//msg << "Teams 3: " << printSet(teams3) << std::endl;
-			//msg << "Teams 4: " << printSet(teams4) << std::endl;
-			//msg << "Teams 5: " << printSet(teams5) << std::endl;
+
+			//msg << "Teams 1: " << printSet(allTeams1) << std::endl;
+			//msg << "Teams 2: " << printSet(allTeams2) << std::endl;
+			//msg << "Teams 3: " << printSet(allTeams3) << std::endl;
+			//msg << "Teams 4: " << printSet(allTeams4) << std::endl;
+			//msg << "Teams 5: " << printSet(allTeams5) << std::endl;
 			//msg << "All slots 1: " << printSet(allSlots1) << std::endl;
 			//msg << "All slots 2: " << printSet(allSlots2) << std::endl;
+
 			(type == HARD) ? c.first += penalty : c.second += penalty;
 			std::cout << std::setw(10) << name << std::setw(10) << " " << std::setw(50) << msg.str() << std::setw(10) << c.first << std::setw(10) << c.second << std::endl;
 		} else if(cMode == NEQ && cntr > 0){
