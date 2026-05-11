@@ -62,7 +62,7 @@ typedef std::set<LeagueGroup*>::iterator		LeagueGroupSetIt;
 typedef std::set<League*>						LeagueSet;
 typedef std::set<League*>::iterator				LeagueSetIt;
 typedef std::map<std::pair<Team*, Team*>, int> 	DistanceMap;
-typedef std::map<std::tuple<Team*, Team*, Slot*>, int> 	CostMap;
+typedef std::map<std::tuple<Team*, Team*, Slot*>, double> 	CostMap;
 typedef std::map<int, Slot*>					SlotMap;
 typedef std::map<int, Slot*>::iterator			SlotMapIt;
 typedef std::set<Slot*>							SlotSet;
@@ -77,7 +77,7 @@ typedef std::list<std::pair<int,int>>			MeetingIdList;
 typedef std::set<std::pair<int,int>>			MeetingSet;
 typedef std::map<std::string, std::string>		AttrMap;
 typedef std::list<AttrMap>						AttrMapList;
-typedef std::pair<int, int>						ObjCost; 		// pair<infeasibility cost, feasibility cost>
+typedef std::pair<int, double>					ObjCost; 		// pair<infeasibility cost, feasibility cost>
 typedef std::list<std::pair<int, int>>			SlotPairList;
 
 // Enumerations: see https://stackoverflow.com/questions/21456262/enum-to-string-in-c11

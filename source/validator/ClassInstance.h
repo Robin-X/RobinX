@@ -104,9 +104,9 @@ public:
 	bool isSetCOEWeight(Team* t1, Team* t2) const { return COEWeights.count(std::make_pair(t1,t2)); }
 	bool isSetCOEWeight(int teamId1, int teamId2) const { return isSetCOEWeight(getTeam(teamId1), getTeam(teamId2)); }
 
-	void setCost(Team* t1, Team* t2, Slot* s, const int cost) { costs[std::make_tuple(t1, t2, s)] = cost; }
-	int getCost(Team* t1, Team* t2, Slot* s) const { return costs.at(std::make_tuple(t1, t2, s)); }
-	int getCost(int teamId1, int teamId2, int slotId) const { return getCost(getTeam(teamId1), getTeam(teamId2), getSlot(slotId)); }
+	void setCost(Team* t1, Team* t2, Slot* s, const double cost) { costs[std::make_tuple(t1, t2, s)] = cost; }
+	double getCost(Team* t1, Team* t2, Slot* s) const { return costs.at(std::make_tuple(t1, t2, s)); }
+	double getCost(int teamId1, int teamId2, int slotId) const { return getCost(getTeam(teamId1), getTeam(teamId2), getSlot(slotId)); }
 	CostMap getCosts() { return costs; }
 	AttrMapList serializeCosts();
 	bool isSetCost(Team* t1, Team* t2, Slot* s) const { return costs.count(std::make_tuple(t1,t2, s)); }
@@ -162,11 +162,11 @@ public:
 	int breaks(Team* t);
 
 	// Calculate the total costs or revenues invoked by the home games of a team
-	int cost(Team* t);
+	double cost(Team* t);
 
 	// Check all constraints
 	void checkConstr(bool silent);	
-	int calculateObj();
+	double calculateObj();
 
 	// Classify the instance
 	std::string classify();

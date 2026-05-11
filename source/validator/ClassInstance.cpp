@@ -1,4 +1,5 @@
 #include "ClassInstance.h"
+#include <sstream>
 
 // Allocating and initializing Instance static data member.
 // Lazy initialization: the pointer is being allocated, not the object itself.
@@ -236,13 +237,15 @@ AttrMapList Instance::serializeCOEWeights(){
 AttrMapList Instance::serializeCosts(){
 	AttrMapList list;
 	for (auto c:costs) {
+		std::ostringstream oss;
+		oss << c.second;
 		list.push_back({
 			{"ClassType", "Costs"},
 			{"Type", "cost"},
 			{"team1", std::to_string(std::get<0>(c.first)->getId())},
 			{"team2", std::to_string(std::get<1>(c.first)->getId())},
 			{"slot", std::to_string(std::get<2>(c.first)->getId())},
-			{"cost", std::to_string(c.second)}
+			{"cost", oss.str()}
 			});		
 	}
 	return list;
@@ -563,8 +566,8 @@ int Instance::breaks(Team* t){
 	return br;
 }
 
-int Instance::cost(Team* t){
-	int cost = 0;
+double Instance::cost(Team* t){
+	double cost = 0;
 	// Get all the home games of the team
 	MeetingList meetings = getMeetingsTeam({t}, H);
 	meetings.sort(compMeetingScheduledSlot);
@@ -732,8 +735,8 @@ void Instance::checkConstr(bool silent){
 	}
 
 	// Calculate objective value
-	int cost = calculateObj();
-	result.second += cost;
+	double objCost = calculateObj();
+	result.second += objCost;
 
 	try {
 		if (objectiveValue.first != -1 && objectiveValue.first != result.first) {
@@ -775,8 +778,8 @@ void Instance::checkConstr(bool silent){
 	return;
 }
 
-int Instance::calculateObj(){
-	int obj = 0; // Objective is added to feasibility cost
+double Instance::calculateObj(){
+	double obj = 0; // Objective is added to feasibility cost
 	switch (objectiveMode) {
 		case BM:	
 			for (auto t : teams) {

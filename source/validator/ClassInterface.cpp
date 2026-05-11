@@ -96,7 +96,7 @@ void Interface::addCOEWeight(int teamId1, int teamId2, int weight){
 	}
 }
 
-void Interface::addCost(int teamId1, int teamId2, std::array<IdList, 2> slotIds, int cost){
+void Interface::addCost(int teamId1, int teamId2, std::array<IdList, 2> slotIds, double cost){
 	try {
 		Team *t1, *t2;
 		SlotSet slots;
@@ -268,7 +268,7 @@ void Interface::addSlotGroup(SlotGroup* sg) { INS->addSlotGroup(sg); }
 void Interface::addTeam(Team* t) { INS->addTeam(t); }	
 void Interface::addTeamGroup(TeamGroup* tg) { INS->addTeamGroup(tg); }	
 void Interface::addObjective(const ObjMode o) { INS->setObjective(o); }
-void Interface::addObjectiveValue(const int infeasibilityValue, const int feasibilityValue) { INS->setObjectiveValue(std::make_pair(infeasibilityValue, feasibilityValue)); }
+void Interface::addObjectiveValue(const int infeasibilityValue, const double feasibilityValue) { INS->setObjectiveValue(std::make_pair(infeasibilityValue, feasibilityValue)); }
 void Interface::addConstraint(Constraint* c) { INS->addConstraint(c); }	
 void Interface::addMeeting(int teamId1, int teamId2, bool noHome, int slot) { INS->addMeeting(INS->getTeam(teamId1), INS->getTeam(teamId2), noHome, slot); }
 void Interface::generateMeetings() { 

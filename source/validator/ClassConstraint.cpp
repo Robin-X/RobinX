@@ -1688,7 +1688,7 @@ ObjCost FA5::checkConstr(){
 }
 
 
-FA6::FA6(CType c, int p, std::array<IdList, 2> slotIds, int intp) : Constraint(c,p, "FA6"), intp(intp) {
+FA6::FA6(CType c, int p, std::array<IdList, 2> slotIds, double intp) : Constraint(c,p, "FA6"), intp(intp) {
 	for (auto id : slotIds[0]){ slots.insert(Instance::get()->getSlot(id)); }
 	for (auto id : slotIds[1]){ slotGroups.insert(Instance::get()->getSlotGroup(id)); }
 }
@@ -1704,7 +1704,9 @@ AttrMap FA6::serialize(){
 	attrs["penalty"] = std::to_string(penalty);	
 	attrs["slots"] = idToString(slots);
 	attrs["slotGroups"] = idToString(slotGroups);
-	attrs["intp"] = std::to_string(intp);
+	std::ostringstream oss;
+	oss << intp;
+	attrs["intp"] = oss.str();
 	return attrs;
 }
 ObjCost FA6::checkConstr(){
@@ -1715,12 +1717,12 @@ ObjCost FA6::checkConstr(){
 	 **/
 	ObjCost c = std::make_pair(0,0);
 	SlotSet allSlots = IN->collectSlots(slots, slotGroups);
-	int totalCost=0;
+	double totalCost=0;
 	for (auto m : IN->getMeetingsSlot(allSlots)) {
-		int cost = IN->getCost(m->getFirstTeam(), m->getSecondTeam(), m->getAssignedSlot());
+		double cost = IN->getCost(m->getFirstTeam(), m->getSecondTeam(), m->getAssignedSlot());
 		totalCost += cost;
 	}
-	int difference = totalCost - intp;
+	double difference = totalCost - intp;
 	if (difference > 0) {
 		(type == HARD) ? c.first += penalty*difference : c.second += penalty*difference;
 		std::stringstream msg;

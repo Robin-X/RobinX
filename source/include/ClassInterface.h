@@ -48,7 +48,7 @@ public:
 
 	// Objective
 	void addObjective(const ObjMode o);
-	void addObjectiveValue(const int infeasibilityValue, const int feasibilityValue);
+	void addObjectiveValue(const int infeasibilityValue, const double feasibilityValue);
 	void addLowerBound(const int lb_inf, const int lb_feas);
 	
 	// Constraints
@@ -61,7 +61,7 @@ public:
 	// Data
 	void addDistance(int teamId1, int teamId2, int dist);
 	void addCOEWeight(int teamId1, int teamId2, int weight);
-	void addCost(int homeId, int awayId, std::array<IdList, 2> slotIds, int cost);
+	void addCost(int homeId, int awayId, std::array<IdList, 2> slotIds, double cost);
 
 	// Parser
 	void addInstanceName(const std::string name, const std::string schema = "");

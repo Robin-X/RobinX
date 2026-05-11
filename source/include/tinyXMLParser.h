@@ -49,6 +49,7 @@ public:
 	// Auxiliary functions
 	int getIntAttr(const tinyxml2::XMLElement* el, std::string attrName);
 	int getIntAttrSafe(const tinyxml2::XMLElement* el, std::string attrName);
+	double getDoubleAttrSafe(const tinyxml2::XMLElement* el, std::string attrName);
 	std::string getStringAttr(const tinyxml2::XMLElement* el, std::string attrName);
 	std::string getStringAttrSafe(const tinyxml2::XMLElement* el, std::string attrName);
 	const tinyxml2::XMLAttribute* findAttributeSafe(const tinyxml2::XMLElement* el, std::string attrName);

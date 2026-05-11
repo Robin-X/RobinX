@@ -53,6 +53,20 @@ int TinyParser::getIntAttrSafe(const tinyxml2::XMLElement* el, std::string attrN
 	return value;
 }
 
+double TinyParser::getDoubleAttrSafe(const tinyxml2::XMLElement* el, std::string attrName){
+	const auto* attr = findAttributeSafe(el, attrName.c_str());
+	double value;
+	if (attr->QueryDoubleValue(&value) != tinyxml2::XML_SUCCESS) {
+		std::stringstream msg;
+		msg << "Invalid double for attribute '" << attrName
+			<< "' in <" << el->Name()
+			<< "> (line " << el->GetLineNum() << ")";
+		throw_line_robinx(XmlReadingException, msg.str());
+	}
+
+	return value;
+}
+
 std::string TinyParser::getStringAttr(const tinyxml2::XMLElement* el, std::string attrName){
 	std::string str = "";
 	if( el->Attribute(attrName.c_str())) {
@@ -267,7 +281,7 @@ void TinyParser::readMetaDataSol(){
 		dummyEl = nullptr;
 		dummyEl = metaData->FirstChildElement("ObjectiveValue");
 		if (dummyEl != nullptr) { 
-			f->addObjectiveValue(getIntAttr(dummyEl, "infeasibility"), getIntAttr(dummyEl, "objective")); 
+			f->addObjectiveValue(getIntAttr(dummyEl, "infeasibility"), getDoubleAttrSafe(dummyEl, "objective")); 
 		}
 
 		// Remarks OPTIONAL
@@ -391,7 +405,7 @@ void TinyParser::readCosts() {
 				std::array<IdList, 2> tags;
 				tags[0] = detokenizeIntString(getStringAttr(p, "slot"));
 				tags[1] = detokenizeIntString(getStringAttr(p, "slotGroups"));
-				Interface::get()->addCost(getIntAttrSafe(p,"team1"), getIntAttrSafe(p,"team2"), {tags[0], tags[1]}, getIntAttrSafe(p,"cost"));
+				Interface::get()->addCost(getIntAttrSafe(p,"team1"), getIntAttrSafe(p,"team2"), {tags[0], tags[1]}, getDoubleAttrSafe(p,"cost"));
 			}
 		}
 	}
@@ -961,7 +975,7 @@ void TinyParser::readFA6(){
 	// Load all constraints into memory
 	for (const tinyxml2::XMLElement* c = constraints->FirstChildElement("FA6"); c; c = c->NextSiblingElement("FA6")) {
 		CType t = CTypeMap.at(getStringAttrSafe(c, "type"));
-		Interface::get()->addConstraint(new class FA6(t, getIntAttrSafe(c, "penalty"), readSlotTags(c), getIntAttrSafe(c, "intp")));
+		Interface::get()->addConstraint(new class FA6(t, getIntAttrSafe(c, "penalty"), readSlotTags(c), getDoubleAttrSafe(c, "intp")));
 	}
 }
 

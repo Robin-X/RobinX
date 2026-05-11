@@ -353,7 +353,7 @@ public:
 
 class FA6 : public Constraint{
 public:
-	FA6(CType c, int p, std::array<IdList, 2> s_sg_Id, int intp);
+	FA6(CType c, int p, std::array<IdList, 2> s_sg_Id, double intp);
 	FA6 (CType c, int p);
 	~FA6(){}
 	AttrMap serialize();
@@ -361,7 +361,7 @@ public:
 
 	SlotSet slots;
 	SlotGroupSet slotGroups;
-	int intp;
+	double intp;
 };
 
 class SE1 : public Constraint{
