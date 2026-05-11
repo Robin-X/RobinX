@@ -1,4 +1,5 @@
 #include "ClassInstance.h"
+#include <cmath>
 #include <sstream>
 
 // Allocating and initializing Instance static data member.
@@ -747,7 +748,7 @@ void Instance::checkConstr(bool silent){
 	}
 
 	try {
-		if (objectiveValue.second != -1 && objectiveValue.second != result.second) {
+		if (objectiveValue.second != -1 && std::abs(objectiveValue.second - result.second) > 1e-6) {
 			throw_line_robinx(XmlValidationException, "Objective value of " + std::to_string(result.second) + " does not correspond with value from XML file (" + std::to_string(objectiveValue.second) + ").");
 		}		
 	}catch(XmlValidationException e) {
@@ -762,7 +763,7 @@ void Instance::checkConstr(bool silent){
 	}
 
 	try {
-		if (lowerBound.second != -1 && lowerBound.second > result.second) {
+		if (lowerBound.second != -1 && lowerBound.second > result.second + 1e-6) {
 			throw_line_robinx(XmlValidationException, "Objective value of " + std::to_string(result.second) + " is lower than objective value lowerbound from XML file (" + std::to_string(lowerBound.second) + ").");
 		}		
 	}catch(XmlValidationException e) {

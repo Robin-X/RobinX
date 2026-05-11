@@ -1,5 +1,6 @@
 // Include std
 #include <iostream>
+#include <sstream>
 
 // Include other
 #include "ClassInterface.h"
@@ -94,7 +95,9 @@ int main(int argc, char *argv[])
 		// TODO Set to false to have verbose mode, not silent
 		ObjCost obj = Interface::get()->checkConstr(false);
 		std::cout << "       -------------------------------------------------------------------" << std::endl;
-		std::cout << std::setw(30) << std::left << "       Objective:"  << std::setw(20) << obj.first << std::setw(10) << obj.second << std::right << std::endl;
+		std::ostringstream oss;
+		oss << std::setprecision(10) << obj.second;
+		std::cout << std::setw(30) << std::left << "       Objective:"  << std::setw(20) << obj.first << std::setw(16) << oss.str() << std::right << std::endl;
 		std::cout << "       -------------------------------------------------------------------" << std::endl;
 		return obj.second;
 	} else {

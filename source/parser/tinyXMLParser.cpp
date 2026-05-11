@@ -183,7 +183,11 @@ void TinyParser::deserializeSolution(const bool readIn){
 	// Translate this solution into data structures
 	if (readIn) {
 		// Read instance file
-		tinyxml2::XMLElement* el = doc->RootElement()->FirstChildElement("MetaData")->FirstChildElement("InstanceName");	
+		tinyxml2::XMLElement* metaDataEl = doc->RootElement()->FirstChildElement("MetaData");
+		if (metaDataEl == nullptr) {
+			throw_line_robinx(XmlReadingException, "MetaData element not found in solution file.");
+		}
+		tinyxml2::XMLElement* el = metaDataEl->FirstChildElement("InstanceName");
 		Interface::get()->readInstanceXml(el->GetText());
 	}
 
@@ -237,8 +241,11 @@ void TinyParser::readMetaDataSol(){
 
 	tinyxml2::XMLElement* metaData = nullptr;
 	metaData = doc->RootElement()->FirstChildElement("MetaData");
+	if (metaData == nullptr) {
+		throw_line_robinx(XmlReadingException, "MetaData element not found in solution file.");
+	}
 
-	if (metaData != nullptr) {
+	{
 		tinyxml2::XMLElement* dummyEl;
 		std::string dummy="";
 
@@ -296,60 +303,61 @@ void TinyParser::readMetaDataSol(){
 void TinyParser::readMetaData() { 
 	Interface *f = Interface::get();
 	tinyxml2::XMLElement* metaData = nullptr;
-        metaData = doc->RootElement()->FirstChildElement("MetaData");	
+        metaData = doc->RootElement()->FirstChildElement("MetaData");
+        if (metaData == nullptr) {
+            throw_line_robinx(XmlReadingException, "MetaData element not found in instance file.");
+        }
 
-	if (metaData != nullptr) {
-		tinyxml2::XMLElement* dummyEl;
-		std::string dummy="";
+	tinyxml2::XMLElement* dummyEl;
+	std::string dummy="";
 
-		// Instance Name
-		dummyEl = nullptr;
-		dummyEl = metaData->FirstChildElement("InstanceName");
-		if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
-			f->addInstanceName(dummyEl->GetText());
-		}
+	// Instance Name
+	dummyEl = nullptr;
+	dummyEl = metaData->FirstChildElement("InstanceName");
+	if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
+		f->addInstanceName(dummyEl->GetText());
+	}
 
-		// data type OPTIONAL
-		dummyEl = nullptr;
-		dummyEl = metaData->FirstChildElement("DaTaType");
-		if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
-			f->addDataType(DaTaTypeMap.at(dummyEl->GetText())); 
-		}
-		
-		// contributor OPTIONAL
-		dummyEl = nullptr;
-		dummyEl = metaData->FirstChildElement("Contributor");
-		if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
-			f->addContributor(dummyEl->GetText()); 
-		}
+	// data type OPTIONAL
+	dummyEl = nullptr;
+	dummyEl = metaData->FirstChildElement("DaTaType");
+	if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
+		f->addDataType(DaTaTypeMap.at(dummyEl->GetText())); 
+	}
+	
+	// contributor OPTIONAL
+	dummyEl = nullptr;
+	dummyEl = metaData->FirstChildElement("Contributor");
+	if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
+		f->addContributor(dummyEl->GetText()); 
+	}
 
-		// Date OPTIONAL
-		dummyEl = nullptr;
-		dummyEl = metaData->FirstChildElement("Date");
-		if (dummyEl != nullptr) { 
-			f->addDate(getIntAttr(dummyEl, "day"), getIntAttr(dummyEl, "month"), getIntAttr(dummyEl, "year")); 
-		}
+	// Date OPTIONAL
+	dummyEl = nullptr;
+	dummyEl = metaData->FirstChildElement("Date");
+	if (dummyEl != nullptr) { 
+		f->addDate(getIntAttr(dummyEl, "day"), getIntAttr(dummyEl, "month"), getIntAttr(dummyEl, "year")); 
+	}
 
-		// country OPTIONAL
-		dummyEl = nullptr;
-		dummyEl = metaData->FirstChildElement("Country");
-		if (dummyEl != nullptr && dummyEl->GetText() != nullptr) { 
-			f->addCountry(dummyEl->GetText()); 
-		}
+	// country OPTIONAL
+	dummyEl = nullptr;
+	dummyEl = metaData->FirstChildElement("Country");
+	if (dummyEl != nullptr && dummyEl->GetText() != nullptr) { 
+		f->addCountry(dummyEl->GetText()); 
+	}
 
-		// description OPTIONAL
-		dummyEl = nullptr;
-		dummyEl = metaData->FirstChildElement("Description");
-		if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
-			f->addDescription(dummyEl->GetText()); 
-		}
+	// description OPTIONAL
+	dummyEl = nullptr;
+	dummyEl = metaData->FirstChildElement("Description");
+	if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
+		f->addDescription(dummyEl->GetText()); 
+	}
 
-		// remarks OPTIONAL
-		dummyEl = nullptr;
-		dummyEl = metaData->FirstChildElement("Remarks");
-		if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
-			f->addRemarks(dummyEl->GetText()); 
-		}
+	// remarks OPTIONAL
+	dummyEl = nullptr;
+	dummyEl = metaData->FirstChildElement("Remarks");
+	if(dummyEl != nullptr && dummyEl->GetText() != nullptr){
+		f->addRemarks(dummyEl->GetText()); 
 	}
 }
 
