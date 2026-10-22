@@ -46,14 +46,15 @@
     <SlotGroups>
       <slotGroup id="0" name="First half"/>
       <slotGroup id="1" name="Second half"/>
+      <slotGroup id="2" name="All slots"/>
     </SlotGroups>
     <Slots>
-      <slot id="0" name="Slot0" slotGroup="0"/>
-      <slot id="1" name="Slot1" slotGroup="0"/>
-      <slot id="2" name="Slot2" slotGroup="0"/>
-      <slot id="3" name="Slot3" slotGroup="1"/>
-      <slot id="4" name="Slot4" slotGroup="1"/>
-      <slot id="5" name="Slot5" slotGroup="1"/>
+      <slot id="0" name="Slot0" slotGroup="0;2"/>
+      <slot id="1" name="Slot1" slotGroup="0;2"/>
+      <slot id="2" name="Slot2" slotGroup="0;2"/>
+      <slot id="3" name="Slot3" slotGroup="2"/>
+      <slot id="4" name="Slot4" slotGroup="1;2"/>
+      <slot id="5" name="Slot5" slotGroup="1;2"/>
     </Slots>
   </Resources>
 
@@ -65,6 +66,7 @@
       <BR1 breakMode="REGULAR" homeMode="HA" max="0" min="0" penalty="1" slots="5;0" teamGroups="0" type="HARD"/>
       <BR1 breakMode="REGULAR" homeMode="HA" max="1" min="0" penalty="1" slotGroups="0" teamGroups="0" type="HARD"/>
       <BR1 breakMode="REGULAR" homeMode="HA" max="1" min="0" penalty="1" slotGroups="1" teamGroups="0" type="HARD"/>
+      <BR2 intp="6" homeMode="HA" mode2="LEQ" penalty="1" slotGroups="2" slots="" teamGroups="0" type="HARD"/>
     </BreakConstraints>
     <FairnessConstraints/>
     <SeparationConstraints/>

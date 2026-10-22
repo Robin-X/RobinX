@@ -1,0 +1,13 @@
+<Bound>
+	<MetaData>
+		<InstanceName>Brandenburg9</InstanceName>
+		<BoundName/>
+		<Contributor>Weiland</Contributor>
+		<Date day="8" month="5" year="2026"/>
+		<Remarks>Bound found with IP formulation.</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>10112.406</Objective>
+	</LowerBound>
+</Bound>

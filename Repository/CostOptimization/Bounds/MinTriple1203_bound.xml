@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Bound>
+	<MetaData>
+		<InstanceName>MinTriple1203</InstanceName>
+		<BoundName />
+		<Contributor>Weiland</Contributor>
+		<Date day="8" month="5" year="2026" />
+		<Remarks>Bound found with IP formulation.</Remarks>
+	</MetaData>
+	<LowerBound>
+		<Infeasibility>0</Infeasibility>
+		<Objective>14790.000000024</Objective>
+	</LowerBound>
+</Bound>

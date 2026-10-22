@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Bound>
+  <MetaData>
+    <InstanceName>./Repository/TravelOptimization/Instances/JapaneseFootball20_2026.xml</InstanceName>
+    <BoundName>Minimum number of trips lower bound</BoundName>
+    <Contributor>David Van Bulck</Contributor>
+    <Date day="08" month="09" year="2026"/>
+    <Remarks></Remarks>
+  </MetaData>
+  <LowerBound>
+    <Infeasibility>0</Infeasibility>
+    <Objective>138845</Objective>
+  </LowerBound>
+</Bound>

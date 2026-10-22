@@ -1160,6 +1160,13 @@
 			<solFile>TravelOptimization/Solutions/INCR40Sol_ModifiedCircle.xml</solFile>
 		</member>
 		<member>
+			<instanceFile>TravelOptimization/Instances/JapaneseFootball20_2026.xml</instanceFile>
+			<bestSolFile>TravelOptimization/Solutions/JapaneseFootball20_2026_155617.xml</bestSolFile>
+			<bestBoundFile>TravelOptimization/Bounds/JapaneseFootball20_2026_MNTLB.xml</bestBoundFile>
+
+			<solFile>TravelOptimization/Solutions/JapaneseFootball20_2026_155678.xml</solFile>
+		</member>
+		<member>
 			<instanceFile>TravelOptimization/Instances/NL4_Mirrored.xml</instanceFile>
 			<bestBoundFile>TravelOptimization/Bounds/NL4_Bound.xml</bestBoundFile>
 
@@ -4065,13 +4072,17 @@
 		</member>
 		<member>
 			<instanceFile>CarryoverEffectsOptimization/Instances/CO_BR_8.xml</instanceFile>
-			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO_BR_8_Sol_Gunnec.xml</bestSolFile>
+			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO_BR_8_SolCP.xml</bestSolFile>
 			<bestBoundFile>CarryoverEffectsOptimization/Bounds/CO_BR_8_Bound.xml</bestBoundFile>
+
+			<solFile>CarryoverEffectsOptimization/Solutions/CO_BR_8_SolCP.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>CarryoverEffectsOptimization/Instances/CO_BR_10.xml</instanceFile>
-			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO_BR_10_Sol_Gunnec.xml</bestSolFile>
+			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO_BR_10_672.xml</bestSolFile>
 			<bestBoundFile>CarryoverEffectsOptimization/Bounds/CO_BR_10_Bound.xml</bestBoundFile>
+
+			<solFile>CarryoverEffectsOptimization/Solutions/CO_BR_10_Sol_Gunnec.xml</solFile>
 		</member>
 		<member>
 			<instanceFile>CarryoverEffectsOptimization/Instances/CO_BR_12.xml</instanceFile>
@@ -4090,8 +4101,8 @@
 		</member>
 		<member>
 			<instanceFile>CarryoverEffectsOptimization/Instances/CO_BR_18.xml</instanceFile>
-			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO_BR_18_SolCP.xml</bestSolFile>
 			<bestBoundFile>CarryoverEffectsOptimization/Bounds/CO_BR_18_Bound.xml</bestBoundFile>
+			<bestSolFile>CarryoverEffectsOptimization/Solutions/CO_BR_18_SolCP.xml</bestSolFile>
 
 			<solFile>CarryoverEffectsOptimization/Solutions/CO_BR_18_Sol_Gunnec.xml</solFile>
 		</member>
@@ -4552,6 +4563,376 @@
 			<instanceFile>CostOptimization/Instances/MinCost26.xml</instanceFile>
 			<bestSolFile>CostOptimization/Solutions/MinCost26_SolALNS.xml</bestSolFile>
 			<bestBoundFile>CostOptimization/Bounds/MinCost26_Bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTripleBrandenburg10.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTripleBrandenburg10_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTripleBrandenburg10_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTripleBrandenburg9.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTripleBrandenburg9_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTripleBrandenburg9_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple0700.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple0700_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple0700_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple0701.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple0701_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple0701_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple0702.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple0702_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple0702_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple0800.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple0800_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple0800_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple0801.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple0801_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple0801_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple0802.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple0802_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple0802_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple0900.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple0900_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple0900_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple0901.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple0901_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple0901_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple0902.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple0902_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple0902_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1000.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1000_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1000_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1001.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1001_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1001_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1002.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1002_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1002_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1100.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1100_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1100_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1101.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1101_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1101_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1102.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1102_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1102_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1200.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1200_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1200_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1201.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1201_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1201_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1202.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1202_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1202_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1203.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1203_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1203_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1300.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1300_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1300_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1301.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1301_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1301_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1302.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1302_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1302_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1400.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1400_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1400_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1401.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1401_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1401_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1402.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1402_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1402_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1403.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1403_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1403_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1404.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1404_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1404_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1405.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1405_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1405_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1410.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1410_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1410_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1411.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1411_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1411_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1412.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1412_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1412_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1413.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1413_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1413_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1414.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1414_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1414_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1500.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1500_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1500_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1501.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1501_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1501_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1502.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1502_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1502_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1600.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1600_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1600_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1601.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1601_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1601_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1602.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1602_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1602_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1700.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1700_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1701.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1701_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1702.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1702_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1703.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1703_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1704.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1704_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1705.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1705_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1706.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1706_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1707.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1707_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1708.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1708_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1709.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1709_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1710.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1710_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1711.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1711_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1712.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1712_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1713.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1713_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1714.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1714_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1800.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1800_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1800_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1801.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1801_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1801_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1802.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1802_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1802_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1900.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1900_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1900_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1901.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1901_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1901_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple1902.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple1902_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple1902_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2000.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2000_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2001.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2001_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2002.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2002_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2003.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2003_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2004.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2004_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2005.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2005_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2006.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2006_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2007.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2007_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2008.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2008_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2009.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2009_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2010.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2010_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2011.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2011_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2012.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2012_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2013.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2013_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2014.xml</instanceFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2014_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2100.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple2100_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2100_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2101.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple2101_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2101_bound.xml</bestBoundFile>
+		</member>
+		<member>
+		  <instanceFile>CostOptimization/Instances/MinTriple2102.xml</instanceFile>
+		  <bestSolFile>CostOptimization/Solutions/MinTriple2102_sol.xml</bestSolFile>
+		  <bestBoundFile>CostOptimization/Bounds/MinTriple2102_bound.xml</bestBoundFile>
 		</member>
 	</CostOptimization>
 	<MultiLeague>
@@ -10845,8 +11226,9 @@
 	<member>
 		<instanceFile>ITC2021/Instances/ITC2021_Early_1.xml</instanceFile>
    	        <bestBoundFile>ITC2021/Bounds/ITC2021_Early_1_Bound_1.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Early_1_comp_best.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/ITC2021_Early_1_350.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Early_1_comp_best.xml</solFile>
 		<solFile>ITC2021/Solutions/ITC2021_Early_1_Milestone.xml</solFile>
    	        <boundFile>ITC2021/Bounds/ITC2021_Early_1_Bound.xml</boundFile>
 	</member>
@@ -11196,8 +11578,9 @@
         <member>
                 <instanceFile>ITC2021/Instances/ITC2021_Late_11.xml</instanceFile>
                 <bestBoundFile>ITC2021/Bounds/ITC2021_Late_11_Bound.xml</bestBoundFile>
-		<bestSolFile>ITC2021/Solutions/Late_11_201.xml</bestSolFile>
+		<bestSolFile>ITC2021/Solutions/ITC2021_Late_11_196.xml</bestSolFile>
 
+		<solFile>ITC2021/Solutions/Late_11_201.xml</solFile>
 		<solFile>ITC2021/Solutions/Late_11_SolDES.xml</solFile>
 		<solFile>ITC2021/Solutions/Late_11_comp_best.xml</solFile>
         </member>
